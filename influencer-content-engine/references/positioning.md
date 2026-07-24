@@ -55,12 +55,33 @@ aneddoti, nelle riflessioni di viaggio, nelle scelte da imprenditore. Resta inve
 riservata la sfera familiare (moglie Simona, figlie Viola e Sofia): niente
 volti/nomi dei minori nei contenuti pubblici.
 
+## Asset chiave: il vantaggio cross-enterprise
+
+Skylabs e' **molto presente dentro aziende da 100M+ di fatturato fino alle piu'
+grandi**, su piu' settori. Questo da' a Luca un punto di osservazione che quasi
+nessun creator ha: vede **dall'interno** cosa fanno DAVVERO le grandi aziende
+italiane con l'AI, e i **pattern trasversali** (cosa si ripete, cosa fallisce
+ovunque, cosa nessuno ammette in pubblico). E' insieme:
+- La **fonte di originalita' piu' difendibile**: contenuti "dal dentro
+  dell'enterprise", impossibili da copiare per chi sta fuori. Ogni volta che si
+  puo', ancora un contenuto a "lo vedo in decine di aziende da 100M+...".
+- Un **magnete per l'ICP**: i decision maker (CIO/CDO/CTO) si riconoscono e
+  seguono chi parla della LORO realta' con cognizione, non di demo da startup.
+- Un **canale di distribuzione**: la rete di relazioni enterprise amplifica i
+  contenuti (commenti/condivisioni di chi ci lavora dentro).
+
+Formato ricorrente consigliato — **"Dall'interno"**: pattern anonimizzati visti in
+piu' aziende ("3 cose che ho visto fare a quasi tutte le aziende da 100M+ con
+l'AI, e 2 le sbagliano tutte"). Sempre anonimo, mai clienti riconoscibili, mai
+dati riservati: si condivide il PATTERN, non il caso specifico.
+
 ## Filo conduttore (il "moat" editoriale)
 
 Il **POV insider**: la cosa vera che solo chi gestisce davvero un'azienda AI a
-ricavi, con una piattaforma agentica in produzione, puo' dire. E' questo che
-distingue Luca dai mille "AI influencer" che ripetono le stesse best practice.
-Se un contenuto potrebbe essere scritto da chiunque, non e' pronto.
+ricavi, con una piattaforma agentica in produzione E un piede dentro decine di
+grandi aziende, puo' dire. E' questo che distingue Luca dai mille "AI influencer"
+che ripetono le stesse best practice. Se un contenuto potrebbe essere scritto da
+chiunque, non e' pronto.
 
 ## Filtro di originalita' (REGOLA FERREA)
 
