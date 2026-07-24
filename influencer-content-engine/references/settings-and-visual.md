@@ -30,22 +30,59 @@ costume, se non voluto).
 | Evento / conferenza / palco | Massima autorevolezza + social proof | clip da speech, opinioni a caldo, networking |
 | Studio/setup dedicato (se creato) | Pillar ricorrenti di qualita' | serie fisse, format riconoscibile |
 
-## Asset di Luca (DA COMPILARE con le sue risposte/foto)
+## Asset di Luca (mappati da foto — luglio 2026)
 
-Riempire man mano che Luca fornisce dettagli. Servono per scrivere brief di
-montaggio realistici e per suggerire l'ambientazione giusta a ogni contenuto.
+### SET A — Salotto/living (il set principale per i pillar)
+Living premium: parete attrezzata in legno illuminata + inserto in marmo,
+pavimento in parquet, divano grigio, scala a giorno, TV grande. Luce calda,
+sfondo ricco ma ordinato.
+- Uso ideale: **talking head autorevoli** (AI enterprise, framework, opinioni).
+  E' il set "da founder di successo": credibile senza essere freddo.
+- Inquadratura: seduto sul divano o in piedi con la parete attrezzata alle
+  spalle (profondita' + bokeh). Evita riflessi sulla TV; TV spenta o con contenuto
+  neutro.
 
-- **Auto:** <modello/estetica interni — utile per "content in auto" ricorrente>
-- **Ufficio Skylabs:** <come si presenta, sale, brand a muro, vista, spazi
-  girabili senza dati sensibili>
-- **Casa / studio:** <c'e' un angolo buono per talking head? luce, sfondo>
-- **Trasferte clienti:** <tipici luoghi/citta', frequenza, cosa e' mostrabile>
-- **Vacanze / viaggi ricorrenti:** <dove va, quando — per pianificare contenuti
-  lifestyle nei periodi giusti>
-- **Eventi/conferenze:** <a quali partecipa, come speaker o partecipante>
-- **Setup tecnico disponibile:** <telefono/camera, microfono, luci, teleprompter,
-  eventuale editor/persona che monta>
-- **Guardaroba/estetica personale:** <stile ricorrente per coerenza visiva>
+### SET B — Palestra di casa (il set personal-brand/disciplina)
+Palestra attrezzata: squat rack, panca, tapis roulant, Concept2 (vogatore),
+cyclette, specchi a parete, luci esagonali a soffitto. Estetica "atleta/founder".
+- Uso ideale: contenuti **build-in-public + mindset**: disciplina, energia,
+  routine, parallelo allenamento↔impresa ("come gestisco la performance da
+  founder"). Ottimo per clip corte con hook forte.
+- Inquadratura: in piedi vicino al rack/specchi; sfrutta lo specchio per profondita'.
+
+### SET C — Piscina e giardino (lifestyle/aspirazionale)
+Villa con piscina, prato, palme, area lounge, dependance. Luce naturale forte.
+- Uso ideale: contenuti **lifestyle/aspirazionali e leggeri** ("il prezzo dietro
+  i risultati", riflessioni del weekend, dietro le quinte umano). Da usare con
+  misura: rischia il "flex" se troppo frequente. Meglio come cornice di un
+  messaggio di sostanza (es. "ho lavorato 10 anni per potermi sedere qui e
+  pensare senza fretta: ecco cosa ho capito").
+- PRIVACY: giochi/bimbi visibili in giardino -> non mostrare volti di minori.
+
+### Bagni di lusso (uso limitato)
+Bagni in marmo, vasche freestanding, LED. Molto estetici ma poco pertinenti al
+business. Uso solo per "get ready"/personal soft occasionale. Non prioritari.
+
+### Da NON usare
+- Ripostiglio/lavanderia (disordinato): mai come sfondo.
+- Camerette dei figli (unicorni/arcobaleno) e qualunque inquadratura con volti
+  dei minori: fuori dai contenuti pubblici. La famiglia si racconta a parole, non
+  mostrando i bambini.
+
+### Ancora da mappare (chiedere a Luca / foto)
+- **Auto:** modello ed estetica interni — per le clip "pensiero al volo" nei tempi
+  morti tra un cliente e l'altro.
+- **Ufficio Skylabs (Milano):** sale, brand a muro, vista, spazi girabili senza
+  schermi/dati/volti clienti -> il set di massima autorevolezza aziendale.
+- **Trasferte/eventi/viaggi:** citta' clienti, conferenze, palchi, vacanze.
+- **Setup tecnico:** telefono/camera, microfono, eventuale treppiede/luci.
+
+## Rotazione consigliata (per non ripetere lo stesso sfondo)
+
+Settimana tipo: pillar nel SET A (living) -> 1 clip riusata + 1 clip girata al
+volo in AUTO -> 1 clip nel SET B (palestra) per il contenuto mindset. Cosi' il
+feed alterna autorevolezza (living/ufficio), disciplina (palestra), umanita'
+(giardino), spontaneita' (auto).
 
 ## Note operative
 
