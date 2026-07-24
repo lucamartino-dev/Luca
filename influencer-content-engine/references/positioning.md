@@ -44,6 +44,17 @@ ruoli, cosa e' sopravvalutato/sottovalutato. Alto engagement e reach. Da usare
 per aprire conversazioni, mai gratuitamente polemico: sempre argomentato con
 l'esperienza da operatore.
 
+## Storia personale approvata (filo del personal brand)
+
+Luca ha dato l'ok esplicito a raccontare la sua storia **"da Gela a guidare
+un'azienda AI a Milano"**: origini siciliane (Gela) → founder di un gruppo AI
+enterprise da ~100 persone a Milano. E' una narrazione autentica e potente
+(riscatto, visione, radici) che umanizza il brand e rende memorabile il pilastro
+build-in-public. Usala come filo ricorrente, non come singolo post: emerge negli
+aneddoti, nelle riflessioni di viaggio, nelle scelte da imprenditore. Resta invece
+riservata la sfera familiare (moglie Simona, figlie Viola e Sofia): niente
+volti/nomi dei minori nei contenuti pubblici.
+
 ## Filo conduttore (il "moat" editoriale)
 
 Il **POV insider**: la cosa vera che solo chi gestisce davvero un'azienda AI a
@@ -51,15 +62,56 @@ ricavi, con una piattaforma agentica in produzione, puo' dire. E' questo che
 distingue Luca dai mille "AI influencer" che ripetono le stesse best practice.
 Se un contenuto potrebbe essere scritto da chiunque, non e' pronto.
 
-## Tono di voce
+## Filtro di originalita' (REGOLA FERREA)
 
-- Da founder-operatore, diretto, concreto, un po' contrarian. Zero markettese.
-- Prima persona. Storie vere > liste di tips. Numeri e dettagli specifici.
-- Confidente ma non arrogante: forte sulle idee, umile sugli errori.
-- Italiano come lingua principale (pubblico e decision maker italiani). Inglese
-  solo per contenuti che puntano a reach internazionale / partner esteri — da
-  decidere con Luca caso per caso.
-- Emoji: pochissime su LinkedIn (0-2), un po' piu' libere su IG/TikTok.
+Luca NON vuole contenuti di "cose gia' sentite". Ogni idea deve passare DUE test,
+altrimenti si scarta:
+1. **"Solo Luca puo' dirlo?"** — nasce da dati/esperienza propri (agenti Universe
+   in produzione, numeri reali, scelte da founder), non da teoria generica.
+2. **"E' una cosa che NON si e' gia' sentita mille volte?"** — se e' un take da
+   AI-influencer riciclato, muore qui.
+
+BANDITI (esempi di cliche' da NON fare):
+- "Il 90% dei progetti AI fallisce / non va in produzione".
+- "L'AI non ti sostituira', ma chi la usa sostituira' chi non la usa".
+- "Prompt engineering: 5 tips", "l'AI cambia tutto", "il futuro e' agentico".
+- Liste di tool, "X strumenti AI che devi conoscere", hot take sull'ultimo modello
+  senza un punto di vista proprio.
+
+DA PREFERIRE (dove sta l'originalita' di Luca):
+- Scoperte controintuitive dai suoi agenti in produzione ("il miglior predittore
+  di re-order NON e' l'accuratezza, e' ___" — con il dato vero).
+- Meccaniche reali che gli altri non raccontano perche' non hanno prodotti veri:
+  pricing a outcome, come si fa manutenzione a un agente, cosa si rompe a scala.
+- Numeri e aneddoti specifici (anonimizzati) del gruppo Skylabs / Universe.
+- Convinzioni forti in cui Luca e' in minoranza rispetto ai suoi pari.
+- La storia "da Gela a Milano" come lente unica su scelte e mercato.
+
+Operativamente: se manca il "materiale grezzo" originale (un numero, un aneddoto,
+una tesi non ovvia), la skill lo CHIEDE a Luca invece di riempire con generico.
+Meglio un contenuto in meno che un contenuto gia' sentito.
+
+## Tono di voce — "fresco come Datapizza"
+
+Riferimento esplicito di Luca: la comunicazione deve essere fresca come
+**Datapizza** (tech community IT, 500k+ professionisti). Tradotto in regole:
+- **Tech spiegata senza paroloni.** Zero markettese, zero corporate ingessato.
+  Se una frase potrebbe stare in un comunicato aziendale, riscrivila.
+- **Colloquiale e diretto (dai del "tu").** Frasi brevi, ritmo, ironia
+  intelligente. Nativo-creator, non "dirigente sul palco": LinkedIn 2026 e' un
+  tavolo di conversazione, non un palcoscenico.
+- **POV forte.** Nel 2026 la neutralita' fa dimenticare: prendi posizione. Un
+  tono forte attrae chi condivide i tuoi valori (e respinge gli altri: ok).
+- **Concreto e originale** (vedi Filtro di originalita'): esempi veri, numeri,
+  meccaniche reali. Mai teoria generica.
+- **Ironia e cultura pop quando serve**, ma sempre al servizio di un'idea di
+  sostanza — freschezza NON vuol dire superficiale: Luca resta l'insider serio
+  che pero' comunica in modo umano e sveglio.
+- Italiano come lingua principale. Inglese solo per reach internazionale/partner,
+  da decidere caso per caso.
+- Emoji: usate con gusto (poche e mirate su LinkedIn, piu' libere su IG/TikTok).
+- Attenzione: "fresco" non e' "buffone". Non forzare meme o battute se non
+  aggiungono. La freschezza sta nel taglio e nel linguaggio, non nel cabaret.
 
 ## ICP (chi vogliamo attrarre)
 

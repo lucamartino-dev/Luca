@@ -77,6 +77,10 @@ founder di un'azienda AI a ricavi puo' dire. Scarta l'hype generico.
 1 tema forte, che tocchi almeno uno dei 3 pilastri (vedi positioning) e si
 agganci a un trend dello Step 1. Deve avere un **POV insider** (la cosa vera che
 Luca sa e gli altri no). Preferisci angoli contrarian o "dietro le quinte".
+OBBLIGATORIO: applica il **filtro di originalita'** (vedi positioning.md). Se il
+tema e' un cliche' da AI-influencer gia' sentito (es. "il 90% dei progetti AI
+fallisce"), SCARTALO. Se manca il materiale grezzo originale (numero/aneddoto/tesi
+non ovvia), CHIEDILO a Luca invece di riempire con generico.
 
 ### Step 3 — Script del pillar (talking head 5-8 min)
 Scrivi lo script parola-per-parola pronto da leggere (teleprompter-friendly):
