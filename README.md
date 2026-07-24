@@ -45,3 +45,12 @@ equivalente); "risultati della settimana" per la ricalibrazione.
 
 Nota: la skill NON pubblica sui social né monta i video (nessun connettore
 social attivo). Prepara tutto pronto da incollare + il brief di montaggio.
+
+## content-kit
+Skill "quick launch" richiamabile al volo quando Luca sta per registrare o gli
+viene un'idea (anche in auto/viaggio): opener-firma cross-enterprise, banca di
+hook in stile fresco/Datapizza, formati veloci, 5 regole d'oro e checklist di
+ripresa. Tiene conto dei vincoli di ambientazione del momento (fino a settembre:
+solo casa, palestra, auto, viaggio — niente ufficio).
+
+Lancio: "dammi un hook", "sto per registrare", "idea al volo", "kit contenuti".

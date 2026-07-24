@@ -5,8 +5,9 @@ confidenza. Tono: fresco/Datapizza, colloquiale, POV forte, zero corporate.
 
 ## 1) PILLAR #1 — "Gli agenti AI che le aziende tengono accesi sono i piu' noiosi"
 
-Set consigliato: A (ufficio) o C (salotto). Telefono in orizzontale, altezza
-occhi, luce naturale, TV spenta. One-take, si sbaglia e si ripete: si taglia dopo.
+Set consigliato: C (salotto di casa) — l'ufficio (Set A/B) torna disponibile solo
+a SETTEMBRE. Telefono in orizzontale, altezza occhi, luce naturale, TV spenta.
+One-take, si sbaglia e si ripete: si taglia dopo.
 
 Script (parla tu, a braccio va benissimo):
 - [HOOK 0-3s | CLIP 1] "Lavoro dentro decine di aziende italiane da 100 milioni

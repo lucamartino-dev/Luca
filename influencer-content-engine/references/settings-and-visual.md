@@ -160,12 +160,16 @@ cultura (team), disciplina (palestra), umanita' (giardino), spontaneita' (auto).
 
 | Set | Ambientazione | Pilastro | Priorita' |
 |---|---|---|---|
-| A | Ufficio Skylabs (sala/openspace) | AI-produzione, lead | ⭐ massima (business) |
-| B | Ufficio area break/team | cultura/talent | alta (employer brand) |
+| A | Ufficio Skylabs (sala/openspace) | AI-produzione, lead | ⭐ massima **(da settembre)** |
+| B | Ufficio area break/team | cultura/talent | alta **(da settembre)** |
 | C | Salotto di casa | thought leadership personale | alta |
 | D | Palestra di casa | build-in-public/mindset | media-alta (differenziante) |
 | E | Giardino/piscina | lifestyle | bassa (con misura) |
 | F | Auto | spontaneita'/attualita' | alta (costo-tempo ~0) |
+
+> VINCOLO ATTIVO — Luca NON e' in ufficio **fino a settembre**. Da ora a fine
+> agosto si gira SOLO da casa (C), palestra (D), giardino (E), auto (F) e viaggio
+> (G). I set ufficio (A/B) e i contenuti cultura/team tornano a settembre.
 
 ## Note operative
 
