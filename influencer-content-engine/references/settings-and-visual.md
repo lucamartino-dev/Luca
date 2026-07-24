@@ -109,21 +109,40 @@ brand di Luca senza dire una parola.
 - Attenzione al "flex": l'auto e' potente come segnale ma va dosata. Funziona
   quando e' cornice di un messaggio di sostanza, non quando e' il soggetto.
 
-### SET G — Vacanza Sorrento / Costiera (finestra lifestyle programmata)
-Finestra stagionale confermata da prenotazioni: **Sorrento, ~5-10 agosto 2026**
-(Costiera Sorrentina/Amalfitana). Scenari: mare, tramonti sul golfo, limoni,
-terrazze, borghi. Da usare come Set E (lifestyle) ma con backdrop iconico.
-- Uso ideale: 2-3 contenuti "founder che stacca e pensa alla strategia":
-  riflessioni di metà anno, contrarian sull'hustle-culture ("ho staccato per
-  davvero: ecco perche' le idee migliori arrivano lontano dallo schermo"),
-  bilancio e visione. Umanizza + resta di sostanza.
-- Cadenza suggerita: girane 1-2 sul posto (bastano 30-60s a mano libera), poi
-  centellinali nel feed. NON trasformarlo in un diario di viaggio: 2-3 pezzi max.
-- PRIVACY: no volti dei bambini; niente geolocalizzazione in tempo reale
-  dell'alloggio (pubblica semmai a posteriori).
-- Nota: dedurre le vacanze dalle prenotazioni ristoranti/hotel e da Google
-  Calendar (quando riautorizzato) per anticipare le finestre lifestyle dei
-  prossimi mesi.
+### SET G — "Il Grande Tour elettrico" (31 lug – 28 ago 2026)
+NON una semplice vacanza: un road trip di 29 giorni, ~4.000 km, 9 basi, 4
+traghetti, tutto in **Lotus Eletre**, con la famiglia (moglie Simona, figlie Viola
+e Sofia; cognati/cuginetto a Sorrento). E' un potenziale FILONE di contenuti che
+unisce il brand tech di Luca (auto elettrica software-defined) a un viaggio
+iconico attraverso l'Italia. Itinerario:
+- **Elba / Capoliveri** (Villa Wanna) — 31 lug-4 ago
+- **Sorrento** (Hotel Villa Maria, Via Capo) — 4-10 ago: Capri (5), barca skipper
+  (6), Pompei (7), relax (8), Amalfi (9)
+- **Carovigno, Puglia** (Ostuni/Torre Guaceto) — 10-14 ago
+- **Avola, Sicilia** (Noto/Ortigia/Marzamemi) — 14-18 ago (Ferragosto il 15)
+- **Gela** (casa di famiglia) — 18-22 ago
+- Rientro: **Casaletto Spartano/Cilento** (22) → **Orvieto** (23) → **Pregnana,
+  casa** (24) → **Santa Caterina Valfurva / Stelvio** (25-28 ago)
+
+Opportunita' di contenuto (scegliere l'intensita' con Luca):
+- **Serie "4.000 km in elettrico attraverso l'Italia"** (angolo tech/EV, alta
+  reach e coerente col brand): strategia di ricarica HPC, PlugShare, autonomia
+  reale in autostrada d'agosto, lo **Stelvio in Eletre** con frenata rigenerativa
+  (finale epico e virale). Utile + spettacolare, non "flex".
+- **Founder che stacca**: 2-3 riflessioni di sostanza da scenari iconici
+  (tramonto sul golfo, rupe di Orvieto, tornanti dello Stelvio) — contrarian
+  sull'hustle-culture, bilancio di meta' anno, visione.
+- **Storia personale** (se Luca e' d'accordo): il filo "da Gela a guidare
+  un'azienda AI a Milano" e' una narrazione da founder autentica e potente.
+- Backdrop iconici per clip evergreen da centellinare nei mesi dopo.
+
+- CADENZA: e' vacanza in famiglia. Default LEGGERO: 1 clip "Eletre/ricarica" +
+  1 riflessione a settimana di viaggio, girate in pochi minuti. Alza solo se Luca
+  vuole. Il grosso si puo' montare e pubblicare al rientro.
+- PRIVACY (vincolante): MAI volti/nomi delle figlie (Viola, Sofia) ne' della
+  moglie senza consenso esplicito; niente targa; NIENTE geolocalizzazione in
+  tempo reale delle basi/casa (Pregnana, Gela) — pubblica a posteriori. La
+  sicurezza della famiglia viene prima di qualsiasi contenuto.
 
 ### Ancora da mappare (chiedere a Luca / foto)
 - **Trasferte/eventi/viaggi:** citta' clienti, conferenze, palchi, altre vacanze.
