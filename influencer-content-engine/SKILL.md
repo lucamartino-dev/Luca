@@ -40,6 +40,8 @@ Prima di eseguire, leggi:
   formato, modello di riuso, cadenza realistica con 1-2h.
 - `references/scripts-and-editing.md` — libreria di hook, strutture di script,
   formato del brief di montaggio, template caption/CTA/hashtag.
+- `references/format-dall-interno.md` — il format-firma ricorrente "DALL'INTERNO"
+  da pubblicare su tutti i canali (struttura fissa, firma visiva, banca episodi).
 - `references/results-and-strategy.md` — KPI, schema del foglio di tracking,
   regole di ricalibrazione della strategia.
 
