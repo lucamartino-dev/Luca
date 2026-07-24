@@ -40,8 +40,11 @@ Prima di eseguire, leggi:
   formato, modello di riuso, cadenza realistica con 1-2h.
 - `references/scripts-and-editing.md` — libreria di hook, strutture di script,
   formato del brief di montaggio, template caption/CTA/hashtag.
-- `references/format-dall-interno.md` — il format-firma ricorrente "DALL'INTERNO"
-  da pubblicare su tutti i canali (struttura fissa, firma visiva, banca episodi).
+- `references/format-te-lo-traduco.md` — il format-firma PRIMARIO "TE LO TRADUCO
+  IO" (smonta una frase-hype sull'AI → cosa significa davvero in azienda). Da
+  pubblicare su tutti i canali; struttura fissa, firma visiva, banca frasi.
+- `references/format-dall-interno.md` — format-firma SECONDARIO "DALL'INTERNO"
+  (pattern insider cross-azienda), alternativa/variante.
 - `references/results-and-strategy.md` — KPI, schema del foglio di tracking,
   regole di ricalibrazione della strategia.
 
