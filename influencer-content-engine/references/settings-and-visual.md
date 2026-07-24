@@ -109,8 +109,24 @@ brand di Luca senza dire una parola.
 - Attenzione al "flex": l'auto e' potente come segnale ma va dosata. Funziona
   quando e' cornice di un messaggio di sostanza, non quando e' il soggetto.
 
+### SET G — Vacanza Sorrento / Costiera (finestra lifestyle programmata)
+Finestra stagionale confermata da prenotazioni: **Sorrento, ~5-10 agosto 2026**
+(Costiera Sorrentina/Amalfitana). Scenari: mare, tramonti sul golfo, limoni,
+terrazze, borghi. Da usare come Set E (lifestyle) ma con backdrop iconico.
+- Uso ideale: 2-3 contenuti "founder che stacca e pensa alla strategia":
+  riflessioni di metà anno, contrarian sull'hustle-culture ("ho staccato per
+  davvero: ecco perche' le idee migliori arrivano lontano dallo schermo"),
+  bilancio e visione. Umanizza + resta di sostanza.
+- Cadenza suggerita: girane 1-2 sul posto (bastano 30-60s a mano libera), poi
+  centellinali nel feed. NON trasformarlo in un diario di viaggio: 2-3 pezzi max.
+- PRIVACY: no volti dei bambini; niente geolocalizzazione in tempo reale
+  dell'alloggio (pubblica semmai a posteriori).
+- Nota: dedurre le vacanze dalle prenotazioni ristoranti/hotel e da Google
+  Calendar (quando riautorizzato) per anticipare le finestre lifestyle dei
+  prossimi mesi.
+
 ### Ancora da mappare (chiedere a Luca / foto)
-- **Trasferte/eventi/viaggi:** citta' clienti, conferenze, palchi, vacanze.
+- **Trasferte/eventi/viaggi:** citta' clienti, conferenze, palchi, altre vacanze.
 - **Setup tecnico:** telefono/camera, microfono, eventuale treppiede/luci.
 
 ## Rotazione consigliata (per non ripetere lo stesso sfondo)
