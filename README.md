@@ -17,3 +17,29 @@ recuperarne le email dei decision maker.
   outreach.
 
 Lancio: chiedi in chat "cerca investitori per SAE" (o equivalente).
+
+## influencer-content-engine
+Motore editoriale per far crescere Luca come influencer / thought leader B2B
+sull'**AI enterprise / agentica** (Skylabs, Universe) e come **founder che
+costruisce in pubblico**. Doppio obiettivo: pipeline B2B per Skylabs + personal
+brand. Ottimizzato per ~1-2h/settimana con il modello "registra 1 pillar → riusa
+in 6 asset" su LinkedIn (primario), YouTube, Instagram e TikTok.
+
+- `influencer-content-engine/SKILL.md` — flusso settimanale (refresh trend →
+  tema pillar → script → 6 asset → calendario/archivio → report) e loop di
+  misura/ricalibrazione.
+- `references/positioning.md` — chi è Luca, i 3 pilastri, tono, ICP, limiti.
+- `references/platform-playbook.md` — ruolo di ogni piattaforma, formati,
+  modello di riuso, cadenza realistica.
+- `references/scripts-and-editing.md` — hook, strutture script, brief di
+  montaggio, template caption/hashtag.
+- `references/settings-and-visual.md` — come sfruttare le ambientazioni (auto,
+  ufficio, casa, clienti, viaggi) come asset visivo.
+- `references/results-and-strategy.md` — KPI, foglio di tracking, regole di
+  ricalibrazione.
+
+Lancio: "piano della settimana" / "cosa pubblico" / "fammi lo script" (o
+equivalente); "risultati della settimana" per la ricalibrazione.
+
+Nota: la skill NON pubblica sui social né monta i video (nessun connettore
+social attivo). Prepara tutto pronto da incollare + il brief di montaggio.
