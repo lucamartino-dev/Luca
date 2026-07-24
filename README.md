@@ -37,6 +37,8 @@ in 6 asset" su LinkedIn (primario), YouTube, Instagram e TikTok.
   ufficio, casa, clienti, viaggi) come asset visivo.
 - `references/results-and-strategy.md` — KPI, foglio di tracking, regole di
   ricalibrazione.
+- `references/starter-pack.md` — kit pronto da registrare: Pillar #1 finito,
+  clip, caption, kit spontaneità e checklist di ripresa.
 
 Lancio: "piano della settimana" / "cosa pubblico" / "fammi lo script" (o
 equivalente); "risultati della settimana" per la ricalibrazione.
