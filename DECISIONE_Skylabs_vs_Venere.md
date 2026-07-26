@@ -180,8 +180,10 @@ Il mercato dei servizi IT/AI non "cala" in modo uniforme — **si spacca in due*
 - **Perde chi vende ore** (staff augmentation, implementazione commodity, reseller su stack maturi tipo Salesforce/SAP): gli agenti AI deflazionano proprio le ore fatturabili. Ricavo e headcount si disaccoppiano, i prezzi scendono.
 - **Vince chi vende esiti o prodotto** (advisory outcome-based, IP/piattaforma proprietaria, team piccolo e senior con leva AI, ricavi ricorrenti). Qui l'AI è moltiplicatore, non minaccia.
 
-### La vostra dimensione oggi: siete nella coorte più esposta
-Skylabs oggi è ~**€20M di ricavi, ~100 persone, ~12% EBITDA**, con la BU più grande (Salesforce ~20,8M nel '27) fatta di reseller + implementazione. Tradotto nel quadro sopra: siete **sub-scala, pesati sulle ore, nella nicchia che l'AI deflaziona**. È il "no man's land": troppo grandi per essere una boutique senior ad alto valore, troppo piccoli e troppo services-dipendenti per essere una software company. **È esattamente il profilo che il consolidamento della consulenza schiaccia per primo.**
+### La vostra dimensione oggi (dati reali 2025): siete piccoli e a margine sottile
+Numeri reali, non stime: **Skylabs 2025 = €8,2M ricavi, €465k EBITDA (5,65%)**; Skylabs X (SAP) = €178k ricavi, €31k EBITDA (17,5%). Target 2026: **€12M, di cui €3M licenze + €9M servizi.** (La mia stima precedente di ~€20M/12% era troppo alta di 2,5x: il quadro reale rende tutto *più* urgente, non meno.)
+
+Tradotto: siete **piccoli (€8M), a margine molto sottile (5,65%), con ~100 persone** — cioè un'azienda *labour-intensive a bassa redditività*, il profilo che il consolidamento della consulenza schiaccia per primo. Il margine 5,65% è la fotografia di un modello a ore: il valore per persona è basso, ed è esattamente ciò che l'AI comprime. **La cosa più interessante nei tuoi numeri è l'altra: i €3M di licenze 2026 (25% del ricavo).** Se sono prodotto proprietario ricorrente, è l'inizio della fuga dalla trappola. Se sono licenze rivendute (reseller Salesforce/SAP), sono ricavo pass-through a basso valore che gonfia il fatturato ma non vale nulla in valutazione — e anch'esso disintermediabile. **Quale delle due è, è la domanda che decide tutto** (vedi §11).
 
 ### La dimensione a cui puntate: €82M non vi tira fuori dalla trappola (così com'è)
 Il piano AI Evolution punta a crescere *fuori* dalla zona di pericolo scalando a €82M via M&A. Due problemi strutturali:
@@ -200,4 +202,74 @@ Il piano AI Evolution punta a crescere *fuori* dalla zona di pericolo scalando a
 La *vision* di Skylabs ("global reference for AI industrialization") ha un **tetto teorico più alto** di una catena estetica nazionale: un vero prodotto software può fare numeri da unicorno, un roll-up estetico esce a un PE per €100-300M. **Ma quel tetto appartiene a una software company, non al roll-up di services descritto nel deck.** Se il tuo vero sogno è il prodotto, la mossa non è "comprare 3 consulenze": è spostare tutte le risorse su Skylabs P/Universe e diventare una product company — un'azienda diversa da quella nel piano A. Finché A resta un roll-up di ore, il lente dimensione+traiettoria lo indebolisce e rafforza il "vendi ora al picco 2026".
 
 ### Cosa cambia rispetto alle sezioni precedenti
-Questo lente **non ribalta** la raccomandazione: la **rinforza e la rende più urgente**. La tua dimensione attuale è il momento di *massimo valore relativo* di Skylabs per un acquirente (logo blue-chip + storia AI + 100 persone certificate), *prima* che la deflazione della consulenza e la compressione dei multipli mordano. **Vendere a €20M nel 2026 batte vendere un grind da €50-60M nel 2029.** E il capitale liberato va dove la scala ti fa diventare leader invece che minnow.
+Questo lente **non ribalta** la raccomandazione: la **rinforza e la rende più urgente**. La tua dimensione attuale è il momento di *massimo valore relativo* di Skylabs per un acquirente (logo blue-chip + storia AI + 100 persone certificate), *prima* che la deflazione della consulenza e la compressione dei multipli mordano. **Vendere ora al picco del racconto AI batte grindare 3 anni un'azienda a 5,65% di margine in un settore che si derata.** E il capitale liberato va dove la scala ti fa diventare leader invece che minnow.
+
+---
+
+## 11. La valutazione-soglia: sopra quanto conviene vendere subito
+
+Sì: esiste un prezzo oggi sopra il quale la cassa certa batte il "grind fino al 2029". Ecco la logica, con numeri illustrativi da flettere (assunzioni tue, non verità).
+
+### Il confronto
+- **Tenere (piano AI Evolution che funziona pienamente):** la tua quota vale **€26,5M nel 2029** (25,77% di €102,8M) — ma è lo scenario di *successo pieno*, che richiede 88% CAGR + 3 acquisizioni integrate + un multiplo 10x che regge mentre il settore si derata.
+- **Vendere oggi:** incassi **~48% × Enterprise Value**, certo, subito, al picco del ciclo M&A sull'AI.
+
+### Il certo-equivalente del "tenere" (ricalcolato sui dati reali)
+Con base 2025 di €465k EBITDA, arrivare ai €10,3M EBITDA di gruppo del piano 2029 è una CAGR di EBITDA >100%: eroico. Probabilizziamo (numeri tuoi da correggere):
+
+| Scenario 2029 | Tua quota | Prob. |
+|---|---|---|
+| Successo pieno (piano: €82M ricavi, exit 10x) | €26,5M | ~20% |
+| Grind (€30-40M ricavi, ~8% margine, exit 6-7x) | ~€5,5M | ~45% |
+| Stallo (licenze non decollano, servizi deflazionano) | ~€3M | ~35% |
+
+- Valore atteso 2029 ≈ 0,20×26,5 + 0,45×5,5 + 0,35×3 ≈ **~€8,8M nel 2029**.
+- Scontato a oggi (~22%/anno × 3 anni ≈ fattore ~0,55): **PV ≈ ~€4,8M** per la tua quota.
+- Tua quota 48% → EV "indifferente" oggi ≈ 4,8 / 0,48 ≈ **~€10M**.
+
+### Le soglie riviste (in Enterprise Value oggi)
+
+| Prezzo offerto oggi | ~ multiplo | Cosa fai |
+|---|---|---|
+| **≥ €13-16M EV** | ~1,1-1,3x ricavi 2026 | **Vendi.** Il certo batte nettamente il sogno risk-adjusted (~€10M). |
+| **€10-13M EV** | ~1x ricavi | **Zona grigia → tendi a vendere** (derating del settore + sblocchi Venere). |
+| **< €10M EV** | <0,8x ricavi | **Non svendere per i soldi.** Sotto qui il "tenere" risk-adjusted vale di più: negozia, fai MBO a prezzo equo, o tieni più quota. Vendi solo per ragioni strategiche (focus/Venere). |
+
+> Nota di realismo: a €8M ricavi / 5,65% EBITDA, i €22M di pre-money del deck AI Evolution sono un valore-**ambizione** (≈47x EBITDA 2025), non un valore di mercato. Un compratore finanziario puro, sui numeri, paga €5-10M. Il ponte verso €13-16M+ lo costruiscono **i logo blue-chip, la storia AI e — soprattutto — la natura dei €3M di licenze.**
+
+### La domanda che sposta la soglia di €5-10M: che cosa sono i €3M di licenze?
+- **Se prodotto proprietario ricorrente (Universe/satelliti):** è SaaS. Vale 2-4x ricavi *su quella linea* (€6-12M solo lì), ri-valuta l'intera azienda verso €18-30M, e — cosa enorme per il tuo vincolo — **un compratore accetta molto più facilmente la tua uscita**, perché compra un prodotto, non te. In questo caso può valere la pena **una finestra corta di 12-18 mesi** per dimostrare la linea ricorrente e vendere una *software company* nascente a multiplo alto — non il grind triennale, una prova mirata.
+- **Se licenze rivendute (reseller Salesforce/SAP/MS):** è pass-through a basso margine, vale ~0,3-0,5x, non ri-valuta niente ed è anch'esso disintermediabile. In questo caso **non c'è nulla da aspettare: vendi ora.**
+
+Questa è la stessa domanda-cardine della §0. I €3M di licenze sono la prima prova concreta: **verificane la natura (proprietario vs reseller) e il churn/retention prima di decidere se vendere subito o tra 12-18 mesi.**
+
+**Regola operativa:** processo competitivo; **vendi a qualsiasi prezzo ≥ €13-15M**; se le licenze sono prodotto proprietario vero, **valuta la finestra 12-18 mesi** per puntare a €20-30M vendendo una software-company; **non scendere sotto ~€10M** se non per l'MBO amichevole (sconto in cambio di velocità, alleanza coi soci e minoranza mantenuta).
+
+---
+
+## 12. Il vincolo del key-man: e allora l'MBO non è un'opzione, è LA risposta
+
+Hai ragione: **difficilmente troverai un compratore che accetta che tu esca subito e ti dedichi ad altro.** In una società di servizi il valore cammina con il fondatore — relazioni-cliente, persone chiave, la tua faccia sui deal. Un compratore finanziario puro pretende quasi sempre **earn-out + retention 2-3 anni + non-compete**. Questo confligge frontalmente col tuo "vado su Venere".
+
+Ma il vincolo non chiude il piano: lo **indirizza**. Tre vie, in ordine di forza.
+
+### 1. L'MBO è l'unico compratore *felice* che tu esca — ecco perché diventa la via maestra
+Il tuo vincolo ("nessuno mi lascia uscire") è **falso per un compratore interno** e vero per uno esterno. Se i compratori sono **Diana + i co-founder + il partner circle**, loro *sono* la continuità: hanno già le relazioni e reggono la delivery. Non hanno bisogno che tu resti — anzi, comprano proprio per prendere il timone. **L'insider è l'unico acquirente strutturalmente compatibile con la tua uscita immediata.** Il tuo stesso vincolo, quindi, spinge verso l'MBO più di qualsiasi altra considerazione.
+
+### 2. Per *qualsiasi* compratore, l'abilitatore è rendere Skylabs key-man-independent PRIMA di vendere
+Il motivo per cui un compratore ti vuole legato è che oggi **sei tu l'azienda**. Si smonta:
+- **Diana CEO visibile** (verso clienti, mercato, team) da subito.
+- **Istituzionalizza le relazioni-cliente** distribuendole sul partner circle / Business Advisors — è *già* il "Scalable BU Model" e l'"Inner Circle" del tuo deck AI Evolution. Quel modello serve esattamente a questo: rendere l'azienda vendibile senza di te.
+- Fatti trovare, in 12 mesi, come **Chairman/azionista, non come linchpin operativo**.
+
+Quando non sei più il key-man, anche un compratore esterno accetta la tua uscita — e paghi meno "sconto key-man" sul prezzo. **Questo richiede 12-18 mesi: va iniziato a settembre, mentre i multipli sono ancora alti.** Aspettare significa perdere multiplo *e* restare incastrato.
+
+### 3. "Uscire" significa off-operations + Chairman-light, non sparire
+Anche nello scenario migliore, l'uscita realistica non è "break totale il giorno del closing". È: **fuori dal P&L e dalle operations, Chairman non esecutivo con tetto di X giorni/mese** (board + sponsorship dei clienti-chiave), earn-out — se c'è — legato a metriche che **guida il team, non la tua fatturazione personale**. Questo è **pienamente compatibile con l'85-90% del tuo tempo su Venere**. È anche esattamente il ruolo che il deck Venere ti assegna nella fase iniziale ("Executive Chairman con il COO alla guida operativa"). I due incastri combaciano.
+
+### Come proteggere i proventi
+- Preferisci **più cash upfront / vendor loan differito** a un **earn-out di performance**: se prendi un earn-out e poi (giustamente) trascuri Skylabs per Venere, rischi di bruciarlo.
+- Se earn-out ci deve essere, ancoralo a **retention di clienti/persone** (che Diana controlla) e a un **tetto di impegno tuo** messo nero su bianco.
+
+### Conseguenza sul piano
+Sale in cima alla lista di settembre un workstream che prima era implicito: **la transizione Diana-CEO + istituzionalizzazione delle relazioni è il *critical path* che abilita la tua uscita** — sia via MBO sia via vendita esterna. Non è un "poi": è la prima cosa che parte, perché è lenta e perché finché non è fatta non sei vendibile-senza-di-te a nessun prezzo.
