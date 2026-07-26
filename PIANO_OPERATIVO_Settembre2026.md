@@ -9,23 +9,28 @@ Questo è il *come* di **una** direzione — la raccomandazione del memo — **n
 - **Diana in Venere** (owner del moat software/dati + tuo #2); gli altri soci incassano nella vendita.
 - **Pipeline (Sidea/Advant/Lobra) + Partner Program** usati per alzare il prezzo e garantire al compratore la continuità che permette a tutti di uscire.
 
-## Principio guida (da non violare)
-**Sequenza, non parallelo.** Skylabs va in mano ad **advisor M&A + GM + panchina** (Partner Program e leader delle acquisizioni); tu vai su **Venere**. Nessuna azione su Venere (persone, IP, clienti, capitale) prima di aver chiuso la separazione formale da Skylabs (patti + non-compete + IP): muoverti prima crea il contenzioso che uccide entrambe.
+## Principio guida — cosa può correre in parallelo e cosa no
+La vendita di Skylabs (2026 → closing H2'27) è retta da **advisor M&A + GM + panchina** (Partner Program e leader delle acquisizioni): non è il tuo focus operativo pieno. Quindi **sì, la porti avanti mentre avvii Venere — ma con una linea netta:**
+
+- **In parallelo, a basso profilo, già da settembre '26:** costituzione **NewCo Venere**, conversazioni con gli **anchor** family office, e **sourcing/avvio delle prime cliniche via Cammalleri + COO**. Non coinvolge Diana e non tocca persone/IP/clienti di Skylabs → non disgrega il gruppo.
+- **Solo a/dopo il closing (H2'27):** ingresso **visibile di Diana** in Venere, **sviluppo attivo del gestionale**, e il tuo passaggio **full-time**. Perché: (a) la riservatezza sul move di Diana tiene insieme il gruppo finché tutti hanno incassato; (b) Diana serve alla **continuità per il compratore** fino al closing; (c) pulizia IP.
+
+**Le due regole invalicabili:** nessuno spostamento di persone/IP/clienti da Skylabs a Venere prima della separazione formale; **Diana resta a Skylabs, visibilmente, fino al closing.** E tieni Venere **a basso profilo** durante il processo di vendita (un fondatore troppo visibilmente "altrove" può raffreddare il compratore).
 
 ---
 
 ## FASE 1 — Settembre (Mese 1): fondamenta e allineamento
 
 **Skylabs**
-- **Conversazione coi soci** (win-win): vendiamo tutti insieme; Diana viene con me in Venere; gli altri incassano.
+- **Con i soci** (già allineati sulla vendita insieme): allinea su **tempi e processo** di vendita e sull'ingaggio degli advisor. ⚠️ **Tieni riservato che Diana ti segue in Venere** — comunicarlo ora disgregherebbe il gruppo e mette a rischio la vendita-insieme: l'arrangement Diana↔Venere resta tra te e lui e **si manifesta dopo il closing**.
 - Ingaggia **avvocato M&A** (audit patti: drag/tag/prelazione/leaver) e **advisor M&A** (pre-valutazione + test d'appetito riservato su Cegeka/Bip).
-- Avvia lo **svincolo**: insedia/individua il **GM** al posto di Diana; conferma la distribuzione clienti sul business layer.
+- Avvia lo **svincolo**: insedia/individua il **GM** (de-risk key-man, parte normale della prep di vendita); conferma la distribuzione clienti sul business layer.
 
 **Venere**
-- **Costituzione NewCo**; definisci la **separazione IP** del gestionale (clean-room o licenza periziata).
-- Brief soft a **2-3 family office anchor**; imposta la **cap table founder** con chi entra (incl. Diana).
+- **Costituzione NewCo**; definisci la **separazione IP** del gestionale (clean-room o licenza periziata); **lo sviluppo attivo di Diana su Venere attende il post-closing** (preserva riservatezza verso i soci e pulizia IP).
+- Brief soft a **2-3 family office anchor**; imposta la **cap table founder** con chi entra, incl. Diana **(riservato verso gli altri soci)**.
 
-**🚦 Gate 1 (fine settembre):** soci allineati sulla vendita-insieme + Diana in Venere; advisor e legale ingaggiati; NewCo costituita.
+**🚦 Gate 1 (fine settembre):** processo di vendita avviato (l'allineamento dei soci sulla vendita insieme **c'è già**); advisor e legale ingaggiati; NewCo Venere costituita; arrangement Diana↔Venere definito **in riservatezza**.
 
 ---
 
@@ -74,6 +79,20 @@ Questo è il *come* di **una** direzione — la raccomandazione del memo — **n
 | Da closing vendita | **0% (uscito)** | **100%** |
 
 Skylabs è retta da **advisor + GM + panchina**: il tuo tempo su di essa scende, non sale. Se non lo fa, non stai facendo il pivot: lo stai rimandando.
+
+### Il tempo di Diana (asimmetrico rispetto al tuo)
+Tu puoi tiltare presto sulla prep di Venere (Cammalleri-led, basso profilo). **Diana no: deve restare visibilmente a Skylabs fino al closing** — per la continuità verso il compratore e per la riservatezza sul suo move.
+
+| Fase | Diana · Skylabs | Diana · Venere |
+|---|---|---|
+| Set-Dic '26 | **~90%** (visibile; handover graduale al GM) | ~0-10% (solo ideazione privata, no build/IP) |
+| H1 '27 (processo vendita) | **~85%** (continuità per il compratore) | ~15% (design riservato) |
+| Closing (H2 '27) | transizione in uscita (non-compete, handover, earn-out) | ramp-up |
+| Post-closing → 2028 | **0% (uscito)** | **100% — costruisce il gestionale/dataset (il moat)** |
+
+Due attenzioni su Diana:
+- **Porta un segreto mentre resta a Skylabs:** deve performare il suo ruolo e **non disimpegnarsi visibilmente** fino al closing. L'handover al GM va fatto passare come normale prep di vendita, non come "Diana che se ne va".
+- **Il suo valore in Venere è la piattaforma, non le operations cliniche** (di cui non sa nulla): full-time dal closing a costruire il moat, mentre le prime cliniche (Fase 1) le reggono Cammalleri + COO.
 
 ---
 
@@ -165,7 +184,7 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 | Lobra non chiude ("forse") | Non ancorare panchina/prezzo al deal incerto: costruisci su Sidea + PP |
 
 ## I 3 documenti da avere pronti per settembre
-1. **Partner deck** (win-win per i soci: vendiamo insieme, Diana in Venere, gli altri incassano).
+1. **Deck per i soci** sulla vendita congiunta (tempi, processo, advisor) — **senza** menzionare l'arrangement Diana↔Venere (riservato fino al closing).
 2. **Skylabs info memo** (per l'advisor M&A) — gran parte esiste nel Company Profile.
 3. **Venere Fase 1 one-pager** (per gli anchor) — estratto dal deck.
 

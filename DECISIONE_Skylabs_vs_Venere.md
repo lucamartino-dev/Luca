@@ -29,13 +29,17 @@ La consulenza **si biforca**: perde chi vende ore, vince chi vende esiti/prodott
 Temi che gli investitori non si fidino su un mercato nuovo. Gestibile: ti presenti come *l'operatore che ha exitato un gruppo AI e applica la stessa disciplina + un moat tech a un mercato vergine*, con Cammalleri per la credibilità clinica e una **tranche 1 da 4-5M** che deriska prima dei 12M.
 - *La mia lettura:* pari sulla facilità di raccolta, **Venere sulla solidità della tesi**.
 
-## A6. Valutazione — ritorno per te (ordine di grandezza)
-| | Skylabs (se il piano funziona) | Venere |
-|---|---|---|
-| Valore all'exit | ~€26,5M nel 2029 (88% CAGR + 3 deal + 10x) | €15-30M (2,5-3,5x MOIC) |
-| Varianza | Alta (asset disrupted, exit 2029) | Media (asset durevole, ciclo favorevole) |
-| Extra | — | + proventi vendita Skylabs |
-- *La mia lettura:* nut **dello stesso ordine di grandezza**, ma Venere meglio aggiustato per rischio/ciclo + incassi Skylabs a parte.
+## A6. Valutazione — ritorno per te (NON è alla pari: B è superiore)
+Correggo una semplificazione: confrontare i *casi di successo* (€26,5M vs €15-30M) fa sembrare i ritorni simili, ma è fuorviante per due ragioni — il successo di A è molto meno probabile, e B ha **due** fonti di valore.
+
+**A — tenere Skylabs:** i €26,5M sono il successo pieno, che richiede **88% CAGR + 3 acquisizioni + 10x** in un settore disrupted e con multipli in compressione (da €465k a €10,3M di EBITDA in 4 anni): **bassa probabilità**. Risk-adjusted, la tua quota vale **~€5M** (PV). Ed è **una sola scommessa**, senza il paracadute della vendita.
+
+**B — Venere + vendita Skylabs:** due fonti diversificate:
+- **Vendita Skylabs:** ~48% × €13-30M ≈ **€6-14M**, a breve e relativamente de-riskato (trade sale).
+- **Quota Venere:** ~15% (pre-ratchet) di un exit €90-125M ≈ **€13-19M** base, di più col **ratchet**, su 5-6 anni, in un **settore in crescita**, con **playbook provato due volte** e le protezioni strutturali (vesting, cliff, buy&build che compone).
+- **Totale B ≈ €20-35M+**, su due asset con rischio/tempi diversi. Anche risk-adjusting Venere, B vale **~€15-25M** contro i ~€5M di A.
+
+- *La mia lettura:* **hai ragione, non è alla pari. Su base risk-adjusted B è nettamente superiore ad A (ordine di 3-4x)**, perché (i) il successo di A è molto meno probabile, (ii) B ha *anche* la monetizzazione di Skylabs, (iii) settore e struttura di B rendono il suo successo più raggiungibile. Il ritorno **rafforza** la propensione verso Venere.
 
 ## A7. Steelman dell'opzione Skylabs (perché potresti restare)
 - È un *bird-in-the-hand* (100+ persone, 60+ clienti blue-chip, ISO, cassa).
@@ -51,8 +55,8 @@ Temi che gli investitori non si fidino su un mercato nuovo. Gestibile: ti presen
 | Lente | Vince |
 |---|---|
 | Durata cash flow vs AI · Competenza · Ciclo · Tesi per investitori | **Venere** |
+| **Ritorno personale risk-adjusted** | **Venere** (nettamente: ~€15-25M vs ~€5M) |
 | Bird-in-hand / minor rischio esecutivo | Skylabs |
-| Ritorno se tutto funziona | Pari |
 
 **La mia raccomandazione (non una decisione): propendere per Venere, monetizzando Skylabs.** Le parti B e C sono le valutazioni che diventano rilevanti *se* propendi in questa direzione.
 
@@ -104,7 +108,9 @@ Una società di servizi vale finché ci sei tu. Ma sei **quasi già svincolato**
 Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un owner software focalizzato** — non di un secondo team AI-consulting. Da valutare persona per persona (desiderio *e* fit):
 - **Diana (Salvo)** — l'unico socio con un ruolo ad alto valore, ed è l'**operatore esperto e tuo #2 provato**. **Il numero dipende dal ruolo che gli dai:** *owner del moat software* (specialista) → 8-12%; *co-founder / tuo vice* (visione business + AI + partner operativo, e possiede il moat) → **tier co-founder, 15-18%**. Data la vostra storia da numero due e la sua esperienza, la mia lettura è **~18%** — sopra Cammalleri (vedi C2). Cautela: incassa **anche** la vendita di Skylabs, quindi l'equity Venere serve a legarlo al futuro, non a ripagare il passato → **reverse vesting** legato all'ingresso e alla consegna del moat.
 - **Cammalleri (Marcello)** — porta **credibilità clinica + deal flow**, essenziali in un business medico, ma **non è un uomo d'azienda**: contributo critico ma più stretto → **~15%**, sotto Diana. Tienilo comunque **fortemente incentivato** (la legittimità clinica è load-bearing); le sue **sedi**, se confluiscono, valutate **separatamente** (related-party), non gonfiando la quota da founder.
-- **Gli altri soci** — valuta desiderio e fit reale; chi non ha un ruolo vero in Venere ha come ritorno la **liquidità della vendita di Skylabs**, non un seggio per inerzia.
+- **Gli altri soci** — il loro ritorno è la **liquidità della vendita di Skylabs**.
+
+> ⚠️ **Riservatezza (vincolante).** I soci sono **già allineati sulla vendita insieme**: è un asset, non va rimesso in discussione. Ma l'ingresso di **Diana in Venere va tenuto riservato verso gli altri soci fino a dopo il closing** — comunicarlo prima **disgregherebbe il gruppo** e metterebbe a rischio la vendita congiunta. L'arrangement resta tra te e Diana; il suo sviluppo attivo su Venere si manifesta **post-closing** (il che è coerente anche con la pulizia IP: vedi C3).
 
 ## C2. Valutazione — struttura, funding e cap table di Venere
 **Quando raccogliere** (indipendente da Skylabs, non lo aspetta): Fase 1 **4-5M** soft-circle Set-Nov '26 → closing Q4'26/Q1'27; resto dei 12M ~2028 a metriche provate + debito. Co-invest personale da risorse personali, poi rimpolpato dalla liquidità Skylabs.
