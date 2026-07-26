@@ -26,7 +26,7 @@ La consulenza **si biforca**: perde chi vende ore, vince chi vende esiti/prodott
 - *La mia lettura:* rafforza Venere, e dice che **il valore relativo di Skylabs è massimo ora** → se scegli Venere, monetizza Skylabs presto.
 
 ## A5. Valutazione — investitori e fiducia
-Temi che gli investitori non si fidino su un mercato nuovo. Gestibile: ti presenti come *l'operatore che ha exitato un gruppo AI e applica la stessa disciplina + un moat tech a un mercato vergine*, con Cammalleri per la credibilità clinica e una **tranche 1 da 4-5M** che deriska prima dei 12M. Mitigante più forte: coinvolgere come **advisor i fondatori di Hippocrates Holding (DentalPro)**, che hanno già costruito il roll-up medico-clinico italiano su cui Venere è modellata — la loro presenza chiude il tuo gap di credibilità di settore agli occhi dei family office (dettaglio e cautele nel Piano).
+Temi che gli investitori non si fidino su un mercato nuovo. Gestibile: ti presenti come *l'operatore che ha exitato un gruppo AI e applica la stessa disciplina + un moat tech a un mercato vergine*, con Cammalleri per la credibilità clinica e una **tranche 1 da 4-5M** che deriska prima dei 12M. Mitigante più forte: coinvolgere come **advisor i fondatori di Hippocrates Holding** (il roll-up delle farmacie "La Farmacia"), che hanno già costruito un **buy-and-build healthcare-retail regolato in Italia** — la loro presenza chiude il tuo gap di credibilità di settore agli occhi dei family office (dettaglio e cautele nel Piano).
 - *La mia lettura:* pari sulla facilità di raccolta, **Venere sulla solidità della tesi**.
 
 ## A6. Valutazione — ritorno per te (NON è alla pari: B è superiore)
