@@ -134,12 +134,12 @@ Se il punto 3 di questo elenco è dove credi davvero — cioè che Skylabs può 
 
 ## 9. Il lato societario: la tua cap table ti offre già l'uscita pulita
 
-Situazione attuale: **Luca 48% (CEO) · Salvatore Diana 25% (CTO) · Enzo Leonardi 17% (CFO) · Carmelo Zappalà 10%**.
+Situazione attuale: **Luca 48% (CEO) · Salvatore Diana 25% (CTO) · altri due soci per il restante 27%**.
 
 Due fatti che cambiano tutto:
 
 1. **Non hai la maggioranza da solo.** Col 48% non puoi decidere unilateralmente di vendere la società: serve l'allineamento di almeno un altro socio e, per vendere il controllo a un terzo, servono i diritti giusti nei patti (drag-along) o il consenso dei soci.
-2. **I tuoi 3 soci sono uomini AI/tech. Venere non è il loro mondo.** Diana, Leonardi, Zappalà hanno competenza, carriera, identità ed equity legate a Skylabs e all'AI. Non ti seguono nella medicina estetica — e non devono. **Questo è un regalo, non un problema:** significa che Skylabs AI Evolution è *anche il loro piano*, e che esiste un successore naturale al tuo posto (Diana).
+2. **I tuoi soci sono uomini AI/tech: Skylabs AI Evolution è anche il loro mondo.** Competenza, carriera ed equity legate a Skylabs e all'AI. **Questo è un regalo, non un problema:** significa che il piano AI Evolution è *anche il loro piano*, e che esiste un successore naturale al tuo posto (Diana).
 
 Questo trasforma la scelta "A o B" in una **biforcazione societaria pulita**: Skylabs continua come veicolo dei 3 soci (l'AI Evolution è la loro upside); Venere nasce come tuo nuovo veicolo con un team nuovo (Cammalleri, COO). Nessuno si porta via il lavoro dell'altro.
 
@@ -305,7 +305,7 @@ Non "vendi Skylabs perché Venere è fantastica". **Vendi Skylabs perché è il 
 ## 14. L'MBO spiegato, e come svincolare Skylabs da te (Partner Program incluso)
 
 ### Cos'è un MBO, nel tuo caso specifico
-MBO = il management interno rileva la quota di chi esce. **Punto chiave che cambia tutto: i tuoi soci possiedono già il 52% (Diana 25% + Leonardi 17% + Zappalà 10%).** Quindi qui l'MBO **non è "comprare l'azienda"**, è **comprare la *tua* quota (48%, o la maggioranza di essa)**. È un assegno molto più piccolo. Se l'EV è ~€12M e tu vendi ~35% tenendo ~13%, il gruppo interno deve finanziare **~€4-4,5M**, non €12M.
+MBO = il management interno rileva la quota di chi esce. **Punto chiave che cambia tutto: i tuoi soci possiedono già il 52% (di cui Diana 25%).** Quindi qui l'MBO **non è "comprare l'azienda"**, è **comprare la *tua* quota (48%, o la maggioranza di essa)**. È un assegno molto più piccolo. Se l'EV è ~€12M e tu vendi ~35% tenendo ~13%, il gruppo interno deve finanziare **~€4-4,5M**, non €12M.
 
 ### Come si finanzia (per una società a €8M/5,65%, il debito da solo non basta)
 Una società a margine sottile e pochi asset ha bassa capacità di debito (le banche prestano ~2-3x EBITDA ≈ €1-1,4M). Quindi la struttura reale mescola più pezzi:
@@ -355,58 +355,36 @@ Il tuo "Inner Circle" (Founding/Senior/Equity/Associate Partner) fa tre cose che
 
 ---
 
-## 15. Se anche i soci escono con te: cosa cambia (e un dubbio da guardare in faccia)
+## 15. Svincolare Skylabs da te, e perché coinvolgere Diana
 
-Se pensi che i 3 soci vogliano **seguirti**, la premessa dell'MBO cambia: **non resta nessun compratore interno a guidare Skylabs.** Devi svincolarla da **tutti e quattro i fondatori**, non solo da te. È fattibile, ma modifica via d'uscita, prezzo e — soprattutto — apre una domanda scomoda sul *chi* porti con te.
+Perché tu possa uscire, Skylabs deve girare senza di te. Buona notizia: **sei quasi già svincolato.**
 
-### Aggiornamento sui fatti reali (fornito da Luca): sei quasi già svincolato
-Situazione vera, che semplifica moltissimo:
-- **Clienti già distribuiti al business** → il pezzo più difficile dello svincolo (le relazioni non più su di te) è **già fatto**.
-- **Enzo e Carmelo non sono chiave** → la loro uscita non intacca la vendibilità.
-- **Resta un solo nodo: Diana.** Si risolve **mettendo un GM al suo posto** — un'assunzione mirata, non una riorganizzazione.
+### Sei quasi già svincolato
+- **Clienti già distribuiti al business** → il pezzo più difficile (le relazioni non più su di te) è **già fatto**.
+- **La sola dipendenza da fondatore che resta è Diana.** Si risolve **mettendo un GM al suo posto** — un'assunzione mirata, non una riorganizzazione.
 
-**Conseguenza importante:** con un GM che guida le operations c'è **continuità di management** anche senza i fondatori → **si riaprono le opzioni che sopra davo per chiuse.** Non sei più costretto al solo bolt-on strategico: torni ad avere anche la **vendita finanziaria** (il buyer backa il GM) e una forma di **buy-out guidato dal GM + partner** (MBI). Più opzioni = più leva sul prezzo. E la timeline si accorcia: svincolabile in **~6-9 mesi**, non 12-18.
+Con un GM che guida le operations c'è **continuità di management** anche senza i fondatori → la timeline di svincolo scende a **~6-9 mesi** e riapre tutte le opzioni d'uscita (vendita strategica, vendita finanziaria, buy-out guidato dal management).
 
 ### Il playbook "Diana → GM"
-1. **Cosa deve coprire il GM:** P&L, oversight della delivery sulle BU, gestione operativa, leadership del team, ed essere il **volto verso clienti e compratore**. Poiché i clienti sono già sul business layer, il GM eredita *gestione*, non *ricostruzione di relazioni*.
-2. **Attenzione a non perdere la spina tecnica:** Diana è CTO. Sostituirlo può voler dire **GM (ops/commerciale/P&L) + elevare un Head of Technology** dal layer partner. Non lasciare un buco tecnico quando esce.
-3. **Build vs buy:**
-   - *Promuovi dall'interno* (Head of Delivery / Senior Business Advisor pronto): più veloce, allineato culturalmente, più economico, e — con i clienti già suoi — plausibile.
-   - *Assumi esterno (MBI)*: più capacità, ma rischio cultura + tempi. Valuta un profilo che ha già gestito il P&L di un SI da €10-30M, meglio se dall'ecosistema SF/SAP, disposto anche a **entrare in equity** (diventa il tuo compratore-manager).
-4. **Timing:** insedia il GM a settembre-ottobre, handover da Diana in 6-9 mesi, e usa quella finestra per **dimostrare al mercato/buyer che gira sul GM** — è ciò che alza il prezzo e sblocca la tua uscita.
-5. **Retention:** lega GM + Head of Technology + delivery leader con equity/partner + bonus legati alla transazione. Una volta usciti i fondatori, la paura n°1 del compratore è che *loro* se ne vadano.
-6. **Percorso di Diana:** consegna le ops al GM, poi ha due strade pulite — **seguirti in Venere come owner del gestionale/dataset proprietario** (l'unico ruolo tech che serve davvero a Venere) **oppure** liquidità e strada sua. È il socio giusto per il moat software di Venere, se lo vuole.
+1. **Cosa copre il GM:** P&L, oversight della delivery sulle BU, gestione operativa, leadership del team, ed essere il **volto verso clienti e compratore**. Coi clienti già sul business layer, eredita *gestione*, non *ricostruzione di relazioni*.
+2. **Non perdere la spina tecnica:** Diana è CTO. Sostituirlo può voler dire **GM (ops/commerciale/P&L) + elevare un Head of Technology** dal layer partner.
+3. **Build vs buy:** *promuovi dall'interno* (Head of Delivery / Senior Business Advisor pronto: veloce, allineato) oppure *assumi esterno (MBI)* — profilo che ha già gestito il P&L di un SI da €10-30M nell'ecosistema SF/SAP, meglio se disposto a **entrare in equity** (diventa il tuo compratore-manager). *Nota: i leader delle acquisizioni (Sidea/Advant/Lobra) sono candidati naturali per questa panchina — vedi Piano.*
+4. **Timing:** insedia il GM a settembre-ottobre, handover in 6-9 mesi, e usa la finestra per **dimostrare al mercato/buyer che gira sul GM** — è ciò che alza il prezzo e sblocca la tua uscita.
+5. **Retention:** lega GM + Head of Technology + delivery leader con equity/partner + bonus legati alla transazione (la paura n°1 del compratore è che se ne vadano).
 
-*(Le "Conseguenze 1-3" e la tabella role-fit qui sotto restano valide come cornice generale; la realtà che mi hai dato le semplifica: lo svincolo è quasi fatto, e l'unico lavoro è il GM.)*
+### Perché coinvolgere Diana in Venere (e il bivio)
+Diana è l'unico socio con un **ruolo ad alto valore in Venere**: intelligente, evoluto sul business, fortissimo sull'AI, è la persona giusta per **possedere e costruire il gestionale e il dataset proprietario** — il **moat** che trasforma il tuo DNA tech nel vantaggio competitivo di Venere, in un settore dove nessun concorrente ce l'ha ("la cosa che la finanza da sola non compra", §Venere). È l'unico modo in cui la tua competenza tech, commodity in Skylabs, diventa **scarsa e difendibile**.
 
-### Conseguenza 1: l'MBO "ai soci" salta → l'exit naturale diventa il bolt-on strategico
-Con l'intero team fondatore che esce, un compratore finanziario puro si spaventa ("chi la guida?"). Due strade:
-- **A. Costruisci prima un management non-fondatore** (dai ranghi del Partner Program: Head of Tech/Delivery, Senior Business Advisor promossi a CEO/leadership), provi che gira senza fondatori, poi vendi. Più lento (12-18 mesi), ma tieni aperta la vendita finanziaria.
-- **B. Vendi come *bolt-on* a un consolidatore dell'ecosistema SF/SAP che porta il *proprio* management.** Quando tutti i fondatori escono, **questo è il compratore più naturale**: assorbe clienti, certificazioni, delivery pod e brand nella sua struttura di leadership esistente — non ha bisogno di voi. È anche il compratore che paga il **premio strategico** (le certificazioni SF/SAP + i logo blue-chip italiani sono esattamente ciò che compra un roll-up di partner).
+**Il bivio:** Diana **non può** insieme ancorare/guidare Skylabs *e* costruire il moat di Venere. Scegli in base a dove vale di più:
+- Se resta a guidare Skylabs → exit più pulita e di maggior valore (è il CEO/anchor naturale), e per il moat di Venere assumi un software lead dal mercato.
+- Se viene in Venere → serve il GM per Skylabs (idealmente dai leader delle acquisizioni), e lui costruisce il moat.
 
-→ **L'uscita di tutti i fondatori spinge verso la strada B.** Il Partner Program qui serve a **trattenere il layer non-fondatore** che si trasferisce al compratore (retention = ciò che il compratore valuta di più).
+La mia lettura resta che Diana è probabilmente **più prezioso ad ancorare l'exit di Skylabs**; ma **se dalle acquisizioni emerge un CEO credibile** (vedi Piano), Diana è libero per Venere. **Testa il suo desiderio reale a settembre**, prima di decidere.
 
-### Conseguenza 2: il prezzo standalone scende, il bolt-on lo recupera
-La partenza di tutto il team fondatore **abbassa il valore standalone** (rischio management). Ma nella strada B il compratore non ha bisogno del vostro management → il *fit strategico* (clienti + certificazioni + team di delivery) recupera valore. Morale: con tutti i fondatori fuori, **non cercare la vendita finanziaria standalone, cerca il consolidatore strategico.**
-
-### Conseguenza 3 (la più importante): loyalty ≠ role-fit. Non trasferire la band tech in un roll-up di cliniche.
-Questo devi guardarlo in faccia. Diana (architetture software), Leonardi (cybersecurity/business economics), Zappalà (IT consultancy) sono **uomini AI/tech**. **Venere è un consolidamento di cliniche mediche.** Portarli tutti "perché vogliono seguirti" rischia di **rifare l'errore di partenza**: una squadra di consulenza AI dentro un business operativo non-tech. Mappa ruolo per ruolo, con onestà:
-
-| Socio | Fit reale in Venere? |
-|---|---|
-| **Enzo Leonardi (CFO)** | **Sì, portabile.** La finanza è finanza: candidato naturale a **CFO di Venere** (o interfaccia con la funzione CFO espressa dagli anchor). |
-| **Salvatore Diana (CTO)** | **Solo per una cosa precisa:** possedere e costruire il **gestionale/dataset proprietario** di Venere (il moat tech). Ma **non può** insieme restare a guidare Skylabs: scegli. |
-| **Carmelo Zappalà** | **Fit non ovvio.** IT consultancy non serve a gestire cliniche. Ruolo da definire, o liquidità + strada propria. |
-
-Ciò che a Venere serve davvero è **clinico + retail-ops + finanza + un owner software focalizzato** — non un secondo team di AI-consulting. Chi non ha un ruolo vero in Venere merita **liquidità e la sua strada**, non un posto per inerzia.
-
-### L'ibrido che potrebbe essere ottimale (da testare a settembre)
-Se **anche un solo fondatore** — idealmente **Diana** — accettasse di **restare a guidare Skylabs**, sblocchi l'MBO più pulito/di maggior valore *e* liberi gli altri di seguirti selettivamente. Quindi la prima conversazione non è "venite tutti con me", è: **"chi vuole davvero cosa?"** L'esito ideale potrebbe essere: Diana resta e guida (o compra) Skylabs, Leonardi viene come CFO Venere, Zappalà sceglie. Non darlo per scontato in un senso o nell'altro: **testa desiderio *e* fit, socio per socio.**
-
-### Legale, ancora più delicato con il team-lift-out
-- **Non-compete:** il compratore pretenderà non-concorrenza da tutti i fondatori. Il settore diverso (estetica) aiuta, ma va scritto con carve-out espliciti per Venere.
-- **Separazione IP nettissima:** l'intero team che lascia una società in vendita per costruirne una tech-enabled accanto, usando DNA tech della società venduta, è **esattamente ciò che un compratore contesta**. Il gestionale Venere va **clean-room o licenziato a valore di mercato**, documentato *prima* che Diana tocchi una riga.
-- **Sconto da partenza-team:** mettilo in conto nel prezzo, ed è un'altra ragione per la strada B (dove pesa meno).
+### Legale (da chiudere prima di muoverti)
+- **Non-compete:** il compratore pretenderà non-concorrenza dai fondatori. Il settore diverso (estetica) aiuta, ma va scritto con carve-out espliciti per Venere.
+- **Separazione IP nettissima:** il gestionale Venere "nato dall'esperienza AI di Skylabs" va **clean-room o licenziato a valore di mercato**, documentato **prima** che Diana tocchi una riga — o domani il compratore lo contesta.
+- **Related-party:** ogni scambio Skylabs↔Venere a condizioni di mercato e documentato.
 
 ### Effetto sul piano
-Il workstream "**costruire il layer di management non-fondatore via Partner Program**" sale al **primo posto assoluto** del critical path: con tutti i fondatori in uscita, senza quel layer Skylabs non è vendibile a nessuno se non a un consolidatore che la assorbe. E la conversazione di settembre coi soci diventa "**chi vuole cosa (desiderio) e chi serve dove (fit)**", non un trasloco collettivo.
+Il workstream "**costruire il layer di management non-fondatore**" (GM + Partner Program + leader delle acquisizioni) è il **critical path** che abilita la tua uscita: senza, Skylabs non è vendibile-senza-di-te a buon prezzo.

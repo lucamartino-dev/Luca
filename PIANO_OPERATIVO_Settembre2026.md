@@ -228,3 +228,107 @@ Non sovra-diluirti né creare complessità di governance a ridosso della vendita
 ### Milestone da inserire nel piano
 - **Fase 1-2 (set-dic '26):** completamento PP interni + onboarding dei 4 Senior Partner esterni con assegnazione account → **PP completo entro 31/12/26**.
 - **Gate 2 (fine nov '26):** verifica che la panchina regga commerciale e delivery senza di te → è il *go* per aprire il processo di exit in H1'27.
+
+---
+
+## AGGIORNAMENTO — Il management dell'exit *dalle acquisizioni stesse*
+
+Idea di Luca: **CEO di Lobra al mio posto come CEO; direttore commerciale di Sidea alla guida commerciale; CEO di Advant come Senior Partner.** È la mossa che chiude il buco più grande — chi guida Skylabs quando esci — **usando la pipeline per il talento, non solo per i ricavi.**
+
+### Perché è forte
+- **Risolvi la successione senza un hire esterno:** sono operatori che hai potuto osservare in due diligence, non profili da CV.
+- **Sono soci allineati, non dipendenti:** reinvestono ~60% in equity nel deal → motivati a far funzionare la piattaforma combinata (retention + integrazione de-riskata).
+- **Completa lo svincolo da te e dai fondatori** → abilita la tua uscita pulita e rende l'asset vendibile/rollabile.
+
+### I 5 paletti (senza cui si rompe)
+1. **Selezione, non nomina.** Non consegnare le chiavi al closing. Falli entrare con ruolo di BU/funzione, poi **finestra di osservazione 6-12 mesi dentro SAE**, e *poi* confermi il group CEO sulla performance dimostrata — non sulla reputazione pre-deal (in trattativa hanno tutto l'interesse a impressionarti).
+2. **Una squadra, non un singolo successore.** La struttura robusta è una panchina, non un uomo solo:
+   - **Group CEO:** il più forte tra **Diana** e **CEO di Lobra**.
+   - **CCO / motore commerciale:** direttore commerciale di Sidea + i 4 Senior Partner esterni.
+   - **Senior Partner / BU head:** CEO di Advant.
+   - **CTO / Product:** Diana (se non fa il CEO o non va in Venere).
+   → è esattamente il layer non-fondatore che serve all'exit, e arriva **quasi gratis** con le acquisizioni.
+3. **Sequenzia sulla certezza, non sull'incertezza.** Sidea (ott'26) è il deal più sicuro e vicino; Lobra è "**forse**" e a luglio'27. **Non legare la tua successione al deal meno certo.** Àncora la successione su **Sidea + partner interni (Dic'26) + Diana**, e aggiungi i leader di Advant (mag'27) e Lobra (lug'27) *se e quando* chiudono. Se il CEO designato è quello di Lobra e Lobra salta, non puoi restare senza successore.
+4. **Guidare una società ≠ guidare il gruppo.** Il CEO di Lobra ha gestito Lobra (~€5-8M); SAE è multi-BU + integrazione M&A + reporting PE-grade + raccolta capitale. Valuta se **scala** in quel ruolo o se è un ottimo BU leader ma non un group CEO. E attenzione: nel **Path A (build-to-sell finanziato)** la credibilità del CEO **pesa sulla raccolta** dei round SAE — gli investitori backano operatori provati.
+5. **Legittimità e politica.** Un ex-CEO di un'acquisita messo sopra i partner storici e le altre acquisite genera attrito ("perché seguo lui?"). Serve org chiaro, equity chiara, mandato chiaro e il tuo **sponsorship esplicito** nella transizione. Diana ha più legittimità interna: pesalo nella scelta del CEO.
+
+### Interazione con la decisione su Diana (ti dà flessibilità)
+Questa idea **scioglie** il nodo Diana invece di complicarlo:
+- Se il **CEO di Lobra** si dimostra credibile come group CEO → **Diana è libero di seguirti in Venere** come owner del moat software (o di restare come CTO). 
+- Se non lo è → **Diana resta group CEO**, e i leader delle acquisite riempiono la panchina *sotto* di lui (CCO Sidea, Senior Partner Advant).
+→ **Testa entrambe le ipotesi nella finestra di osservazione** prima di decidere chi guida.
+
+### Effetto sull'exit (rafforza entrambi i path)
+- **Path A (build-to-sell):** una squadra completa tratta dal roll-up esegue il build → sei davvero fuori.
+- **Path B (vendita):** il compratore riceve un **team di management completo, allineato e con equity + la pipeline** → premio sul prezzo.
+
+**In sintesi:** ottima idea, a patto di trattarla come **selezione di una squadra** (non nomina di un uomo), **ancorata al deal certo (Sidea)** e non a quello incerto (Lobra), con una **finestra di prova** prima di consegnare le chiavi.
+
+---
+
+## AGGIORNAMENTO — Venere: quando raccogliere e da chi
+
+Principio: **la raccolta Venere è indipendente da Skylabs** (mondi di capitale separati) e **non deve aspettare la liquidità di Skylabs**. Parte sui propri anchor, sul proprio merito.
+
+### Quando (calendario)
+| Periodo | Mossa | Importo |
+|---|---|---|
+| **Set-Nov '26** (dal rientro) | Apri le conversazioni con gli anchor; **soft-circle della Fase 1**; chiudi il **lead anchor + funzione CFO** | commitment 4-5M |
+| **Dic '26 - Q1 '27** | **Closing Fase 1**; firma LOI / chiudi le **prime 2-4 cliniche** | 4-5M deployati |
+| **2027 (mesi 0-18)** | Deploy + **prova del formato** (KPI: recurring 10%+, EBITDA/clinica +30%) | — |
+| **~H2 2028** | A metriche dimostrate, **chiami il resto dei 12M** (tranche Fase 2) + **linea di debito bancario** sulle acquisizioni | fino a 12M totali |
+
+La struttura è **volutamente a tranche** (lo dice il tuo deck): Fase 1 piccola per *provare*, il resto "si chiama solo a metriche dimostrate". È proprio questo che rende un family office comfortable a backarti pur essendo nuovo del settore.
+
+**Il tuo co-invest personale (CEO cash co-investment):** coprilo con **risorse personali** all'inizio, poi **rimpolpalo con la liquidità di Skylabs** quando arriva (H1'27 nel Path B, 2028 nel Path A). Se serve un ponte, un **secondary parziale** della tua quota nel round SAE di Sidea (ott'26). **Ma l'istituzionale della Fase 1 Venere non aspetta Skylabs.**
+
+### Da chi (in ordine di priorità)
+1. **1 lead family office come anchor** — è la mossa che de-riska tutte le altre. Profilo ideale: affinità **healthcare/servizi medici** (capisce cliniche, regolatorio, cash-pay) **e/o consumer/retail premium** (capisce patient-journey e membership), orizzonte **5-6 anni**, a suo agio col **buy-and-build**. Prende **board seat** ed **esprime la funzione CFO** (come da deck). Il suo "sì" trascina il club.
+2. **1-2 angel di settore credibili** — ex-operatori/consolidatori di **medspa, dentale, servizi sanitari**. Assegni piccoli, ma **validazione enorme**: coprono esattamente il tuo gap ("investitori che non si fidano di me su un mercato nuovo") portando credibilità di settore + deal flow + know-how operativo.
+3. **2-4 altri family office** per completare il **club deal della Fase 1**, via la rete del lead anchor.
+4. **Banche (Fase 2+)** — linea di acquisizione quando c'è EBITDA provata su qualche clinica (come da deck).
+5. **Small-cap PE / search fund / independent sponsor healthcare** — **non** in Fase 1 (lowballerebbero un asset pre-prova e vorrebbero controllo), ma candidati per le **tranche di scala** in Fase 2 e come **compratori all'exit**.
+
+**Chi tenere fuori:** i **VC** (modello sbagliato: qui è un roll-up a cassa, non hypergrowth tech) e il **PE di controllo in Fase 1**.
+
+### La sequenza che batte il problema-fiducia
+Essendo nuovo del settore, **front-loada la credibilità**: prima l'**anchor** che crede nel buy-and-build + nel tuo track record da operatore (exit AI) + nella credibilità clinica di Cammalleri; poi **1-2 angel di settore** come validazione; poi riempi il club. Il pitch: *"operatore che ha costruito ed exitato un gruppo AI-enterprise, che applica la stessa disciplina di buy-and-build + un moat tech/dati a un mercato vergine e non-disruptabile, con credibilità clinica a bordo e una Fase 1 da 4-5M che deriska prima dei 12M"*. La Fase 1 piccola **è** l'argomento che convince un family office a scommettere su un nuovo del settore.
+
+### L'incastro con Skylabs (i due orologi)
+- **Venere Fase 1 (istituzionale):** Set '26 → Q1 '27, da anchor Venere. **Non aspetta Skylabs.**
+- **Tuo co-invest personale:** risorse personali ora → rimpolpato dalla liquidità Skylabs (H1'27 Path B).
+- **Venere Fase 2:** ~2028, a metriche provate — quando anche la liquidità Skylabs è verosimilmente incassata e puoi aumentare il tuo co-invest.
+
+---
+
+## AGGIORNAMENTO — Path B concreto: vendere a Cegeka Italia o Bip entro il 2027
+
+Due compratori strategici credibili, che rendono il Path B tangibile. È una strada realistica **entro il 2027** se prepari bene.
+
+### Perché Cegeka e Bip hanno senso
+- **Bip** (Business Integration Partners): consulting/business transformation di origine italiana, **PE-backed (CVC)**, grande e acquisitivo, in forte spinta su digital/AI. Ragiona in logica **piattaforma/multiplo**: per lui Skylabs aggiunge **capability AI/agentica + delivery SF/SAP + logo blue-chip italiani + ~100 persone**, e — cosa che ama un PE-backed — **una pipeline di roll-up già pronta**.
+- **Cegeka**: gruppo IT **belga a controllo familiare** (~€1B ricavi), presente in Italia e già acquisitivo qui, in costruzione su AI/cloud/SAP. Capitale **paziente**, guidato dal **fit strategico** più che dal multiplo: per lui Skylabs è massa critica AI/SF/SAP italiana + clienti + persone + pipeline.
+
+Entrambi vogliono esattamente ciò che hai: **capability AI + scala italiana certificata SF/SAP + clienti di marca**. La differenza di stile (Bip finanziario/aggressivo, Cegeka strategico/paziente) è la tua **leva competitiva**: falli competere.
+
+### La pipeline come acceleratore del prezzo
+Non vendere Skylabs standalone. **Fai prima entrare Sidea (ott'26)** e, se i tempi tengono, **Advant (mag'27)**: porti sul mercato un gruppo da **~€15-20M di ricavi** invece che €8M, e presenti **Lobra come il prossimo deal della pipeline** che il compratore eredita. Vendi *"una piattaforma AI certificata, con roll-up in corso e uno ancora da fare"* → premio strategico + prezzo assoluto più alto.
+
+### Timeline "entro il 2027"
+| Periodo | Mossa |
+|---|---|
+| **H2 '26** | Svincolo (Diana→GM + panchina), **numeri puliti/audit-ready**, info memo, **test d'appetito riservato** su Cegeka e Bip via advisor. Chiudi Sidea (ott'26) |
+| **H1 '27** | **Processo competitivo** (Cegeka + Bip + 1-2 alternativi), NDA, management presentation, prime offerte. Chiudi Advant (mag'27) |
+| **H2 '27** | Due diligence, SPA, **closing entro fine 2027** |
+
+### Le 4 regole per non sbagliarlo
+1. **Processo competitivo, mai monotrattativa.** Corri Cegeka **e** Bip in parallelo (+ 1-2 alternativi: es. Reply, Lutech, Engineering, NTT Data, Accenture Song) via advisor M&A. La tensione competitiva *è* il prezzo; un compratore solo lowballa.
+2. **Riservatezza e disclosure a stadi.** Sono attori del tuo spazio (Bip è anche un concorrente): NDA forti, dati sensibili (clienti, margini) rilasciati solo a stadi avanzati, per proteggerti se il deal salta.
+3. **La tua uscita dipende dallo svincolo.** Uno strategico normalmente vuole il fondatore legato: è la panchina (GM/Diana + Partner Program + leader delle acquisizioni) che ti fa **uscire o fare un Chairman-light breve**. **Minimizza il tuo earn-out personale**, massimizza cash upfront, proprio perché il team resta.
+4. **Allinea i venditori della pipeline.** Sidea/Advant/Lobra reinvestono equity: se vendi il gruppo a Cegeka/Bip, la loro quota rolla nella struttura del compratore → mettili d'accordo prima (o vendi il gruppo *dopo* averli integrati, più pulito).
+
+### Valutazione attesa
+Uno strategico paga per **capability + clienti + certificazioni**, sopra il valore finanziario puro. Standalone a €8M vali €8-14M; ma **con Sidea (+Advant) integrate e la panchina in piedi**, un gruppo da ~€15-20M con quel profilo può realisticamente puntare a **€18-30M+** in un processo competitivo Cegeka-vs-Bip. È il modo in cui la pipeline + il Partner Program si trasformano in prezzo.
+
+### Come si incastra con le strade A/B
+Questo **è** il Path B, reso concreto. Tienilo in gara col Path A (build-to-sell guidato da Diana) fino a H1'27: se Cegeka/Bip mettono sul tavolo un prezzo forte entro il 2027, **prendi l'uscita netta**; se l'appetito è tiepido, continui il build con Diana e vendi la piattaforma più grande nel 2028.
