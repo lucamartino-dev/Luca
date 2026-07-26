@@ -76,7 +76,7 @@ rows = [
  ["C","Nord-Est","Trentino-AA","Odontomedica - Studio Detassis","Trento","TN","studiodetassis.com","1","Team","Dr. Danilo Detassis (titolare dal 1991)","Filler, PRP, lipofilling (add-on a odontoiatria)","GEN+CONV","Fondatore maturo (succession); caveat: odontoiatria-primaria, estetica add-on (fit marginale)","studiodetassis.com"],
 
  # ---------------- ROMA & CENTRO ----------------
- ["A","Roma-Centro","Lazio","Studio Medico Estetico Monti Parioli","Roma","RM","mariangelaercoli.com","1 (Parioli)","Piu medici + staff","Dott.ssa Mariangela Ercoli (Mariangela Ercoli S.r.l.)","Med. estetica, filler/botox, chirurgia plastica, benessere","MP+GEN","Segnale uscita generazionale piu netto: attivo 40+ anni, fondatrice storica, zona premium Parioli, entita SRL propria","guidaestetica.it/centri/studio-medico-estetico-monti-parioli"],
+ ["A","Roma-Centro","Lazio","Studio Medico Estetico Monti Parioli","Roma","RM","mariangelaercoli.com","1 (Parioli)","Piu medici + staff","Dott.ssa Mariangela Ercoli (studio prof.; 'Mariangela Ercoli Srl' risulta IN LIQUIDAZIONE)","Med. estetica, filler/botox, chirurgia plastica, benessere","MP+GEN","Fondatrice storica 40+ anni, Parioli premium; MA assetto societario da chiarire (SRL in liquidazione + doppia identita web mariangelaercoli.com / montipariolimedical.it). Attenzione omonimia 'Monti Parioli Medical' (Del Parco)","guidaestetica.it/centri/studio-medico-estetico-monti-parioli"],
  ["A","Roma-Centro","Lazio","Studio Saccomanno / SabaMedica Longevity HUB","Roma","RM","studiosaccomanno.it","2 (Piramide + San Saba)","Team multidisciplinare","Dott.ssa Karin Saccomanno (Pres. AISI)","Med. estetica, longevity/prevenzione, chirurgia specialistica, nutrizione","MP+PLAT","Indipendente per vocazione (titolare presiede Assoc. Sanita Indipendente), 2 sedi, brand premium","studiosaccomanno.it/medicina-estetica"],
  ["A","Roma-Centro","Lazio","Centro Medico Estetico Raffaella Casilli","Roma (+ Anzio)","RM","raffaellacasilli.com","2","1 (libera prof.)","Dott.ssa Raffaella Casilli (30 anni exp.)","Filler, botox, laser frazionale, luce pulsata, radiofreq., needling, carbossiterapia","GEN+PLAT","30 anni di esperienza (generazionale), 2 sedi, mix iniettabili + energy-based ripetibili","raffaellacasilli.com/chi-sono-2"],
  ["A","Roma-Centro","Toscana","Clinica Gramsci - Med. e Chirurgia Estetica","Firenze / Prato","FI","clinicagramsci.it","2 (Firenze + Prato)","3+ (Ghezzi, Quercioli, Falconi + team)","Dott.ssa Serena Ghezzi + Dr. Fabio Quercioli","Med. estetica, med. rigenerativa, laserterapia, chir. plastica","MP+PLAT","Gia rete 2 sedi con divisioni distinte estetica/rigenerativa/laser, entita P.IVA dedicata; piattaforma toscana","ufficiocamerale.it (P.IVA 07363720488)"],
@@ -255,6 +255,49 @@ for ri in range(2, ws5.max_row+1):
         ws5.cell(ri,ci).alignment=wrap; ws5.cell(ri,ci).border=border
 for i,w in enumerate([34,54,44,28],1):
     ws5.column_dimensions[get_column_letter(i)].width=w
+
+# ================= SHEET 6: Tier A - Dossier (camerale + contatti) =================
+# Colonne: Clinica, Cluster, Ragione sociale / Forma, P.IVA, Fatturato (anno/fonte),
+#          Verdetto ICP, Referente, Telefono, Email, PEC, LinkedIn, Indirizzo, Flag/caveat
+dossier = [
+ ["Studio Medico Estetico Monti Parioli","Roma","Studio prof. / ditta indiv.; 'Mariangela Ercoli Srl' IN LIQUIDAZIONE","n/d","n/d (non depositato)","n/d","Dott.ssa Mariangela Ercoli","06 87089918 / 351 4676449 (sito attuale); 06 3226547 (reg.)","info@montipariolimedical.it","n/d","n/d","Via dei Monti Parioli 36, 00197 Roma","Assetto societario da chiarire: SRL in liquidazione + doppia identita web. Omonimia con 'Monti Parioli Medical' (sorelle Del Parco)"],
+ ["Studio Saccomanno / SabaMedica","Roma","SAN SABA MEDICA S.R.L. (ATECO 86.22.09)","n/d","fascia EUR 0,3-0,6M (2023) - informazione-aziende.it","Probabile SOTTO","Dott.ssa Karin Saccomanno","06 5757308 / 349 7391039","st.saccomanno@gmail.com","n/d","n/d","Viale Piramide Cestia 1, 00153 Roma","Possibile upside se sommato il fatturato su P.IVA personale della dottoressa (non consolidato)"],
+ ["Centro Medico Estetico Raffaella Casilli","Roma","Studio prof. / ditta indiv. (nessuna SRL)","n/d","n/d (non depositato)","Probabile SOTTO","Dott.ssa Raffaella Casilli","06 3220030 / 366 1914536","info@raffaellacasilli.com","n/d","linkedin.com/in/dottoressa-raffaella-casilli","Viale Belle Arti 7, 00196 Roma (+ Anzio)","Struttura mono-professionale su 2 studi (appuntamento)"],
+ ["Clinica Gramsci","Firenze/Prato","CLINICA GRAMSCI - CHIRURGIA PLASTICA E MEDICINA ESTETICA S.R.L.","07363720488","n/d (SRL con bilancio depositato - non accessibile via web)","n/d - PRIORITARIA visura","Dott.ssa Serena Ghezzi / Dr. Fabio Quercioli","055 8358297","info@clinicagramsci.it","n/d (esiste, non esposta)","linkedin.com/in/dott-serenaghezzi ; linkedin.com/in/fabio-quercioli-9319b042","Viale Gramsci 63/65, Firenze (+ V.le Marconi 50/7, Prato)","Unica vera SRL strutturata con bilancio tra i Tier A Roma-Centro: prioritaria per visura camerale a pagamento (i numeri esistono)"],
+ ["JFK Medical Beauty","Pescara/Perugia","Non identificata (nessuna 'JFK Srl' confermata)","n/d","n/d","n/d","n/d (Dr. Carlo Carusi, chirurgo)","085 2010818","info@jfkmedicalbeauty.it","n/d","n/d","Viale J.F. Kennedy 167, 65123 Pescara; Perugia n/d","Ragione sociale mancante; discordanza indirizzo Pescara (Kennedy 167 vs 'via Bologna'); NON usare 'JMJ Pescara Srls' (non provato il legame)"],
+ ["Poliambulatorio Filippini","Brescia","Studio / ditta indiv. (probabile)","03017310172","n/d (non depositato)","n/d","Prof. Enrico Filippini","030 2807547 / 335 5850800 / WA 389 2681259","info@studiomedicofilippini.it","n/d","linkedin.com/company/poliambulatoriofilippini (aziendale)","Via San Francesco d'Assisi 3, 25122 Brescia","OMONIMIA: 'Poliambulatorio Filippini S.R.L.' P.IVA 02584010124 e' a Tradate (VA) - entita DIVERSA, non confondere"],
+ ["Poliambulatorio Finazzi","Bergamo","POLIAMBULATORIO FINAZZI SRL (cost. 2023)","04697570168","EUR 191.671 (2024); 17.580 (2023); 3 dip - reportaziende.it","Probabile SOTTO","Glauco Finazzi (AD)","035 0770751 / 340 2706511","info@poliambulatoriofinazzi.it","n/d (esiste, oscurata)","it.linkedin.com/in/glauco-finazzi","Via G.B. Berizzi 45, 24126 Bergamo","SRL neocostituita/piccola: se il business reale e' piu' grande il fatturato storico e' probabilmente in un'altra entita' - verificare"],
+ ["Poliambulatorio Medivela","Torino","MEDIVELA S.R.L. (cost. 2011, ATECO 86.22.09)","10020590013","EUR 684k (2022) -> 757k (2023) -> ~826k (2024 stima); 4 dip - reportaziende.it/ufficiocamerale","DENTRO (borderline floor)","Dr. Sergio Periotto (dir. san.)","011 5612296","info@medivela.com","medivela.srl@legalmail.it","n/d","Via Vincenzo Vela 2, 10128 Torino","UNICO target Tier A con ricavi verificati vicino/dentro la soglia ICP"],
+ ["Clinica Visage","Genova/Ventimiglia","Ditta indiv. / studio (ragione sociale non confermata)","02425900996 (non verificata)","n/d (non depositato)","n/d","n/d (dir. san./titolare non pubblico)","342 1915957 (anche WhatsApp)","info@clinicavisage.it","n/d","n/d","Via Ruffini 10/3, 18039 Ventimiglia; Genova (P.za De Ferrari, non confermato)","Possibile distinzione tra clinicavisage.it e 'Visage Medicina e Chir. Estetica' (P.za Piccapietra 73 Genova, 010 663351) - verificare se stessa struttura. Omonimia 'Visage Srl' San Vitaliano (NA)"],
+ ["Medical Laser Clinic","Verona","MEDICAL LASER CLINIC S.R.L. (cost. 2014, ATECO 86.22.06)","04268200237","n/d (SRL con bilancio - non accessibile via web)","n/d","Dr. Stefano Anderluzzi (+ Dr. Francesco Colla)","045 990465 / 371 1457873","info@medicallaserclinic.it","n/d","n/d","Via Archimede 10, 37036 San Martino B.A. (VR)","NON confondere con 'MD Clinic Srl' (04557910231, diagnostica): il fatturato EUR 174k spesso associato via motori e' di MD Clinic, non del target"],
+ ["AES Clinic","Padova","PERLA MEDICINA S.R.L. (socio unico, REA PD-447230)","05153050280","n/d (SRL con bilancio - non accessibile via web)","n/d - miglior candidata al range","Dott.ssa MianMian Wang","049 5225283 / 334 9444309","n/d (solo form sul sito)","perlamedicina@pec.it","n/d","Sede legale Via del Cristo 378, 35127 Padova; operativa P.le Stazione 7","La piu' 'aziendalizzata': SRL/poliambulatorio strutturato. Da chiudere il fatturato con visura CCIAA/Atoka"],
+ ["Centro San Prospero","Bologna","Operatore da identificare ('San Prospero Srl' e' IN LIQUIDAZIONE e ad altro indirizzo)","n/d","n/d","n/d","Dr. Antonio Gotti","051 0935313 / WA 349 3684962","info@medicinaesteticasanprospero.it","n/d","n/d","Via Cesare Battisti 2/D-4/A, 40123 Bologna","Identificare la ragione sociale operativa reale (via C. Battisti 2/D) prima della visura: la 'San Prospero Srl' nota e' vecchio veicolo/omonimia"],
+ ["Studio Dott.ssa Clelia Barini","Modena/Formigine","Studio prof. individuale (dal 1994)","n/d (snippet discordanti)","n/d (non depositato)","Probabile SOTTO","Dott.ssa Clelia Barini","059 557249 / 366 1391885","info@medicinaesteticabarini.it (+ dottcleliabarini@gmail.com)","n/d","n/d","Via G. Pascoli 171, 41043 Corlo di Formigine (MO) (+ La Spezia)","Studio individuale: fatturato non depositato. Docente Master Med. Estetica UniMoRe, CDA SIES"],
+ ["Studio Dott.ssa Paola Molinari","Modena","Studio prof. individuale (dal 1987; OMCeO MO n.4036)","01784820365","n/d (non depositato)","n/d","Dott.ssa Paola Molinari","059 218866 / 333 2472754","medicinaesteticamolinari@gmail.com","paola.molinari.ospa@mo.omceo.it","n/d","Via Pietro Giardini 45, 41124 Modena","Studio individuale: fatturato non depositato. Teoxane Training Center, Comitato Scientifico SIES"],
+]
+ws6 = wb.create_sheet("Tier A - Dossier")
+dh = ["Clinica","Cluster","Ragione sociale / Forma giuridica","P.IVA","Fatturato (anno / fonte)","Verdetto ICP EUR 0,8-2,5M","Referente","Telefono","Email","PEC","LinkedIn","Indirizzo","Flag / caveat"]
+ws6.append(dh)
+for c in range(1,len(dh)+1):
+    cell = ws6.cell(1,c); cell.font=white; cell.fill=hdr_fill
+    cell.alignment=Alignment(vertical="center", wrap_text=True); cell.border=border
+verdict_fill = {"DENTRO (borderline floor)": PatternFill("solid", fgColor="C6E7C9"),
+                "Probabile SOTTO": PatternFill("solid", fgColor="F3E1E1")}
+for d in dossier:
+    ws6.append(d)
+for ri in range(2, ws6.max_row+1):
+    for ci in range(1,len(dh)+1):
+        ws6.cell(ri,ci).alignment=wrap; ws6.cell(ri,ci).border=border
+    v = ws6.cell(ri,6).value
+    if v in verdict_fill: ws6.cell(ri,6).fill = verdict_fill[v]
+    ws6.cell(ri,1).font = Font(bold=True)
+for i,w in enumerate([30,14,40,14,40,20,26,26,30,26,34,34,60],1):
+    ws6.column_dimensions[get_column_letter(i)].width = w
+ws6.freeze_panes = "A2"
+ws6.row_dimensions[1].height = 30
+
+# reorder: put Dossier right after Sintesi
+wb.move_sheet("Tier A - Dossier", -(len(wb.sheetnames)-2))
 
 out = "/home/user/Luca/venere-target-search/output/Venere_Longlist_Target.xlsx"
 wb.save(out)

@@ -44,6 +44,27 @@ Struttura tipo: ingresso 3-4x EBITDA, 60-70% cash + 15-20% earn-out + 15-25% rol
 
 **Angolo**: MP = multi-provider già strutturato · GEN = uscita generazionale · PLAT = piattaforma/multi-sede (bolt-on) · CONV = mono/convertibile.
 
+## Dossier Tier A — anagrafica camerale, fatturato e contatti
+
+Approfondimento su tutti e 14 i Tier A (foglio **`Tier A - Dossier`** nell'xlsx): ragione sociale/forma giuridica, P.IVA, fatturato dove reperibile, verdetto ICP, e recapiti pubblici del referente (tel/email/PEC/LinkedIn). Sintesi dei verdetti:
+
+| Target | Forma giuridica | Fatturato (fonte) | Verdetto ICP €0,8–2,5M |
+|---|---|---|---|
+| **Medivela** (TO) | MEDIVELA SRL | €684k→757k→~826k (’22–’24) | ✅ **DENTRO** (borderline floor) |
+| San Saba Medica / Saccomanno (RM) | SRL | €0,3–0,6M (2023) | Probabile sotto |
+| Finazzi (BG) | SRL (2023) | €192k (2024) | Probabile sotto (business storico forse altrove) |
+| Casilli (RM) | ditta individuale | non depositato | Probabile sotto |
+| Clinica Gramsci (FI/PO) | SRL (P.IVA 07363720488) | non accessibile via web | n/d — **prioritaria per visura** |
+| AES Clinic / Perla Medicina (PD) | SRL socio unico | non accessibile via web | n/d — miglior candidata al range |
+| Medical Laser Clinic (VR) | SRL | non accessibile via web | n/d |
+| Ercoli (RM), Filippini (BS), Visage (GE), Barini (MO), Molinari (MO) | studi/ditte individuali | non depositato | n/d |
+| San Prospero (BO) | operatore da identificare | n/d | n/d |
+| JFK Medical Beauty (PE/PG) | non identificata | n/d | n/d |
+
+**Lettura**: la ricerca conferma la tesi del deck — la maggior parte dei target sono **studi/ditte individuali senza bilancio depositato** ("contabilità artigianali"). Solo **Medivela** ha ricavi verificabili vicino/dentro la soglia. Le SRL strutturate (Gramsci, Perla Medicina/AES, Medical Laser Clinic, San Saba Medica) hanno bilanci depositati ma non estraibili via web (aggregatori 403): serve una **visura CCIAA/Atoka a pagamento** per chiudere il dato. ⚠️ Contatti Lusha non disponibili: nessuna copertura sui micro-studi; i recapiti nel dossier sono pubblici (sito/directory) e vanno riconfermati prima dell'outreach.
+
+**Flag M&A rilevanti**: Ercoli → 'Mariangela Ercoli Srl' in liquidazione + doppia identità web (assetto da chiarire); Filippini → omonimia con Poliambulatorio Filippini Srl di Tradate (VA); Medical Laser Clinic → non confondere con MD Clinic Srl; San Prospero → identificare la società operativa reale (la "San Prospero Srl" nota è in liquidazione).
+
 ## Metodo e limiti
 
 Longlist costruita via ricerca web (4 ricercatori paralleli, uno per cluster). Ogni voce è
