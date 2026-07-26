@@ -168,3 +168,36 @@ Ripiego se vuoi massimo capitale e break netto: percorso B (vendita piena) — m
 - **NewCo indipendente**, cap table pulita, investitori family office propri. Nessun euro e nessun IP di Skylabs dentro se non via licenza arm's-length.
 - Governance del deck già ben impostata (reverse vesting sul tuo ingresso full-time, ratchet oltre la soglia di ritorno, board seat anchor, CFO espresso dagli investitori, comitato scientifico sopra il CMO, disciplina parti correlate sulle sedi del CMO). Tienila così: è ciò che ti fa raccogliere da un family office pur essendo nuovo del settore.
 - **Il tuo ingresso full-time:** il punto debole del piano è che entri "a data definita" mentre la Fase 1 è quella che derischia tutto. Se hai fatto l'MBO di Skylabs, non hai più scuse: **entri full-time su Venere dalla Fase 1**. È il singolo cambiamento che alza di più la probabilità di successo di B.
+
+---
+
+## 10. Dove va la consulenza × la vostra dimensione: perché questo lente decide
+
+Due variabili da tenere insieme, come mi hai chiesto: **la traiettoria del settore** e **la vostra scala (oggi vs. obiettivo)**.
+
+### Dove va la consulenza: si biforca
+Il mercato dei servizi IT/AI non "cala" in modo uniforme — **si spacca in due**:
+- **Perde chi vende ore** (staff augmentation, implementazione commodity, reseller su stack maturi tipo Salesforce/SAP): gli agenti AI deflazionano proprio le ore fatturabili. Ricavo e headcount si disaccoppiano, i prezzi scendono.
+- **Vince chi vende esiti o prodotto** (advisory outcome-based, IP/piattaforma proprietaria, team piccolo e senior con leva AI, ricavi ricorrenti). Qui l'AI è moltiplicatore, non minaccia.
+
+### La vostra dimensione oggi: siete nella coorte più esposta
+Skylabs oggi è ~**€20M di ricavi, ~100 persone, ~12% EBITDA**, con la BU più grande (Salesforce ~20,8M nel '27) fatta di reseller + implementazione. Tradotto nel quadro sopra: siete **sub-scala, pesati sulle ore, nella nicchia che l'AI deflaziona**. È il "no man's land": troppo grandi per essere una boutique senior ad alto valore, troppo piccoli e troppo services-dipendenti per essere una software company. **È esattamente il profilo che il consolidamento della consulenza schiaccia per primo.**
+
+### La dimensione a cui puntate: €82M non vi tira fuori dalla trappola (così com'è)
+Il piano AI Evolution punta a crescere *fuori* dalla zona di pericolo scalando a €82M via M&A. Due problemi strutturali:
+1. **State scalando la cosa sbagliata al momento sbagliato.** Comprare altre società Salesforce/SAP/MS (Advant, Sidea, Lobra) a ~1x ricavi significa comprare *più* del ricavo che si sta ri-prezzando al ribasso. La M&A aggiunge fatturato, ma del *tipo* in deflazione: aumenta l'esposizione, non la riduce.
+2. **Il multiplo d'uscita (10x EBITDA) è un multiplo da services che si sta comprimendo.** Nel 2029 un gruppo IT-services sub-scala da €10M EBITDA che vende implementazione difficilmente prende 10x — i multipli del segmento esposto vanno verso 6-8x e sotto. Quindi i €100M sono doppiamente ottimistici: sull'88% CAGR **e** sul multiplo. Scenario realistico del grind: 3 anni, arrivi a €50-60M di ricavi, esci a 6x su EBITDA più bassa → **molto sotto €26,5M per te**.
+
+**L'unico modo in cui A funziona davvero** è ribaltare il *mix*: da implementazione/reseller a **Product (Universe, licenze ricorrenti) + advisory a esito**. Se nel 2029 una quota rilevante degli €82M fosse ricavo di prodotto ricorrente, il gruppo si ri-valuta da services (10x EBITDA) a software/ibrido (**3-5x ricavi**) — e allora €82M potrebbe valere €200M+. Ma nel piano attuale Product va da 0,7M a 1,37M: **~2% dei ricavi. Il piano non sta eseguendo il pivot che lo salverebbe — è un roll-up di services con un brand AI.**
+
+### Il punto sulla scala relativa (il cuore di "la nostra dimensione vs quella a cui puntiamo")
+- **In consulenza AI, a €20-82M sei un pesce piccolo tra le balene.** Accenture, Deloitte (che nelle tue note ti sta già portando via i senior su Unicredit), i major indiani, e — nella tua stessa slide Universe — **le piattaforme dei vendor (Agentforce, Joule)** che sono al tempo stesso partner e concorrenti. A quella scala non diventi mai "the global reference": resti un niche player che combatte i giganti *e* le piattaforme.
+- **In estetica, a €90-125M / 20-30 cliniche sei letteralmente il #1 nazionale**, in un mercato con **zero** consolidatori istituzionali. Stesso capitale, stesso sforzo: in un caso sei un pesciolino per sempre, nell'altro sei tu la balena.
+
+**La scala lavora in direzioni opposte nei due settori.** In estetica più cresci più il multiplo *si espande* (4,5x → 6,5x → 9,5x nel benchmark USA) e più diventi target ambito. In consulenza, oltre una certa soglia la scala smette di proteggerti perché l'intera categoria si ri-prezza.
+
+### La sfumatura onesta (il tetto)
+La *vision* di Skylabs ("global reference for AI industrialization") ha un **tetto teorico più alto** di una catena estetica nazionale: un vero prodotto software può fare numeri da unicorno, un roll-up estetico esce a un PE per €100-300M. **Ma quel tetto appartiene a una software company, non al roll-up di services descritto nel deck.** Se il tuo vero sogno è il prodotto, la mossa non è "comprare 3 consulenze": è spostare tutte le risorse su Skylabs P/Universe e diventare una product company — un'azienda diversa da quella nel piano A. Finché A resta un roll-up di ore, il lente dimensione+traiettoria lo indebolisce e rafforza il "vendi ora al picco 2026".
+
+### Cosa cambia rispetto alle sezioni precedenti
+Questo lente **non ribalta** la raccomandazione: la **rinforza e la rende più urgente**. La tua dimensione attuale è il momento di *massimo valore relativo* di Skylabs per un acquirente (logo blue-chip + storia AI + 100 persone certificate), *prima* che la deflazione della consulenza e la compressione dei multipli mordano. **Vendere a €20M nel 2026 batte vendere un grind da €50-60M nel 2029.** E il capitale liberato va dove la scala ti fa diventare leader invece che minnow.
