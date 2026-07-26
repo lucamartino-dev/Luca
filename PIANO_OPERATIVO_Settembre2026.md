@@ -205,7 +205,16 @@ Idea forte: **lanciare la prima clinica brandizzata con Marcello come medico di 
 - **Comp di Marcello risolta:** pratica nel flagship → guadagna lì i suoi ~€240k (market-rate, related-party), **zero cash-burn** per la società.
 - **Parte subito, senza Diana:** flagship + prime acquisizioni girano su **Marcello + COO + te**; il gestionale di Diana arriva dopo (coerente con la riservatezza).
 
-**Ma tienilo nel ruolo giusto: il flagship è un laboratorio, non il motore di scala.** Lo **scale resta buy-and-build** (acquisisci cliniche profittevoli a 3-4x e le **converti** al format — è la tesi del deck, l'arbitraggio di multipli); il greenfield puro sarebbe più lento e rischioso. Quindi: **1 flagship per perfezionare e mostrare il format → poi acquisisci-e-converti a scala.** Tienilo **snello e time-boxed** (non un progetto-vanità), e usa Marcello come **template clinico e formatore** per replicare lo standard nelle sedi successive.
+**Ma tienilo nel ruolo giusto: il flagship è un laboratorio, non il motore di scala.** Lo **scale resta buy-and-build** (acquisisci cliniche profittevoli a 3-4x e le **converti** al format — è la tesi del deck, l'arbitraggio di multipli); il greenfield puro sarebbe più lento e rischioso. Quindi: **1 flagship per perfezionare e mostrare il format → poi acquisisci-e-converti a scala.** Usa Marcello come **template clinico e formatore** per replicare lo standard nelle sedi successive.
+
+**Come tenerlo snello — 7 regole:**
+1. **Converti una sede esistente di Marcello, non costruire greenfield.** Rebrandizza e strumenta una delle sue cliniche → **capex quasi zero, live da subito, base pazienti reale, autorizzazioni già in essere**. ⚠️ Related-party a valore di mercato (perizia indipendente). Se il greenfield è inevitabile, tienilo piccolo.
+2. **Capex minimo e in fasi:** affitto non acquisto; parti dagli **iniettabili** (basso capex), aggiungi i **dispositivi energy-based** (parte cara) **solo dopo** aver provato il recurring. Sede credibile, non un monumento.
+3. **Time-box 6-9 mesi:** l'obiettivo non è fatturato, è **codificare il format e centrare i KPI** (recurring %, uplift EBITDA/clinica, conversione, retention). Poi sposti il focus sulle acquisizioni.
+4. **Strumenta, non ingioiellare:** produce **dati + playbook replicabile**, non è un profit center. **Gestionale interim off-the-shelf** (quello di Diana viene dopo), protocolli standard, fornitori esistenti. Zero bespoke pre-prova.
+5. **Team leggero:** Marcello (1 g/sett + pratica) + **un site manager** + supervisione COO. Serve a *disegnare* i ruoli da replicare, non a staffare un team centrale attorno a una clinica.
+6. **Una sola, non una mini-catena.** Uno basta per provare e codificare; la moltiplicazione viene dalle acquisizioni.
+7. **Ring-fence capitale e attenzione:** cap esplicito e piccolo sul capitale al flagship (fetta minima dei 4-5M); il **focus tuo e del COO resta la pipeline di acquisizione**. Criterio d'uscita dal "lab": format codificato + KPI centrati + playbook + showcase pronti → da lì è la **clinica #1 della rete**, non più un progetto speciale.
 
 ### Advisory board Venere — short list
 Costruisci un advisory board mirato che **chiude il tuo gap di credibilità di settore** e porta know-how esecutivo. Formalizzato (lettere d'incarico + NDA), con **equity/warrant dal pool** (non dai founder) e ruoli non sovrapposti.
