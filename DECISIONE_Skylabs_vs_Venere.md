@@ -350,3 +350,61 @@ Il tuo "Inner Circle" (Founding/Senior/Equity/Associate Partner) fa tre cose che
 - **Gap di finanziamento:** se i manager non hanno cassa → porta uno sponsor finanziario o accetta più differito.
 - **Appetito reale di Diana & co.:** devono *volere* guidarla e comprarla. Se preferiscono solo liquidità (vendere a un terzo con te), l'MBO non nasce → testalo **subito**, a settembre.
 - **Non svuotare l'azienda dei suoi uomini-chiave** mentre la svincoli: tienili incentivati con l'equity partner.
+
+---
+
+## 15. Se anche i soci escono con te: cosa cambia (e un dubbio da guardare in faccia)
+
+Se pensi che i 3 soci vogliano **seguirti**, la premessa dell'MBO cambia: **non resta nessun compratore interno a guidare Skylabs.** Devi svincolarla da **tutti e quattro i fondatori**, non solo da te. È fattibile, ma modifica via d'uscita, prezzo e — soprattutto — apre una domanda scomoda sul *chi* porti con te.
+
+### Aggiornamento sui fatti reali (fornito da Luca): sei quasi già svincolato
+Situazione vera, che semplifica moltissimo:
+- **Clienti già distribuiti al business** → il pezzo più difficile dello svincolo (le relazioni non più su di te) è **già fatto**.
+- **Enzo e Carmelo non sono chiave** → la loro uscita non intacca la vendibilità.
+- **Resta un solo nodo: Diana.** Si risolve **mettendo un GM al suo posto** — un'assunzione mirata, non una riorganizzazione.
+
+**Conseguenza importante:** con un GM che guida le operations c'è **continuità di management** anche senza i fondatori → **si riaprono le opzioni che sopra davo per chiuse.** Non sei più costretto al solo bolt-on strategico: torni ad avere anche la **vendita finanziaria** (il buyer backa il GM) e una forma di **buy-out guidato dal GM + partner** (MBI). Più opzioni = più leva sul prezzo. E la timeline si accorcia: svincolabile in **~6-9 mesi**, non 12-18.
+
+### Il playbook "Diana → GM"
+1. **Cosa deve coprire il GM:** P&L, oversight della delivery sulle BU, gestione operativa, leadership del team, ed essere il **volto verso clienti e compratore**. Poiché i clienti sono già sul business layer, il GM eredita *gestione*, non *ricostruzione di relazioni*.
+2. **Attenzione a non perdere la spina tecnica:** Diana è CTO. Sostituirlo può voler dire **GM (ops/commerciale/P&L) + elevare un Head of Technology** dal layer partner. Non lasciare un buco tecnico quando esce.
+3. **Build vs buy:**
+   - *Promuovi dall'interno* (Head of Delivery / Senior Business Advisor pronto): più veloce, allineato culturalmente, più economico, e — con i clienti già suoi — plausibile.
+   - *Assumi esterno (MBI)*: più capacità, ma rischio cultura + tempi. Valuta un profilo che ha già gestito il P&L di un SI da €10-30M, meglio se dall'ecosistema SF/SAP, disposto anche a **entrare in equity** (diventa il tuo compratore-manager).
+4. **Timing:** insedia il GM a settembre-ottobre, handover da Diana in 6-9 mesi, e usa quella finestra per **dimostrare al mercato/buyer che gira sul GM** — è ciò che alza il prezzo e sblocca la tua uscita.
+5. **Retention:** lega GM + Head of Technology + delivery leader con equity/partner + bonus legati alla transazione. Una volta usciti i fondatori, la paura n°1 del compratore è che *loro* se ne vadano.
+6. **Percorso di Diana:** consegna le ops al GM, poi ha due strade pulite — **seguirti in Venere come owner del gestionale/dataset proprietario** (l'unico ruolo tech che serve davvero a Venere) **oppure** liquidità e strada sua. È il socio giusto per il moat software di Venere, se lo vuole.
+
+*(Le "Conseguenze 1-3" e la tabella role-fit qui sotto restano valide come cornice generale; la realtà che mi hai dato le semplifica: lo svincolo è quasi fatto, e l'unico lavoro è il GM.)*
+
+### Conseguenza 1: l'MBO "ai soci" salta → l'exit naturale diventa il bolt-on strategico
+Con l'intero team fondatore che esce, un compratore finanziario puro si spaventa ("chi la guida?"). Due strade:
+- **A. Costruisci prima un management non-fondatore** (dai ranghi del Partner Program: Head of Tech/Delivery, Senior Business Advisor promossi a CEO/leadership), provi che gira senza fondatori, poi vendi. Più lento (12-18 mesi), ma tieni aperta la vendita finanziaria.
+- **B. Vendi come *bolt-on* a un consolidatore dell'ecosistema SF/SAP che porta il *proprio* management.** Quando tutti i fondatori escono, **questo è il compratore più naturale**: assorbe clienti, certificazioni, delivery pod e brand nella sua struttura di leadership esistente — non ha bisogno di voi. È anche il compratore che paga il **premio strategico** (le certificazioni SF/SAP + i logo blue-chip italiani sono esattamente ciò che compra un roll-up di partner).
+
+→ **L'uscita di tutti i fondatori spinge verso la strada B.** Il Partner Program qui serve a **trattenere il layer non-fondatore** che si trasferisce al compratore (retention = ciò che il compratore valuta di più).
+
+### Conseguenza 2: il prezzo standalone scende, il bolt-on lo recupera
+La partenza di tutto il team fondatore **abbassa il valore standalone** (rischio management). Ma nella strada B il compratore non ha bisogno del vostro management → il *fit strategico* (clienti + certificazioni + team di delivery) recupera valore. Morale: con tutti i fondatori fuori, **non cercare la vendita finanziaria standalone, cerca il consolidatore strategico.**
+
+### Conseguenza 3 (la più importante): loyalty ≠ role-fit. Non trasferire la band tech in un roll-up di cliniche.
+Questo devi guardarlo in faccia. Diana (architetture software), Leonardi (cybersecurity/business economics), Zappalà (IT consultancy) sono **uomini AI/tech**. **Venere è un consolidamento di cliniche mediche.** Portarli tutti "perché vogliono seguirti" rischia di **rifare l'errore di partenza**: una squadra di consulenza AI dentro un business operativo non-tech. Mappa ruolo per ruolo, con onestà:
+
+| Socio | Fit reale in Venere? |
+|---|---|
+| **Enzo Leonardi (CFO)** | **Sì, portabile.** La finanza è finanza: candidato naturale a **CFO di Venere** (o interfaccia con la funzione CFO espressa dagli anchor). |
+| **Salvatore Diana (CTO)** | **Solo per una cosa precisa:** possedere e costruire il **gestionale/dataset proprietario** di Venere (il moat tech). Ma **non può** insieme restare a guidare Skylabs: scegli. |
+| **Carmelo Zappalà** | **Fit non ovvio.** IT consultancy non serve a gestire cliniche. Ruolo da definire, o liquidità + strada propria. |
+
+Ciò che a Venere serve davvero è **clinico + retail-ops + finanza + un owner software focalizzato** — non un secondo team di AI-consulting. Chi non ha un ruolo vero in Venere merita **liquidità e la sua strada**, non un posto per inerzia.
+
+### L'ibrido che potrebbe essere ottimale (da testare a settembre)
+Se **anche un solo fondatore** — idealmente **Diana** — accettasse di **restare a guidare Skylabs**, sblocchi l'MBO più pulito/di maggior valore *e* liberi gli altri di seguirti selettivamente. Quindi la prima conversazione non è "venite tutti con me", è: **"chi vuole davvero cosa?"** L'esito ideale potrebbe essere: Diana resta e guida (o compra) Skylabs, Leonardi viene come CFO Venere, Zappalà sceglie. Non darlo per scontato in un senso o nell'altro: **testa desiderio *e* fit, socio per socio.**
+
+### Legale, ancora più delicato con il team-lift-out
+- **Non-compete:** il compratore pretenderà non-concorrenza da tutti i fondatori. Il settore diverso (estetica) aiuta, ma va scritto con carve-out espliciti per Venere.
+- **Separazione IP nettissima:** l'intero team che lascia una società in vendita per costruirne una tech-enabled accanto, usando DNA tech della società venduta, è **esattamente ciò che un compratore contesta**. Il gestionale Venere va **clean-room o licenziato a valore di mercato**, documentato *prima* che Diana tocchi una riga.
+- **Sconto da partenza-team:** mettilo in conto nel prezzo, ed è un'altra ragione per la strada B (dove pesa meno).
+
+### Effetto sul piano
+Il workstream "**costruire il layer di management non-fondatore via Partner Program**" sale al **primo posto assoluto** del critical path: con tutti i fondatori in uscita, senza quel layer Skylabs non è vendibile a nessuno se non a un consolidatore che la assorbe. E la conversazione di settembre coi soci diventa "**chi vuole cosa (desiderio) e chi serve dove (fit)**", non un trasloco collettivo.
