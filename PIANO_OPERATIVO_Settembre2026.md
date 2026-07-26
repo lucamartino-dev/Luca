@@ -156,13 +156,15 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 
 | Founder | % (pre-aucap) | Razionale |
 |---|---|---|
-| **Luca** — CEO, ideatore, capitale, M&A, IR + co-invest cash | **55%** | è la tua iniziativa: guidi, raccogli, co-investi |
-| **Diana (Salvo)** — #2 provato, business + AI + owner del moat | **18%** | operatore esperto e tuo vice; va all-in su Venere |
-| **Cammalleri (Marcello)** — CMO clinico, full-time | **15%** | credibilità clinica + deal flow (ma non uomo d'azienda) |
+| **Luca** — CEO, ideatore, capitale, M&A, IR + co-invest cash | **63%** | è la tua iniziativa: guidi, raccogli, co-investi |
+| **Diana (Salvo)** — #2 provato, business + AI + owner del moat, full-time | **18%** | operatore esperto e tuo vice; va all-in su Venere |
 | **COO / AD operativo** — full-time | **12%** | esecuzione format e P&L per sede |
+| **Marcello (Cammalleri)** — clinical partner **part-time** (mantiene la pratica) | **7%** | credibilità + origination + protocolli + medici; comp dalla clinica, non dalla società |
 | **Totale founder** | **100%** | prima di investitori e pool |
 
-**Vista 2 — Post aumento di capitale** (raise €12M per il 60%, pool creato al round): investitori **60%**; la tua 55% pre si diluisce a **~15%**, Diana **~5%**, Cammalleri **~4%**, COO **~3%**, con **option pool ~12-13%** per gli hire futuri. (Il deck fissa solo l'aggregato *founders & management 40%*; lo split per-persona è tua negoziazione.)
+Lever: fondando **85/15** anziché 90/10, Marcello sale a ~**10-11%**. La differenza tra un clinical partner (7%) e un co-founder clinico pieno resta a **Luca** o va **riservata nel pool** per un CMO full-time futuro.
+
+**Vista 2 — Post aumento di capitale** (raise €12M per il 60%, pool creato al round): investitori **60%**; la tua 63% pre si diluisce a **~17%**, Diana **~5%**, COO **~3%**, Marcello **~2%**, con **option pool ~12-13%** per gli hire futuri. (Il deck fissa solo l'aggregato *founders & management 40%*; lo split per-persona è tua negoziazione.)
 
 **Leve:** il **ratchet** può portare i founder verso **45-50%+** a un buon exit (è lì la tua upside); il **cash co-invest** aumenta la tua % (quote investor-side comprate a €20M); **reverse vesting** su tutti; le **sedi di Cammalleri**, se confluiscono, valutate separatamente (related-party), non gonfiando la sua %; per un **COO** top usa il **pool**, non i founder.
 
@@ -170,23 +172,31 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 Ha senso **fondare Venere solo con te e Cammalleri** e far entrare **COO e Diana dopo**, quando l'azienda è concreta. È elegante perché allinea tre cose: **concretezza** (entrano su una società reale, non su slide), **riservatezza** (Diana non è un socio Venere visibile durante la vendita di Skylabs → nessun paper trail sul suo move) e **timing del valore** (ognuno entra quando serve).
 
 **La sequenza:**
-1. **Fondazione — Luca 80% / Cammalleri 20%.** Cammalleri è l'unico indispensabile all'inizio: credibilità clinica + deal flow per la prima acquisizione.
+1. **Fondazione — Luca 90% / Marcello 10%.** Marcello è l'unico indispensabile all'inizio (credibilità clinica + deal flow per la prima acquisizione), come **clinical partner part-time** (vedi sotto).
 2. **COO — intorno alla prima acquisizione:** serve a far girare format e P&L; probabilmente **prima** di Diana.
 3. **Diana — al closing di Skylabs (≈H2'27):** momento in cui la vendita è chiusa (riservatezza non più necessaria) *e* hai già la prima clinica → ingresso concreto. Fino ad allora il gestionale gira su un **sistema interim**; Diana costruisce il moat quando entra.
 
-**Perché i numeri tornano:** l'80/20 di fondazione **atterra sul target**. Ratio Luca:Cammalleri = 80:20; emettendo poi **Diana 18%** e **COO 12%**, i due si diluiscono in proporzione fino a **~55% / ~15%** — la Vista 1. L'80/20 **è** il target, prima di aggiungere gli altri due.
+**Perché i numeri tornano:** ratio Luca:Marcello = 90:10; emettendo poi **Diana 18%** e **COO 12%**, i due si diluiscono in proporzione fino a **~63% / ~7%** (base founder) — la Vista 1. Il 90/10 **è** il punto di partenza che atterra sul target.
 
-**Presidio da mettere subito — founders' agreement alla fondazione:** pre-definisce (a) la cap table target fully-diluted, (b) le **quote riservate e il vesting per Diana e il COO** (emesse al loro ingresso), (c) l'**option pool**, (d) **reverse vesting** su te e Cammalleri. Così Cammalleri sa da subito che il suo 20%-di-due diventa ~15% con gli ingressi previsti (non si sente diluito) e nessuno rinegozia dopo.
+**Presidio da mettere subito — founders' agreement alla fondazione:** pre-definisce (a) la cap table target fully-diluted, (b) le **quote riservate e il vesting per Diana e il COO** (emesse al loro ingresso), (c) l'**option pool** (con una riserva per la futura leadership clinica), (d) **reverse vesting** su tutti, e (e) i **deliverable clinici di Marcello** cui è legato il suo vesting. Così ognuno sa la propria traiettoria e nessuno rinegozia dopo.
 
-### Il co-founder clinico: comp e ruolo (il nodo Cammalleri)
-Cammalleri guadagna oggi **~€240k/anno** dalla pratica clinica. Un medico praticante come co-founder full-time a **stipendio pieno** è caro su due assi (equity **e** cassa) e, se pretende la sostituzione integrale del reddito, segnala che non si prende il rischio da founder. Ma la **credibilità clinica ti serve**. Come scioglierlo:
+### Il ruolo di Marcello: clinical partner part-time (mantiene la pratica)
+Struttura raccomandata: **Marcello mantiene il suo lavoro clinico** (i suoi ~€240k se li guadagna dalla pratica, idealmente in una sede del gruppo), entra come **clinical partner** con l'**equity come unico upside** (stipendio da società minimo/nullo). Fondazione **90/10** (Luca 90 / Marcello 10). Ma il punto vero: **il suo impegno dev'essere scritto e misurato**, o un part-time con equity "non fa nulla e aspetta l'exit".
 
-1. **Scollega la sua comp dalla cassa della società:** continua a esercitare e **guadagna i suoi €240k dalla clinica** (idealmente in una delle prime sedi del gruppo), prende **equity come upside** e **stipendio da founder minimo o nullo**. Risolve insieme cash-burn e "pretese".
-2. **Dimensiona l'equity al commitment reale:** full-time committed + comp autofinanziata → **co-founder ~12-15%**; part-time / vuole cassa → **clinical partner ~8-10% + paga clinica di mercato**, non co-founder (l'equity liberata va a operatori/pool).
-3. **Credibilità clinica per struttura, non per una persona:** comitato scientifico indipendente + **KOL advisor** che lo presiede + **direttori sanitari** assunti per sede. Coerente col deck (comitato scientifico *sopra* il CMO) e non ostaggio di un singolo clinico costoso.
-4. **Test di fit:** se insiste sulla sostituzione integrale dei €240k in cassa → è un **clinico molto pagato, non un co-founder**; struttura di conseguenza e ridai quell'equity a chi costruisce/gestisce.
+**In cosa il suo tempo è fondamentale — le 5 aree non delegabili:**
+1. **Origination + due diligence clinica dei target.** Conosce il settore: quali studi valgono, quali medici sono credibili, i **volumi reali** di procedure (vs libri gonfiati), chi vende ed è motivato. È il "network clinico" che il deck indica come fonte n°1 di deal flow. Un finanziario non sa giudicare se i ricavi di una clinica sono clinicamente sostenibili — lui sì.
+2. **Format e protocolli clinici.** Disegna i percorsi di cura, il mix clinico (iniettabili, energy-based, rigenerativa, post-GLP-1) e la meccanica del **recurring su prescrizione** — che è medica e deontologica, non commerciale.
+3. **Reclutamento e retention dei medici.** Attrae e valuta i medici per il modello multi-provider, ed è il **pari** che rispettano: i medici restano per un leader clinico credibile, non per una holding. Mitiga il rischio n°1 "dipendenza dal medico".
+4. **Volto clinico verso investitori e venditori.** In raccolta (family office) e in trattativa: un medico vende più volentieri a una piattaforma guidata da un collega rispettato. Chiude il tuo gap di credibilità di settore.
+5. **Qualità clinica, governance e reputazione.** Sotto il comitato scientifico indipendente, è il leader clinico esecutivo responsabile di protocolli, outcome tracking e presidi reputazionali — **il rischio n°1 che distrugge brand e multiplo**.
 
-**Effetto sulla cap table:** la quota di Cammalleri (Vista 1) è **contingente** a questo. Co-founder committed a comp autofinanziata → ~15% e **l'80/20 di fondazione regge**; clinical partner → ~8-10%, fondazione più snella (Luca più alto o Cammalleri come partner non-founder) e il liberato a Luca/COO/pool.
+**L'impegno concreto (per evitare che non faccia nulla) — da scrivere nel founders' agreement:**
+- **Tempo minimo:** ~**1-1,5 giorni/settimana equivalenti** (o X giorni/mese fissati), compatibile con la pratica.
+- **Deliverable/KPI trimestrali:** n° di target qualificati sourced+vettati, protocolli consegnati, medici reclutati; **presenza obbligatoria** ai meeting di fundraising e alle review di qualità clinica.
+- **Vesting legato ai deliverable, non solo al tempo**, con **clausola di underperformance/bad-leaver**: se coasta, l'equity non maturata torna indietro. È questo che rende l'impegno reale.
+- **Comp:** €0-minimo dalla società; guadagna dalla pratica; l'equity è l'incentivo e vesta sui risultati.
+
+**La quota (90/10):** a regime, dopo l'ingresso di **Diana 18%** e **COO 12%**, il 90/10 iniziale atterra su **~Luca 63% / Marcello 7%** (base founder, pre-investitori). Se lo vuoi più vicino a **~10-11%**, fondi **85/15**. L'equity non assegnata a un co-founder clinico pieno resta a **Luca** e/o va **riservata nel pool** per la futura leadership clinica (un **CMO full-time** quando scali, i direttori sanitari, il KOL advisor).
 
 ### Advisory board Venere — short list
 Costruisci un advisory board mirato che **chiude il tuo gap di credibilità di settore** e porta know-how esecutivo. Formalizzato (lettere d'incarico + NDA), con **equity/warrant dal pool** (non dai founder) e ruoli non sovrapposti.
