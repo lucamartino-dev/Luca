@@ -2,10 +2,11 @@
 
 *Piano d'azione esecutivo. Riservato. Complemento a `DECISIONE_Skylabs_vs_Venere.md`.*
 
-## Le decisioni che il piano esegue
+## Cosa esegue questo piano
+Questo è il *come* di **una** direzione — la raccomandazione del memo — **non una scelta già presa**: la scelta principale (mettere il focus su **Skylabs o su Venere**) la fai tu, e la valuti nella Parte A del memo. *Se* propendi per Venere, il piano è questo:
 - **Focus: Venere.**
 - **Skylabs: vendita piena, tutti i fondatori insieme, a uno strategico (Cegeka Italia o Bip), entro il 2027.**
-- **Diana in Venere** (owner del moat software/dati); gli altri soci incassano nella vendita.
+- **Diana in Venere** (owner del moat software/dati + tuo #2); gli altri soci incassano nella vendita.
 - **Pipeline (Sidea/Advant/Lobra) + Partner Program** usati per alzare il prezzo e garantire al compratore la continuità che permette a tutti di uscire.
 
 ## Principio guida (da non violare)
@@ -135,13 +136,13 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 
 | Founder | % (pre-aucap) | Razionale |
 |---|---|---|
-| **Luca** — CEO, ideatore, capitale, M&A, IR + co-invest cash | **60%** | è la tua iniziativa: guidi, raccogli, co-investi |
-| **Cammalleri** — CMO clinico, full-time | **18%** | credibilità clinica + deal flow, co-founder n°2 |
+| **Luca** — CEO, ideatore, capitale, M&A, IR + co-invest cash | **55%** | è la tua iniziativa: guidi, raccogli, co-investi |
+| **Diana (Salvo)** — #2 provato, business + AI + owner del moat | **18%** | operatore esperto e tuo vice; va all-in su Venere |
+| **Cammalleri (Marcello)** — CMO clinico, full-time | **15%** | credibilità clinica + deal flow (ma non uomo d'azienda) |
 | **COO / AD operativo** — full-time | **12%** | esecuzione format e P&L per sede |
-| **Diana** — owner gestionale/dataset (moat) | **10%** | vantaggio tech, ruolo di supporto (+ proventi Skylabs a parte) |
 | **Totale founder** | **100%** | prima di investitori e pool |
 
-**Vista 2 — Post aumento di capitale** (raise €12M per il 60%, pool creato al round): investitori **60%**; la tua 60% pre si diluisce a **~16%**, Cammalleri **~5%**, COO **~3-4%**, Diana **~2,5%**, con **option pool ~12-13%** per gli hire futuri. (Il deck fissa solo l'aggregato *founders & management 40%*; lo split per-persona è tua negoziazione.)
+**Vista 2 — Post aumento di capitale** (raise €12M per il 60%, pool creato al round): investitori **60%**; la tua 55% pre si diluisce a **~15%**, Diana **~5%**, Cammalleri **~4%**, COO **~3%**, con **option pool ~12-13%** per gli hire futuri. (Il deck fissa solo l'aggregato *founders & management 40%*; lo split per-persona è tua negoziazione.)
 
 **Leve:** il **ratchet** può portare i founder verso **45-50%+** a un buon exit (è lì la tua upside); il **cash co-invest** aumenta la tua % (quote investor-side comprate a €20M); **reverse vesting** su tutti; le **sedi di Cammalleri**, se confluiscono, valutate separatamente (related-party), non gonfiando la sua %; per un **COO** top usa il **pool**, non i founder.
 
