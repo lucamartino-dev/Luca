@@ -240,6 +240,45 @@ Cautela trasversale: per gli advisor che operano in **consolidamento adiacente**
 
 ---
 
+## Avviare Venere — i primi 6 mesi, passo per passo
+
+**Mese 1 (settembre) — Fondamenta legali e societarie**
+1. **Founders' agreement** Luca/Marcello (90/10, vesting, deliverable di Marcello, slot riservati Diana + COO + pool).
+2. **Costituzione NewCo con architettura MSO:** una **holding di gestione** separata dalle **società mediche operative** (l'atto medico sotto direttore sanitario/struttura autorizzata). Giusta per il regolatorio *e* per il tema fiscale (sotto).
+3. **Ingaggia gli advisor:** fiscalista/M&A, avvocato sanitario-regolatorio, notaio, commercialista.
+4. **Gestionale interim** off-the-shelf + accounting + CRM.
+5. **One-pager Fase 1 + data room** per la raccolta.
+
+**Mese 2-3 (ott-nov) — Clinico, capitale, pipeline (in parallelo)**
+6. **Marcello:** protocolli clinici + disegno dei **percorsi di cura ricorrenti**; insedia comitato scientifico e individua il direttore sanitario.
+7. **Format pilot "domanda":** innesta recurring + beauty advisor + recall + rateizzazione + KPI **sui pazienti esistenti di Marcello** e misura.
+8. **Raccolta Fase 1 (4-5M):** brief lead anchor family office + angel di settore + **advisor Hippocrates** → soft-circle.
+9. **Pipeline M&A:** 1 cluster, criteri target del deck, lista 8-12, **LOI su 2-4**.
+
+**Mese 4-6 (dic-feb) — Chiudere e partire**
+10. **Assumi il COO.**
+11. **Closing Fase 1** (4-5M).
+12. **Due diligence** sulle prime cliniche (con normalizzazione ricavi → nodo nero sotto) + **signing prima acquisizione**.
+13. **Playbook integrazione a 100 giorni** pronto.
+
+*(Diana entra al closing di Skylabs, ~H2'27 — riservato fino ad allora.)*
+
+## Il nodo del "nero" dei medici estetici (come affrontarlo, legalmente)
+
+Gran parte dei medici estetici incassa in nero per non pagare ~50% di tasse. Ti crea due problemi: (a) l'**EBITDA dichiarato dei target sottostima il reale** → prezzi bassi ma venditori che pretendono credito per numeri non verificabili; (b) dentro una piattaforma fatturata il ricavo dev'essere **bianco**, e la conversione può comprimere i margini.
+
+**Regola d'oro: non paghi per il nero e non lo perpetui. Lo sostituisci con più bianco.** Le 6 mosse:
+1. **DD sul dichiarato/tracciabile:** normalizzi sui ricavi **fatturati/POS/banca**; **non paghi il cash non verificabile** (è frode, non bookabile). Prezzi su numeri puliti → entri basso, a tuo favore.
+2. **Rischio fiscale pre-closing sul venditore:** rep & warranties + indennizzi + escrow nell'SPA. Non erediti la frode.
+3. **Sostituisci il nero con più bianco via il format:** recurring a pagamento mensile + **rateizzazione + carte = pagamenti tracciabili per costruzione**; il **+45%** del format nasce bianco. Non preservi il nero, lo rimpiazzi con un flusso bianco più grande.
+4. **Rendi il bianco conveniente col rollover in EQUITY:** il medico converte reddito da lavoro (~50%) in **capital gain all'exit** (tassazione molto più bassa). È la leva legale più forte per farlo uscire dal nero: gli dai un **asset che vale a multiplo**, cosa che il nero non può dargli.
+5. **Più volume dal sistema:** brand + marketing + recurring portano più pazienti → il lordo bianco su un book più grande eguaglia/supera il vecchio netto grigio.
+6. **Compliance nativa = valore:** MSO, fatturazione, POS ovunque, incentivi mai sui volumi, audit (dal deck). Asset pulito e bancabile all'exit = **7-10x** vs 3-4x di studi grigi. **La regolarizzazione È l'espansione del multiplo — ed è il moat** (i grigi non possono farlo).
+
+**Due avvertenze:** (a) metti in conto un **attrito di conversione** (qualche paziente cash resiste alla fattura) → modella conservativo, l'uplift deve superarlo; (b) è il **rischio d'esecuzione n°1** → serve un **fiscalista + avvocato sanitario top** (questo è framing, non parere fiscale).
+
+**Il punto strategico:** il nero non è solo un ostacolo, è **la ragione per cui i medici hanno bisogno di te** — sono incastrati (non scalano, non accedono a capitale, non vendono a istituzionali). Tu offri equity capital-gain-efficient + più pazienti + un exit pulito.
+
 ## Fronte finanziario e fiscale (verifica con commercialista — non è consulenza fiscale)
 - **Allocazione proventi Skylabs:** (a) co-invest CEO in Venere, (b) riserva personale, (c) eventuale quota Fase 1. Definisci le tre quote prima di incassare.
 - **Fiscalità della cessione:** valuta la struttura più efficiente (es. cessione via holding personale / regime PEX) **prima** del signing.
