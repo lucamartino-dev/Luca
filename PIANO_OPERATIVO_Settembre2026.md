@@ -181,7 +181,7 @@ Ha senso **fondare Venere solo con te e Cammalleri** e far entrare **COO e Diana
 **Presidio da mettere subito — founders' agreement alla fondazione:** pre-definisce (a) la cap table target fully-diluted, (b) le **quote riservate e il vesting per Diana e il COO** (emesse al loro ingresso), (c) l'**option pool** (con una riserva per la futura leadership clinica), (d) **reverse vesting** su tutti, e (e) i **deliverable clinici di Marcello** cui è legato il suo vesting. Così ognuno sa la propria traiettoria e nessuno rinegozia dopo.
 
 ### Il ruolo di Marcello: clinical partner part-time (mantiene la pratica)
-Struttura raccomandata: **Marcello mantiene il suo lavoro clinico** (i suoi ~€240k se li guadagna dalla pratica, idealmente in una sede del gruppo), entra come **clinical partner** con l'**equity come unico upside** (stipendio da società minimo/nullo). Fondazione **90/10** (Luca 90 / Marcello 10). Ma il punto vero: **il suo impegno dev'essere scritto e misurato**, o un part-time con equity "non fa nulla e aspetta l'exit".
+Struttura raccomandata: **Marcello porta due cappelli** — (a) **1 giorno/settimana sulla parte societaria** (clinical partner), e (b) **medico praticante nelle cliniche del gruppo**, a partire dal **flagship** (dove guadagna i suoi ~€240k). Entra con l'**equity come unico upside** (stipendio da società minimo/nullo). Fondazione **90/10** (Luca 90 / Marcello 10). Il punto vero: **il suo impegno societario dev'essere scritto e misurato**, o un part-time con equity "non fa nulla e aspetta l'exit".
 
 **In cosa il suo tempo è fondamentale — le 5 aree non delegabili:**
 1. **Origination + due diligence clinica dei target.** Conosce il settore: quali studi valgono, quali medici sono credibili, i **volumi reali** di procedure (vs libri gonfiati), chi vende ed è motivato. È il "network clinico" che il deck indica come fonte n°1 di deal flow. Un finanziario non sa giudicare se i ricavi di una clinica sono clinicamente sostenibili — lui sì.
@@ -191,12 +191,21 @@ Struttura raccomandata: **Marcello mantiene il suo lavoro clinico** (i suoi ~€
 5. **Qualità clinica, governance e reputazione.** Sotto il comitato scientifico indipendente, è il leader clinico esecutivo responsabile di protocolli, outcome tracking e presidi reputazionali — **il rischio n°1 che distrugge brand e multiplo**.
 
 **L'impegno concreto (per evitare che non faccia nulla) — da scrivere nel founders' agreement:**
-- **Tempo minimo:** ~**1-1,5 giorni/settimana equivalenti** (o X giorni/mese fissati), compatibile con la pratica.
+- **Tempo minimo (parte societaria):** **1 giorno/settimana garantito** (sourcing/DD clinica, protocolli, reclutamento medici, governance) — compatibile con la pratica.
 - **Deliverable/KPI trimestrali:** n° di target qualificati sourced+vettati, protocolli consegnati, medici reclutati; **presenza obbligatoria** ai meeting di fundraising e alle review di qualità clinica.
 - **Vesting legato ai deliverable, non solo al tempo**, con **clausola di underperformance/bad-leaver**: se coasta, l'equity non maturata torna indietro. È questo che rende l'impegno reale.
-- **Comp:** €0-minimo dalla società; guadagna dalla pratica; l'equity è l'incentivo e vesta sui risultati.
+- **Comp:** €0-minimo dalla società per il ruolo corporate; guadagna dalla **pratica clinica nel flagship del gruppo** (comp a **valore di mercato, arm's length, related-party documentato**); l'equity è l'upside e vesta sui risultati.
 
 **La quota (90/10):** a regime, dopo l'ingresso di **Diana 18%** e **COO 12%**, il 90/10 iniziale atterra su **~Luca 63% / Marcello 7%** (base founder, pre-investitori). Se lo vuoi più vicino a **~10-11%**, fondi **85/15**. L'equity non assegnata a un co-founder clinico pieno resta a **Luca** e/o va **riservata nel pool** per la futura leadership clinica (un **CMO full-time** quando scali, i direttori sanitari, il KOL advisor).
+
+### Il flagship come "format lab" (con Marcello)
+Idea forte: **lanciare la prima clinica brandizzata con Marcello come medico di riferimento**, per **testare e codificare il format** in un ambiente che controlli al 100%, poi replicarlo. Vantaggi:
+- **Prova del formato pulita:** dimostri i KPI (recurring, uplift EBITDA/clinica) in una sede tua, senza le abitudini legacy di una clinica acquisita.
+- **Credibilità istantanea:** Marcello come anchor doctor + **showcase** per investitori e per i medici-venditori ("guarda cosa fa il format").
+- **Comp di Marcello risolta:** pratica nel flagship → guadagna lì i suoi ~€240k (market-rate, related-party), **zero cash-burn** per la società.
+- **Parte subito, senza Diana:** flagship + prime acquisizioni girano su **Marcello + COO + te**; il gestionale di Diana arriva dopo (coerente con la riservatezza).
+
+**Ma tienilo nel ruolo giusto: il flagship è un laboratorio, non il motore di scala.** Lo **scale resta buy-and-build** (acquisisci cliniche profittevoli a 3-4x e le **converti** al format — è la tesi del deck, l'arbitraggio di multipli); il greenfield puro sarebbe più lento e rischioso. Quindi: **1 flagship per perfezionare e mostrare il format → poi acquisisci-e-converti a scala.** Tienilo **snello e time-boxed** (non un progetto-vanità), e usa Marcello come **template clinico e formatore** per replicare lo standard nelle sedi successive.
 
 ### Advisory board Venere — short list
 Costruisci un advisory board mirato che **chiude il tuo gap di credibilità di settore** e porta know-how esecutivo. Formalizzato (lettere d'incarico + NDA), con **equity/warrant dal pool** (non dai founder) e ruoli non sovrapposti.
