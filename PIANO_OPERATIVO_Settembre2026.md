@@ -152,3 +152,79 @@ Se in nessuna fase Skylabs scende sotto il 40% del tuo tempo, **non stai facendo
 - [ ] Prima evidenza di uplift EBITDA/clinica sul formato
 
 **Se a settembre 2027 questi box sono spuntati, hai fatto la mossa giusta al momento giusto: venduto l'asset AI al picco e comprato la leadership di un mercato vergine all'inizio del ciclo.**
+
+---
+
+## AGGIORNAMENTO — La pipeline SAE e le due tracce di capitale
+
+Due fatti reali che cambiano la meccanica dell'exit (non la direzione):
+- **Nessun compratore di Skylabs è tra gli investitori di Venere:** sono due mondi di capitale separati. La raccolta Venere Fase 1 non si appoggia a un buyer di Skylabs.
+- **La pipeline SAE è reale e imminente:** **Sidea pronta a ottobre 2026, Advant maggio 2027, Lobra forse luglio 2027** (share-for-share: i venditori reinvestono ~60%, cash richiesto ~€2-3,4M a deal).
+
+### Implicazione 1 — Due raccolte in parallelo, entrambe su di te → il conflitto da sciogliere
+Nella stessa finestra (fine '26-'27) servono **due fundraise che chiamano il fondatore**: (a) i round SAE per finanziare le acquisizioni, (b) la Fase 1 di Venere (4-5M). Non puoi guidarle entrambe *e* lanciare Venere. **Soluzione: delega la traccia SAE (acquisizioni + relativa raccolta) a Diana come CEO; tieni per te solo Venere.** È l'ennesima ragione per cui **Diana è più prezioso a *restare* su Skylabs** che a seguirti.
+
+### Implicazione 2 — La pipeline è un ASSET dell'exit, non un obbligo di build pluriennale
+La pipeline warm ti dà due strade; scegli in base all'appetito di Diana e all'interesse dei compratori:
+
+- **Path A — Build-to-sell guidato da Diana.** Diana diventa CEO, **chiude Sidea (ott'26)** e guida SAE con Advant/Lobra; tu supporti il primo round poi passi a Chairman e vai su Venere. Il gruppo cresce a €25-40M di ricavi ed esci sulla piattaforma allargata nel **2028**. La tua quota (diluita) cavalca il roll-up. *Richiede che Diana voglia possederla/guidarla e che i round SAE siano raccoglibili senza la tua attenzione piena.*
+- **Path B — Vendi piattaforma + pipeline in pacchetto (consigliato se vuoi uscire davvero).** Impacchetti Skylabs **con la pipeline warm** (Sidea/Advant/Lobra identificate e concordate) e la vendi a un **consolidatore strategico dell'ecosistema SF/SAP** in **H1 2027**. Non vendi un'azienda da €8M: vendi *"una piattaforma AI certificata con un roll-up di 3 società già pronto da eseguire"* → il compratore paga un premio per il percorso di crescita de-riskato, e **lo esegue lui**. Tu esci prima e pulito; i venditori di Sidea/Advant/Lobra reinvestono nella struttura del compratore. **La pipeline alza il prezzo invece di costarti due anni.**
+
+### Il bivio immediato: Sidea a ottobre 2026
+Cade ~1 mese dopo il tuo rientro. **Decidi a settembre chi la guida:** o **Diana come CEO entrante** la chiude, o la **strutturi dentro il pacchetto di vendita** (Path B). In nessun caso lasciarla ri-ancorare *te* alle operations di Skylabs: è la trappola che rimanda il pivot.
+
+### Il gap di funding di Venere (da pianificare)
+La Fase 1 Venere (4-5M) viene dagli **anchor Venere** e **sta in piedi da sola** — e può/deve **precedere** la liquidità di Skylabs, che nel Path A arriva nel 2028 e nel Path B in H1 2027. Conseguenza sul tuo cash personale:
+- Il **co-invest CEO in Venere** lo copri con **risorse personali** e/o un **secondary parziale anticipato** (cedi una fetta della tua quota in un round SAE per liquidità-ponte, senza vendita piena — ma ti tiene un po' entangled: usalo solo se serve il ponte).
+- **Non far dipendere il lancio di Venere dai tempi della vendita Skylabs:** sono due orologi diversi. Venere parte sul capitale Venere; Skylabs si monetizza sul suo binario.
+
+### Sintesi della scelta
+| | Path A (build-to-sell, Diana) | Path B (vendi piattaforma+pipeline) |
+|---|---|---|
+| La tua uscita | 2028, più graduale | H1 2027, più netta |
+| Prezzo | Potenzialmente più alto (scala) | Buono (premio per pipeline de-riskata), prima |
+| Tua attenzione a Skylabs | Bassa (Chairman) ma per più tempo | Minima, per meno tempo |
+| Richiede | Diana vuole guidarla + round SAE raccoglibili senza te | Un compratore strategico che vuole il pacchetto |
+| Fit col "voglio uscire per Venere" | Medio | **Alto** |
+
+**Raccomandazione:** punta al **Path B**, ma tienilo in gara col Path A fino a conoscere (i) l'appetito reale di Diana e (ii) l'interesse di 1-2 consolidatori strategici. La pipeline serve in entrambi: nel Path A la esegui via Diana, nel Path B la *vendi* come valore aggiunto.
+
+---
+
+## AGGIORNAMENTO — Il Partner Program come motore di svincolo e di exit
+
+Fatti reali: **i partner interni entrano nel PP entro il 31/12/26** e **4 partner esterni entrano come Senior Partner Business Advisor**. Questa non è una nota HR: è **l'infrastruttura che fa funzionare l'intero piano di exit.**
+
+### Perché è oro per l'uscita
+Il Partner Program completo risolve, insieme, i tre problemi dell'exit di una società di servizi:
+- **De-personalizza** il business (relazioni e leadership non più su di te / sui fondatori).
+- **Porta client book e origination indipendenti** (i 4 Senior Partner esterni portano clienti propri → crescono i ricavi *e* si diversifica la base, abbassando concentrazione e key-man risk).
+- **Blocca la retention** (equity + vesting → le persone chiave restano attraverso la transazione, che è la paura n°1 di ogni compratore).
+
+È il tassello che trasforma *"Skylabs = 4 fondatori"* in *"Skylabs = una firm partner-led con una panchina"* — cioè ciò che un compratore paga e ciò che ti permette di uscire.
+
+### Come sfruttarli al meglio — 5 mosse
+1. **Completa il PP entro il 31/12/26 come milestone di svincolo** che *precede* il processo di exit (H1'27). Vai al mercato con la panchina già in piedi e vestita: presenti un asset non-founder-dependent, non una promessa.
+2. **I 4 Senior Partner esterni = motore commerciale e volto verso i clienti.** Assegna loro gli account e l'origination: il business deve *visibilmente* girare sulla panchina, non su di te o Diana. È la prova vivente dello svincolo.
+3. **Retention lock:** l'equity dei partner con **vesting + good/bad leaver + lock-up legato al change of control**. Un compratore che vede il team legato paga di più: la retention *è* prezzo.
+4. **Il ruolo del PP nella transazione — due usi distinti (non confonderli):**
+   - **PP "as-is"** (pool incentivante cappato a 1x EBITDA) → strumento di **retention/allineamento** → **abilita la vendita (Path B)** dando al compratore una squadra motivata e legata.
+   - **PP "esteso a co-acquirenti"** (i partner mettono **cassa per equity reale**) → partner + Diana + uno sponsor finanziario diventano il **gruppo acquirente (Path A / MBI)**: l'exit può essere **verso la panchina stessa**, non verso un terzo. È l'opzione che unisce svincolo, retention e compratore in un colpo solo.
+5. **Trasparenza sulla traiettoria.** I partner entrano mentre pianifichi l'uscita: comunica che una transazione è probabile. Per loro **è attraente** (un percorso di liquidità vicino), non un problema — ma va detto, per fissare bene le aspettative sull'equity ed evitare contenziosi dopo.
+
+### Effetto sui due path
+Entrambi si rafforzano:
+- **Path A più eseguibile:** con una panchina reale che regge commerciale e delivery, Diana può guidare il build-to-sell senza di te.
+- **Path B più prezioso:** il compratore acquista una **firm partner-led + pipeline warm**, non un founder-shop. Il premio sale.
+
+### Cosa vendi / costruisci in H1 2027 (il salto di valore)
+Non più *"€8M di servizi dipendenti dal fondatore"*, ma:
+**core certificato SF/SAP + logo blue-chip + ISO · pipeline M&A warm (Sidea/Advant/Lobra) · Partner Program completo (interni vested entro Dic'26 + 4 Senior Partner esterni con client book) · Diana CEO.**
+= un asset **de-riskato, non-founder-dependent, in crescita, con M&A identificata**. È questa combinazione — pipeline + panchina — che ti fa uscire a buon prezzo *senza* essere il key-man.
+
+### Cautela
+Non sovra-diluirti né creare complessità di governance a ridosso della vendita: il cap del pool ha una ragione. **Partner-come-compratori = transazione equity separata**, da negoziare dentro l'exit structuring (non allargare il pool incentivante confondendolo con l'ingresso in equity).
+
+### Milestone da inserire nel piano
+- **Fase 1-2 (set-dic '26):** completamento PP interni + onboarding dei 4 Senior Partner esterni con assegnazione account → **PP completo entro 31/12/26**.
+- **Gate 2 (fine nov '26):** verifica che la panchina regga commerciale e delivery senza di te → è il *go* per aprire il processo di exit in H1'27.

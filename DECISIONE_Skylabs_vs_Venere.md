@@ -344,6 +344,8 @@ Il tuo "Inner Circle" (Founding/Senior/Equity/Associate Partner) fa tre cose che
 - *Partner Program "as is"* → tieni le persone e i clienti legati (abilita la vendita, a chiunque).
 - *Partner Program "esteso a co-acquirenti"* → i partner diventano parte del gruppo che ti compra (abilita l'MBO).
 
+> **Fatti reali (da Luca):** i **partner interni entrano nel PP entro il 31/12/26** e **4 partner esterni entrano come Senior Partner Business Advisor**. Ottimo tempismo: la panchina è vestita *prima* della finestra di exit (H1'27). Sfruttamento operativo dettagliato nel Piano (sezione "Il Partner Program come motore di svincolo e di exit"): completare il PP entro Dic'26 come milestone di svincolo, usare i 4 Senior esterni come motore commerciale/volto-cliente, retention lock con vesting + lock-up al change of control, e decidere se il PP resta *incentivo* (abilita la vendita, Path B) o si *estende a co-acquirenti* (partner + Diana + sponsor come gruppo compratore, Path A/MBI).
+
 ### Rischi dell'MBO da presidiare
 - **Conflitto sul prezzo:** vendi ai tuoi manager → il prezzo va fissato da una **valutazione indipendente**, per equità verso gli altri soci e tenuta fiscale.
 - **Diventi creditore** (vendor loan): dimensiona il differito a ciò che puoi permetterti di rischiare; garantiscilo.
