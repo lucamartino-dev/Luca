@@ -216,6 +216,14 @@ Idea forte: **lanciare la prima clinica brandizzata con Marcello come medico di 
 6. **Una sola, non una mini-catena.** Uno basta per provare e codificare; la moltiplicazione viene dalle acquisizioni.
 7. **Ring-fence capitale e attenzione:** cap esplicito e piccolo sul capitale al flagship (fetta minima dei 4-5M); il **focus tuo e del COO resta la pipeline di acquisizione**. Criterio d'uscita dal "lab": format codificato + KPI centrati + playbook + showcase pronti → da lì è la **clinica #1 della rete**, non più un progetto speciale.
 
+### Cosa c'è davvero da testare (e se serve un flagship)
+Domanda chiave: cosa si testa che Marcello non fa già da solo? **Non l'atto clinico** (quello lo sa fare) — ma il **format**, il layer di piattaforma che un mono-medico non fa:
+- **Parte "domanda"** (recurring su prescrizione, patient journey retail con beauty advisor + recall, pagamenti rateali, cross-sell del mix, KPI): **testabile a costo quasi zero innestandolo sui pazienti che Marcello ha già**, anche negli studi attuali. **Non richiede un flagship dedicato.**
+- **Parte "scala"** (multi-provider / **depersonalizzazione** — paziente fedele al brand non al medico —, area management, procurement a volume): **non provabile con Marcello** (i suoi pazienti sono fedeli a lui, ed è l'unico medico) → si prova solo sulla **prima clinica acquisita e convertita**.
+- **La matematica della tesi** (+45% ricavi, margine 20%→27% per clinica): la dimostri meglio su una clinica acquisita convertita che su un pilota costruito attorno a Marcello.
+
+**Quindi il flagship in affitto dedicato si giustifica SOLO se vuoi:** (i) uno **showcase** brandizzato per investitori/venditori, e (ii) trialare il **multi-provider in ambiente controllato prima** di comprare. Altrimenti la via più snella è: **parte "domanda" innestata sui pazienti di Marcello nell'esistente + parte "scala" provata sulla prima acquisizione** — risparmiando capex e attenzione. Decidi il flagship in base a *queste due domande*, non per "provare il format" in generale.
+
 ### Advisory board Venere — short list
 Costruisci un advisory board mirato che **chiude il tuo gap di credibilità di settore** e porta know-how esecutivo. Formalizzato (lettere d'incarico + NDA), con **equity/warrant dal pool** (non dai founder) e ruoli non sovrapposti.
 
