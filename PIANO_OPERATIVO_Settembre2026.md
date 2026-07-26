@@ -166,6 +166,20 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 
 **Leve:** il **ratchet** può portare i founder verso **45-50%+** a un buon exit (è lì la tua upside); il **cash co-invest** aumenta la tua % (quote investor-side comprate a €20M); **reverse vesting** su tutti; le **sedi di Cammalleri**, se confluiscono, valutate separatamente (related-party), non gonfiando la sua %; per un **COO** top usa il **pool**, non i founder.
 
+### Advisory board Venere — short list
+Costruisci un advisory board mirato che **chiude il tuo gap di credibilità di settore** e porta know-how esecutivo. Formalizzato (lettere d'incarico + NDA), con **equity/warrant dal pool** (non dai founder) e ruoli non sovrapposti.
+
+| Advisor | Cosa porta | Aggancio |
+|---|---|---|
+| **Fondatori Hippocrates / DentalPro** | Playbook di roll-up medico-clinico italiano, credibilità coi family office, deal flow | Advisory con equity/warrant ⚠️ NDA (consolidatore adiacente) |
+| **Ex-operatore catena medspa US/UK** (profili tipo LaserAway, sk:n, Harley Medical) | Il format che Venere replica: recurring su prescrizione, patient journey retail, multi-provider, unit economics | Advisory internazionale |
+| **KOL clinico di medicina estetica** (oltre Cammalleri) | Autorevolezza clinica, protocolli, reclutamento medici | **Presiede il comitato scientifico indipendente** (dal deck) |
+| **Advisor regolatorio-sanitario** | Autorizzazioni regionali, pubblicità sanitaria/deontologia, struttura MSO, GDPR sanitario | Advisor dedicato dal giorno uno (dal deck) |
+| **Advisor M&A healthcare + fiscale-M&A** | Origination, DD con normalizzazione ricavi, earn-out/rollover, fiscalità | Deal team (dal deck) |
+| **Consigliere indipendente in board** | Contrappeso di governance | Board seat (dal deck) |
+
+Cautela trasversale: per gli advisor che operano in **consolidamento adiacente** (Hippocrates), selettività su cosa condividi del **vantaggio proprietario** (gestionale/dataset).
+
 ---
 
 ## Fronte finanziario e fiscale (verifica con commercialista — non è consulenza fiscale)
