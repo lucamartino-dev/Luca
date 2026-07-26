@@ -166,6 +166,28 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 
 **Leve:** il **ratchet** può portare i founder verso **45-50%+** a un buon exit (è lì la tua upside); il **cash co-invest** aumenta la tua % (quote investor-side comprate a €20M); **reverse vesting** su tutti; le **sedi di Cammalleri**, se confluiscono, valutate separatamente (related-party), non gonfiando la sua %; per un **COO** top usa il **pool**, non i founder.
 
+### Sequenza di ingresso dei founder (fondazione snella, ingressi successivi)
+Ha senso **fondare Venere solo con te e Cammalleri** e far entrare **COO e Diana dopo**, quando l'azienda è concreta. È elegante perché allinea tre cose: **concretezza** (entrano su una società reale, non su slide), **riservatezza** (Diana non è un socio Venere visibile durante la vendita di Skylabs → nessun paper trail sul suo move) e **timing del valore** (ognuno entra quando serve).
+
+**La sequenza:**
+1. **Fondazione — Luca 80% / Cammalleri 20%.** Cammalleri è l'unico indispensabile all'inizio: credibilità clinica + deal flow per la prima acquisizione.
+2. **COO — intorno alla prima acquisizione:** serve a far girare format e P&L; probabilmente **prima** di Diana.
+3. **Diana — al closing di Skylabs (≈H2'27):** momento in cui la vendita è chiusa (riservatezza non più necessaria) *e* hai già la prima clinica → ingresso concreto. Fino ad allora il gestionale gira su un **sistema interim**; Diana costruisce il moat quando entra.
+
+**Perché i numeri tornano:** l'80/20 di fondazione **atterra sul target**. Ratio Luca:Cammalleri = 80:20; emettendo poi **Diana 18%** e **COO 12%**, i due si diluiscono in proporzione fino a **~55% / ~15%** — la Vista 1. L'80/20 **è** il target, prima di aggiungere gli altri due.
+
+**Presidio da mettere subito — founders' agreement alla fondazione:** pre-definisce (a) la cap table target fully-diluted, (b) le **quote riservate e il vesting per Diana e il COO** (emesse al loro ingresso), (c) l'**option pool**, (d) **reverse vesting** su te e Cammalleri. Così Cammalleri sa da subito che il suo 20%-di-due diventa ~15% con gli ingressi previsti (non si sente diluito) e nessuno rinegozia dopo.
+
+### Il co-founder clinico: comp e ruolo (il nodo Cammalleri)
+Cammalleri guadagna oggi **~€240k/anno** dalla pratica clinica. Un medico praticante come co-founder full-time a **stipendio pieno** è caro su due assi (equity **e** cassa) e, se pretende la sostituzione integrale del reddito, segnala che non si prende il rischio da founder. Ma la **credibilità clinica ti serve**. Come scioglierlo:
+
+1. **Scollega la sua comp dalla cassa della società:** continua a esercitare e **guadagna i suoi €240k dalla clinica** (idealmente in una delle prime sedi del gruppo), prende **equity come upside** e **stipendio da founder minimo o nullo**. Risolve insieme cash-burn e "pretese".
+2. **Dimensiona l'equity al commitment reale:** full-time committed + comp autofinanziata → **co-founder ~12-15%**; part-time / vuole cassa → **clinical partner ~8-10% + paga clinica di mercato**, non co-founder (l'equity liberata va a operatori/pool).
+3. **Credibilità clinica per struttura, non per una persona:** comitato scientifico indipendente + **KOL advisor** che lo presiede + **direttori sanitari** assunti per sede. Coerente col deck (comitato scientifico *sopra* il CMO) e non ostaggio di un singolo clinico costoso.
+4. **Test di fit:** se insiste sulla sostituzione integrale dei €240k in cassa → è un **clinico molto pagato, non un co-founder**; struttura di conseguenza e ridai quell'equity a chi costruisce/gestisce.
+
+**Effetto sulla cap table:** la quota di Cammalleri (Vista 1) è **contingente** a questo. Co-founder committed a comp autofinanziata → ~15% e **l'80/20 di fondazione regge**; clinical partner → ~8-10%, fondazione più snella (Luca più alto o Cammalleri come partner non-founder) e il liberato a Luca/COO/pool.
+
 ### Advisory board Venere — short list
 Costruisci un advisory board mirato che **chiude il tuo gap di credibilità di settore** e porta know-how esecutivo. Formalizzato (lettere d'incarico + NDA), con **equity/warrant dal pool** (non dai founder) e ruoli non sovrapposti.
 
