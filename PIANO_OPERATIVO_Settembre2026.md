@@ -29,6 +29,7 @@ La vendita di Skylabs (2026 → closing H2'27) è retta da **advisor M&A + GM + 
 **Venere**
 - **Costituzione NewCo**; definisci la **separazione IP** del gestionale (clean-room o licenza periziata); **lo sviluppo attivo di Diana su Venere attende il post-closing** (preserva riservatezza verso i soci e pulizia IP).
 - Brief soft a **2-3 family office anchor**; imposta la **cap table founder** con chi entra, incl. Diana **(riservato verso gli altri soci)**.
+- **Advisory — avvicina i fondatori di Hippocrates Holding (DentalPro):** hanno eseguito *esattamente* il playbook di roll-up medico-clinico italiano su cui Venere è modellata (il deck cita DentalPro). Coinvolgerli come advisor porta **know-how di integrazione, deal flow, network nel private healthcare** e — soprattutto — **de-riska il tuo gap di credibilità di settore verso i family office** (è il mitigante più forte del rischio "nuovo del settore"). Struttura: **advisory con equity/warrant** (dal pool). ⚠️ **NDA e cautela:** operano in consolidamento adiacente (potenziale futuro competitor o acquirente) → allineali con equity, sii selettivo su cosa condividi del vantaggio proprietario; in positivo possono diventare **co-investitori o una via d'exit**.
 
 **🚦 Gate 1 (fine settembre):** processo di vendita avviato (l'allineamento dei soci sulla vendita insieme **c'è già**); advisor e legale ingaggiati; NewCo Venere costituita; arrangement Diana↔Venere definito **in riservatezza**.
 
