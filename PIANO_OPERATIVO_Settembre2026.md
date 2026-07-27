@@ -184,7 +184,7 @@ Ha senso **fondare Venere solo con te e Cammalleri** e far entrare **COO e Diana
 **La sequenza:**
 1. **Fondazione — Luca 90% / Marcello 10%.** Marcello è l'unico indispensabile all'inizio (credibilità clinica + deal flow per la prima acquisizione), come **clinical partner part-time** (vedi sotto).
 2. **COO — intorno alla prima acquisizione:** serve a far girare format e P&L; probabilmente **prima** di Diana.
-3. **Diana — al closing di Skylabs (≈H2'27):** momento in cui la vendita è chiusa (riservatezza non più necessaria) *e* hai già la prima clinica → ingresso concreto. Fino ad allora il gestionale gira su un **sistema interim**; Diana costruisce il moat quando entra.
+3. **Diana — al closing di Skylabs (≈H2'27), sincronizzato con la PRIMA acquisizione.** Diana dev'essere dentro **dalla prima clinica del gruppo** per strutturarla **AI-driven dal giorno zero** (data model, outcome capture, gestionale proprietario) — non bolted-on. Poiché è visibile solo post-closing (riservatezza), **si temporizza il closing della prima acquisizione perché coincida col suo ingresso:** pre-closing fai pilot + raccolta + pipeline (LOI/DD), ma la prima acquisizione **chiude con Diana già dentro**. Lever: accelerando la vendita Skylabs a **H1'27** anticipi entrambi. *Da subito, però, imposta l'architettura dati come principio fondativo (specifiche data model + gestionale interim Diana-ready), così lui industrializza senza retrofit.*
 
 **Perché i numeri tornano (e il rapporto si mantiene):** ratio Luca:Marcello = 90:10; emettendo poi **Diana 22%** e **COO 12%** con diluizione **pro-rata**, i due scendono a **59,4% / 6,6%** (base founder) — la Vista 1 — **restando 9:1**. Il 90/10 è ancorato: Marcello = 1/9 di Luca a ogni round.
 
@@ -213,7 +213,7 @@ Idea forte: **lanciare la prima clinica brandizzata con Marcello come medico di 
 - **Prova del formato pulita:** dimostri i KPI (recurring, uplift EBITDA/clinica) in una sede tua, senza le abitudini legacy di una clinica acquisita.
 - **Credibilità istantanea:** Marcello come anchor doctor + **showcase** per investitori e per i medici-venditori ("guarda cosa fa il format").
 - **Comp di Marcello risolta:** pratica nel flagship → guadagna lì i suoi ~€240k (market-rate, related-party), **zero cash-burn** per la società.
-- **Parte subito, senza Diana:** flagship + prime acquisizioni girano su **Marcello + COO + te**; il gestionale di Diana arriva dopo (coerente con la riservatezza).
+- **Il pilota parte senza Diana** (gira su Marcello + COO + te); ma **la prima *acquisizione* chiude con Diana dentro** (sincronizzata col closing Skylabs) → clinica #1 AI-driven dal giorno zero. L'architettura dati va però impostata subito, Diana-ready.
 
 **Ma tienilo nel ruolo giusto: il flagship è un laboratorio, non il motore di scala.** Lo **scale resta buy-and-build** (acquisisci cliniche profittevoli a 3-4x e le **converti** al format — è la tesi del deck, l'arbitraggio di multipli); il greenfield puro sarebbe più lento e rischioso. Quindi: **1 flagship per perfezionare e mostrare il format → poi acquisisci-e-converti a scala.** Usa Marcello come **template clinico e formatore** per replicare lo standard nelle sedi successive.
 
@@ -268,7 +268,7 @@ Cautela trasversale: per gli advisor che operano in **consolidamento adiacente**
 **Mese 4-6 (dic-feb) — Chiudere e partire**
 10. **Assumi il COO.**
 11. **Closing Fase 1** (4-5M).
-12. **Due diligence** sulle prime cliniche (con normalizzazione ricavi → nodo nero sotto) + **signing prima acquisizione**.
+12. **LOI + due diligence** sulle prime cliniche (con normalizzazione ricavi → nodo nero sotto). *Il closing della prima acquisizione si sincronizza con l'ingresso di Diana (~closing Skylabs, H2'27) per strutturarla AI-driven da subito; accelerando Skylabs a H1'27 lo anticipi.*
 13. **Playbook integrazione a 100 giorni** pronto.
 
 *(Diana entra al closing di Skylabs, ~H2'27 — riservato fino ad allora.)*
