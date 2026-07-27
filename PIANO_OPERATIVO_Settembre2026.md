@@ -338,6 +338,22 @@ La velocità non è chiudere UN deal in fretta: è avere **2-4 deal già pronti*
 5. **Rollover + earn-out riducono cassa e attrito:** il venditore resta e rolla equity → allineato, colma il gap di valutazione senza braccio di ferro.
 6. **Deal team + advisor dal giorno 1** (M&A, avvocato sanitario, fiscalista) + **pre-work regolatorio** (autorizzazioni/trasferimento, continuità del direttore sanitario — spesso lo step lento: scopilo presto).
 
+## Come contattarli senza spaventarli (playbook di approccio)
+
+Con un medico **non hai una seconda prima impressione**: un contatto freddo sbagliato brucia il target. Regola: **né visita a sorpresa, né email a freddo → intro calda + incontro informale tra pari.**
+
+**Ordine di efficacia:** (1) **intro calda** dal network di Marcello (medico-a-medico), da un **fornitore** (i rep conoscono tutti), o da un contatto comune; (2) se non c'è intro, contatto **personale e discreto** (messaggio/telefonata da te o Marcello, non email aziendale) che chiede *"uno scambio sul futuro del settore"*, zero ask di acquisto; (3) **mai** email aziendale a freddo, contatto via **reception/centralino**, broker a freddo, mass-mailing.
+
+**La sequenza:**
+1. **Lista + intel** (chi rientra nei criteri + segnali di apertura).
+2. **Trova la via calda** per ognuno (Marcello / fornitore / contatto comune).
+3. **Primo incontro informale off-site** (caffè/cena), inquadrato come **scambio tra pari, non pitch**. Apre **Marcello**, entri tu con la visione.
+4. **Ascolta l'80%:** capisci la **motivazione** (pensione? admin? crescita?). Nessun numero sul tavolo. Costruisci fiducia.
+5. **Se fit reciproco → NDA →** seller pitch → termini indicativi.
+6. **Coltiva i non-pronti** (convertono in 12-24 mesi): è una pipeline da nutrire.
+
+**Riservatezza sacra:** contatti il medico **personalmente e in privato**, mai tramite lo studio — la sua paura n°1 è che staff/pazienti/concorrenti scoprano che potrebbe vendere. Il rischio non è "contattare presto", è **contattare freddo e male**.
+
 ## La storia da raccontare ai medici (seller pitch)
 
 Narrazione lato venditore: **trasforma i suoi dolori in ragioni per entrare, senza toccare la sua medicina.**
