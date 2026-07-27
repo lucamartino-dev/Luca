@@ -173,6 +173,18 @@ Il **cash al closing è ~60-70% del prezzo**: il resto è **rollover equity** (v
 
 → **~€2,5-4,5M = la Fase 1 da 4-5M del deck.** Note: (a) **paghi sull'EBITDA verificato** (dichiarato/normalizzato), spesso meno del reale gonfiato dal nero → a tuo favore; (b) per le prime 2-4 assumi **quasi tutto equity** (banche prestano poco senza track record); la **leva arriva in Fase 2** e riduce l'equity per clinica — è così che i 12M totali fanno 6-8+ cliniche.
 
+### Chi mette il capitale: founder, debito o investitori?
+Le prime cliniche si comprano con il **capitale degli investitori** (raccolta Fase 1, equity), **non** con soldi dei founder e **non** con debito.
+
+| Fonte | Cosa finanzia | Quando |
+|---|---|---|
+| **Bridge founder** (~€100-300k, quasi tutto Luca) | Setup NewCo, advisor, pilot, runway pre-raccolta | Set-Q4'26 |
+| **Raccolta investitori 4-5M (equity)** | **Prime 2-4 cliniche + piattaforma** | Q4'26-2027 |
+| **Co-invest Luca 0,5-2M (opzionale)** | Skin-in-the-game + equity extra al prezzo del round | Al round |
+| **Debito bancario** | Acquisizioni successive (riduce equity/clinica) | Fase 2 (2028) |
+
+**Apporto founder in concreto:** ≈ **zero cash necessario** per comprare le cliniche (lo fa la raccolta) — l'apporto è **equity/sweat + ruoli**. L'unico esborso *necessario* è il **bridge pre-raccolta (~100-300k, Luca)**. Il **co-invest di Luca (0,5-2M dal ricavato Skylabs) è opzionale ma raccomandato** (commitment + equity extra + può ancorare il round); Diana/Marcello/COO **nessun cash**. Nessuno si indebita o garantisce personalmente: compra la NewCo. Il **debito** entra solo in Fase 2 (a track record): è la leva per cui i 12M totali fanno 6-8+ cliniche.
+
 ### A che valutazione il primo round (4-5M)
 Il deck propone la Fase 1 **alla stessa valorizzazione del round pieno** (post-money €20M → 4-5M per ~20-25%). È founder-favorable ma **una richiesta alta pre-prova** (nessuna clinica ancora, format non provato, tu nuovo del settore): è la fase più rischiosa, e di norma la fase più rischiosa prende la valutazione **più bassa**, non la stessa.
 
@@ -269,6 +281,8 @@ Costruisci un advisory board mirato che **chiude il tuo gap di credibilità di s
 | **Consigliere indipendente in board** | Contrappeso di governance | Board seat (dal deck) |
 
 Cautela trasversale: per gli advisor che operano in **consolidamento adiacente** (Hippocrates), selettività su cosa condividi del **vantaggio proprietario** (gestionale/dataset).
+
+**Partnership procurement con La Farmacia (Hippocrates tra i soci):** ha senso, soprattutto perché ti dà **scala d'acquisto in prestito da subito** (in Fase 1, quando da solo non hai volume) + **logistica/supply affidabile**. Aiuta di più su **consumabili, skincare, generici**; meno sugli **iniettabili branded** (tossine/filler), dove il prezzo lo fanno i **produttori** (AbbVie/Allergan, Galderma, Merz) con deal diretti a volume — la farmacia è secondaria lì. Attenzioni: **related-party** (arm's length, a mercato, documentato), **canale regolatorio** (tossina = farmaco su prescrizione, verifica l'approvvigionamento) e non creare **dipendenza** da un consolidatore adiacente.
 
 ---
 
