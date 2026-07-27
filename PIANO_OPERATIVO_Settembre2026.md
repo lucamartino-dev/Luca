@@ -151,6 +151,16 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 5. **Small-cap PE / search fund healthcare** — non in Fase 1 (lowballano un asset pre-prova); candidati per le tranche di scala e come compratori all'exit.
 **Fuori:** VC (modello sbagliato) e PE di controllo in Fase 1.
 
+### A che valutazione il primo round (4-5M)
+Il deck propone la Fase 1 **alla stessa valorizzazione del round pieno** (post-money €20M → 4-5M per ~20-25%). È founder-favorable ma **una richiesta alta pre-prova** (nessuna clinica ancora, format non provato, tu nuovo del settore): è la fase più rischiosa, e di norma la fase più rischiosa prende la valutazione **più bassa**, non la stessa.
+
+**Raccomandazione — prezza la Fase 1 al suo rischio:**
+- **Opzione A — priced round realistico: €14-18M post-money** (4-5M → ~25-33%), con lo **stack di credibilità** (tu + Cammalleri + advisor Hippocrates) e la **struttura di de-risking** (tranche a milestone, governance, format pilot). Spingi verso €18-20M **solo** con un anchor forte che valida + un primo segnale di format.
+- **Opzione B — stagela (preferita): primo assegno più piccolo (€2-3M a €8-12M post)** per provare format + prima clinica, poi il resto a **step-up (€20M+) sulla prova**. Match prezzo↔rischio, meno diluizione precoce.
+- **Opzione C — convertibile/SAFE con cap+sconto** (cap ~€14-18M, sconto 15-20%): **rimanda la valutazione** al round priced della Fase 2 quando avrai la prova. Veloce, niente braccio di ferro sul numero ora.
+
+**Avvertenze:** il numero lo fissa il **lead anchor** (price discovery) — serve prima l'anchor, poi il prezzo; e **4-5M è tanto per un seed**: prenderlo tutto a valutazione bassa ti **sovra-diluisce al momento più rischioso** → altra ragione per B/C. Il **€20M del deck è la Fase 2** (post-prova), non i primi soldi.
+
 ### Cap table Venere — ripartizione tra i founder
 **Vista 1 — Founder al 100%, PRE aumento di capitale investitori** (quella che negozi *ora* coi co-founder):
 
@@ -292,6 +302,25 @@ I precedenti utili: roll-up di **sanità/dentale in mercati con forte informalit
 1. **L'informalità = la tua opportunità di arbitraggio.** Il nero deprime i multipli d'ingresso: è ciò che ti fa comprare a poco. Senza informalità non ci sarebbe spread 3-4x → 7-10x.
 2. **Il cuneo fiscale = la tua calamita per acquisire medici.** Gli offri di smettere di rischiare l'evasione e convertire il reddito in **capital gain + quota a multiplo + più pazienti**. Il problema che li opprime diventa il tuo argomento di vendita.
 3. **La compliance = il tuo moat.** I grigi non scalano/non accedono a capitale/non vendono a istituzionali. Tu costruisci l'unico asset pulito, bancabile e a marchio — ciò che all'exit paga il PE.
+
+## Il "data play" di Venere: dal roll-up al dataset per l'automazione (l'upside di lungo)
+
+La ragione per cui **questo** team (tu + Diana, DNA AI) dovrebbe fare **questo** roll-up: non solo consolidare cliniche, ma **raccogliere il dataset proprietario** che nel tempo **riduce la dipendenza dal medico** — il costo e il rischio n°1 del settore.
+
+**Il percorso, 3 livelli a orizzonti diversi:**
+1. **Oggi — moat di qualità (già nel deck):** outcome standardizzati (before/after controllati, aderenza protocolli, risultati per sede/medico). **Costo marginale ~zero: è un byproduct del format.** Va **strumentato bene dalla clinica #1** (imaging standard, mappe di iniezione, parametri device, outcome 30/90/180, consensi + GDPR by design). Diana costruisce il gestionale (post-closing) con questa architettura-dati in testa.
+2. **Medio — AI decision-support:** l'AI **suggerisce** piano/dosaggio/protocollo sul dataset reale del gruppo; standardizza la qualità e **riduce la dipendenza dal singolo medico** (mitiga il rischio n°1). *Il medico decide* — resta fuori dal perimetro dei dispositivi medici (paletto del deck).
+3. **Lungo (7-15 anni) — automazione/robotica** di procedure standardizzate e image-guided (energy-based, laser, certi iniettabili sotto guida): il dataset è il **substrato di training**. Qui sostituisci progressivamente l'**ora-medico** con la macchina → attacchi il costo e il collo di bottiglia strutturale del settore.
+
+**Perché conta anche se non arrivi ai robot:**
+- **Ri-valuta l'exit:** da multiplo *healthcare-services* (7-10x EBITDA) verso multiplo *med-tech/AI-platform* — molto più alto (è il ponte tra la §Appendice-monetizzazione e un upside superiore).
+- **Compratore premium naturale:** un dataset proprietario di outcome + decision-support lo pagano caro un **device-maker** (Galderma, AbbVie/Allergan, produttori laser/energy) o un PE tech — anche senza automazione piena.
+- **È il tuo differenziatore unico:** nessun consolidatore finanziario puro può farlo. È il motivo per cui il roll-up dev'essere **tuo**, e la tua competenza AI (commodity in Skylabs) qui è **scarsa e decisiva**.
+
+**I guardrail (per non sbagliare):**
+- **Non distrarti dal core:** i soldi si fanno nel roll-up (buy-and-build + formalizzazione + recurring). Il data play è **optionality**, non la base — Fase 1-3 devono inchiodare prima il roll-up "noioso".
+- **Regolatorio pesante** sull'automazione (MDR, responsabilità, "il medico decide"): arco lungo, non piano a breve.
+- **Focus oggi = basso** (strumenta solo la raccolta dati), **importanza strategica = alta** (alza l'exit e giustifica il team). Diventa un focus maggiore in **Fase 3+**, a scala di dati.
 
 ## Fronte finanziario e fiscale (verifica con commercialista — non è consulenza fiscale)
 - **Allocazione proventi Skylabs:** (a) co-invest CEO in Venere, (b) riserva personale, (c) eventuale quota Fase 1. Definisci le tre quote prima di incassare.

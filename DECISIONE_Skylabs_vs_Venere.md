@@ -16,6 +16,22 @@ Sono **lo stesso playbook** (buy&build ad arbitraggio di multipli: compri basso,
 - **Venere** consolida ciò che l'AI non può toccare: atto medico fisico, cash-pay, ricorrenza, vento GLP-1; l'AI è tailwind operativo, non minaccia sul ricavo; entri a inizio ciclo (0 consolidatori, 3-4x).
 - *La mia lettura:* **vantaggio netto Venere** — stessa macchina, ma Skylabs controvento, Venere col vento in poppa.
 
+## A2b. Orizzonte e traiettoria del rischio: finestra corta vs runway lungo
+Il vero sintetizzatore della scelta non è "quale vale di più", ma **come cambia il valore nel tempo**.
+
+**SAE — vincente, ma solo a 3-5 anni, e sempre più rischioso.**
+- Finestra **corta e in chiusura:** il piano funziona solo se eseguito *e uscito* entro ~3-5 anni (2027-30).
+- Rischio **crescente nel tempo:** ogni anno l'AI comprime di più i ricavi services/reseller, i multipli si derano, i clienti internalizzano, i vendor disintermediano. Oltre i 5 anni SAE è verosimilmente un business in **contrazione strutturale** (a meno di diventare software-company, che non è).
+- → asset da **harvest ora**, non da tenere: valore massimo oggi, decrescente.
+
+**Venere — più lungo (5-10 anni), e oltre con la robotica.**
+- Runway **lungo:** il buy-and-build compone per 5-10 anni in un settore in crescita e non-disruptabile.
+- Rischio **decrescente nel tempo:** più consolidi, più il multiplo si espande (4,5x→9,5x), più sei #1 nazionale e difendibile. La curva gioca **a tuo favore**.
+- Il **data play** (dataset → automazione/robotica, vedi Piano) estende l'orizzonte **oltre i 10 anni:** da healthcare-services a med-tech/AI-platform, un secondo atto potenzialmente trasformazionale.
+- **La stessa AI che uccide SAE è il motore di Venere** (moat dati + automazione futura): stesso vento, effetto opposto.
+
+**Sintesi:** non è "SAE o Venere", è **"SAE adesso — finché vale — per finanziare Venere, che vale sempre di più"**. Harvest la finestra corta di SAE (2027) e redeploy nel compounding lungo di Venere.
+
 ## A3. Valutazione — competenza scarsa vs commodity
 - In **Skylabs** la tua competenza tech è il tuo mestiere, ma **abbondante e deflazionata**.
 - In **Venere** è **scarsa e difendibile**: nessuno studio ha gestionale proprietario + dataset di outcome. Il tuo DNA AI diventa **il moat**.
@@ -149,3 +165,43 @@ Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un 
 | Funding Venere | Fase 1 4-5M da family office, da Set '26; non aspetta Skylabs |
 
 Il *come* eseguire — se scegli questa direzione — è nel Piano operativo allegato.
+
+---
+
+## Appendice — Quanto monetizzi davvero: SAE 2030 vs (Venere 2030 + Skylabs 2027)
+*Numeri illustrativi, range non forecast; lordi pre-imposta salvo dove indicato. CGT ~26% (da confermare col fiscalista) applicata a entrambi.*
+
+**Scenario A — resti in SAE, exit 2030** (tua quota diluita ~26%):
+| Caso | EV gruppo | Tua quota lorda |
+|---|---|---|
+| Bull (piano deck: 88% CAGR, €82M ricavi, 10x) | ~€103M | **€26,5M** |
+| Base (grind realistico: €30-45M ricavi, 6-8x) | €25-40M | **€8-12M** |
+| Bear (disruption + compressione multipli) | €15-25M | **€4-6,5M** |
+
+→ atteso **~€8-12M**; il €26,5M è il bull a bassa probabilità.
+
+**Scenario B — vendi Skylabs 2027 + Venere:**
+
+*Parte 1 — Skylabs 2027 (tua quota 48%):*
+| Caso | EV Skylabs | Tua quota lorda |
+|---|---|---|
+| Strategico + pipeline (Sidea/Advant) | €18-30M | **€8,6-14,4M** |
+| Conservativo | €13M | **€6,2M** |
+
+→ base **~€10M**, a breve e relativamente certo.
+
+*Parte 2 — Venere (tua quota ~13-16% diluita, + ratchet):*
+| Timing | Cliniche / EBITDA | EV | Tua quota lorda |
+|---|---|---|---|
+| **2030 (early, Fase 2)** | 8-12 / €4-6M | €30-48M @7-8x | **€5-8M** |
+| 2032-33 (maturo, Fase 3) | 20-30 / €12M+ | €90-125M | **€15-25M+** |
+
+**Totali (lordi):**
+| Scenario | Al 2030 | Se Venere matura (2032-33) |
+|---|---|---|
+| **A — SAE 2030** | **€8-12M** (bull €26,5M) | — |
+| **B — Skylabs '27 + Venere** | **~€15-18M** | **~€25-35M** |
+
+**Netto ~26% CGT:** A ~€6-9M · B@2030 ~€11-13M · B maturo ~€18-26M.
+
+**Conclusione:** B **batte A già a un'uscita Venere anticipata al 2030** e **domina** se lasci maturare Venere. A eguaglia B **solo** nel suo bull case (€26,5M, bassa probabilità, asset disrupted). B è anche **diversificato e de-riskato** (cassa Skylabs 2027 vicina e certa + upside Venere aggiuntivo). Il vero premio di Venere è ~2032-33: il 2030 ne cattura solo una parte.
