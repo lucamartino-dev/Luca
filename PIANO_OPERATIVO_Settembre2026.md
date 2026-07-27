@@ -151,6 +151,8 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 5. **Small-cap PE / search fund healthcare** — non in Fase 1 (lowballano un asset pre-prova); candidati per le tranche di scala e come compratori all'exit.
 **Fuori:** VC (modello sbagliato) e PE di controllo in Fase 1.
 
+**Investitore strategico healthcare (es. GKSD / area Gruppo San Donato — relazione calda di Luca):** doppio taglio. **Pro:** credibilità healthcare che de-riska il "nuovo del settore", tasche profonde (finanzia tutto il roll-up), sinergie (rete medica, governance, regolatorio), possibile via d'exit. **Rischi:** vuole più **controllo/termini**; e soprattutto **cattività strategica** — un gruppo ospedaliero è potenziale competitor *e* futuro acquirente: se gli dai **ROFR/esclusiva/drag sull'exit** uccidi la tensione competitiva (dove vive il multiplo) e vede il tuo playbook. **Raccomandazione:** usa la relazione (validazione + capitale + contatto d'exit), ma **in parallelo ai family office, non in esclusiva**; forma ideale = **anchor strategico *bounded* senza diritti che incatenano l'exit**, oppure **lead della Fase 2** (dove tasche e infrastruttura valgono di più e hai già il format provato). In Fase 1 pesa il club di family office (controllo + agilità). Proteggi il playbook in DD (disclosure a stadi, NDA).
+
 ### Quanto costa ogni clinica e quanto raccogliere per le prime 2-4
 Illustrativo, sulle ipotesi del deck (ricavi 0,8-2,5M, EBITDA 20%+, prezzo 3-4x).
 
@@ -184,6 +186,8 @@ Le prime cliniche si comprano con il **capitale degli investitori** (raccolta Fa
 | **Debito bancario** | Acquisizioni successive (riduce equity/clinica) | Fase 2 (2028) |
 
 **Apporto founder in concreto:** ≈ **zero cash necessario** per comprare le cliniche (lo fa la raccolta) — l'apporto è **equity/sweat + ruoli**. L'unico esborso *necessario* è il **bridge pre-raccolta (~100-300k, Luca)**. Il **co-invest di Luca (0,5-2M dal ricavato Skylabs) è opzionale ma raccomandato** (commitment + equity extra + può ancorare il round); Diana/Marcello/COO **nessun cash**. Nessuno si indebita o garantisce personalmente: compra la NewCo. Il **debito** entra solo in Fase 2 (a track record): è la leva per cui i 12M totali fanno 6-8+ cliniche.
+
+**Diritto di co-invest al prezzo del primo round entro il 31/12/27.** Poiché la tua liquidità Skylabs arriva a H2'27, puoi negoziare col lead anchor il diritto di **co-investire alla valutazione del primo round fino al 31/12/27**. Preferisci la forma **impegno con funding differito** (ti impegni ora, finanzi entro la data → gli investitori lo amano, skin-in-the-game garantito) alla **opzione libera** (facoltà, non obbligo → osteggiata: eserciti solo se va bene, li diluisci a sconto). Paletti: **nel term sheet e concordato**, **capped** (non illimitato), e **non rompe il 9:1** (compra quote investor-side, separate dall'equity founder). Nota: a fine 2027 la società potrebbe essersi ri-valutata (format provato) → l'anchor potrebbe chiedere finestra più corta o piccolo premio oltre una certa data; un flat capped fino al 31/12/27 è difendibile come allineamento founder.
 
 ### A che valutazione il primo round (4-5M)
 Il deck propone la Fase 1 **alla stessa valorizzazione del round pieno** (post-money €20M → 4-5M per ~20-25%). È founder-favorable ma **una richiesta alta pre-prova** (nessuna clinica ancora, format non provato, tu nuovo del settore): è la fase più rischiosa, e di norma la fase più rischiosa prende la valutazione **più bassa**, non la stessa.
@@ -368,6 +372,15 @@ Gran parte dei medici estetici incassa in nero per non pagare ~50% di tasse. Ti 
 **Due avvertenze:** (a) metti in conto un **attrito di conversione** (qualche paziente cash resiste alla fattura) → modella conservativo, l'uplift deve superarlo; (b) è il **rischio d'esecuzione n°1** → serve un **fiscalista + avvocato sanitario top** (questo è framing, non parere fiscale).
 
 **Il punto strategico:** il nero non è solo un ostacolo, è **la ragione per cui i medici hanno bisogno di te** — sono incastrati (non scalano, non accedono a capitale, non vendono a istituzionali). Tu offri equity capital-gain-efficient + più pazienti + un exit pulito.
+
+### Il "periodo pulito" pre-acquisizione (tecnica di DD)
+Chiedere al venditore di **andare bianco 6-12 mesi prima di comprare**, osservare l'EBITDA dichiarato sotto piena fatturazione e annualizzare. Dà una **base verificabile e legale** su cui prezzare, testa direttamente il **drenaggio da sbiancamento** (quanti cash resistono alla fattura) e **filtra i venditori** (chi rifiuta è red flag: il suo "reale" è nero che evapora).
+
+**Il nodo — l'incentivo:** da solo il venditore non ci sta (paga ~50% di tasse su un reddito per cui non è ancora pagato). Si risolve **firmando prima un accordo quadro vincolante col prezzo = multiplo sull'EBITDA bianco dimostrato**: *"dimostralo bianco e ti pago 3,5x su quello"* → il tempo bianco diventa ciò su cui incassa, non un costo secco.
+
+**Robustezza:** 6-12 mesi (12 meglio per stagionalità); **triangola coi dati dei fornitori** (ordini iniettabili/device) anti-gaming; **introduci già gli strumenti white-friendly del format** (rateizzazione, recurring, carte) così vedi il **bianco assistito dal format**, più rappresentativo del post-acquisizione. Il periodo pulito è anche l'inizio della transizione.
+
+**Alternativa più veloce:** prezzo sul **dichiarato storico + earn-out** sui risultati bianchi futuri → stesso risk-sharing senza aspettare. *Raccomandazione:* periodo pulito per le **prime cliniche** (hai tempo mentre aspetti Diana/closing Skylabs, costruisci il playbook); poi earn-out + triangolazione fornitori per la velocità.
 
 ### Cosa impariamo dall'estero (e come farne un'opportunità)
 I precedenti utili: roll-up di **sanità/dentale in mercati con forte informalità** (Brasile, India) + **USA** per il recurring.
