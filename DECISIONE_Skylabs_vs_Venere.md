@@ -138,11 +138,11 @@ Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un 
 *Pre aumento di capitale (founder = 100%):*
 | Luca | Diana (Salvo) | COO | Marcello (Cammalleri) |
 |---|---|---|---|
-| **~59%** | **~22%** | **12%** | **7%** |
+| **59,4%** | **22%** | **12%** | **6,6%** |
 
-(Fondazione ~90/10 Luca/Marcello → dopo l'ingresso di Diana ~22% e COO 12% atterra su ~59/7. Diana alzato da 18 a 22 perché il moat AI/dati è motore primario front-loaded in Fase 1-2; i punti extra escono da Luca. Marcello clinical partner part-time; con fondazione 85/15 sale a ~10-11%.)
+**Regola (nel founders' agreement): il rapporto Luca:Marcello resta 9:1 a ogni stadio** — la quota di Marcello è ancorata a **1/9 di quella di Luca**, e Diana + COO + pool + investitori diluiscono i due **pro-rata**, preservando il 90:10 di fondazione. (Diana alzato da 18 a 22 perché il moat AI/dati è motore primario front-loaded in Fase 1-2; i punti extra escono da Luca, non da Marcello. Con fondazione 85/15 il rapporto ancorato diventa ~5,7:1 e Marcello ~10%.)
 
-*Post raise (€12M per il 60%, pool creato al round):* investitori 60%; Luca ~16%, Diana ~6%, COO ~3%, Marcello ~2%, pool ~12-13%. Leve: **ratchet** (founder verso 45-50%+ a buon exit), **cash co-invest** (aumenta la tua %), **reverse vesting** su tutti; sedi di Cammalleri valutate separatamente (related-party).
+*Post raise (€12M per il 60%, pool creato al round):* investitori 60%; Luca ~16,3%, Diana ~6%, COO ~3,3%, Marcello ~1,8% (sempre 9:1 con Luca), pool ~12-13%. Leve: **ratchet** (founder verso 45-50%+ a buon exit), **cash co-invest** (aumenta la tua %), **reverse vesting** su tutti; sedi di Cammalleri valutate separatamente (related-party).
 
 ## C3. Valutazione — i nodi legali da chiudere prima di muoverti
 1. **Patti parasociali Skylabs** (drag/tag/prelazione/leaver): determinano se e come vendere.
@@ -161,7 +161,7 @@ Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un 
 | A chi | **Cegeka / Bip** in processo competitivo |
 | Quando/prezzo | Vendere a **≥ €13-16M**; puntare €18-30M con pipeline integrata |
 | Diana in Venere | Sì, come **#2 ~22%** (moat AI/dati = motore primario), vesting su milestone AI |
-| Marcello in Venere | **Clinical partner part-time ~7%** (mantiene la pratica), impegno scritto e misurato |
+| Marcello in Venere | **Clinical partner part-time ~6,6%** (mantiene la pratica), rapporto **9:1 con Luca** preservato a ogni round |
 | Funding Venere | Fase 1 4-5M da family office, da Set '26; non aspetta Skylabs |
 
 Il *come* eseguire — se scegli questa direzione — è nel Piano operativo allegato.
