@@ -151,6 +151,28 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 5. **Small-cap PE / search fund healthcare** — non in Fase 1 (lowballano un asset pre-prova); candidati per le tranche di scala e come compratori all'exit.
 **Fuori:** VC (modello sbagliato) e PE di controllo in Fase 1.
 
+### Quanto costa ogni clinica e quanto raccogliere per le prime 2-4
+Illustrativo, sulle ipotesi del deck (ricavi 0,8-2,5M, EBITDA 20%+, prezzo 3-4x).
+
+**Costo per clinica:**
+| | EBITDA | Prezzo (3-4x) | Cash al closing (~65%) |
+|---|---|---|---|
+| Piccola (~€0,8M ricavi) | ~€160k | €0,5-0,65M | ~€0,35-0,45M |
+| **Tipo (~€1,2M ricavi)** | ~€240k | **~€0,84M** (3,5x) | **~€0,55M** |
+| Mid-size (~€2M ricavi) | ~€400-500k | €1,4-2M | ~€0,9-1,3M |
+
+Il **cash al closing è ~60-70% del prezzo**: il resto è **rollover equity** (venditore reinveste, zero cassa) + **earn-out differito** (24 mesi, dai risultati). Più **capex format ~€100-200k/clinica**.
+
+**Cassa da raccogliere per le prime 2-4 (clinica-tipo ~€1M EV):**
+| Voce | 2 cliniche | 3 cliniche | 4 cliniche |
+|---|---|---|---|
+| Cash acquisizioni (65%) | €1,3M | €1,95M | €2,6M |
+| Capex format (~€150k/cl) | €0,3M | €0,45M | €0,6M |
+| Piattaforma / team / WC / riserva | ~€0,6M | ~€0,7M | ~€0,9M |
+| **Cassa da raccogliere** | **~€2,2M** | **~€3,1M** | **~€4,1M** |
+
+→ **~€2,5-4,5M = la Fase 1 da 4-5M del deck.** Note: (a) **paghi sull'EBITDA verificato** (dichiarato/normalizzato), spesso meno del reale gonfiato dal nero → a tuo favore; (b) per le prime 2-4 assumi **quasi tutto equity** (banche prestano poco senza track record); la **leva arriva in Fase 2** e riduce l'equity per clinica — è così che i 12M totali fanno 6-8+ cliniche.
+
 ### A che valutazione il primo round (4-5M)
 Il deck propone la Fase 1 **alla stessa valorizzazione del round pieno** (post-money €20M → 4-5M per ~20-25%). È founder-favorable ma **una richiesta alta pre-prova** (nessuna clinica ancora, format non provato, tu nuovo del settore): è la fase più rischiosa, e di norma la fase più rischiosa prende la valutazione **più bassa**, non la stessa.
 
