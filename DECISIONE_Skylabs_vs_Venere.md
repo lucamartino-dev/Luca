@@ -122,7 +122,7 @@ Una società di servizi vale finché ci sei tu. Ma sei **quasi già svincolato**
 
 ## C1. Valutazione — chi portare in Venere
 Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un owner software focalizzato** — non di un secondo team AI-consulting. Da valutare persona per persona (desiderio *e* fit):
-- **Diana (Salvo)** — l'unico socio con un ruolo ad alto valore, ed è l'**operatore esperto e tuo #2 provato**. **Il numero dipende dal ruolo che gli dai:** *owner del moat software* (specialista) → 8-12%; *co-founder / tuo vice* (visione business + AI + partner operativo, e possiede il moat) → **tier co-founder, 15-18%**. Data la vostra storia da numero due e la sua esperienza, la mia lettura è **~18%** — sopra Cammalleri (vedi C2). Cautela: incassa **anche** la vendita di Skylabs, quindi l'equity Venere serve a legarlo al futuro, non a ripagare il passato → **reverse vesting** legato all'ingresso e alla consegna del moat.
+- **Diana (Salvo)** — **operatore esperto, tuo #2 provato, e owner di uno dei due motori primari: il moat AI/dati.** Poiché il dataset si instrumenta dalla clinica #1 e il decision-support entra già in Fase 2 (non è un'optionality di Fase 3), il suo ruolo è **strategico, non di supporto** → la mia lettura sale a **~22%** (range 20-24%, fino a ~25% se co-leader strategico). I punti in più escono da Luca, non dagli operatori. Cautele: (a) incassa **anche** la vendita di Skylabs; (b) entra **post-closing** (~H2'27); (c) **in Fase 1-2 è il *dataset/capability* a essere front-loaded, non i robot** (l'automazione fisica è lunga). Quindi **lega la parte alta della sua quota a milestone AI/dati** col reverse vesting (dataset costruito, decision-support live, POC automazione).
 - **Cammalleri (Marcello)** — **clinical partner part-time**: **1 giorno/settimana sul corporate** + **medico del flagship del gruppo** (dove guadagna i suoi ~€240k → zero cash-burn per la società). Il suo tempo è fondamentale su 5 aree non delegabili: **origination + DD clinica dei target, protocolli/format clinico, reclutamento e retention medici, volto clinico verso investitori/venditori, qualità e reputazione clinica**. Quota **~7%** (fondazione 90/10), con **impegno scritto e misurato** (deliverable trimestrali + vesting sui risultati, clausola underperformance) per evitare equity dormiente. Ottima leva: **lanciare la prima clinica brandizzata con lui** come "format lab" e showcase, poi replicare via buy-and-build. Le sue sedi, se confluiscono, valutate separatamente (related-party). *Dettaglio nel Piano.*
 - **Gli altri soci** — il loro ritorno è la **liquidità della vendita di Skylabs**.
 
@@ -138,11 +138,11 @@ Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un 
 *Pre aumento di capitale (founder = 100%):*
 | Luca | Diana (Salvo) | COO | Marcello (Cammalleri) |
 |---|---|---|---|
-| **63%** | **18%** | **12%** | **7%** |
+| **~59%** | **~22%** | **12%** | **7%** |
 
-(Fondazione 90/10 Luca/Marcello → dopo l'ingresso di Diana 18% e COO 12% atterra su 63/7. Marcello è clinical partner part-time; con fondazione 85/15 sale a ~10-11%.)
+(Fondazione ~90/10 Luca/Marcello → dopo l'ingresso di Diana ~22% e COO 12% atterra su ~59/7. Diana alzato da 18 a 22 perché il moat AI/dati è motore primario front-loaded in Fase 1-2; i punti extra escono da Luca. Marcello clinical partner part-time; con fondazione 85/15 sale a ~10-11%.)
 
-*Post raise (€12M per il 60%, pool creato al round):* investitori 60%; Luca ~17%, Diana ~5%, COO ~3%, Marcello ~2%, pool ~12-13%. Leve: **ratchet** (founder verso 45-50%+ a buon exit), **cash co-invest** (aumenta la tua %), **reverse vesting** su tutti; sedi di Cammalleri valutate separatamente (related-party).
+*Post raise (€12M per il 60%, pool creato al round):* investitori 60%; Luca ~16%, Diana ~6%, COO ~3%, Marcello ~2%, pool ~12-13%. Leve: **ratchet** (founder verso 45-50%+ a buon exit), **cash co-invest** (aumenta la tua %), **reverse vesting** su tutti; sedi di Cammalleri valutate separatamente (related-party).
 
 ## C3. Valutazione — i nodi legali da chiudere prima di muoverti
 1. **Patti parasociali Skylabs** (drag/tag/prelazione/leaver): determinano se e come vendere.
@@ -160,7 +160,7 @@ Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un 
 | Cosa fare di Skylabs | **Vendita piena a strategico** (se i soci ti seguono) |
 | A chi | **Cegeka / Bip** in processo competitivo |
 | Quando/prezzo | Vendere a **≥ €13-16M**; puntare €18-30M con pipeline integrata |
-| Diana in Venere | Sì, come **#2 ~18%**, con vesting |
+| Diana in Venere | Sì, come **#2 ~22%** (moat AI/dati = motore primario), vesting su milestone AI |
 | Marcello in Venere | **Clinical partner part-time ~7%** (mantiene la pratica), impegno scritto e misurato |
 | Funding Venere | Fase 1 4-5M da family office, da Set '26; non aspetta Skylabs |
 

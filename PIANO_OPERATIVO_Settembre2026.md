@@ -166,15 +166,15 @@ Il deck propone la Fase 1 **alla stessa valorizzazione del round pieno** (post-m
 
 | Founder | % (pre-aucap) | Razionale |
 |---|---|---|
-| **Luca** — CEO, ideatore, capitale, M&A, IR + co-invest cash | **63%** | è la tua iniziativa: guidi, raccogli, co-investi |
-| **Diana (Salvo)** — #2 provato, business + AI + owner del moat, full-time | **18%** | operatore esperto e tuo vice; va all-in su Venere |
+| **Luca** — CEO, ideatore, capitale, M&A, IR + co-invest cash | **~59%** | è la tua iniziativa: guidi, raccogli, co-investi |
+| **Diana (Salvo)** — #2 provato, owner del **moat AI/dati** (motore primario), full-time | **~22%** | il moat è front-loaded (Fase 1-2) ed è la ragione per cui il roll-up è vostro; parte alta legata a milestone AI |
 | **COO / AD operativo** — full-time | **12%** | esecuzione format e P&L per sede |
 | **Marcello (Cammalleri)** — clinical partner **part-time** (mantiene la pratica) | **7%** | credibilità + origination + protocolli + medici; comp dalla clinica, non dalla società |
 | **Totale founder** | **100%** | prima di investitori e pool |
 
 Lever: fondando **85/15** anziché 90/10, Marcello sale a ~**10-11%**. La differenza tra un clinical partner (7%) e un co-founder clinico pieno resta a **Luca** o va **riservata nel pool** per un CMO full-time futuro.
 
-**Vista 2 — Post aumento di capitale** (raise €12M per il 60%, pool creato al round): investitori **60%**; la tua 63% pre si diluisce a **~17%**, Diana **~5%**, COO **~3%**, Marcello **~2%**, con **option pool ~12-13%** per gli hire futuri. (Il deck fissa solo l'aggregato *founders & management 40%*; lo split per-persona è tua negoziazione.)
+**Vista 2 — Post aumento di capitale** (raise €12M per il 60%, pool creato al round): investitori **60%**; la tua ~59% pre si diluisce a **~16%**, Diana **~6%**, COO **~3%**, Marcello **~2%**, con **option pool ~12-13%** per gli hire futuri. (Il deck fissa solo l'aggregato *founders & management 40%*; lo split per-persona è tua negoziazione.) *Diana alzato da 18 a ~22 perché l'AI/dati è motore primario già in Fase 1-2; i punti extra escono da Luca; lega la parte alta al vesting su milestone AI.*
 
 **Leve:** il **ratchet** può portare i founder verso **45-50%+** a un buon exit (è lì la tua upside); il **cash co-invest** aumenta la tua % (quote investor-side comprate a €20M); **reverse vesting** su tutti; le **sedi di Cammalleri**, se confluiscono, valutate separatamente (related-party), non gonfiando la sua %; per un **COO** top usa il **pool**, non i founder.
 
@@ -186,7 +186,7 @@ Ha senso **fondare Venere solo con te e Cammalleri** e far entrare **COO e Diana
 2. **COO — intorno alla prima acquisizione:** serve a far girare format e P&L; probabilmente **prima** di Diana.
 3. **Diana — al closing di Skylabs (≈H2'27):** momento in cui la vendita è chiusa (riservatezza non più necessaria) *e* hai già la prima clinica → ingresso concreto. Fino ad allora il gestionale gira su un **sistema interim**; Diana costruisce il moat quando entra.
 
-**Perché i numeri tornano:** ratio Luca:Marcello = 90:10; emettendo poi **Diana 18%** e **COO 12%**, i due si diluiscono in proporzione fino a **~63% / ~7%** (base founder) — la Vista 1. Il 90/10 **è** il punto di partenza che atterra sul target.
+**Perché i numeri tornano:** ratio Luca:Marcello = 90:10; emettendo poi **Diana ~22%** e **COO 12%**, i due si diluiscono in proporzione fino a **~59% / ~7%** (base founder) — la Vista 1. Il 90/10 **è** il punto di partenza che atterra sul target.
 
 **Presidio da mettere subito — founders' agreement alla fondazione:** pre-definisce (a) la cap table target fully-diluted, (b) le **quote riservate e il vesting per Diana e il COO** (emesse al loro ingresso), (c) l'**option pool** (con una riserva per la futura leadership clinica), (d) **reverse vesting** su tutti, e (e) i **deliverable clinici di Marcello** cui è legato il suo vesting. Così ognuno sa la propria traiettoria e nessuno rinegozia dopo.
 
@@ -206,7 +206,7 @@ Struttura raccomandata: **Marcello porta due cappelli** — (a) **1 giorno/setti
 - **Vesting legato ai deliverable, non solo al tempo**, con **clausola di underperformance/bad-leaver**: se coasta, l'equity non maturata torna indietro. È questo che rende l'impegno reale.
 - **Comp:** €0-minimo dalla società per il ruolo corporate; guadagna dalla **pratica clinica nel flagship del gruppo** (comp a **valore di mercato, arm's length, related-party documentato**); l'equity è l'upside e vesta sui risultati.
 
-**La quota (90/10):** a regime, dopo l'ingresso di **Diana 18%** e **COO 12%**, il 90/10 iniziale atterra su **~Luca 63% / Marcello 7%** (base founder, pre-investitori). Se lo vuoi più vicino a **~10-11%**, fondi **85/15**. L'equity non assegnata a un co-founder clinico pieno resta a **Luca** e/o va **riservata nel pool** per la futura leadership clinica (un **CMO full-time** quando scali, i direttori sanitari, il KOL advisor).
+**La quota (90/10):** a regime, dopo l'ingresso di **Diana ~22%** e **COO 12%**, il 90/10 iniziale atterra su **~Luca 59% / Marcello 7%** (base founder, pre-investitori). Se lo vuoi più vicino a **~10-11%**, fondi **85/15**. L'equity non assegnata a un co-founder clinico pieno resta a **Luca** e/o va **riservata nel pool** per la futura leadership clinica (un **CMO full-time** quando scali, i direttori sanitari, il KOL advisor).
 
 ### Il flagship come "format lab" (con Marcello)
 Idea forte: **lanciare la prima clinica brandizzata con Marcello come medico di riferimento**, per **testare e codificare il format** in un ambiente che controlli al 100%, poi replicarlo. Vantaggi:
