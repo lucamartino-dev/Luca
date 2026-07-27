@@ -320,6 +320,25 @@ La velocità non è chiudere UN deal in fretta: è avere **2-4 deal già pronti*
 5. **Rollover + earn-out riducono cassa e attrito:** il venditore resta e rolla equity → allineato, colma il gap di valutazione senza braccio di ferro.
 6. **Deal team + advisor dal giorno 1** (M&A, avvocato sanitario, fiscalista) + **pre-work regolatorio** (autorizzazioni/trasferimento, continuità del direttore sanitario — spesso lo step lento: scopilo presto).
 
+## La storia da raccontare ai medici (seller pitch)
+
+Narrazione lato venditore: **trasforma i suoi dolori in ragioni per entrare, senza toccare la sua medicina.**
+
+**Arco (una riga):** *"Hai costruito uno studio che vale, ma da solo hai toccato il suo soffitto: non scala, ti tiene inchiodato (lo studio SEI tu), paghi metà in tasse o rischi col nero, e non ha vero valore di rivendita né successione. Noi togliamo il soffitto e ti de-riskiamo — senza toccare la tua medicina."*
+
+**I 5 messaggi (dolore → soluzione):**
+1. **Ricchezza che da solo non avrai mai:** cassa al closing **+** equity nella piattaforma (7-10x) = un **secondo payday più grande all'exit**. Il tuo studio da solo non ha exit.
+2. **Reddito → capital gain:** smetti di perdere ~50% in tasse / rischiare col nero; l'equity è tassata ~26%. Legale ed efficiente.
+3. **Togliamo il soffitto:** brand, marketing, recurring, rateizzazione = **più pazienti** e ticket più alti; procurement/back office/software/HR li gestiamo noi. **Più medicina, meno burocrazia** — il lordo cresce anche diventando bianco.
+4. **Tieni medicina e autonomia:** la piattaforma **non interferisce sull'atto clinico**; comitato scientifico indipendente; **incentivi mai sui volumi** (nessuno ti spinge a sovra-trattare). *(Disinnesca la paura n°1: la corporatizzazione.)*
+5. **De-risk e successione:** non sei più l'unico punto di rottura; multi-provider = lo studio sopravvive oltre te; uscita dignitosa **con valore**, non uno studio che muore con la pensione.
+
+**Leva del timing:** i **primi** prendono le condizioni migliori e la fetta più grande — prima che la piattaforma sia costruita e de-riskata. **Meglio founder-doctor che late joiner.**
+
+**Fletti sul profilo:** pensione → successione+liquidità; giovane ambizioso → crescita+equity+leadership; stressato da burocrazia/nero → togliamo l'hassle e regolarizzi conveniente.
+
+**Cosa NON dire:** non promettere di preservare il nero; non aprire con "venderai più trattamenti"; non presentarti come "un fondo che ti compra" ma come "costruiamo insieme la piattaforma che il settore non ha — con medici, non burocrati". **Marcello + comitato scientifico** rendono il tutto credibile: entra in una comunità clinica guidata da pari, non vende a un fondo anonimo.
+
 ## Il nodo del "nero" dei medici estetici (come affrontarlo, legalmente)
 
 Gran parte dei medici estetici incassa in nero per non pagare ~50% di tasse. Ti crea due problemi: (a) l'**EBITDA dichiarato dei target sottostima il reale** → prezzi bassi ma venditori che pretendono credito per numeri non verificabili; (b) dentro una piattaforma fatturata il ricavo dev'essere **bianco**, e la conversione può comprimere i margini.
