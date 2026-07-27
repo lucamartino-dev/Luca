@@ -273,6 +273,31 @@ Cautela trasversale: per gli advisor che operano in **consolidamento adiacente**
 
 *(Diana entra al closing di Skylabs, ~H2'27 — riservato fino ad allora.)*
 
+## Come individuare e acquisire in fretta le prime cliniche
+
+### A. Individuarle (origination + screening)
+**Canali di sourcing, in ordine di potenza:**
+1. **Il network clinico di Marcello** — il canale n°1: sa quali studi valgono, quali medici sono credibili, chi è vicino alla pensione, i volumi reali. Congressi e associazioni (AITEB, SIME, AICPE).
+2. **I fornitori di iniettabili e device** (AbbVie/Allergan, Galderma, Merz; laser/energy: Candela, Cynosure, DEKA/El.En.) — **il canale killer**: conoscono i **volumi reali** di ogni studio (vedono gli ordini) → originano deal *e* triangolano dichiarato vs reale (arma contro il nero).
+3. **Advisor di settore (fondatori Hippocrates) + M&A/commercialisti locali** nella regione target.
+4. **Outreach diretto** proprietario agli studi che rientrano nel profilo — non da broker (il miglior deal flow non passa dalle aste).
+
+**Screening — come scegliere:**
+- **Cluster-first:** una sola regione (NO o NE), in profondità per densità (GM condiviso, procurement, marketing). Non disperdere.
+- **Qualità della clinica:** base pazienti reale + iniettabili ripetibili (recurring-amenable), 2+ medici o convertibile, bacino 100k+, autorizzazioni pulite.
+- **Qualità del venditore:** motivato (uscita generazionale), disposto a **permanenza 24-36 mesi + rollover**, allineato, zero baggage reputazionale. La disponibilità a rollare equity è il segnale più forte.
+- **Verificabilità dei numeri** (POS/banca/**acquisti dai fornitori**) e **convertibilità al format** + headroom (saturazione agende).
+- **La "clinica-ancora":** la prima sia forte e credibile → hub del cluster + showcase.
+
+### B. Acquisirle in fretta
+La velocità non è chiudere UN deal in fretta: è avere **2-4 deal già pronti** (sourcing + LOI + DD fatti pre-closing) da chiudere in una **finestra compressa** appena Diana entra (~H2'27).
+1. **Front-load pipeline e DD (2026-H1'27)** in parallelo a pilot e raccolta → a Diana entrato **esegui, non inizi**.
+2. **Deal template + playbook standard** (3-4x, 60-70% cash, earn-out, rollover, non-compete + checklist SPA/DD ripetibile): ogni deal è un "riempi il modello", non bespoke.
+3. **Deal bilaterali proprietari (non aste):** venditori motivati dal network di Marcello + intro dei fornitori → warm, veloci, economici.
+4. **Prime target semplici** (proprietario singolo, autorizzazioni pulite, numeri verificabili) → chiudi in fretta e costruisci il playbook; i complessi dopo.
+5. **Rollover + earn-out riducono cassa e attrito:** il venditore resta e rolla equity → allineato, colma il gap di valutazione senza braccio di ferro.
+6. **Deal team + advisor dal giorno 1** (M&A, avvocato sanitario, fiscalista) + **pre-work regolatorio** (autorizzazioni/trasferimento, continuità del direttore sanitario — spesso lo step lento: scopilo presto).
+
 ## Il nodo del "nero" dei medici estetici (come affrontarlo, legalmente)
 
 Gran parte dei medici estetici incassa in nero per non pagare ~50% di tasse. Ti crea due problemi: (a) l'**EBITDA dichiarato dei target sottostima il reale** → prezzi bassi ma venditori che pretendono credito per numeri non verificabili; (b) dentro una piattaforma fatturata il ricavo dev'essere **bianco**, e la conversione può comprimere i margini.
