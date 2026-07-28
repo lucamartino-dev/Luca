@@ -373,6 +373,31 @@ Narrazione lato venditore: **trasforma i suoi dolori in ragioni per entrare, sen
 
 **Cosa NON dire:** non promettere di preservare il nero; non aprire con "venderai più trattamenti"; non presentarti come "un fondo che ti compra" ma come "costruiamo insieme la piattaforma che il settore non ha — con medici, non burocrati". **Marcello + comitato scientifico** rendono il tutto credibile: entra in una comunità clinica guidata da pari, non vende a un fondo anonimo.
 
+## La struttura dell'offerta al venditore (cash / rollover / earn-out)
+
+Il prezzo lo àncori a **3-4x l'EBITDA normalizzato** (documentato/normalizzabile — **non** il nero). Su quel totale, lo split che consiglio:
+
+| Componente | Quota | Quando si incassa | Funzione |
+|---|---|---|---|
+| **Cash al closing** | **~60%** | subito | liquidità certa, il "sì" |
+| **Rollover equity in Venere** | **~20-25%** | all'exit di gruppo (7-10x) | il "secondo payday" + allineamento |
+| **Earn-out / differito** | **~15-20%** | in tranche su **2-3 anni** | retention + colma il gap di valutazione |
+
+**In una riga:** *~60% subito, ~40% dopo* — di cui **metà congelata** nella piattaforma fino all'exit di gruppo (rollover) e **metà come earn-out** su 2-3 anni.
+
+**Earn-out — dopo quanti anni:** **3 anni** dove il medico *è* l'asset (serve tempo per far transitare i pazienti e depersonalizzare col multi-provider), **2 anni** dove la dipendenza dal titolare è minore. Tranche annuali legate a **(a)** mantenimento/crescita EBITDA e **(b)** permanenza (good leaver). Cammina insieme alla permanenza 24-36 mesi.
+
+**La leva sul nero (risolve due problemi in uno):** cash e base li paghi **solo sull'EBITDA documentato**; il valore del sommerso NON lo paghi in contanti (non è verificabile né riconoscibile legalmente) ma lo lasci **recuperare al venditore via earn-out agganciato all'EBITDA *formalizzato*** (POS, financing, fatturazione piena). Il medico guadagna il valore del nero **sbiancandolo**, tu paghi solo su numeri reali e tracciati. Il problema diventa il meccanismo di allineamento. *(Si combina con il "periodo pulito" pre-acquisizione — sotto.)*
+
+**Paletti standard:** **reverse vesting** sul rollover (bad leaver decade), **non-compete**, **holdback ~10%** per 12-18 mesi a garanzia (reps & warranties).
+
+**Esempio** — EBITDA normalizzato €400k × 4x = **€2,0M**: cash al closing **~€1,2M**, rollover in Venere **~€0,45M** (allo stesso prezzo del round), earn-out **~€0,35M** su 3 anni su EBITDA formalizzato + permanenza.
+
+**Come flettere lo split sul profilo del venditore:**
+- **Pensione/uscita:** più cash subito (fino a ~70%), rollover minore — vuole liquidità, non una seconda scommessa.
+- **Giovane/ambizioso:** più rollover (fino a ~35%) e ruolo — vuole il secondo payday e la crescita.
+- **Molto "in nero":** base cash contenuta + **earn-out più pesante** sull'EBITDA formalizzato — è lì che si gioca il suo upside.
+
 ## Il nodo del "nero" dei medici estetici (come affrontarlo, legalmente)
 
 Gran parte dei medici estetici incassa in nero per non pagare ~50% di tasse. Ti crea due problemi: (a) l'**EBITDA dichiarato dei target sottostima il reale** → prezzi bassi ma venditori che pretendono credito per numeri non verificabili; (b) dentro una piattaforma fatturata il ricavo dev'essere **bianco**, e la conversione può comprimere i margini.
