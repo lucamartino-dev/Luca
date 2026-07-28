@@ -454,6 +454,17 @@ Venere e Bending Spoons sono **la stessa architettura di creazione di valore app
 4. **Posiziona Diana come il "platform/data team"** cross-portafoglio, non come IT di supporto.
 5. **Progetta l'ottionalità hold-or-sell** nella governance (patti che non ti costringano a vendere a scadenza).
 
+### "Skylabs OS": ha senso? Sì — ma la versione capacità, non la versione codice
+
+La "macchina centrale" di Venere (il platform-team alla Bending Spoons) di fatto **è** un *operating system* interno AI-driven: agenti che gestiscono agende, recall, pricing, procurement, KPI, decision-support clinico. È naturale chiedersi se sia lo **Skylabs OS** — la piattaforma agentica (tipo Universe) che tu e Diana già sapete costruire. **La risposta è sì, ma con una distinzione che vale i soldi:**
+
+- **Ciò che si trasferisce è la capacità, non l'asset.** Il valore vero non è il codice di Skylabs — è **il know-how di Diana + tuo** nel costruire e far girare una piattaforma agentica in verticale. Quello **cammina con le persone**, non con i repository. Venere si costruisce il suo OS *clean-room*, ispirato a ciò che avete imparato, **senza portarsi dietro IP di Skylabs**.
+- **Perché la versione "riuso del codice" è una trappola:** stai **vendendo** Skylabs a uno strategico (Cegeka/Bip). Quel codice/IP sarà **del compratore**; travasarlo in Venere riaccende esattamente il rischio già a tabella (*"Rivendica su IP del gestionale → separazione IP clean-room o licenza periziata"*) e **abbassa il prezzo di Skylabs** (svendi l'asset che stai monetizzando). Da evitare.
+- **La mossa elegante (dogfooding pre-vendita):** usa Venere come **caso-vetrina** della piattaforma agentica Skylabs *prima* del closing — l'agentic platform che manda avanti una vera operazione multi-sede. Fatto ad **arm's length e documentato**, **alza** il valore di Skylabs (proof-of-value verticale per il compratore) invece di eroderlo. Post-closing, Diana ricostruisce l'OS di Venere in pulito.
+- **Il punto AI-driven:** l'"OS" non è un gestionale con sopra un chatbot. È l'azienda **progettata attorno agli agenti**: HQ minimo perché la piattaforma fa il lavoro di coordinamento che altrove richiede middle-management. È qui che il DNA AI (commodity in Skylabs) diventa **vantaggio scarso** in un settore che non lo sa fare.
+
+**Verdetto:** concettualmente sì, chiamalo pure "Venere OS" e mettilo al centro; **ma costruiscilo come capacità nuova e pulita**, non come export del software Skylabs — e sfrutta l'occasione dogfooding per far salire, non scendere, il prezzo di Skylabs.
+
 ## Fronte finanziario e fiscale (verifica con commercialista — non è consulenza fiscale)
 - **Allocazione proventi Skylabs:** (a) co-invest CEO in Venere, (b) riserva personale, (c) eventuale quota Fase 1. Definisci le tre quote prima di incassare.
 - **Fiscalità della cessione:** valuta la struttura più efficiente (es. cessione via holding personale / regime PEX) **prima** del signing.
