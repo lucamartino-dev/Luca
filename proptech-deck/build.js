@@ -1,0 +1,419 @@
+const pptxgen = require("pptxgenjs");
+const p = new pptxgen();
+p.layout = "LAYOUT_WIDE"; // 13.3 x 7.5
+const W = 13.3, H = 7.5;
+
+// ---- Palette ----
+const NAVY  = "0E1E38";  // deep background
+const NAVY2 = "17294A";  // panel / card on dark
+const AMBER = "E8A33D";  // accent (Italian warmth)
+const TERRA = "C0563C";  // secondary accent
+const ICE   = "EAF1FA";  // light bg
+const WHITE = "FFFFFF";
+const INK   = "16233B";  // dark text on light
+const SLATE = "5C6C87";  // muted text on light
+const MUTE  = "9DB0CC";  // muted text on dark
+const CARD  = "F4F7FC";  // light card
+const LINE  = "D9E2EF";
+
+const HEAD = "Cambria";
+const BODY = "Calibri";
+
+// ---- helpers ----
+function bg(slide, color){ slide.background = { color }; }
+
+function kicker(slide, text, x, y, color, acc){
+  slide.addText(text.toUpperCase(), {
+    x, y, w: 6, h: 0.3, fontFace: BODY, fontSize: 12, bold: true,
+    color: acc || AMBER, charSpacing: 3, align: "left", margin: 0
+  });
+}
+
+function pageNum(slide, n, dark){
+  slide.addText(String(n).padStart(2,"0"), {
+    x: W-0.9, y: H-0.55, w: 0.5, h: 0.3, align: "right",
+    fontFace: BODY, fontSize: 10, color: dark ? MUTE : SLATE, margin: 0
+  });
+  slide.addText("CONFORME", {
+    x: 0.6, y: H-0.55, w: 3, h: 0.3, align: "left",
+    fontFace: BODY, fontSize: 10, bold:true, color: dark ? MUTE : SLATE, charSpacing: 2, margin: 0
+  });
+}
+
+function numCircle(slide, x, y, d, n, fill, txtcol){
+  slide.addShape(p.ShapeType.ellipse, { x, y, w: d, h: d, fill: { color: fill } });
+  slide.addText(String(n), { x, y, w: d, h: d, align:"center", valign:"middle",
+    fontFace: HEAD, fontSize: 18, bold:true, color: txtcol || WHITE, margin:0 });
+}
+
+// =========================================================
+// SLIDE 1 — TITLE
+// =========================================================
+let s = p.addSlide(); bg(s, NAVY);
+// subtle building-block motif (bottom-right nodes)
+const blocks = [[10.9,4.9,1.5],[11.55,5.6,0.9],[12.15,4.2,2.3]];
+blocks.forEach(([bx,by,bh],i)=>{
+  s.addShape(p.ShapeType.roundRect, { x:bx, y:by, w:0.55, h:bh, rectRadius:0.06,
+    fill:{ color: i===2?AMBER:NAVY2 }, line:{ color: i===2?AMBER:"22375E", width:1 } });
+});
+kicker(s, "Proptech · Intelligenza Artificiale · Italia", 0.75, 1.35, AMBER);
+s.addText("Conforme", { x:0.7, y:1.7, w:9.5, h:1.5, fontFace:HEAD, fontSize:76, bold:true, color:WHITE, margin:0 });
+s.addText("L'infrastruttura AI della compravendita immobiliare italiana", {
+  x:0.75, y:3.25, w:9.2, h:0.7, fontFace:BODY, fontSize:22, color:ICE, margin:0 });
+s.addText([
+  { text:"Non un altro portale di annunci. ", options:{ color:MUTE } },
+  { text:"Digitalizziamo la parte che fa saltare le compravendite: la conformità.", options:{ color:AMBER, italic:true } }
+], { x:0.75, y:4.15, w:9.4, h:0.6, fontFace:BODY, fontSize:15, margin:0 });
+s.addText("Pitch per investitore  ·  Luca Martino — Skylabs", {
+  x:0.75, y:6.5, w:8, h:0.4, fontFace:BODY, fontSize:13, color:MUTE, margin:0 });
+
+// =========================================================
+// SLIDE 2 — THE PROBLEM
+// =========================================================
+s = p.addSlide(); bg(s, WHITE);
+kicker(s, "Il problema", 0.6, 0.55, TERRA);
+s.addText("L'annuncio è risolto. La transazione è rotta.", {
+  x:0.55, y:0.85, w:12.2, h:0.9, fontFace:HEAD, fontSize:34, bold:true, color:INK, margin:0 });
+s.addText("Immobiliare.it e Idealista dominano la vetrina. Ma dietro l'annuncio, la compravendita in Italia è ancora lenta, opaca e analogica — e il collo di bottiglia è sempre lo stesso.", {
+  x:0.55, y:1.75, w:8.2, h:0.9, fontFace:BODY, fontSize:16, color:SLATE, margin:0 });
+
+const pains = [
+  ["1","La conformità blocca tutto","La difformità catastale/urbanistica è la prima causa di rogiti che saltano o si allungano dal notaio."],
+  ["2","I dati vivono in silos","Catasto, archivi edilizi del Comune, visure ipotecarie, APE, vincoli: nessuno di questi sistemi si parla."],
+  ["3","Settimane di lavoro manuale","Per ogni immobile servono geometra, notaio e avvocato per ricostruire un dossier che oggi è tutto a mano."]
+];
+let py = 2.95;
+pains.forEach(([n,t,d])=>{
+  s.addShape(p.ShapeType.roundRect, { x:0.55, y:py, w:12.2, h:1.15, rectRadius:0.08,
+    fill:{ color:CARD }, line:{ color:LINE, width:1 } });
+  numCircle(s, 0.85, py+0.28, 0.6, n, TERRA);
+  s.addText(t, { x:1.7, y:py+0.16, w:4.6, h:0.5, fontFace:HEAD, fontSize:18, bold:true, color:INK, margin:0, valign:"middle" });
+  s.addText(d, { x:6.4, y:py+0.16, w:6.15, h:0.85, fontFace:BODY, fontSize:14, color:SLATE, margin:0, valign:"middle" });
+  py += 1.32;
+});
+pageNum(s, 2, false);
+
+// =========================================================
+// SLIDE 3 — THE INSIGHT (dark, stats)
+// =========================================================
+s = p.addSlide(); bg(s, NAVY);
+kicker(s, "L'insight", 0.6, 0.6, AMBER);
+s.addText("Chi possiede il layer di conformità e titolo possiede una cosa che in Italia non è mai esistita.", {
+  x:0.55, y:0.95, w:12.2, h:1.2, fontFace:HEAD, fontSize:28, bold:true, color:WHITE, margin:0 });
+
+const stats = [
+  ["~75%","tra i più alti tassi di proprietà della casa in Europa: un patrimonio enorme e frammentato","AMBER"],
+  ["Milioni","di immobili con difformità catastali o urbanistiche da regolarizzare","WHITE"],
+  ["~€100 mld+","volume annuo delle compravendite residenziali (ordine di grandezza)","AMBER"]
+];
+let sx = 0.55;
+stats.forEach(([big,lab,c])=>{
+  s.addShape(p.ShapeType.roundRect, { x:sx, y:2.55, w:3.95, h:2.65, rectRadius:0.1,
+    fill:{ color:NAVY2 }, line:{ color:"27406B", width:1 } });
+  s.addText(big, { x:sx+0.25, y:2.95, w:3.45, h:1.0, fontFace:HEAD, fontSize:44, bold:true,
+    color: c==="AMBER"?AMBER:WHITE, margin:0 });
+  s.addText(lab, { x:sx+0.25, y:4.0, w:3.5, h:1.05, fontFace:BODY, fontSize:14, color:ICE, margin:0 });
+  sx += 4.15;
+});
+s.addText("L'equivalente di un MLS / registro dei titoli — che il mercato immobiliare italiano, a differenza di quello USA, non ha mai avuto.", {
+  x:0.55, y:5.55, w:12.2, h:0.7, fontFace:BODY, fontSize:15, italic:true, color:AMBER, margin:0 });
+s.addText("Cifre a livello di mercato, indicative / ordine di grandezza.", {
+  x:0.55, y:6.55, w:8, h:0.3, fontFace:BODY, fontSize:10, color:MUTE, margin:0 });
+pageNum(s, 3, true);
+
+// =========================================================
+// SLIDE 4 — THE WEDGE / SOLUTION (process flow)
+// =========================================================
+s = p.addSlide(); bg(s, WHITE);
+kicker(s, "La soluzione — il punto d'ingresso", 0.6, 0.55, TERRA);
+s.addText("Un agente AI che costruisce e verifica la due diligence in ore, non settimane", {
+  x:0.55, y:0.9, w:12.2, h:0.9, fontFace:HEAD, fontSize:28, bold:true, color:INK, margin:0 });
+
+const steps = [
+  ["Input","Un indirizzo o un dato catastale. Nient'altro."],
+  ["Raccolta","L'agente recupera visure, planimetrie, atti, archivi edilizi e vincoli."],
+  ["Verifica AI","Cross-check automatico catastale ↔ urbanistico ↔ stato di fatto; stima difformità e sanabilità."],
+  ["Certificato","Un dossier di due diligence pronto per agenzia, notaio, banca o fondo."]
+];
+const cw = 2.9, gap = 0.28, startx = 0.55, cy = 2.5, ch = 3.0;
+steps.forEach(([t,d],i)=>{
+  const x = startx + i*(cw+gap);
+  s.addShape(p.ShapeType.roundRect, { x, y:cy, w:cw, h:ch, rectRadius:0.09,
+    fill:{ color: i===3?NAVY:CARD }, line:{ color: i===3?NAVY:LINE, width:1 } });
+  numCircle(s, x+0.28, cy+0.3, 0.62, i+1, i===3?AMBER:TERRA, i===3?NAVY:WHITE);
+  s.addText(t, { x:x+0.28, y:cy+1.05, w:cw-0.5, h:0.5, fontFace:HEAD, fontSize:19, bold:true,
+    color: i===3?WHITE:INK, margin:0 });
+  s.addText(d, { x:x+0.28, y:cy+1.55, w:cw-0.5, h:1.3, fontFace:BODY, fontSize:13,
+    color: i===3?ICE:SLATE, margin:0 });
+  if(i<3){
+    s.addShape(p.ShapeType.rightArrow, { x:x+cw+0.02, y:cy+ch/2-0.12, w:0.24, h:0.24,
+      fill:{ color:AMBER } });
+  }
+});
+s.addText([
+  { text:"Cliente iniziale = B2B. ", options:{ bold:true, color:INK } },
+  { text:"Agenzie di rete, notai, banche (perizie mutui), fondi e SGR, aste. Pagano già oggi per questo lavoro — fatto male e lento. Vendiamo tempo e riduzione del rischio, non “AI”.", options:{ color:SLATE } }
+], { x:0.55, y:5.95, w:12.2, h:0.8, fontFace:BODY, fontSize:14, margin:0 });
+pageNum(s, 4, false);
+
+// =========================================================
+// SLIDE 5 — THE MOAT (data flywheel)
+// =========================================================
+s = p.addSlide(); bg(s, NAVY);
+kicker(s, "Il vantaggio difendibile", 0.6, 0.55, AMBER);
+s.addText("Ogni pratica alimenta un dataset che nessuno può copiare dalla vetrina", {
+  x:0.55, y:0.9, w:12.2, h:0.9, fontFace:HEAD, fontSize:27, bold:true, color:WHITE, margin:0 });
+
+// central hub
+const hubX=5.55, hubY=3.35, hubD=2.2;
+s.addShape(p.ShapeType.ellipse, { x:hubX, y:hubY, w:hubD, h:hubD, fill:{ color:AMBER } });
+s.addText("DATI\nPROPRIETARI", { x:hubX, y:hubY, w:hubD, h:hubD, align:"center", valign:"middle",
+  fontFace:HEAD, fontSize:16, bold:true, color:NAVY, margin:0 });
+
+const nodes = [
+  ["Più pratiche di due diligence", 4.4, 2.05],
+  ["Più dati verificati di conformità e valore", 9.05, 3.15],
+  ["Prodotto e valutazioni più accurate", 4.4, 4.65],
+  ["Più clienti, più fiducia, più pratiche", 1.05, 3.15]
+];
+nodes.forEach(([t,x,y])=>{
+  s.addShape(p.ShapeType.roundRect, { x, y, w:3.0, h:1.1, rectRadius:0.09,
+    fill:{ color:NAVY2 }, line:{ color:"27406B", width:1 } });
+  s.addText(t, { x:x+0.15, y, w:2.7, h:1.1, align:"center", valign:"middle",
+    fontFace:BODY, fontSize:13, bold:true, color:ICE, margin:0 });
+});
+s.addText("Effetto rete sui dati: costruiamo, pratica dopo pratica, l'MLS e il registro dei titoli che l'Italia non ha mai avuto.", {
+  x:0.55, y:6.35, w:12.2, h:0.6, fontFace:BODY, fontSize:15, italic:true, color:AMBER, margin:0 });
+pageNum(s, 5, true);
+
+// =========================================================
+// SLIDE 6 — 360 VISION (module grid)
+// =========================================================
+s = p.addSlide(); bg(s, WHITE);
+kicker(s, "La visione a 360°", 0.6, 0.5, TERRA);
+s.addText("Dal certificato di conformità alla piattaforma dell'intera transazione", {
+  x:0.55, y:0.85, w:12.2, h:0.75, fontFace:HEAD, fontSize:26, bold:true, color:INK, margin:0 });
+
+const mods = [
+  ["1","Due Diligence AI","Il punto d'ingresso: certificato di conformità automatizzato.","OGGI"],
+  ["2","Valutazione dati-driven","AVM molto più accurato dei dati OMI, basato su transazioni reali.","ESPANSIONE"],
+  ["3","Rails della transazione","Notaio, banca, mutuo e rogito orchestrati in digitale.","ESPANSIONE"],
+  ["4","Sblocco immobili fermi","Eredità e comproprietà frammentate: mappatura e accordo assistiti.","ESPANSIONE"],
+  ["5","Retrofit energetico","Gap di classe, costi e incentivi per la direttiva Case Green.","ESPANSIONE"],
+  ["6","Marketplace finanziario","Mutui e finanziamenti ristrutturazione agganciati al dossier.","ESPANSIONE"]
+];
+const gw=3.95, gh=1.9, gx0=0.55, gy0=1.85, gxg=0.28, gyg=0.28;
+mods.forEach((m,i)=>{
+  const col=i%3, row=Math.floor(i/3);
+  const x=gx0+col*(gw+gxg), y=gy0+row*(gh+gyg);
+  const isNow = m[3]==="OGGI";
+  s.addShape(p.ShapeType.roundRect, { x, y, w:gw, h:gh, rectRadius:0.08,
+    fill:{ color: isNow?NAVY:CARD }, line:{ color: isNow?NAVY:LINE, width:1 } });
+  numCircle(s, x+0.28, y+0.28, 0.5, m[0], isNow?AMBER:TERRA, isNow?NAVY:WHITE);
+  s.addText(m[3], { x:x+gw-1.8, y:y+0.34, w:1.6, h:0.3, align:"right",
+    fontFace:BODY, fontSize:10, bold:true, charSpacing:1.5,
+    color: isNow?AMBER:SLATE, margin:0 });
+  s.addText(m[1], { x:x+0.28, y:y+0.85, w:gw-0.55, h:0.4, fontFace:HEAD, fontSize:16.5, bold:true,
+    color: isNow?WHITE:INK, margin:0 });
+  s.addText(m[2], { x:x+0.28, y:y+1.24, w:gw-0.55, h:0.6, fontFace:BODY, fontSize:12.5,
+    color: isNow?ICE:SLATE, margin:0 });
+});
+pageNum(s, 6, false);
+
+// =========================================================
+// SLIDE 7 — MARKET (TAM/SAM/SOM)
+// =========================================================
+s = p.addSlide(); bg(s, WHITE);
+kicker(s, "Il mercato", 0.6, 0.55, TERRA);
+s.addText("Un mercato enorme, con un punto d'ingresso stretto e monetizzabile subito", {
+  x:0.55, y:0.9, w:12.2, h:0.8, fontFace:HEAD, fontSize:26, bold:true, color:INK, margin:0 });
+
+const tam = [
+  ["TAM","Mercato immobiliare & servizi collegati in Italia","~€100 mld+ transato/anno", NAVY, WHITE, 5.6],
+  ["SAM","Due diligence, valutazione e servizi di transazione","Miliardi di € di spesa annua", TERRA, WHITE, 4.2],
+  ["SOM","Target iniziale: DD B2B per reti, notai, banche, fondi","Centinaia di mln raggiungibili", AMBER, NAVY, 2.8]
+];
+let ty=2.35;
+tam.forEach(([k,d,v,c,tc,ww])=>{
+  s.addShape(p.ShapeType.roundRect, { x:0.55, y:ty, w:ww, h:1.25, rectRadius:0.09, fill:{ color:c } });
+  s.addText(k, { x:0.8, y:ty+0.18, w:1.6, h:0.9, fontFace:HEAD, fontSize:30, bold:true, color:tc, margin:0, valign:"middle" });
+  s.addText(v, { x:2.3, y:ty+0.2, w:ww-1.7, h:0.5, fontFace:HEAD, fontSize:16, bold:true, color:tc, margin:0 });
+  s.addText(d, { x:2.3, y:ty+0.68, w:Math.max(ww-1.7,4.5), h:0.5, fontFace:BODY, fontSize:12.5, color:tc, margin:0 });
+  ty += 1.45;
+});
+// right note
+s.addShape(p.ShapeType.roundRect, { x:9.55, y:2.35, w:3.2, h:4.05, rectRadius:0.09, fill:{ color:CARD }, line:{ color:LINE, width:1 } });
+s.addText("Perché si vince dal SOM", { x:9.8, y:2.55, w:2.75, h:0.4, fontFace:HEAD, fontSize:15, bold:true, color:INK, margin:0 });
+s.addText([
+  { text:"Domanda già esistente e pagante\n", options:{ bullet:true, breakLine:true } },
+  { text:"Ciclo di vendita B2B veloce\n", options:{ bullet:true, breakLine:true } },
+  { text:"Ogni pratica costruisce il data-moat\n", options:{ bullet:true, breakLine:true } },
+  { text:"Da lì si espande a 360°", options:{ bullet:true } }
+], { x:9.85, y:3.05, w:2.7, h:3.2, fontFace:BODY, fontSize:13, color:SLATE, margin:0, paraSpaceAfter:10 });
+s.addText("Dimensionamenti indicativi / ordine di grandezza, da validare in fase di diligence.", {
+  x:0.55, y:6.6, w:8.5, h:0.3, fontFace:BODY, fontSize:10, color:SLATE, margin:0 });
+pageNum(s, 7, false);
+
+// =========================================================
+// SLIDE 8 — BUSINESS MODEL (streams + chart)
+// =========================================================
+s = p.addSlide(); bg(s, NAVY);
+kicker(s, "Il modello di ricavi", 0.6, 0.55, AMBER);
+s.addText("Quattro flussi che si accendono in sequenza", {
+  x:0.55, y:0.9, w:8, h:0.8, fontFace:HEAD, fontSize:27, bold:true, color:WHITE, margin:0 });
+
+const streams = [
+  ["Pay-per-dossier / SaaS","Reti di agenzie e notai: canone + pratica"],
+  ["Enterprise","Banche, SGR e fondi: contratti a volume"],
+  ["Dati & AVM in licenza","Valutazioni e dataset di conformità"],
+  ["Take-rate transazioni","Mutui e finanziamenti (fase 2)"]
+];
+let by2=2.3;
+streams.forEach(([t,d],i)=>{
+  s.addShape(p.ShapeType.roundRect, { x:0.55, y:by2, w:5.7, h:0.95, rectRadius:0.08,
+    fill:{ color:NAVY2 }, line:{ color:"27406B", width:1 } });
+  numCircle(s, 0.78, by2+0.2, 0.55, i+1, AMBER, NAVY);
+  s.addText(t, { x:1.5, y:by2+0.12, w:4.6, h:0.42, fontFace:HEAD, fontSize:15.5, bold:true, color:WHITE, margin:0 });
+  s.addText(d, { x:1.5, y:by2+0.52, w:4.6, h:0.35, fontFace:BODY, fontSize:12, color:MUTE, margin:0 });
+  by2 += 1.08;
+});
+
+// stacked column: revenue mix growth
+const chartData = [
+  { name:"SaaS / dossier", labels:["Anno 1","Anno 2","Anno 3"], values:[70,45,30] },
+  { name:"Enterprise",     labels:["Anno 1","Anno 2","Anno 3"], values:[30,35,32] },
+  { name:"Dati & AVM",     labels:["Anno 1","Anno 2","Anno 3"], values:[0,15,22] },
+  { name:"Take-rate",      labels:["Anno 1","Anno 2","Anno 3"], values:[0,5,16] }
+];
+s.addText("Mix di ricavi nel tempo (illustrativo, % del fatturato)", {
+  x:6.7, y:2.05, w:6, h:0.35, fontFace:BODY, fontSize:12, bold:true, color:ICE, margin:0 });
+s.addChart(p.ChartType.bar, chartData, {
+  x:6.6, y:2.5, w:6.2, h:4.1, barDir:"col", barGrouping:"stacked",
+  chartColors:[AMBER, "6FA8DC", TERRA, "7FC8A9"],
+  showValue:true, dataLabelPosition:"ctr", dataLabelColor:NAVY, dataLabelFontFace:BODY, dataLabelFontSize:9, dataLabelFormatCode:'0"%"',
+  showLegend:true, legendPos:"b", legendColor:ICE, legendFontFace:BODY, legendFontSize:11,
+  catAxisLabelColor:ICE, catAxisLabelFontFace:BODY, catAxisLabelFontSize:11,
+  valAxisHidden:true, valGridLine:{ style:"none" }, catGridLine:{ style:"none" },
+  showTitle:false, chartColorsOpacity:100
+});
+pageNum(s, 8, true);
+
+// =========================================================
+// SLIDE 9 — WHY NOW
+// =========================================================
+s = p.addSlide(); bg(s, WHITE);
+kicker(s, "Perché adesso", 0.6, 0.55, TERRA);
+s.addText("Tre venti a favore convergono nel 2026", {
+  x:0.55, y:0.9, w:12, h:0.8, fontFace:HEAD, fontSize:28, bold:true, color:INK, margin:0 });
+
+const now = [
+  ["Direttiva UE “Case Green”","La EPBD impone l'adeguamento energetico di milioni di edifici entro il 2030/2033: un'ondata di ristrutturazioni forzata e finanziabile.", TERRA],
+  ["Agenti AI finalmente maturi","I compiti document-heavy e rule-heavy — leggere visure, incrociare planimetrie, verificare regole — sono ora automatizzabili con affidabilità.", NAVY],
+  ["Eredità del Superbonus","Un ecosistema di dati, cantieri e pratiche edilizie mai visto prima, oggi disponibile per essere strutturato.", AMBER]
+];
+let ny=2.35;
+now.forEach(([t,d,c],i)=>{
+  s.addShape(p.ShapeType.roundRect, { x:0.55, y:ny, w:12.2, h:1.35, rectRadius:0.09,
+    fill:{ color:CARD }, line:{ color:LINE, width:1 } });
+  s.addShape(p.ShapeType.ellipse, { x:0.85, y:ny+0.37, w:0.62, h:0.62, fill:{ color:c } });
+  s.addText(String(i+1), { x:0.85, y:ny+0.37, w:0.62, h:0.62, align:"center", valign:"middle",
+    fontFace:HEAD, fontSize:18, bold:true, color: c===AMBER?NAVY:WHITE, margin:0 });
+  s.addText(t, { x:1.75, y:ny+0.2, w:4.5, h:0.95, fontFace:HEAD, fontSize:18, bold:true, color:INK, margin:0, valign:"middle" });
+  s.addText(d, { x:6.35, y:ny+0.18, w:6.2, h:1.0, fontFace:BODY, fontSize:13.5, color:SLATE, margin:0, valign:"middle" });
+  ny += 1.5;
+});
+pageNum(s, 9, false);
+
+// =========================================================
+// SLIDE 10 — WHY US (Skylabs)
+// =========================================================
+s = p.addSlide(); bg(s, NAVY);
+kicker(s, "Perché noi", 0.6, 0.55, AMBER);
+s.addText("Non scommettiamo sull'AI da costruire. Verticalizziamo una piattaforma che già esiste.", {
+  x:0.55, y:0.9, w:12.2, h:1.2, fontFace:HEAD, fontSize:26, bold:true, color:WHITE, margin:0 });
+
+const why = [
+  ["Universe","La piattaforma agentica di Skylabs: l'infrastruttura AI è già in produzione, non da inventare."],
+  ["Skylabs / SAE","Competenza consolidata di AI enterprise e integrazione su processi complessi."],
+  ["Time-to-market","Partiamo da una vertical application su un mercato rotto — non da un foglio bianco."]
+];
+let wy=2.7;
+why.forEach(([t,d],i)=>{
+  s.addShape(p.ShapeType.roundRect, { x:0.55, y:wy, w:6.4, h:1.2, rectRadius:0.09,
+    fill:{ color:NAVY2 }, line:{ color:"27406B", width:1 } });
+  s.addText(t, { x:0.85, y:wy+0.16, w:5.8, h:0.45, fontFace:HEAD, fontSize:18, bold:true, color:AMBER, margin:0 });
+  s.addText(d, { x:0.85, y:wy+0.6, w:5.9, h:0.55, fontFace:BODY, fontSize:13, color:ICE, margin:0 });
+  wy += 1.35;
+});
+// right: stack diagram
+s.addShape(p.ShapeType.roundRect, { x:7.5, y:2.7, w:5.25, h:3.9, rectRadius:0.1, fill:{ color:"0A1730" }, line:{ color:"27406B", width:1 } });
+s.addText("Lo stack", { x:7.8, y:2.9, w:4, h:0.4, fontFace:HEAD, fontSize:15, bold:true, color:MUTE, margin:0 });
+s.addShape(p.ShapeType.roundRect, { x:7.85, y:3.4, w:4.55, h:0.95, rectRadius:0.08, fill:{ color:AMBER } });
+s.addText("Conforme", { x:7.85, y:3.5, w:4.55, h:0.4, align:"center", fontFace:HEAD, fontSize:18, bold:true, color:NAVY, margin:0 });
+s.addText("vertical app — real estate Italia", { x:7.85, y:3.92, w:4.55, h:0.35, align:"center", fontFace:BODY, fontSize:11, color:NAVY, margin:0 });
+s.addShape(p.ShapeType.roundRect, { x:7.85, y:4.55, w:4.55, h:0.85, rectRadius:0.08, fill:{ color:NAVY2 }, line:{ color:AMBER, width:1 } });
+s.addText("Universe — piattaforma agentica", { x:7.85, y:4.55, w:4.55, h:0.85, align:"center", valign:"middle", fontFace:HEAD, fontSize:14, bold:true, color:WHITE, margin:0 });
+s.addShape(p.ShapeType.roundRect, { x:7.85, y:5.55, w:4.55, h:0.8, rectRadius:0.08, fill:{ color:"0E2140" }, line:{ color:"27406B", width:1 } });
+s.addText("Skylabs / SAE — AI enterprise", { x:7.85, y:5.55, w:4.55, h:0.8, align:"center", valign:"middle", fontFace:BODY, fontSize:13, color:ICE, margin:0 });
+pageNum(s, 10, true);
+
+// =========================================================
+// SLIDE 11 — ROADMAP
+// =========================================================
+s = p.addSlide(); bg(s, WHITE);
+kicker(s, "Roadmap", 0.6, 0.55, TERRA);
+s.addText("Dal wedge alla piattaforma, in tre fasi", {
+  x:0.55, y:0.9, w:12, h:0.8, fontFace:HEAD, fontSize:28, bold:true, color:INK, margin:0 });
+
+const phases = [
+  ["Fase 1","0 – 18 mesi","Il wedge","Agente di due diligence in produzione. Primi clienti B2B: reti, notai, banche. Costruzione del dataset proprietario.", TERRA],
+  ["Fase 2","18 – 36 mesi","Dati & transazione","AVM proprietario, rails della transazione digitale, sblocco degli immobili fermi. Il data-moat diventa prodotto.", NAVY],
+  ["Fase 3","36 mesi +","Piattaforma 360°","Intelligence energetica Case Green e marketplace finanziario. Scala nazionale, poi replicabilità europea.", AMBER]
+];
+const pw=3.95, px0=0.55, pxg=0.28, pcy=2.35, pch=3.9;
+phases.forEach((ph,i)=>{
+  const x=px0+i*(pw+pxg);
+  s.addShape(p.ShapeType.roundRect, { x, y:pcy, w:pw, h:pch, rectRadius:0.1,
+    fill:{ color: i===0?NAVY:CARD }, line:{ color: i===0?NAVY:LINE, width:1 } });
+  s.addShape(p.ShapeType.roundRect, { x:x+0.3, y:pcy+0.35, w:1.7, h:0.5, rectRadius:0.25, fill:{ color: ph[4] } });
+  s.addText(ph[0], { x:x+0.3, y:pcy+0.35, w:1.7, h:0.5, align:"center", valign:"middle",
+    fontFace:HEAD, fontSize:15, bold:true, color: ph[4]===AMBER?NAVY:WHITE, margin:0 });
+  s.addText(ph[1], { x:x+0.3, y:pcy+1.0, w:pw-0.6, h:0.35, fontFace:BODY, fontSize:12, bold:true,
+    color: i===0?AMBER:SLATE, charSpacing:1, margin:0 });
+  s.addText(ph[2], { x:x+0.3, y:pcy+1.4, w:pw-0.6, h:0.6, fontFace:HEAD, fontSize:19, bold:true,
+    color: i===0?WHITE:INK, margin:0 });
+  s.addText(ph[3], { x:x+0.3, y:pcy+2.05, w:pw-0.6, h:1.6, fontFace:BODY, fontSize:13,
+    color: i===0?ICE:SLATE, margin:0 });
+});
+pageNum(s, 11, false);
+
+// =========================================================
+// SLIDE 12 — THE ASK / CLOSING
+// =========================================================
+s = p.addSlide(); bg(s, NAVY);
+s.addShape(p.ShapeType.roundRect, { x:11.3, y:0.7, w:0.5, h:1.3, rectRadius:0.06, fill:{ color:NAVY2 } });
+s.addShape(p.ShapeType.roundRect, { x:11.9, y:1.2, w:0.5, h:0.8, rectRadius:0.06, fill:{ color:AMBER } });
+kicker(s, "La proposta", 0.7, 1.1, AMBER);
+s.addText("Costruiamo il layer di fiducia della compravendita immobiliare italiana.", {
+  x:0.7, y:1.5, w:11, h:1.8, fontFace:HEAD, fontSize:38, bold:true, color:WHITE, margin:0 });
+s.addText([
+  { text:"Immobiliare.it ha digitalizzato l'annuncio. ", options:{ color:ICE } },
+  { text:"Noi digitalizziamo la parte che fa saltare le compravendite — la conformità — e da lì diventiamo il layer di dati e transazione che il mercato immobiliare italiano non ha mai avuto.", options:{ color:AMBER, italic:true } }
+], { x:0.7, y:3.45, w:11.4, h:1.2, fontFace:BODY, fontSize:18, margin:0 });
+
+const asks = [
+  ["Capitale","per team tecnico + verticale legale e go-to-market B2B"],
+  ["18 mesi","per portare il wedge in produzione e costruire il data-moat"],
+  ["Obiettivo","essere il primo player del layer di conformità in Italia"]
+];
+let ax=0.7;
+asks.forEach(([t,d])=>{
+  s.addShape(p.ShapeType.roundRect, { x:ax, y:5.0, w:3.85, h:1.35, rectRadius:0.09, fill:{ color:NAVY2 }, line:{ color:"27406B", width:1 } });
+  s.addText(t, { x:ax+0.25, y:5.15, w:3.4, h:0.5, fontFace:HEAD, fontSize:19, bold:true, color:AMBER, margin:0 });
+  s.addText(d, { x:ax+0.25, y:5.65, w:3.45, h:0.6, fontFace:BODY, fontSize:12.5, color:ICE, margin:0 });
+  ax += 4.05;
+});
+s.addText("Luca Martino  ·  Skylabs  ·  luca.martino@skylabs.it", {
+  x:0.7, y:6.75, w:10, h:0.4, fontFace:BODY, fontSize:13, color:MUTE, margin:0 });
+
+p.writeFile({ fileName: "/home/user/Luca/proptech-deck/Conforme_Pitch.pptx" }).then(f=>console.log("Saved:", f));
