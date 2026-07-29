@@ -165,23 +165,28 @@ s.addText("Ogni pratica alimenta un dataset che nessuno può copiare dalla vetri
   x:0.55, y:0.9, w:12.2, h:0.9, fontFace:HEAD, fontSize:27, bold:true, color:WHITE, margin:0 });
 
 // central hub
-const hubX=5.55, hubY=3.35, hubD=2.2;
+const hubX=5.77, hubY=3.25, hubD=1.8;
 s.addShape(p.ShapeType.ellipse, { x:hubX, y:hubY, w:hubD, h:hubD, fill:{ color:AMBER } });
 s.addText("DATI\nPROPRIETARI", { x:hubX, y:hubY, w:hubD, h:hubD, align:"center", valign:"middle",
-  fontFace:HEAD, fontSize:16, bold:true, color:NAVY, margin:0 });
+  fontFace:HEAD, fontSize:15, bold:true, color:NAVY, margin:0 });
 
 const nodes = [
-  ["Più pratiche di due diligence", 4.4, 2.05],
-  ["Più dati verificati di conformità e valore", 9.05, 3.15],
-  ["Prodotto e valutazioni più accurate", 4.4, 4.65],
-  ["Più clienti, più fiducia, più pratiche", 1.05, 3.15]
+  ["Più pratiche di due diligence", 2.55, 2.55],
+  ["Più dati verificati di conformità e valore", 7.75, 2.55],
+  ["Prodotto e valutazioni più accurate", 7.75, 4.90],
+  ["Più clienti, più fiducia, più pratiche", 2.55, 4.90]
 ];
 nodes.forEach(([t,x,y])=>{
-  s.addShape(p.ShapeType.roundRect, { x, y, w:3.0, h:1.1, rectRadius:0.09,
+  s.addShape(p.ShapeType.roundRect, { x, y, w:3.0, h:1.05, rectRadius:0.09,
     fill:{ color:NAVY2 }, line:{ color:"27406B", width:1 } });
-  s.addText(t, { x:x+0.15, y, w:2.7, h:1.1, align:"center", valign:"middle",
+  s.addText(t, { x:x+0.15, y, w:2.7, h:1.05, align:"center", valign:"middle",
     fontFace:BODY, fontSize:13, bold:true, color:ICE, margin:0 });
 });
+// clockwise loop arrows
+[["6.45","2.9","rightArrow",0],["9.15","3.95","rightArrow",90],["6.45","5.25","rightArrow",180],["3.95","3.95","rightArrow",270]]
+  .forEach(([ax,ay,sh,rot])=>{
+    s.addShape(p.ShapeType[sh], { x:parseFloat(ax), y:parseFloat(ay), w:0.34, h:0.24, rotate:rot, fill:{ color:AMBER } });
+  });
 s.addText("Effetto rete sui dati: costruiamo, pratica dopo pratica, l'MLS e il registro dei titoli che l'Italia non ha mai avuto.", {
   x:0.55, y:6.35, w:12.2, h:0.6, fontFace:BODY, fontSize:15, italic:true, color:AMBER, margin:0 });
 pageNum(s, 5, true);
@@ -233,7 +238,7 @@ s.addText("La sola due diligence tecnico-legale vale ~€1 mld/anno. Con i servi
 const tam = [
   ["TAM","~€120 mld transato residenziale/anno + €280 mld di giro d'affari Case Green potenziale","Mercato immobiliare & riqualificazione in Italia", NAVY, WHITE, ICE, 8.6],
   ["SAM","Multi-miliardo € / anno","Servizi tecnico-legali, valutazione e intelligence energetica digitalizzabili", TERRA, WHITE, "F6E4DE", 6.6],
-  ["SOM","Centinaia di mln (beachhead 0–3 anni)","Due diligence B2B su ~720k transazioni/anno: reti, notai, banche, fondi", AMBER, NAVY, "5A4212", 4.6]
+  ["SOM","Centinaia di mln","Beachhead 0–3 anni: DD B2B per reti, notai, banche, fondi", AMBER, NAVY, "5A4212", 4.6]
 ];
 let ty=2.15;
 tam.forEach(([k,v,d,c,tc,dc,ww])=>{
