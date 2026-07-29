@@ -64,8 +64,8 @@ end();
 // ---------- Slide 2 ----------
 slide(C.WHITE);
 kicker(0.6,0.55,"Il problema",C.TERRA);
-text(0.55,0.85,12.2,0.9,"L'annuncio è risolto. La transazione è rotta.",{size:34,bold:true,color:C.INK,face:HEAD});
-text(0.55,1.8,8.2,0.9,"Immobiliare.it e Idealista dominano la vetrina. Ma dietro l'annuncio, la compravendita in Italia è ancora lenta, opaca e analogica, e il collo di bottiglia è sempre lo stesso.",{size:15,color:C.SLATE});
+text(0.55,0.82,12.2,0.9,"La vetrina è online. La transazione è analogica.",{size:30,bold:true,color:C.INK,face:HEAD});
+text(0.55,1.95,8.2,0.9,"Immobiliare.it e Idealista dominano la vetrina. Ma dietro l'annuncio, la compravendita in Italia è ancora lenta, opaca e manuale, e il collo di bottiglia è sempre lo stesso.",{size:15,color:C.SLATE});
 const pains=[["1","La conformità blocca tutto","La difformità catastale/urbanistica è la prima causa di rogiti che saltano o si allungano dal notaio."],
 ["2","I dati vivono in silos","Catasto, archivi edilizi del Comune, visure ipotecarie, APE, vincoli: nessuno di questi sistemi si parla."],
 ["3","Settimane di lavoro manuale","Per ogni immobile servono geometra, notaio e avvocato per ricostruire un dossier che oggi è tutto a mano."]];

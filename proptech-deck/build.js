@@ -72,10 +72,10 @@ s.addText("Pitch per investitore  ·  Luca Martino", {
 // =========================================================
 s = p.addSlide(); bg(s, WHITE);
 kicker(s, "Il problema", 0.6, 0.55, TERRA);
-s.addText("L'annuncio è risolto. La transazione è rotta.", {
-  x:0.55, y:0.85, w:12.2, h:0.9, fontFace:HEAD, fontSize:34, bold:true, color:INK, margin:0 });
-s.addText("Immobiliare.it e Idealista dominano la vetrina. Ma dietro l'annuncio, la compravendita in Italia è ancora lenta, opaca e analogica, e il collo di bottiglia è sempre lo stesso.", {
-  x:0.55, y:1.75, w:8.2, h:0.9, fontFace:BODY, fontSize:16, color:SLATE, margin:0 });
+s.addText("La vetrina è online. La transazione è analogica.", {
+  x:0.55, y:0.82, w:12.2, h:0.9, fontFace:HEAD, fontSize:30, bold:true, color:INK, margin:0 });
+s.addText("Immobiliare.it e Idealista dominano la vetrina. Ma dietro l'annuncio, la compravendita in Italia è ancora lenta, opaca e manuale, e il collo di bottiglia è sempre lo stesso.", {
+  x:0.55, y:1.95, w:8.2, h:0.9, fontFace:BODY, fontSize:16, color:SLATE, margin:0 });
 
 const pains = [
   ["1","La conformità blocca tutto","La difformità catastale/urbanistica è la prima causa di rogiti che saltano o si allungano dal notaio."],
