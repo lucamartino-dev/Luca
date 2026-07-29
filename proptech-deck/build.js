@@ -64,7 +64,7 @@ s.addText([
   { text:"Non un altro portale di annunci. ", options:{ color:MUTE } },
   { text:"Digitalizziamo la parte che fa saltare le compravendite: la conformità.", options:{ color:AMBER, italic:true } }
 ], { x:0.75, y:4.15, w:9.4, h:0.6, fontFace:BODY, fontSize:15, margin:0 });
-s.addText("Pitch per investitore  ·  Luca Martino · Skylabs", {
+s.addText("Pitch per investitore  ·  Luca Martino", {
   x:0.75, y:6.5, w:8, h:0.4, fontFace:BODY, fontSize:13, color:MUTE, margin:0 });
 
 // =========================================================
@@ -441,7 +441,7 @@ now.forEach(([t,d,c],i)=>{
 pageNum(s, 12, false);
 
 // =========================================================
-// SLIDE 10 — WHY US (Skylabs)
+// SLIDE 10 — WHY US
 // =========================================================
 s = p.addSlide(); bg(s, NAVY);
 kicker(s, "Perché noi", 0.6, 0.55, AMBER);
@@ -449,8 +449,8 @@ s.addText("Non scommettiamo sull'AI da costruire. Verticalizziamo una piattaform
   x:0.55, y:0.9, w:12.2, h:1.2, fontFace:HEAD, fontSize:26, bold:true, color:WHITE, margin:0 });
 
 const why = [
-  ["Universe","La piattaforma agentica di Skylabs: l'infrastruttura AI è già in produzione, non da inventare."],
-  ["Skylabs / SAE","Competenza consolidata di AI enterprise e integrazione su processi complessi."],
+  ["Piattaforma agentica pronta","L'infrastruttura AI agentica è già in produzione: non la costruiamo da zero."],
+  ["Competenza AI enterprise","Esperienza consolidata di AI enterprise e integrazione su processi complessi."],
   ["Time-to-market","Partiamo da una vertical application su un mercato rotto, non da un foglio bianco."]
 ];
 let wy=2.7;
@@ -468,9 +468,9 @@ s.addShape(p.ShapeType.roundRect, { x:7.85, y:3.4, w:4.55, h:0.95, rectRadius:0.
 s.addText("Conforme", { x:7.85, y:3.5, w:4.55, h:0.4, align:"center", fontFace:HEAD, fontSize:18, bold:true, color:NAVY, margin:0 });
 s.addText("vertical app · real estate Italia", { x:7.85, y:3.92, w:4.55, h:0.35, align:"center", fontFace:BODY, fontSize:11, color:NAVY, margin:0 });
 s.addShape(p.ShapeType.roundRect, { x:7.85, y:4.55, w:4.55, h:0.85, rectRadius:0.08, fill:{ color:NAVY2 }, line:{ color:AMBER, width:1 } });
-s.addText("Universe · piattaforma agentica", { x:7.85, y:4.55, w:4.55, h:0.85, align:"center", valign:"middle", fontFace:HEAD, fontSize:14, bold:true, color:WHITE, margin:0 });
+s.addText("Piattaforma agentica in produzione", { x:7.85, y:4.55, w:4.55, h:0.85, align:"center", valign:"middle", fontFace:HEAD, fontSize:14, bold:true, color:WHITE, margin:0 });
 s.addShape(p.ShapeType.roundRect, { x:7.85, y:5.55, w:4.55, h:0.8, rectRadius:0.08, fill:{ color:"0E2140" }, line:{ color:"27406B", width:1 } });
-s.addText("Skylabs / SAE · AI enterprise", { x:7.85, y:5.55, w:4.55, h:0.8, align:"center", valign:"middle", fontFace:BODY, fontSize:13, color:ICE, margin:0 });
+s.addText("Competenza AI enterprise", { x:7.85, y:5.55, w:4.55, h:0.8, align:"center", valign:"middle", fontFace:BODY, fontSize:13, color:ICE, margin:0 });
 pageNum(s, 13, true);
 
 // =========================================================
@@ -529,7 +529,7 @@ asks.forEach(([t,d])=>{
   s.addText(d, { x:ax+0.25, y:5.65, w:3.45, h:0.6, fontFace:BODY, fontSize:12.5, color:ICE, margin:0 });
   ax += 4.05;
 });
-s.addText("Luca Martino  ·  Skylabs  ·  luca.martino@skylabs.it", {
+s.addText("Luca Martino", {
   x:0.7, y:6.75, w:10, h:0.4, fontFace:BODY, fontSize:13, color:MUTE, margin:0 });
 
 p.writeFile({ fileName: "/home/user/Luca/proptech-deck/Conforme_Pitch.pptx" }).then(f=>console.log("Saved:", f));
