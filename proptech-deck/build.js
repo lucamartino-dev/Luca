@@ -102,9 +102,9 @@ s.addText("Chi possiede il layer di conformità e titolo possiede una cosa che i
   x:0.55, y:0.95, w:12.2, h:1.2, fontFace:HEAD, fontSize:28, bold:true, color:WHITE, margin:0 });
 
 const stats = [
-  ["~75%","tra i più alti tassi di proprietà della casa in Europa: un patrimonio enorme e frammentato","AMBER"],
+  ["~720.000","compravendite residenziali all'anno in Italia (OMI 2024)","AMBER"],
   ["Milioni","di immobili con difformità catastali o urbanistiche da regolarizzare","WHITE"],
-  ["~€100 mld+","volume annuo delle compravendite residenziali (ordine di grandezza)","AMBER"]
+  ["~€120 mld","transato residenziale all'anno (ordine di grandezza)","AMBER"]
 ];
 let sx = 0.55;
 stats.forEach(([big,lab,c])=>{
@@ -117,8 +117,8 @@ stats.forEach(([big,lab,c])=>{
 });
 s.addText("L'equivalente di un MLS / registro dei titoli — che il mercato immobiliare italiano, a differenza di quello USA, non ha mai avuto.", {
   x:0.55, y:5.55, w:12.2, h:0.7, fontFace:BODY, fontSize:15, italic:true, color:AMBER, margin:0 });
-s.addText("Cifre a livello di mercato, indicative / ordine di grandezza.", {
-  x:0.55, y:6.55, w:8, h:0.3, fontFace:BODY, fontSize:10, color:MUTE, margin:0 });
+s.addText("Fonte compravendite: OMI — Agenzia delle Entrate, Rapporto Immobiliare 2025. Transato: stima / ordine di grandezza.", {
+  x:0.55, y:6.55, w:11, h:0.3, fontFace:BODY, fontSize:10, color:MUTE, margin:0 });
 pageNum(s, 3, true);
 
 // =========================================================
@@ -224,34 +224,40 @@ pageNum(s, 6, false);
 // SLIDE 7 — MARKET (TAM/SAM/SOM)
 // =========================================================
 s = p.addSlide(); bg(s, WHITE);
-kicker(s, "Il mercato", 0.6, 0.55, TERRA);
-s.addText("Un mercato enorme, con un punto d'ingresso stretto e monetizzabile subito", {
-  x:0.55, y:0.9, w:12.2, h:0.8, fontFace:HEAD, fontSize:26, bold:true, color:INK, margin:0 });
+kicker(s, "Il mercato", 0.6, 0.5, TERRA);
+s.addText("Il mercato target supera il miliardo — di molto", {
+  x:0.55, y:0.82, w:12.2, h:0.6, fontFace:HEAD, fontSize:27, bold:true, color:INK, margin:0 });
+s.addText("La sola due diligence tecnico-legale vale ~€1 mld/anno. Con i servizi alla transazione e l'ondata Case Green, il target è multi-miliardo.", {
+  x:0.55, y:1.42, w:12.2, h:0.55, fontFace:BODY, fontSize:14.5, color:SLATE, margin:0 });
 
 const tam = [
-  ["TAM","Mercato immobiliare & servizi collegati in Italia","~€100 mld+ transato/anno", NAVY, WHITE, 5.6],
-  ["SAM","Due diligence, valutazione e servizi di transazione","Miliardi di € di spesa annua", TERRA, WHITE, 4.2],
-  ["SOM","Target iniziale: DD B2B per reti, notai, banche, fondi","Centinaia di mln raggiungibili", AMBER, NAVY, 2.8]
+  ["TAM","~€120 mld transato residenziale/anno + €280 mld di giro d'affari Case Green potenziale","Mercato immobiliare & riqualificazione in Italia", NAVY, WHITE, ICE, 8.6],
+  ["SAM","Multi-miliardo € / anno","Servizi tecnico-legali, valutazione e intelligence energetica digitalizzabili", TERRA, WHITE, "F6E4DE", 6.6],
+  ["SOM","Centinaia di mln (beachhead 0–3 anni)","Due diligence B2B su ~720k transazioni/anno: reti, notai, banche, fondi", AMBER, NAVY, "5A4212", 4.6]
 ];
-let ty=2.35;
-tam.forEach(([k,d,v,c,tc,ww])=>{
-  s.addShape(p.ShapeType.roundRect, { x:0.55, y:ty, w:ww, h:1.25, rectRadius:0.09, fill:{ color:c } });
-  s.addText(k, { x:0.8, y:ty+0.18, w:1.6, h:0.9, fontFace:HEAD, fontSize:30, bold:true, color:tc, margin:0, valign:"middle" });
-  s.addText(v, { x:2.3, y:ty+0.2, w:ww-1.7, h:0.5, fontFace:HEAD, fontSize:16, bold:true, color:tc, margin:0 });
-  s.addText(d, { x:2.3, y:ty+0.68, w:Math.max(ww-1.7,4.5), h:0.5, fontFace:BODY, fontSize:12.5, color:tc, margin:0 });
-  ty += 1.45;
+let ty=2.15;
+tam.forEach(([k,v,d,c,tc,dc,ww])=>{
+  s.addShape(p.ShapeType.roundRect, { x:0.55, y:ty, w:ww, h:1.3, rectRadius:0.09, fill:{ color:c } });
+  s.addText(k, { x:0.8, y:ty+0.15, w:1.5, h:1.0, fontFace:HEAD, fontSize:30, bold:true, color:tc, margin:0, valign:"middle" });
+  s.addText(v, { x:2.25, y:ty+0.22, w:ww-1.65, h:0.5, fontFace:HEAD, fontSize:17, bold:true, color:tc, margin:0 });
+  s.addText(d, { x:2.25, y:ty+0.72, w:ww-1.65, h:0.5, fontFace:BODY, fontSize:12.5, color:dc, margin:0 });
+  ty += 1.5;
 });
-// right note
-s.addShape(p.ShapeType.roundRect, { x:9.55, y:2.35, w:3.2, h:4.05, rectRadius:0.09, fill:{ color:CARD }, line:{ color:LINE, width:1 } });
-s.addText("Perché si vince dal SOM", { x:9.8, y:2.55, w:2.75, h:0.4, fontFace:HEAD, fontSize:15, bold:true, color:INK, margin:0 });
+// right proof box
+s.addShape(p.ShapeType.roundRect, { x:9.35, y:2.15, w:3.4, h:4.3, rectRadius:0.09, fill:{ color:NAVY }, line:{ color:NAVY, width:1 } });
+s.addText("I numeri che reggono la tesi", { x:9.6, y:2.35, w:2.95, h:0.7, fontFace:HEAD, fontSize:14, bold:true, color:AMBER, margin:0 });
 s.addText([
-  { text:"Domanda già esistente e pagante\n", options:{ bullet:true, breakLine:true } },
-  { text:"Ciclo di vendita B2B veloce\n", options:{ bullet:true, breakLine:true } },
-  { text:"Ogni pratica costruisce il data-moat\n", options:{ bullet:true, breakLine:true } },
-  { text:"Da lì si espande a 360°", options:{ bullet:true } }
-], { x:9.85, y:3.05, w:2.7, h:3.2, fontFace:BODY, fontSize:13, color:SLATE, margin:0, paraSpaceAfter:10 });
-s.addText("Dimensionamenti indicativi / ordine di grandezza, da validare in fase di diligence.", {
-  x:0.55, y:6.6, w:8.5, h:0.3, fontFace:BODY, fontSize:10, color:SLATE, margin:0 });
+  { text:"719.578 ", options:{ bold:true, color:WHITE } },
+  { text:"compravendite residenziali (2024)\n", options:{ color:ICE, breakLine:true } },
+  { text:"€2,8 mld ", options:{ bold:true, color:WHITE } },
+  { text:"ricavi intermediazione; €36 mld servizi immobiliari\n", options:{ color:ICE, breakLine:true } },
+  { text:"€85 mld ", options:{ bold:true, color:WHITE } },
+  { text:"investimenti Case Green entro il 2030\n", options:{ color:ICE, breakLine:true } },
+  { text:"~500.000 ", options:{ bold:true, color:WHITE } },
+  { text:"abitazioni/anno da riqualificare", options:{ color:ICE } }
+], { x:9.6, y:3.15, w:2.95, h:3.2, fontFace:BODY, fontSize:12.5, margin:0, paraSpaceAfter:11 });
+s.addText("Fonti: OMI–Agenzia delle Entrate (2024); Il Sole 24 Ore; ACCA/BibLus, rinnovabili.it (EPBD). SAM/SOM: stime, da validare in diligence.", {
+  x:0.55, y:6.62, w:8.6, h:0.5, fontFace:BODY, fontSize:9.5, color:SLATE, margin:0 });
 pageNum(s, 7, false);
 
 // =========================================================
@@ -307,7 +313,7 @@ s.addText("Tre venti a favore convergono nel 2026", {
   x:0.55, y:0.9, w:12, h:0.8, fontFace:HEAD, fontSize:28, bold:true, color:INK, margin:0 });
 
 const now = [
-  ["Direttiva UE “Case Green”","La EPBD impone l'adeguamento energetico di milioni di edifici entro il 2030/2033: un'ondata di ristrutturazioni forzata e finanziabile.", TERRA],
+  ["Direttiva UE “Case Green”","La EPBD (recepimento entro maggio 2026) impone l'adeguamento di ~500.000 abitazioni/anno: ~€85 mld di investimenti entro il 2030. Domanda forzata e finanziabile.", TERRA],
   ["Agenti AI finalmente maturi","I compiti document-heavy e rule-heavy — leggere visure, incrociare planimetrie, verificare regole — sono ora automatizzabili con affidabilità.", NAVY],
   ["Eredità del Superbonus","Un ecosistema di dati, cantieri e pratiche edilizie mai visto prima, oggi disponibile per essere strutturato.", AMBER]
 ];
