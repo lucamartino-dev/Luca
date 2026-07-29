@@ -58,14 +58,14 @@ kicker(0.75,1.35,"Proptech · Intelligenza Artificiale · Italia",C.AMBER);
 text(0.7,1.65,10,1.4,"Conforme",{size:76,bold:true,color:C.WHITE,face:HEAD});
 text(0.75,3.2,9.4,0.7,"L'infrastruttura AI della compravendita immobiliare italiana",{size:22,color:C.ICE});
 text(0.75,4.15,9.6,0.6,`<span style="color:${C.MUTE}">Non un altro portale di annunci. </span><span style="color:${C.AMBER};font-style:italic">Digitalizziamo la parte che fa saltare le compravendite: la conformità.</span>`,{size:15});
-text(0.75,6.5,8,0.4,"Pitch per investitore  ·  Luca Martino — Skylabs",{size:13,color:C.MUTE});
+text(0.75,6.5,8,0.4,"Pitch per investitore  ·  Luca Martino · Skylabs",{size:13,color:C.MUTE});
 end();
 
 // ---------- Slide 2 ----------
 slide(C.WHITE);
 kicker(0.6,0.55,"Il problema",C.TERRA);
 text(0.55,0.85,12.2,0.9,"L'annuncio è risolto. La transazione è rotta.",{size:34,bold:true,color:C.INK,face:HEAD});
-text(0.55,1.8,8.2,0.9,"Immobiliare.it e Idealista dominano la vetrina. Ma dietro l'annuncio, la compravendita in Italia è ancora lenta, opaca e analogica — e il collo di bottiglia è sempre lo stesso.",{size:15,color:C.SLATE});
+text(0.55,1.8,8.2,0.9,"Immobiliare.it e Idealista dominano la vetrina. Ma dietro l'annuncio, la compravendita in Italia è ancora lenta, opaca e analogica, e il collo di bottiglia è sempre lo stesso.",{size:15,color:C.SLATE});
 const pains=[["1","La conformità blocca tutto","La difformità catastale/urbanistica è la prima causa di rogiti che saltano o si allungano dal notaio."],
 ["2","I dati vivono in silos","Catasto, archivi edilizi del Comune, visure ipotecarie, APE, vincoli: nessuno di questi sistemi si parla."],
 ["3","Settimane di lavoro manuale","Per ogni immobile servono geometra, notaio e avvocato per ricostruire un dossier che oggi è tutto a mano."]];
@@ -94,14 +94,14 @@ stats.forEach(([big,lab,c])=>{
   text(sx+0.25,4.0,3.5,1.05,esc(lab),{size:14,color:C.ICE});
   sx+=4.15;
 });
-text(0.55,5.55,12.2,0.7,"L'equivalente di un MLS / registro dei titoli — che il mercato immobiliare italiano, a differenza di quello USA, non ha mai avuto.",{size:15,italic:true,color:C.AMBER});
-text(0.55,6.55,11,0.3,"Fonte compravendite: OMI — Agenzia delle Entrate, Rapporto Immobiliare 2025. Transato: stima / ordine di grandezza.",{size:9.5,color:C.MUTE});
+text(0.55,5.55,12.2,0.7,"L'equivalente di un MLS / registro dei titoli, che il mercato immobiliare italiano, a differenza di quello USA, non ha mai avuto.",{size:15,italic:true,color:C.AMBER});
+text(0.55,6.55,11,0.3,"Fonte compravendite: OMI, Agenzia delle Entrate, Rapporto Immobiliare 2025. Transato: stima / ordine di grandezza.",{size:9.5,color:C.MUTE});
 foot(3,true);
 end();
 
 // ---------- Slide 4 ----------
 slide(C.WHITE);
-kicker(0.6,0.55,"La soluzione — il punto d'ingresso",C.TERRA);
+kicker(0.6,0.55,"La soluzione · il punto d'ingresso",C.TERRA);
 text(0.55,0.9,12.2,0.9,"Un agente AI che costruisce e verifica la due diligence in ore, non settimane",{size:26,bold:true,color:C.INK,face:HEAD});
 const steps=[["Input","Un indirizzo o un dato catastale. Nient'altro."],
 ["Raccolta","L'agente recupera visure, planimetrie, atti, archivi edilizi e vincoli."],
@@ -116,7 +116,7 @@ steps.forEach(([t,d],i)=>{
   text(x+0.28,cy+1.55,cw-0.5,1.3,esc(d),{size:13,color:now?C.ICE:C.SLATE});
   if(i<3) out.push(`<div class="abs" style="left:${x+cw+0.02}in;top:${cy+ch/2-0.13}in;font-size:20pt;color:${C.AMBER};font-weight:700">▶</div>`);
 });
-text(0.55,5.95,12.2,0.8,`<span style="font-weight:700;color:${C.INK}">Cliente iniziale = B2B. </span><span style="color:${C.SLATE}">Agenzie di rete, notai, banche (perizie mutui), fondi e SGR, aste. Pagano già oggi per questo lavoro — fatto male e lento. Vendiamo tempo e riduzione del rischio, non "AI".</span>`,{size:14});
+text(0.55,5.95,12.2,0.8,`<span style="font-weight:700;color:${C.INK}">Cliente iniziale = B2B. </span><span style="color:${C.SLATE}">Agenzie di rete, notai, banche (perizie mutui), fondi e SGR, aste. Pagano già oggi per questo lavoro, fatto male e lento. Vendiamo tempo e riduzione del rischio, non "AI".</span>`,{size:14});
 foot(4,false);
 end();
 
@@ -164,11 +164,11 @@ end();
 // ---------- Slide 7 ----------
 slide(C.WHITE);
 kicker(0.6,0.5,"Il mercato",C.TERRA);
-text(0.55,0.82,12.2,0.6,"Il mercato target supera il miliardo — di molto",{size:27,bold:true,color:C.INK,face:HEAD});
+text(0.55,0.82,12.2,0.6,"Il mercato target supera di molto il miliardo",{size:27,bold:true,color:C.INK,face:HEAD});
 text(0.55,1.42,12.2,0.55,"La sola due diligence tecnico-legale vale ~€1 mld/anno. Con i servizi alla transazione e l'ondata Case Green, il target è multi-miliardo.",{size:14.5,color:C.SLATE});
 const tam=[["TAM","~€120 mld transato residenziale/anno + €280 mld di giro d'affari Case Green potenziale","Mercato immobiliare & riqualificazione in Italia",C.NAVY,C.WHITE,C.ICE,8.6],
 ["SAM","Multi-miliardo € / anno","Servizi tecnico-legali, valutazione e intelligence energetica digitalizzabili",C.TERRA,C.WHITE,"#F6E4DE",6.6],
-["SOM","Centinaia di mln","Beachhead 0–3 anni: DD B2B per reti, notai, banche, fondi",C.AMBER,C.NAVY,"#5A4212",4.6]];
+["SOM","Centinaia di mln","Beachhead 0-3 anni: DD B2B per reti, notai, banche, fondi",C.AMBER,C.NAVY,"#5A4212",4.6]];
 let ty=2.15;
 tam.forEach(([k,v,d,c,tc,dc,ww])=>{
   box(0.55,ty,ww,1.3,{fill:c});
@@ -232,12 +232,96 @@ leg.forEach(([t,c])=>{
 foot(8,true);
 end();
 
-// ---------- Slide 9 ----------
+// ---------- Slide 9 — Competitive matrix ----------
+slide(C.WHITE);
+kicker(0.6,0.5,"Analisi competitiva · panorama",C.TERRA);
+text(0.55,0.82,12.2,0.6,"Il quadrante “conformità AI + dati Italia” è vuoto",{size:27,bold:true,color:C.INK,face:HEAD});
+text(0.55,1.42,12.2,0.5,"Ogni layer della filiera ha un player forte. Nessuno presidia la conformità/titolo con AI e dati pubblici italiani.",{size:14.5,color:C.SLATE});
+// y-axis label (vertical) and x-axis label
+out.push(`<div class="abs" style="left:0.35in;top:6.05in;width:3.9in;height:0.3in;transform:rotate(-90deg);transform-origin:left top;font-family:${BODY};font-size:11pt;font-weight:700;color:${C.SLATE};letter-spacing:0.5px">▲  Più AI-native · dati Italia</div>`);
+text(2.7,6.42,9.5,0.3,"Copertura del layer:  vetrina → conformità → transazione   ▶",{size:11,bold:true,color:C.SLATE});
+function qcell(x,y,w,h,hdr,players,hi){
+  box(x,y,w,h,{fill:hi?C.NAVY:C.CARD,border:hi?C.NAVY:C.LINE});
+  text(x+0.22,y+0.16,w-0.4,0.55,esc(hdr),{size:12.5,bold:true,color:hi?C.AMBER:C.TERRA,face:HEAD,lh:1.1});
+  if(hi){
+    text(x+0.22,y+0.78,w-0.4,0.5,"CONFORME",{size:24,bold:true,color:C.AMBER,face:HEAD});
+    text(x+0.22,y+1.38,w-0.4,0.4,"Orbital (UK) · non opera in Italia",{size:10.5,italic:true,color:C.MUTE});
+  } else {
+    text(x+0.22,y+0.75,w-0.4,h-0.9,esc(players),{size:12,color:C.SLATE,lh:1.35});
+  }
+}
+const cW=4.85,cH=1.9,cLx=2.7,cRx=7.7,cTy=2.15,cBy=4.2;
+qcell(cLx,cTy,cW,cH,"Valutazione AI, solo il prezzo","Reopla / Sprengnetter · CRIF RES · Nomisma · PriceHubble",false);
+qcell(cRx,cTy,cW,cH,"Conformità + transazione · AI-native",null,true);
+qcell(cLx,cBy,cW,cH,"Vetrina & generazione lead","Immobiliare.it · Idealista · Casa.it · Wikicasa",false);
+qcell(cRx,cBy,cW,cH,"Transazione manuale o capital-heavy","iBuyer Casavo · studi di DD (geometri/architetti) · notai",false);
+foot(9,false);
+end();
+
+// ---------- Slide 10 — Competitor table ----------
+slide(C.WHITE);
+kicker(0.6,0.5,"Analisi competitiva · dettaglio",C.TERRA);
+text(0.55,0.82,12.2,0.6,"Chi fa cosa, e dove si ferma",{size:27,bold:true,color:C.INK,face:HEAD});
+const cols=[[0.55,2.55],[3.15,1.75],[4.95,3.05],[8.05,2.9],[11.0,1.75]];
+const heads=["Player","Categoria","Punto di forza","Dove si ferma","Minaccia"];
+const hy=1.75;
+box(0.55,hy,12.2,0.5,{fill:C.NAVY,r:0.06});
+heads.forEach((h,i)=>text(cols[i][0]+0.12,hy,cols[i][1]-0.15,0.5,esc(h),{size:11.5,bold:true,color:C.WHITE,valign:'middle'}));
+const rows=[
+["Immobiliare.it · Idealista","Portali annunci","Vetrina, lead e traffico dominante","Non toccano conformità né transazione","Bassa","g"],
+["Casavo","iBuyer","Liquidità in ~30 gg; €385M raccolti","DD interna, non è un prodotto; capital-heavy","Media","a"],
+["Reopla · CRIF RES · Nomisma","AVM / valutazione","Stime automatiche accurate, a scala","Solo il prezzo, non conformità/titolo","Media","a"],
+["Studi geometri/architetti","DD tradizionale","Competenza normativa profonda","Manuale, frammentata, non AI-native","Bassa","g"],
+["Deepki · piattaforme retrofit","Energy / Case Green","Dati energetici e ristrutturazione","Non toccano titolo né transazione","Bassa","g"],
+["Orbital (UK)","AI DD legale RE","$60M Series B; 200k transazioni/anno","Focus UK/US; catasto e conformità IT non replicabili","Futura","a"]
+];
+let ry=2.3; const rh=0.56;
+rows.forEach((r,i)=>{
+  if(i%2===1) box(0.55,ry,12.2,rh,{fill:"#EEF3FA",r:0.02});
+  text(cols[0][0]+0.12,ry,cols[0][1]-0.15,rh,`<span style="font-weight:700;color:${C.INK}">${esc(r[0])}</span>`,{size:11,valign:'middle',lh:1.1});
+  text(cols[1][0]+0.12,ry,cols[1][1]-0.15,rh,esc(r[1]),{size:10.5,color:C.SLATE,valign:'middle',lh:1.1});
+  text(cols[2][0]+0.12,ry,cols[2][1]-0.15,rh,esc(r[2]),{size:10.5,color:C.SLATE,valign:'middle',lh:1.1});
+  text(cols[3][0]+0.12,ry,cols[3][1]-0.15,rh,esc(r[3]),{size:10.5,color:C.SLATE,valign:'middle',lh:1.1});
+  const mc = r[5]==="g"?"#3E8E5A":C.TERRA;
+  text(cols[4][0]+0.12,ry,cols[4][1]-0.15,rh,`<span style="font-weight:700;color:${mc}">${esc(r[4])}</span>`,{size:10.5,valign:'middle',lh:1.1});
+  ry+=rh;
+});
+box(0.55,ry+0.12,12.2,0.62,{fill:C.NAVY,r:0.06});
+text(0.8,ry+0.12,12.0,0.62,`<span style="color:${C.AMBER};font-weight:700">Il quadrante conformità-AI su dati italiani è vuoto: </span><span style="color:${C.ICE}">chi lo occupa per primo costruisce il data-moat che lo blinda, e diventa il layer su cui poggiano tutti gli altri.</span>`,{size:13,valign:'middle'});
+text(0.55,ry+0.9,12.2,0.3,"Fonti: EU-Startups/Brighton Park (Orbital, Series B 2026); Economyup/Silicon Canals (Casavo, Reopla); CRIF RES. Dati aggiornati a inizio 2026.",{size:9,color:C.SLATE});
+foot(10,false);
+end();
+
+// ---------- Slide 11 — International validation (fast-follower) ----------
+slide(C.NAVY);
+kicker(0.6,0.5,"Validazione internazionale",C.AMBER);
+text(0.55,0.78,12.2,1.0,"Il modello funziona già all'estero. In Italia il campo è aperto.",{size:25,bold:true,color:C.WHITE,face:HEAD});
+text(0.55,1.92,12.2,0.4,"Chi digitalizza conformità e transazione immobiliare, fuori dall'Italia, diventa unicorno o monopolio quotato.",{size:14,color:C.MUTE});
+const proofs=[
+["REGNO UNITO","Orbital","$60M","Series B (2026) per l'AI di due diligence legale immobiliare. ~200k transazioni/anno."],
+["USA","Qualia","~$1 mld","Valutazione da unicorno; infrastruttura di title & closing. ~$207M raccolti."],
+["AUSTRALIA","PEXA","~AU$2 mld","Capitalizzazione in borsa (ASX); ~90% delle transazioni immobiliari nazionali sul suo exchange."]];
+let ppx=0.55;
+proofs.forEach(([country,name,big,d])=>{
+  box(ppx,2.5,3.95,2.85,{fill:C.NAVY2,border:C.BORD});
+  text(ppx+0.25,2.73,3.4,0.3,esc(country),{size:11,bold:true,color:C.AMBER,spacing:1.5});
+  text(ppx+0.25,3.05,3.4,0.5,esc(name),{size:20,bold:true,color:C.WHITE,face:HEAD});
+  text(ppx+0.25,3.67,3.5,0.7,esc(big),{size:34,bold:true,color:C.AMBER,face:HEAD});
+  text(ppx+0.25,4.5,3.5,0.8,esc(d),{size:12.5,color:C.ICE,lh:1.3});
+  ppx+=4.15;
+});
+box(0.55,5.5,12.2,0.82,{fill:C.NAVY3,border:C.AMBER});
+text(0.85,5.5,11.6,0.82,`<span style="color:${C.AMBER};font-weight:700">In Italia non esiste nessuno di questi. </span><span style="color:${C.ICE}">E il problema, conformità e catasto, è più grande: noi replichiamo il modello e lo adattiamo, per essere il primo player italiano.</span>`,{size:14,valign:'middle'});
+text(0.55,6.5,12.2,0.3,"Fonti: Orbital / Brighton Park (Series B 2026); Qualia (Series D, unicorno ~$1 mld); PEXA Group (ASX: PXA). Cifre indicative.",{size:9,color:C.MUTE});
+foot(11,true);
+end();
+
+// ---------- Slide 12 — Why now ----------
 slide(C.WHITE);
 kicker(0.6,0.55,"Perché adesso",C.TERRA);
 text(0.55,0.9,12,0.8,"Tre venti a favore convergono nel 2026",{size:28,bold:true,color:C.INK,face:HEAD});
 const now=[["Direttiva UE “Case Green”","La EPBD (recepimento entro maggio 2026) impone l'adeguamento di ~500.000 abitazioni/anno: ~€85 mld di investimenti entro il 2030. Domanda forzata e finanziabile.",C.TERRA,C.WHITE],
-["Agenti AI finalmente maturi","I compiti document-heavy e rule-heavy — leggere visure, incrociare planimetrie, verificare regole — sono ora automatizzabili con affidabilità.",C.NAVY,C.WHITE],
+["Agenti AI finalmente maturi","I compiti document-heavy e rule-heavy, come leggere visure, incrociare planimetrie e verificare regole, sono ora automatizzabili con affidabilità.",C.NAVY,C.WHITE],
 ["Eredità del Superbonus","Un ecosistema di dati, cantieri e pratiche edilizie mai visto prima, oggi disponibile per essere strutturato.",C.AMBER,C.NAVY]];
 let ny=2.35;
 now.forEach(([t,d,c,tc],i)=>{
@@ -248,7 +332,7 @@ now.forEach(([t,d,c,tc],i)=>{
   text(6.35,ny,6.2,1.35,esc(d),{size:13.5,color:C.SLATE,valign:'middle'});
   ny+=1.5;
 });
-foot(9,false);
+foot(12,false);
 end();
 
 // ---------- Slide 10 ----------
@@ -257,7 +341,7 @@ kicker(0.6,0.55,"Perché noi",C.AMBER);
 text(0.55,0.9,12.2,1.2,"Non scommettiamo sull'AI da costruire. Verticalizziamo una piattaforma che già esiste.",{size:26,bold:true,color:C.WHITE,face:HEAD});
 const why=[["Universe","La piattaforma agentica di Skylabs: l'infrastruttura AI è già in produzione, non da inventare."],
 ["Skylabs / SAE","Competenza consolidata di AI enterprise e integrazione su processi complessi."],
-["Time-to-market","Partiamo da una vertical application su un mercato rotto — non da un foglio bianco."]];
+["Time-to-market","Partiamo da una vertical application su un mercato rotto, non da un foglio bianco."]];
 let wy=2.7;
 why.forEach(([t,d])=>{
   box(0.55,wy,6.4,1.2,{fill:C.NAVY2,border:C.BORD});
@@ -269,20 +353,20 @@ box(7.5,2.7,5.25,3.9,{fill:C.NAVY3,border:C.BORD});
 text(7.8,2.9,4,0.4,"Lo stack",{size:15,bold:true,color:C.MUTE,face:HEAD});
 box(7.85,3.4,4.55,0.95,{fill:C.AMBER});
 text(7.85,3.5,4.55,0.4,"Conforme",{size:18,bold:true,color:C.NAVY,face:HEAD,align:'center'});
-text(7.85,3.92,4.55,0.35,"vertical app — real estate Italia",{size:11,color:C.NAVY,align:'center'});
+text(7.85,3.92,4.55,0.35,"vertical app · real estate Italia",{size:11,color:C.NAVY,align:'center'});
 box(7.85,4.55,4.55,0.85,{fill:C.NAVY2,border:C.AMBER});
-text(7.85,4.55,4.55,0.85,"Universe — piattaforma agentica",{size:14,bold:true,color:C.WHITE,face:HEAD,align:'center',valign:'middle'});
+text(7.85,4.55,4.55,0.85,"Universe · piattaforma agentica",{size:14,bold:true,color:C.WHITE,face:HEAD,align:'center',valign:'middle'});
 box(7.85,5.55,4.55,0.8,{fill:"#0E2140",border:C.BORD});
-text(7.85,5.55,4.55,0.8,"Skylabs / SAE — AI enterprise",{size:13,color:C.ICE,align:'center',valign:'middle'});
-foot(10,true);
+text(7.85,5.55,4.55,0.8,"Skylabs / SAE · AI enterprise",{size:13,color:C.ICE,align:'center',valign:'middle'});
+foot(13,true);
 end();
 
 // ---------- Slide 11 ----------
 slide(C.WHITE);
 kicker(0.6,0.55,"Roadmap",C.TERRA);
 text(0.55,0.9,12,0.8,"Dal wedge alla piattaforma, in tre fasi",{size:28,bold:true,color:C.INK,face:HEAD});
-const phases=[["Fase 1","0 – 18 mesi","Il wedge","Agente di due diligence in produzione. Primi clienti B2B: reti, notai, banche. Costruzione del dataset proprietario.",C.TERRA,C.WHITE],
-["Fase 2","18 – 36 mesi","Dati & transazione","AVM proprietario, rails della transazione digitale, sblocco degli immobili fermi. Il data-moat diventa prodotto.",C.NAVY,C.WHITE],
+const phases=[["Fase 1","0-18 mesi","Il wedge","Agente di due diligence in produzione. Primi clienti B2B: reti, notai, banche. Costruzione del dataset proprietario.",C.TERRA,C.WHITE],
+["Fase 2","18-36 mesi","Dati & transazione","AVM proprietario, rails della transazione digitale, sblocco degli immobili fermi. Il data-moat diventa prodotto.",C.NAVY,C.WHITE],
 ["Fase 3","36 mesi +","Piattaforma 360°","Intelligence energetica Case Green e marketplace finanziario. Scala nazionale, poi replicabilità europea.",C.AMBER,C.NAVY]];
 const pw=3.95,px0=0.55,pxg=0.28,pcy=2.35,pch=3.9;
 phases.forEach((ph,i)=>{
@@ -293,7 +377,7 @@ phases.forEach((ph,i)=>{
   text(x+0.3,pcy+1.4,pw-0.6,0.6,esc(ph[2]),{size:19,bold:true,color:now?C.WHITE:C.INK,face:HEAD});
   text(x+0.3,pcy+2.05,pw-0.6,1.6,esc(ph[3]),{size:13,color:now?C.ICE:C.SLATE});
 });
-foot(11,false);
+foot(14,false);
 end();
 
 // ---------- Slide 12 ----------
@@ -302,7 +386,7 @@ box(11.3,0.7,0.5,1.3,{fill:C.NAVY2,r:0.06});
 box(11.9,1.2,0.5,0.8,{fill:C.AMBER,r:0.06});
 kicker(0.7,1.1,"La proposta",C.AMBER);
 text(0.7,1.5,11,1.8,"Costruiamo il layer di fiducia della compravendita immobiliare italiana.",{size:38,bold:true,color:C.WHITE,face:HEAD,lh:1.1});
-text(0.7,3.45,11.4,1.2,`<span style="color:${C.ICE}">Immobiliare.it ha digitalizzato l'annuncio. </span><span style="color:${C.AMBER};font-style:italic">Noi digitalizziamo la parte che fa saltare le compravendite — la conformità — e da lì diventiamo il layer di dati e transazione che il mercato immobiliare italiano non ha mai avuto.</span>`,{size:18});
+text(0.7,3.45,11.4,1.2,`<span style="color:${C.ICE}">Immobiliare.it ha digitalizzato l'annuncio. </span><span style="color:${C.AMBER};font-style:italic">Noi digitalizziamo la parte che fa saltare le compravendite, la conformità, e da lì diventiamo il layer di dati e transazione che il mercato immobiliare italiano non ha mai avuto.</span>`,{size:18});
 const asks=[["Capitale","per team tecnico + verticale legale e go-to-market B2B"],
 ["18 mesi","per portare il wedge in produzione e costruire il data-moat"],
 ["Obiettivo","essere il primo player del layer di conformità in Italia"]];
