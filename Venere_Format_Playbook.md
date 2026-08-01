@@ -7,6 +7,38 @@
 
 ---
 
+# Parte 0 — Il motore del roll-up: medicalizzare i centri estetici
+
+*Questa è la messa a fuoco principale del progetto: ciò che rende il roll-up **fattibile e veloce** dove gli altri (Klinicy, Faceland) vanno lenti e cari.*
+
+**La mossa:** non partire dalle poche cliniche mediche in vendita (scarse, care, contese). Partire dai **centri estetici** (universo ~36.000, economici, con clientela e footfall già attivi) e **aggiungere la medicina estetica**. Due playbook industrializzati tolgono i due colli di bottiglia.
+
+## Motore 1 — Playbook autorizzazioni (rende *fattibile*)
+L'autorizzazione sanitaria della sede è lo step lento e variabile: va **industrializzato**.
+- **Filtro di convertibilità pre-deal** (nella scorecard, prima di firmare): destinazione d'uso urbanistica compatibile/variabile; locali adeguabili ai requisiti (DPR 14/1/1997 + norme regionali: dimensioni, servizi igienici accessibili, sterilizzazione, rifiuti sanitari); autorizzabilità come **ambulatorio** con direttore sanitario.
+- **Template di "sede medica"**: layout standard delle sale mediche, capitolato dei lavori, spec dispositivi → capex ripetibile (~€150-300k/sede).
+- **Partner regolatorio-sanitario a contratto** + relazioni rodate con **ATS/Comune** (in Lombardia: Comune + ATS Milano).
+- **Obiettivo:** trasformare un iter bespoke di **mesi** in un processo **ripetibile di settimane**. Chi padroneggia l'autorizzazione-a-scala converte più in fretta di chiunque: è un moat operativo.
+
+## Motore 2 — Medici condivisi tra i centri (rende *veloce e scalabile*)
+Il medico è il collo di bottiglia: non trovi un medico dedicato per ogni sede.
+- **Pool di medici che ruota part-time** su più centri (come già fa Marcello a Milano/Verona): medicalizzi **molte sedi con pochi medici**.
+- Ogni sede è **subito profittevole** (niente costo di un medico full-time); il non-medico del centro **paga l'affitto** mentre medicalizzi.
+- **Depersonalizzazione by design**: il paziente è fedele al **brand e al percorso**, non al singolo medico → è ciò che fa scattare il multiplo.
+- **Governance obbligatoria**: protocolli condivisi + **comitato scientifico** per qualità costante su medici che ruotano; direttore sanitario per sede; gestione della responsabilità clinica e dei contratti medici.
+
+## Il compounding (perché il roll-up "rotola")
+Centro estetico (footfall + cash non-medico) **+** medico condiviso (margine alto, costo fisso basso) **+** playbook autorizzazioni (replica sede dopo sede) = **ogni conversione è un'unità piccola, economica, veloce e ripetibile**. È così che il roll-up scala davvero, invece di arenarsi su acquisizioni mediche bespoke.
+
+## Gli "se" da provare (gate prima di scalare)
+- **Tasso di conversione beauty → medico**: da misurare su **1-2 sedi** (o sui pazienti di Marcello) prima di scalare. È la variabile che fa o rompe l'economia.
+- **Convertibilità autorizzativa**: non tutte le sedi sono convertibili → il filtro pre-deal scarta quelle con vincoli urbanistici.
+- **Qualità dei medici condivisi**: protocolli + audit + comitato scientifico per non perdere qualità con la rotazione.
+
+**Sequenza:** prova l'unità di conversione (autorizzazione + tasso + capex) su 1-2 sedi → **poi** scala aggressivo sull'universo dei centri estetici. Corsia parallela: le cliniche mediche già avviate restano un'opzione (più sicure, per costruire brand e panchina medici).
+
+---
+
 # Parte 1 — I 12 blocchi del format
 
 ## A. Percorsi di cura ricorrenti (il cuore del recurring)
