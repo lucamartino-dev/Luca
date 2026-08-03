@@ -352,26 +352,26 @@ Con un medico **non hai una seconda prima impressione**: un contatto freddo sbag
 5. **Se fit reciproco → NDA →** seller pitch → termini indicativi.
 6. **Coltiva i non-pronti** (convertono in 12-24 mesi): è una pipeline da nutrire.
 
-**Riservatezza sacra:** contatti il medico **personalmente e in privato**, mai tramite lo studio — la sua paura n°1 è che staff/pazienti/concorrenti scoprano che potrebbe vendere. Il rischio non è "contattare presto", è **contattare freddo e male**.
+**Riservatezza sacra:** contatti il titolare **personalmente e in privato**, mai tramite il centro/lo studio: la sua paura n°1 è che staff/clienti/concorrenti scoprano che potrebbe vendere. Il rischio non è "contattare presto", è **contattare freddo e male**.
 
-## La storia da raccontare ai medici (seller pitch)
+## La storia da raccontare ai titolari (seller pitch)
 
-Narrazione lato venditore: **trasforma i suoi dolori in ragioni per entrare, senza toccare la sua medicina.**
+Narrazione lato venditore: **trasforma i suoi dolori in ragioni per entrare.** Vale per il titolare di un **centro estetico** come per quello di una **clinica** (con o senza camice).
 
-**Arco (una riga):** *"Hai costruito uno studio che vale, ma da solo hai toccato il suo soffitto: non scala, ti tiene inchiodato (lo studio SEI tu), paghi metà in tasse o rischi col nero, e non ha vero valore di rivendita né successione. Noi togliamo il soffitto e ti de-riskiamo — senza toccare la tua medicina."*
+**Arco (una riga):** *"Hai costruito un centro che vale, ma da solo hai toccato il suo soffitto: non scala, ti tiene inchiodato (l'attività SEI tu), paghi metà in tasse o rischi col nero, e non ha vero valore di rivendita né successione. Noi togliamo il soffitto, ti de-riskiamo e portiamo la medicina estetica che da solo non potresti offrire."*
 
 **I 5 messaggi (dolore → soluzione):**
-1. **Ricchezza che da solo non avrai mai:** cassa al closing **+** equity nella piattaforma (7-10x) = un **secondo payday più grande all'exit**. Il tuo studio da solo non ha exit.
+1. **Ricchezza che da solo non avrai mai:** cassa al closing **+** equity nella piattaforma (7-10x) = un **secondo payday più grande all'exit**. La tua attività da sola non ha exit.
 2. **Reddito → capital gain:** smetti di perdere ~50% in tasse / rischiare col nero; l'equity è tassata ~26%. Legale ed efficiente.
-3. **Togliamo il soffitto:** brand, marketing, recurring, rateizzazione = **più pazienti** e ticket più alti; procurement/back office/software/HR li gestiamo noi. **Più medicina, meno burocrazia** — il lordo cresce anche diventando bianco.
-4. **Tieni medicina e autonomia:** la piattaforma **non interferisce sull'atto clinico**; comitato scientifico indipendente; **incentivi mai sui volumi** (nessuno ti spinge a sovra-trattare). *(Disinnesca la paura n°1: la corporatizzazione.)*
-5. **De-risk e successione:** non sei più l'unico punto di rottura; multi-provider = lo studio sopravvive oltre te; uscita dignitosa **con valore**, non uno studio che muore con la pensione.
+3. **Togliamo il soffitto e aggiungiamo la medicina:** brand, marketing, recurring, rateizzazione **e la medicina estetica** su una clientela già tua = più servizi, più clienti, ticket più alti; procurement/back office/software/HR li gestiamo noi. Il lordo cresce anche diventando bianco.
+4. **Mantieni il tuo mondo:** se sei estetista/imprenditore, **il centro resta il tuo brand** e continui a gestirlo; se sei medico, **la piattaforma non interferisce sull'atto clinico** (comitato scientifico indipendente, incentivi mai sui volumi). *(Disinnesca la paura n°1: la corporatizzazione.)*
+5. **De-risk e successione:** non sei più l'unico punto di rottura; multi-provider e brand = l'attività sopravvive oltre te; uscita dignitosa **con valore**, non un'attività che muore con la pensione.
 
-**Leva del timing:** i **primi** prendono le condizioni migliori e la fetta più grande — prima che la piattaforma sia costruita e de-riskata. **Meglio founder-doctor che late joiner.**
+**Leva del timing:** i **primi** prendono le condizioni migliori e la fetta più grande, prima che la piattaforma sia costruita e de-riskata. **Meglio founding partner che late joiner.**
 
 **Fletti sul profilo:** pensione → successione+liquidità; giovane ambizioso → crescita+equity+leadership; stressato da burocrazia/nero → togliamo l'hassle e regolarizzi conveniente.
 
-**Cosa NON dire:** non promettere di preservare il nero; non aprire con "venderai più trattamenti"; non presentarti come "un fondo che ti compra" ma come "costruiamo insieme la piattaforma che il settore non ha — con medici, non burocrati". **Marcello + comitato scientifico** rendono il tutto credibile: entra in una comunità clinica guidata da pari, non vende a un fondo anonimo.
+**Cosa NON dire:** non promettere di preservare il nero; non aprire con "venderai più trattamenti"; non presentarti come "un fondo che ti compra" ma come "costruiamo insieme la piattaforma che il settore non ha, con operatori del mestiere non burocrati". **Marcello + comitato scientifico** danno la credibilità clinica: entri in un progetto guidato da chi il settore lo conosce, non vendi a un fondo anonimo.
 
 ## La struttura dell'offerta al venditore (cash / rollover / earn-out)
 
@@ -387,7 +387,7 @@ Il prezzo lo àncori a **3-4x l'EBITDA normalizzato** (documentato/normalizzabil
 
 **Earn-out — dopo quanti anni:** **3 anni** dove il medico *è* l'asset (serve tempo per far transitare i pazienti e depersonalizzare col multi-provider), **2 anni** dove la dipendenza dal titolare è minore. Tranche annuali legate a **(a)** mantenimento/crescita EBITDA e **(b)** permanenza (good leaver). Cammina insieme alla permanenza 24-36 mesi.
 
-**La leva sul nero (risolve due problemi in uno):** cash e base li paghi **solo sull'EBITDA documentato**; il valore del sommerso NON lo paghi in contanti (non è verificabile né riconoscibile legalmente) ma lo lasci **recuperare al venditore via earn-out agganciato all'EBITDA *formalizzato*** (POS, financing, fatturazione piena). Il medico guadagna il valore del nero **sbiancandolo**, tu paghi solo su numeri reali e tracciati. Il problema diventa il meccanismo di allineamento. *(Si combina con il "periodo pulito" pre-acquisizione — sotto.)*
+**La leva sul nero (risolve due problemi in uno):** cash e base li paghi **solo sull'EBITDA documentato**; il valore del sommerso NON lo paghi in contanti (non è verificabile né riconoscibile legalmente) ma lo lasci **recuperare al venditore via earn-out agganciato all'EBITDA *formalizzato*** (POS, financing, fatturazione piena). Il titolare guadagna il valore del nero **sbiancandolo**, tu paghi solo su numeri reali e tracciati. Il problema diventa il meccanismo di allineamento. *(Si combina con il "periodo pulito" pre-acquisizione — sotto.)*
 
 **Paletti standard:** **reverse vesting** sul rollover (bad leaver decade), **non-compete**, **holdback ~10%** per 12-18 mesi a garanzia (reps & warranties).
 
@@ -398,21 +398,21 @@ Il prezzo lo àncori a **3-4x l'EBITDA normalizzato** (documentato/normalizzabil
 - **Giovane/ambizioso:** più rollover (fino a ~35%) e ruolo — vuole il secondo payday e la crescita.
 - **Molto "in nero":** base cash contenuta + **earn-out più pesante** sull'EBITDA formalizzato — è lì che si gioca il suo upside.
 
-## Il nodo del "nero" dei medici estetici (come affrontarlo, legalmente)
+## Il nodo del "nero" dei centri e studi estetici (come affrontarlo, legalmente)
 
-Gran parte dei medici estetici incassa in nero per non pagare ~50% di tasse. Ti crea due problemi: (a) l'**EBITDA dichiarato dei target sottostima il reale** → prezzi bassi ma venditori che pretendono credito per numeri non verificabili; (b) dentro una piattaforma fatturata il ricavo dev'essere **bianco**, e la conversione può comprimere i margini.
+Gran parte degli operatori estetici (estetiste e medici) incassa in nero per non pagare ~50% di tasse. Ti crea due problemi: (a) l'**EBITDA dichiarato dei target sottostima il reale** → prezzi bassi ma venditori che pretendono credito per numeri non verificabili; (b) dentro una piattaforma fatturata il ricavo dev'essere **bianco**, e la conversione può comprimere i margini.
 
 **Regola d'oro: non paghi per il nero e non lo perpetui. Lo sostituisci con più bianco.** Le 6 mosse:
 1. **DD sul dichiarato/tracciabile:** normalizzi sui ricavi **fatturati/POS/banca**; **non paghi il cash non verificabile** (è frode, non bookabile). Prezzi su numeri puliti → entri basso, a tuo favore.
 2. **Rischio fiscale pre-closing sul venditore:** rep & warranties + indennizzi + escrow nell'SPA. Non erediti la frode.
 3. **Sostituisci il nero con più bianco via il format:** recurring a pagamento mensile + **rateizzazione + carte = pagamenti tracciabili per costruzione**; il **+45%** del format nasce bianco. Non preservi il nero, lo rimpiazzi con un flusso bianco più grande.
-4. **Rendi il bianco conveniente col rollover in EQUITY:** il medico converte reddito da lavoro (~50%) in **capital gain all'exit** (tassazione molto più bassa). È la leva legale più forte per farlo uscire dal nero: gli dai un **asset che vale a multiplo**, cosa che il nero non può dargli.
+4. **Rendi il bianco conveniente col rollover in EQUITY:** il titolare converte reddito da lavoro (~50%) in **capital gain all'exit** (tassazione molto più bassa). È la leva legale più forte per farlo uscire dal nero: gli dai un **asset che vale a multiplo**, cosa che il nero non può dargli.
 5. **Più volume dal sistema:** brand + marketing + recurring portano più pazienti → il lordo bianco su un book più grande eguaglia/supera il vecchio netto grigio.
 6. **Compliance nativa = valore:** MSO, fatturazione, POS ovunque, incentivi mai sui volumi, audit (dal deck). Asset pulito e bancabile all'exit = **7-10x** vs 3-4x di studi grigi. **La regolarizzazione È l'espansione del multiplo — ed è il moat** (i grigi non possono farlo).
 
 **Due avvertenze:** (a) metti in conto un **attrito di conversione** (qualche paziente cash resiste alla fattura) → modella conservativo, l'uplift deve superarlo; (b) è il **rischio d'esecuzione n°1** → serve un **fiscalista + avvocato sanitario top** (questo è framing, non parere fiscale).
 
-**Il punto strategico:** il nero non è solo un ostacolo, è **la ragione per cui i medici hanno bisogno di te** — sono incastrati (non scalano, non accedono a capitale, non vendono a istituzionali). Tu offri equity capital-gain-efficient + più pazienti + un exit pulito.
+**Il punto strategico:** il nero non è solo un ostacolo, è **la ragione per cui i titolari hanno bisogno di te**: sono incastrati (non scalano, non accedono a capitale, non vendono a istituzionali). Tu offri equity capital-gain-efficient + più pazienti + un exit pulito.
 
 ### Il "periodo pulito" pre-acquisizione (tecnica di DD)
 Chiedere al venditore di **andare bianco 6-12 mesi prima di comprare**, osservare l'EBITDA dichiarato sotto piena fatturazione e annualizzare. Dà una **base verificabile e legale** su cui prezzare, testa direttamente il **drenaggio da sbiancamento** (quanti cash resistono alla fattura) e **filtra i venditori** (chi rifiuta è red flag: il suo "reale" è nero che evapora).
