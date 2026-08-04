@@ -19,6 +19,23 @@ La vendita di Skylabs (2026 → closing H2'27) è retta da **advisor M&A + GM + 
 
 ---
 
+## Sequenza di partenza (settembre) — dalla ricerca al test alla scala
+
+La spina dorsale operativa dei primi 12 mesi, in sei passi:
+
+1. **Trova i venditori (settembre, Milano).** Individua **~5 centri estetici che vogliono vendere** (pipeline, con AIDA + registri + network di Marcello + annunci subito/idealista). Applica il **filtro di convertibilità** (destinazione d'uso, requisiti) per tenere solo i medicalizzabili.
+2. **Raccogli €500k (seed "prova").** Round iniziale con gli investitori per **comprare e medicalizzare i primi centri**: è il *"dammi mezzo milione e ti provo 3 conversioni"*, check piccolo e a basso rischio prima del round grande. *(€500k è coerente con centri piccoli + prima medicalizzazione; il capex pieno di conversione arriva col round di scala.)*
+3. **Closing di almeno 3 dei 5**, con **Marcello come direttore sanitario e medico estetico** (medico condiviso sulle tre sedi).
+4. **Testa il modello** sui 3-5 centri: tasso di conversione beauty→medico, tempi/costi di autorizzazione, EBITDA/sede, recurring. È il **format lab** su asset reali.
+5. **Se funziona → scala.** Round più grande (la Fase 1 di scala, €2,5-4,5M) e **replica massiva in Italia** con il playbook (autorizzazioni + medici condivisi + macchina AI).
+6. **Trigger Diana.** Appena acquisito il **primo centro estetico** (basta uno), coinvolgi **Salvatore Diana** per impostare l'azienda **AI-driven fin da subito**: architettura-dati, operations AI-native, macchina M&A AIzzata.
+
+**Guardrail Skylabs (invalicabile):** finché Skylabs non è venduta, l'ingresso **visibile** di Diana aspetta il closing (riservatezza + continuità per il compratore + pulizia IP). Se il primo centro lo acquisti **prima** del closing Skylabs, Diana imposta **dietro le quinte** l'architettura-dati "Diana-ready" ma **non compare** ufficialmente finché Skylabs non è chiusa.
+
+**Le due raccolte, in sequenza:** (1) **€500k** = seed per **provare 3 centri**; (2) **round di scala** (€2,5-4,5M, il "4M" del deck) **dopo** che il modello è provato. Sono due momenti distinti, non la stessa cifra.
+
+---
+
 ## FASE 1 — Settembre (Mese 1): fondamenta e allineamento
 
 **Skylabs**
