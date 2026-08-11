@@ -12,7 +12,7 @@ Il target NON è la clinica medica (contesa dai fondi): è il **centro estetico 
 ## Blocco A — Pre-screen (senza contatto, da desk)
 *Scarta qui la maggior parte dei 116 prima di disturbare chi non è convertibile.*
 
-1. **Destinazione d'uso dell'immobile** (visura/catasto, o dall'annuncio): è compatibile con struttura sanitaria, o variabile? → **è il filtro n°1**: se il vincolo urbanistico è rigido, NO-GO a prescindere.
+1. **Destinazione d'uso dell'immobile.** *Buona notizia per Milano:* nel **Tessuto Urbano Consolidato** (quasi tutta la città) vale l'**indifferenza funzionale** (PGT, Piano delle Regole art. 8) e il **mutamento d'uso senza opere è sempre ammesso e gratuito**. Quindi a Milano il vincolo urbanistico **raramente è un NO-GO**: la funzione sanitaria è ammessa dove c'è quella commerciale. Il gate vero diventa **fisico/ATS** (punto 2 e Blocco C): riesci a ricavare una **sala medica a norma**? *(Eccezioni da verificare con un tecnico + visura: tutele del commercio al piano terra in certe vie, edifici storici/vincolati, regolamenti condominiali. La categoria catastale — C/1 negozio, A/10 studio/gabinetto medico — è fiscale, non blocca.)*
 2. **Superficie e layout** (mq dall'annuncio/foto): c'è spazio per **2+ sale** (di cui una medica), sala d'attesa, servizi igienici? Sotto una certa dimensione non ci fai un ambulatorio.
 3. **Zona e bacino**: reddito, passaggio, densità (Centro/Brera, CityLife-Fiera, Navigli, hinterland pregiato). Fuori bacino = ticket e volumi bassi.
 4. **Anni di attività e reputazione**: da quanto esiste? Recensioni (Google, social): quante, che voto, che tono? Vecchio + ben recensito = base clienti fedele.
