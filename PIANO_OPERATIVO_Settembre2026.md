@@ -375,12 +375,12 @@ Con un medico **non hai una seconda prima impressione**: un contatto freddo sbag
 
 Narrazione lato venditore: **trasforma i suoi dolori in ragioni per entrare.** Vale per il titolare di un **centro estetico** come per quello di una **clinica** (con o senza camice).
 
-**Arco (una riga):** *"Hai costruito un centro che vale, ma da solo hai toccato il suo soffitto: non scala, ti tiene inchiodato (l'attività SEI tu), paghi metà in tasse o rischi col nero, e non ha vero valore di rivendita né successione. Noi togliamo il soffitto, ti de-riskiamo e portiamo la medicina estetica che da solo non potresti offrire."*
+**Arco (una riga):** *"Hai costruito un centro che vale, ma da solo hai raggiunto il tuo limite: non scala, ti tiene inchiodato (l'attività SEI tu), paghi metà in tasse o rischi col nero, e non ha vero valore di rivendita né successione. Noi superiamo quel limite, ti de-riskiamo e portiamo la medicina estetica che da solo non potresti offrire."*
 
 **I 5 messaggi (dolore → soluzione):**
 1. **Ricchezza che da solo non avrai mai:** cassa al closing **+** equity nella piattaforma (7-10x) = un **secondo payday più grande all'exit**. La tua attività da sola non ha exit.
 2. **Reddito → capital gain:** smetti di perdere ~50% in tasse / rischiare col nero; l'equity è tassata ~26%. Legale ed efficiente.
-3. **Togliamo il soffitto e aggiungiamo la medicina:** brand, marketing, recurring, rateizzazione **e la medicina estetica** su una clientela già tua = più servizi, più clienti, ticket più alti; procurement/back office/software/HR li gestiamo noi. Il lordo cresce anche diventando bianco.
+3. **Superiamo il tuo limite e aggiungiamo la medicina:** brand, marketing, recurring, rateizzazione **e la medicina estetica** su una clientela già tua = più servizi, più clienti, ticket più alti; procurement/back office/software/HR li gestiamo noi. Il lordo cresce anche diventando bianco.
 4. **Mantieni il tuo mondo:** se sei estetista/imprenditore, **il centro resta il tuo brand** e continui a gestirlo; se sei medico, **la piattaforma non interferisce sull'atto clinico** (comitato scientifico indipendente, incentivi mai sui volumi). *(Disinnesca la paura n°1: la corporatizzazione.)*
 5. **De-risk e successione:** non sei più l'unico punto di rottura; multi-provider e brand = l'attività sopravvive oltre te; uscita dignitosa **con valore**, non un'attività che muore con la pensione.
 
