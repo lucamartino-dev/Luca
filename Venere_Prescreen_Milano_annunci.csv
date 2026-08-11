@@ -1,0 +1,10 @@
+Rank,Punteggio,Zona / via,Prezzo richiesto,mq,Cabine/stanze,Attributi rilevanti,Convertibilita spazio (1-5),Base clienti proxy (1-5),Location/bacino (1-5),Prezzo/valore (1-5),Fonte
+1,4.45,Citta Studi,100.000,100,multivetrina,"Ricavi 400k/anno, multivetrina, vende per pensione (venditore motivato) -> ottimo rapporto prezzo/ricavi",4,5,4,5,idealista/immobiliare
+2,4.40,Corso Buenos Aires (Centro),n/d,110,3 cabine + nails + reception,"Bagno accessibile (ATS-friendly), zona altissimo passaggio",5,4,5,3,idealista/trovacasa
+3,4.15,San Siro,n/d (canone 1.800/mese),due livelli,4 cabine + nails + 3 solarium,"Due livelli = facile separare area medica; buona affluenza",5,4,4,3,consultingitalia
+4,4.10,Brera / Corso Garibaldi,n/d,n/d,n/d,"Attivita ventennale (base fedele), epilazione (laser-adjacent = amenable), zona esclusiva alto passaggio",3,5,5,3,idealista/immobiliare
+5,3.95,Fiera / CityLife / Portello,da 250.000,n/d,n/d,"Zona alto reddito; probabilmente struttura piu grande/avviata; prezzo alto",4,4,5,2,immobiliare
+6,3.85,Navigli / Viale Liguria,n/d,107,ingresso + 3 stanze + bagno,"107mq piano terra, 3 stanze convertibili; base clienti non nota",5,3,4,3,immobiliare
+7,3.85,Porta Romana / Via Comelico,n/d,n/d,n/d,"Attivita avviata con excellent client package; dimensione non nota",3,5,4,3,immobiliare
+8,2.50,Ticinese / Navigli,n/d (canone 1.200/mese),40,~2 stanze,"40mq: troppo piccolo per sala medica separata; canone alto per la taglia",2,2,4,2,idealista
+9,2.40,Milano (generico),da 18.000,~50,ingresso + 2 stanze + bagno,"Micro-salon: poco footfall, spazio insufficiente per ambulatorio",2,2,3,3,idealista/trovacasa
