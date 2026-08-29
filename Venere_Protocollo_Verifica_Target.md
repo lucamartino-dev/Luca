@@ -141,8 +141,52 @@ immobile a norma con **capex accettabile** **+** base clienti **reale e verifica
 
 ---
 
+# APPENDICE — Destinazione d'uso: quale deve e non deve essere
+
+## Il chiarimento che risolve metà dei dubbi: sono DUE cose diverse
+1. **Destinazione d'uso urbanistica** = cosa il piano urbanistico (a Milano il **PGT**) consente in quell'immobile. **È questa che conta per aprire.**
+2. **Categoria catastale** (A/10, C/1, D/4...) = classificazione **fiscale** (rendita/tasse). **Non autorizza né vieta** l'attività. Il mito da sfatare: *non* serve per forza l'A/10.
+
+## Quadro nazionale (DPR 380/2001, art. 23-ter): 5 categorie funzionali
+a) residenziale · a-bis) turistico-ricettiva · b) **produttiva e direzionale** · c) **commerciale** · d) rurale/agricola.
+- Lo **studio medico** rientra tipicamente nel **direzionale/servizi** (assimilato a uffici/studi professionali).
+- Il **centro estetico** è tipicamente **commerciale** (o artigianale di servizio).
+- Passare da una categoria all'altra è un mutamento "urbanisticamente rilevante", **ma i Comuni possono ammetterlo liberamente**. In Lombardia (L.R. 12/2005, artt. 51-52) il mutamento **senza opere** conforme all'urbanistica è ammesso **previa comunicazione**, senza permesso.
+
+## Milano: l'indifferenza funzionale (la buona notizia)
+PGT, **Piano delle Regole art. 8**: nel **Tessuto Urbano Consolidato (TUC)** — quasi tutta la città — vige l'**indifferenza funzionale**: le funzioni urbane sono **liberamente insediabili, senza esclusioni** e senza rapporti percentuali. Quindi:
+- La **funzione sanitaria/studio medico è ammessa** dove c'è quella commerciale (il tuo centro estetico).
+- Il **mutamento senza opere è sempre ammesso e gratuito** (comunicazione).
+- Il mutamento **con opere** è ammesso, ma se **aumenta il fabbisogno di aree per servizi** (standard) può richiedere reperimento/monetizzazione di aree → da gestire col tecnico se fai lavori importanti.
+- **A Milano-TUC la destinazione d'uso raramente è un NO-GO.**
+
+## Quale DEVE essere
+- **Urbanistica:** destinazione compatibile con **servizi/sanitario**. A Milano-TUC vanno bene **commerciale, terziario/direzionale, servizi** (grazie all'indifferenza funzionale). Il tuo centro estetico è già in categoria buona.
+- **Catasto:** nessuna categoria obbligatoria per aprire. **C/1 (negozio) va bene**; **A/10 (uffici/studi)** è l'allineamento naturale di uno studio professionale. Se fai lavori puoi variare da C/1 ad A/10 con **DOCFA** (adempimento fiscale, non un gate).
+
+## Quale NON deve essere / attenzioni (i casi che complicano o bloccano)
+1. **Residenziale con contesto vincolante:** un appartamento *può* ospitare uno studio medico (giurisprudenza: il medico visita in casa), ma il mutamento verso servizi è più delicato e pesano **regolamento condominiale** e vicinato. Non ideale come sede primaria.
+2. **Produttiva/industriale (zone D) o rurale/agricola (E):** la funzione sanitaria/terziaria di norma **non è ammessa** senza mutamento rilevante (o non è ammessa). Diffida di locali in comparti produttivi/artigianali puri.
+3. **Ambiti speciali del PGT** (fuori TUC, alcuni Nuclei di Antica Formazione, ambiti a disciplina particolare): possibili limitazioni → verifica la **scheda d'ambito**.
+4. **Tutela del commercio / botteghe storiche** al piano terra in certe vie centrali: il cambio d'uso del piano terra può essere limitato. Verifica via per via.
+5. **Edifici vincolati (Soprintendenza):** limitano opere e cambi d'uso.
+6. **Fuori Milano:** l'indifferenza funzionale è una scelta del PGT **di Milano**. In altri Comuni **non è garantita**: il cambio commerciale→sanitario può richiedere titolo e non è detto sia ammesso. **Verifica sempre il PGT locale.**
+
+## Se pensi all'ambulatorio (futuro)
+L'ambulatorio (struttura sanitaria organizzata) può essere classificato **servizi/sanitario** (catasto spesso **D/4** per strutture con fine di lucro) e, se grande, far scattare **standard urbanistici** (parcheggi, aree per servizi). L'indifferenza funzionale aiuta, ma per l'hub futuro verifica che la funzione sanitaria "organizzata" sia ammessa **a quella scala** e le dotazioni richieste.
+
+## Checklist lampo destinazione d'uso
+- [ ] **Certificato di destinazione urbanistica** / scheda d'ambito PGT dell'immobile [Tecnico]
+- [ ] Immobile nel **TUC** di Milano (indifferenza funzionale)? Se fuori Milano, il PGT ammette la funzione sanitaria?
+- [ ] **Categoria catastale** (C/1 o A/10 = ok; DOCFA solo per allineamento)
+- [ ] Nessuna **funzione esclusa**, **tutela commercio**, **vincolo** su quel piano terra/edificio
+- [ ] (Se ambulatorio futuro) funzione ammessa a scala maggiore + standard
+
+---
+
 ## Fonti (validare sul caso con tecnico/legale + ATS Milano)
 - Conformità urbanistica come presupposto di agibilità e dello **stato legittimo** dell'immobile (Legislazione Tecnica; Ingenio; Studio Notariato post Decreto Salva Casa 2024).
 - **Regolamento condominiale**: il divieto di "ambulatorio" non si estende allo "studio medico"; validità solo se esplicito e contrattuale (Condominioweb; La Legge per Tutti; Studio Cataldi).
-- Milano PGT — indifferenza funzionale nel Tessuto Urbano Consolidato (mutamento d'uso senza opere).
+- Milano PGT — **Piano delle Regole art. 8**, indifferenza funzionale nel Tessuto Urbano Consolidato (mutamento d'uso senza opere sempre ammesso e gratuito); Assimpredil Ance — disciplina dei mutamenti di destinazione d'uso nel PGT.
+- Distinzione destinazione d'uso urbanistica vs categoria catastale (A/10, C/1, D/4): il catasto è fiscale, non autorizza; studio medico in C/1 non richiede di per sé il cambio (Piazza Pitagora; Fiscomania; Club Medici). DPR 380/2001 art. 23-ter; L.R. Lombardia 12/2005 artt. 51-52.
 - Requisiti e iter studio medico Lombardia: DGR VII/5724/2001, art. 4 l.r. 15/99, l.r. 23/2015, SCIA/portale ASAN (ATS Milano/Brianza) — vedi `Venere_Drilldown_Studio_Medico.md`.
