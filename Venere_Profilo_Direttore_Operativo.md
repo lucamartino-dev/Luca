@@ -2,6 +2,10 @@
 
 *Chi cercare per guidare la macchina: individuazione → analisi → trasformazione dei centri estetici. Con la ricetta di ricerca su LinkedIn e le domande di screening. Riservato.*
 
+> **Tempistica (decisa):** è un'assunzione di **Fase 2**, DOPO i primi **3 centri** e la **validazione del playbook** (e di norma dopo il seed). Fino a lì l'operatore sei **tu**, con il mio supporto a monte (sourcing/scoring, kit, tracker, verifiche). Assumere prima significherebbe pagare qualcuno per un modello ancora da provare; assumere dopo significa dargli un manuale già scritto da scalare.
+>
+> **E soprattutto:** con un **progetto concreto** in mano (3 LOI, playbook validato, seed) è molto **più facile coinvolgere persone di esperienza**. Un senior operator non lascia il suo posto per una slide: lo fa per una macchina che gira, con trazione dimostrata ed equity/variabile legati a risultati reali. La validazione non serve solo a de-rischiare il modello: è anche ciò che ti rende **assumibile** un profilo forte. Questa scheda resta pronta nel cassetto per quel momento.
+
 ## Cosa deve saper fare (la missione del ruolo)
 Guidare tutto il funnel operativo: **trovare** i centri, **qualificarli** (desk + sopralluogo), **negoziare** con i titolari, e **coordinare la trasformazione** (adeguamento immobile + iter autorizzativo + integrazione del personale). È un ruolo di **terra**, non di scrivania: un operatore che apre e standardizza punti in serie.
 
@@ -56,5 +60,29 @@ Segna i 10-15 nomi che escono e passali al filtro qui sotto.
 - Non deve essere per forza C-level: serve un **forte operatore** (Head of Operations/Expansion) che si sporca le mani.
 - **Incentivo all'allineamento:** fisso + **variabile legato ai closing e alle aperture** (n. centri convertiti, EBITDA per sede) + eventuale **equity/MBO**. È il ruolo che fa girare la macchina: legalo ai risultati.
 
+## Chi contatterei — mappa dei bacini di talento (a prescindere dalle connessioni)
+*Non i singoli nomi (vanno individuati sulla sedia giusta), ma le **aziende-scuola** da cui pescare, in ordine di fit con Venere. Il ruolo target è tra parentesi.*
+
+**Fascia 1 — hanno fatto ESATTAMENTE questo (rollout clinico + M&A in serie, Italia)**
+- **Centro Medico Santagostino** (Milano, retail medico multi-sede) → *Head of Operations / Sviluppo Rete / Network Development*. È il match più vicino: cliniche a Milano, patient experience, aperture in serie.
+- **DentalPro** e **Vitaldent Italia** (roll-up dentale PE-backed) → *Direttore Operativo / Area Manager / M&A Integration / Real Estate & Development*. Hanno scouting immobili, aperture, integrazione post-acquisizione.
+- **Consolidatori di medicina estetica** già attivi (Klinicy, Vitaura/LIAN, Juneco/Faceland) → *Operations / Development Manager*. Conoscono il settore esatto. ⚠️ Concorrenti diretti: probabili **patti di non concorrenza** e rischio leak — muoviti con cautela.
+
+**Fascia 2 — buy-and-build multi-sede sanità/farma (competenza trasferibile forte)**
+- **Hippocrates Holding / LloydsFarmacia (Admenta) / DocPeter** (roll-up farmacie) → *M&A Integration / Sviluppo Rete*. (Hippocrates è anche nella tua lista investitori: possibile doppia sinergia.)
+- **GVM Care & Research · KOS Group · GKSD (Gruppo San Donato) · Affidea · Lifenet** (network clinici/diagnostica) → *Operations / Sviluppo*. GKSD è già il tuo lead caldo: potrebbe indicarti la persona.
+
+**Fascia 3 — wellness/beauty medicale (conoscenza del mondo + franchising)**
+- **The Longevity Suite** (Milano, wellness medicale in franchising) → *Head of Expansion / Franchising*. Molto on-point: medicale + rete + Milano.
+- Catene **estetica/beauty/depilazione** e profumerie premium → *Area/Retail Manager* (portano il retail multi-sito, meno il medico).
+
+**Fascia 4 — puro rollout retail (skill di apertura in serie, no sanità)**
+- **Palestre** (Virgin Active, Anytime Fitness), **ottica** (Salmoiraghi & Viganò / GrandVision) → *Expansion / Store Development*. Ottimi sul metodo di apertura; il medico glielo insegni tu.
+
+**Il jolly che forse hai già in casa:** un operatore da **Your Best (YB)** o dal suo giro (healthtech/medicina estetica) potrebbe conoscere il settore e fidarsi già di te. Da guardare per primo: costo di fiducia zero.
+
+**Come li aggancio:** intro calda quando possibile; altrimenti messaggio diretto da fondatore ("sto costruendo il primo operatore nazionale della medicina estetica nei centri estetici, cerco chi sa aprire e integrare in serie: 15 minuti?"). L'amo è il **progetto + equity/variabile sui closing**, non solo lo stipendio.
+
 ---
 *Nota: questa scheda si integra con la `Venere_COO_Shortlist.csv` (32 profili già mappati) e con il ruolo di Simona come COO. Il Direttore Operativo/Acquisition può essere quella figura o una dedicata alla sola macchina di acquisizione+conversione, che riporta al COO.*
+*Vuoi i nomi reali sulle sedie sopra? Posso cercarli (fonti pubbliche) e proporteli, da validare con te.*
