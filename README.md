@@ -17,3 +17,14 @@ recuperarne le email dei decision maker.
   outreach.
 
 Lancio: chiedi in chat "cerca investitori per SAE" (o equivalente).
+
+## robotics-vendor-partnerships
+Mappa dei vendor di robotica umanoide (Italia, Europa, Asia, USA) con cui SAE
+punta a diventare partner, per guidare strategicamente le aziende nell'adozione
+degli umanoidi come gia avviene con i vendor software.
+
+- `robotics-vendor-partnerships/references/vendor-map.md` - vendor per tier,
+  scoring, stato del canale, mossa consigliata.
+- `robotics-vendor-partnerships/references/partnership-playbook.md` -
+  posizionamento, offerta, ask verso i vendor, piano 30/60/90, KPI, rischi.
+- `robotics-vendor-partnerships/references/sources.md` - fonti (agosto 2026).
