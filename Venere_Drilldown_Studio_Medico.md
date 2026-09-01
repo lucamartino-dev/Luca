@@ -2,6 +2,8 @@
 
 *Il percorso dettagliato della strada leggera: affiancare uno studio medico a un centro estetico esistente. Riservato.*
 
+> **⚠️ AGGIORNAMENTO (leggere prima).** In Lombardia **la maggior parte dei trattamenti** di medicina estetica (iniettivi + laser classi 3B-4) richiede l'**AMBULATORIO**, non lo studio medico: quest'ultimo copre solo la fascia **non invasiva**. Questo drill-down resta valido per capire la "strada leggera" e i suoi requisiti di base, ma per il perimetro reale di Venere il regime target è l'**ambulatorio** (autorizzazione all'esercizio Comune + ATS). Vedi `Venere_Protocollo_Verifica_Target.md` (barra ambulatorio) e `Venere_Nota_Direttore_Sanitario.md`.
+
 > **Avvertenza.** Riferimenti normativi corretti (fonti in fondo), ma la classificazione del **mix esatto di prestazioni** (studio vs ambulatorio) e i requisiti puntuali vanno confermati **per iscritto con ATS Milano + un consulente sanitario** sul primo centro. Validi il playbook una volta, poi lo replichi. Non impegnarti su un immobile prima.
 
 ---

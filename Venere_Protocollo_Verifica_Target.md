@@ -3,9 +3,11 @@
 *Tre setacci in sequenza per non perdere tempo: prima analisi da desk → sopralluogo → procedura. Esplicito, gate per gate. Riservato.*
 
 ## Come si usa
-Tre setacci in ordine. Ogni setaccio ha dei **GATE**: se scatta un **NO-GO**, ti fermi e non passi al successivo. Così spendi tempo solo su chi può davvero diventare studio medico.
+Tre setacci in ordine. Ogni setaccio ha dei **GATE**: se scatta un **NO-GO**, ti fermi e non passi al successivo. Così spendi tempo solo su chi può davvero diventare **ambulatorio** (o, per i soli trattamenti non invasivi, studio medico).
 **Esiti:** ✅ GO · ⚠️ ATTENZIONE (verificabile, ha un costo/tempo) · ⛔ NO-GO (scarta subito).
 **Chi verifica:** [Tu] · [Tecnico] geometra/architetto · [Legale] · [Commercialista].
+
+> **AGGIORNAMENTO IMPORTANTE (Lombardia) — la barra è l'AMBULATORIO.** In Lombardia **la maggior parte dei trattamenti di medicina estetica** (iniettivi: tossina e filler; **laser medicali classi 3B-4**) è considerata **invasiva / di particolare complessità** e richiede l'**AMBULATORIO** — cioè l'**autorizzazione all'esercizio** del Comune previo **parere e sopralluogo ATS** — **non** il semplice studio medico. Lo **studio medico** copre solo la fascia **non invasiva** (consulenza, trattamenti leggeri). → Perciò questo protocollo cerca **centri idonei ad AMBULATORIO**: barra più alta (più spazio, locali distinti, impianti, meglio se immobile indipendente). Da confermare sul primo caso con ATS Milano + OMCeO, ma l'orientamento è chiaro. *(Fonti in fondo.)*
 
 ---
 
@@ -29,16 +31,17 @@ Tre setacci in ordine. Ogni setaccio ha dei **GATE**: se scatta un **NO-GO**, ti
 
 **3. Regolamento condominiale** [Legale]
 - Un divieto, per essere valido, dev'essere **esplicito** e in un regolamento di natura **contrattuale**.
-- **Nota chiave a tuo favore:** un divieto di "**ambulatorio**" **NON si estende allo "studio medico**" (giurisprudenza costante). Poiché tu vai per studio medico, **aggiri gran parte dei divieti condominiali**. Le clausole generiche (tranquillità/decoro) richiedono prova rigorosa del pregiudizio.
-- Chiedi il regolamento condominiale. ⛔ NO-GO solo se c'è divieto **esplicito e contrattuale anche di "studio medico"**.
+- **Attenzione (target ambulatorio):** poiché in Lombardia punti all'**ambulatorio**, un divieto condominiale di "**ambulatorio**" **ti blocca** (mentre non bloccherebbe il solo studio medico). ⚠️ Perciò **prediligi immobili indipendenti / non condominiali** (stabile cielo-terra, ingresso autonomo) o verifica che il regolamento non vieti l'ambulatorio. Le clausole generiche (tranquillità/decoro) richiedono prova rigorosa del pregiudizio.
+- Chiedi il regolamento condominiale. ⛔ NO-GO se c'è divieto **esplicito e contrattuale di "ambulatorio"** e non hai un immobile alternativo.
 
 **4. Contratto di locazione (se è in affitto)** [Legale]
 - **Durata residua e rinnovo**; canone; e soprattutto la **clausola sulla destinazione d'uso** e il **consenso del proprietario** all'attività sanitaria/mutamento d'uso.
 - ⛔ NO-GO se durata residua irrisoria senza rinnovo, o proprietario che vieta l'uso sanitario.
 
-**5. Superficie e layout ricavabile** [Tu → Tecnico]
-- Dai mq dell'annuncio: c'è spazio per **attesa (~9 mq)** + **sala medica dedicata** + **servizi igienici** + **spazio sterilizzazione** + deposito?
-- Indicativamente sotto **~60-70 mq utili** diventa molto difficile. ⛔ NO-GO se troppo piccolo.
+**5. Superficie e layout (barra AMBULATORIO)** [Tu → Tecnico]
+- Servono **locali distinti**: attesa/accettazione + **2+ sale** (di cui una/e trattamenti) + **servizi igienici accessibili** + **percorsi/locali separati pulito-sporco** + spazio **sterilizzazione** + deposito + spogliatoio personale.
+- Soglia indicativa **~90-120 mq utili** (sotto ~90 mq è molto difficile far stare tutti i locali dell'ambulatorio). ⛔ NO-GO se troppo piccolo o non frazionabile in locali distinti.
+- *(Per la sola fascia non invasiva/studio medico basterebbe meno — ~60-70 mq — ma non è il target in Lombardia.)*
 
 **6. Servizi igienici accessibili** [Tecnico, conferma in sede]
 - C'è (o è ricavabile) un **bagno a norma/accessibile**? È spesso il vero killer fisico. ⚠️ da confermare al sopralluogo.
@@ -86,22 +89,22 @@ immobile a norma con **capex accettabile** **+** base clienti **reale e verifica
 
 # FASE 3 — La procedura, se si procede
 1. **Lettera d'Intenti non vincolante** (te la preparo io): perimetro, struttura/prezzo indicativo, **esclusiva temporanea**, **condizioni sospensive** (due diligence + conferma ATS).
-2. **Quesito scritto ad ATS Milano** sul perimetro clinico → conferma che rientra nello **studio medico** (il gate autorizzativo; te lo preparo).
+2. **Quesito scritto ad ATS Milano** sul perimetro clinico → conferma il **regime** (ambulatorio vs studio medico) e i requisiti richiesti (il gate autorizzativo; te lo preparo).
 3. **Due diligence completa:**
    - **[Legale]** titolarità immobile/contratto, regolamento condominiale, contenziosi, contratti dipendenti.
-   - **[Tecnico]** stato legittimo, conformità, agibilità, **progetto di adeguamento** con computo.
+   - **[Tecnico]** stato legittimo, conformità, agibilità, **progetto di adeguamento a requisiti ambulatorio** con computo (locali distinti, percorsi, impianti).
    - **[Commercialista]** bilanci, debiti, TFR, cassa, **verifica del dichiarato** (eventuale "periodo bianco" pre-acquisizione per prezzare sul reale).
-   - **Sanitaria** fattibilità studio medico e requisiti.
+   - **Sanitaria** fattibilità **ambulatorio** e requisiti minimi.
 4. **Contratto:** acquisizione azienda/immobile o partnership **+ rollover** del titolare **+ patti di permanenza** (+ eventuale earn-out legato ai numeri).
-5. **Medicalizzazione** (i 6 passi del drill-down): entità medica/STP → direttore sanitario → adeguamento locale → **SCIA via ASAN** → adempimenti collaterali → convivenza estetica/medica.
+5. **Medicalizzazione**: entità medica/STP → **direttore sanitario** → adeguamento locale a requisiti ambulatorio → **autorizzazione all'esercizio** (domanda al **Comune/SUAP + parere e sopralluogo ATS**) via portale **ASAN** → adempimenti collaterali → convivenza estetica/medica. *(Solo per un perimetro non invasivo si scenderebbe a SCIA studio medico.)*
 6. **Apertura** della medicina estetica in sede.
 
 ---
 
-# FASE BIS (opzionale) — verifiche per tenere aperta la strada AMBULATORIO
-*Da fare in più durante la Fase 1 (desk) e la Fase 2 (sopralluogo) SOLO sui centri migliori, quando vuoi che quella sede possa in futuro passare da studio medico ad **ambulatorio** (attività organizzata, più medici, prestazioni complesse) e — in prospettiva — a **chirurgico**. Non sono gate: sono **plus** che alzano il valore strategico della sede. Un centro che non le ha resta comunque ottimo come studio medico; uno che le ha diventa una "sede madre" scalabile.*
+# REQUISITI AMBULATORIO — verifiche CORE (il target in Lombardia)
+*Da fare **su ogni target** già in Fase 1 (desk) e Fase 2 (sopralluogo): in Lombardia l'ambulatorio è la barra, quindi questi **sono gate**, non plus. Un centro che non li regge (e non è adeguabile a costo accettabile) **non è in target**. Le sedi che li reggono con margine sono anche candidate a diventare **hub** per prestazioni più complesse e, in prospettiva, **chirurgiche**.*
 
-**Perché conta:** l'ambulatorio richiede requisiti più stringenti (requisiti minimi DPR 14/1/1997 + Lombardia, **autorizzazione del Comune previo parere e sopralluogo ATS**), più spazi e impianti. Verificarli **prima** evita di scoprire tardi che quella sede è un vicolo cieco per la crescita.
+**Perché conta:** l'ambulatorio richiede requisiti più stringenti (**requisiti minimi DPR 14/1/1997 + Regione Lombardia**, **autorizzazione all'esercizio del Comune previo parere e sopralluogo ATS**), più spazi, locali distinti e impianti. Verificarli **prima** evita di scoprire tardi che la sede è inadeguata.
 
 ## B1. Spazio ed espandibilità [Tu → Tecnico]
 - **Superficie ampia o espandibile:** locali aggiuntivi adiacenti, piano superiore/inferiore, stanze oggi inutilizzate. L'ambulatorio ne serve di più.
@@ -125,16 +128,16 @@ immobile a norma con **capex accettabile** **+** base clienti **reale e verifica
 - **Antincendio:** vie di fuga, carico d'incendio, possibilità di ottenere il **CPI** oltre certe soglie dimensionali.
 - **Parcheggi/dotazioni** eventualmente richiesti per strutture più grandi.
 
-**Come usarle:** segna per ogni target un flag **"scalabile ad ambulatorio? Sì / Parziale / No"**. Le sedi "Sì" sono le candidate a diventare **hub** della rete (dove concentri i medici e le prestazioni complesse); le altre restano **satelliti** studio medico. È così che la vision (chirurgia estetica accessibile) diventa un percorso concreto e non uno slogan.
+**Come usarle:** segna per ogni target un flag **"idoneo ad ambulatorio? Sì / Parziale (adeguabile) / No"**. "No" non adeguabile = **scarta**. "Sì" con ampio margine = candidata a **hub** (prestazioni complesse e, in prospettiva, chirurgiche); "Parziale" = valuta il **capex** di adeguamento contro il valore. È così che la vision (chirurgia estetica accessibile) diventa un percorso concreto e non uno slogan.
 
 ---
 
 # I 6 NO-GO che ti fanno chiudere la pratica in 10 minuti
 1. **Destinazione d'uso** non mutabile / vincolo insormontabile.
-2. **Difformità edilizie/catastali gravi** non sanabili → niente SCIA.
-3. **Divieto condominiale esplicito e contrattuale anche di "studio medico"**.
-4. **Locazione** con proprietario che vieta l'uso sanitario, o durata residua irrisoria.
-5. **Spazio insufficiente** per una sala medica a norma.
+2. **Difformità edilizie/catastali gravi** non sanabili → niente autorizzazione all'esercizio.
+3. **Divieto condominiale esplicito e contrattuale di "ambulatorio"** (e nessun immobile alternativo).
+4. **Locazione** con proprietario che vieta l'uso sanitario/le opere, o durata residua irrisoria.
+5. **Spazio insufficiente** per i locali dell'ambulatorio (locali distinti + percorsi separati; ~<90 mq non frazionabili).
 6. **Clientela legata a una singola persona** che se ne va, oppure **nessuna base clienti** (micro-salon).
 
 *Se anche uno solo di questi è vero e non risolvibile: scarta e passa al prossimo. Meglio 40 "no" veloci che 1 "forse" che ti mangia due mesi.*

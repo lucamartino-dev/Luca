@@ -2,6 +2,8 @@
 
 *Caratteristiche del target, cosa verificare prima, e la procedura di medicalizzazione. Focus Lombardia/Milano. Riservato.*
 
+> **⚠️ AGGIORNAMENTO (Lombardia).** In Lombardia **la maggior parte dei trattamenti** di medicina estetica (iniettivi + laser classi 3B-4) è invasiva e richiede l'**AMBULATORIO** (autorizzazione all'esercizio del Comune + parere/sopralluogo ATS), **non** il semplice studio medico (che copre solo il non invasivo). La sezione "studio medico" resta utile come base, ma il regime target di Venere è l'**ambulatorio**. Vedi `Venere_Protocollo_Verifica_Target.md`.
+
 > **Nota di metodo.** Il quadro qui sotto è corretto nei principi (fonti in fondo), ma la procedura puntuale — studio medico vs ambulatorio per lo specifico mix di prestazioni, ufficio competente, requisiti e tempi esatti — va **confermata sul primo centro con un consulente sanitario/tecnico + ATS Milano**. Quello è il senso del progetto: validi il playbook una volta, poi lo **replichi in serie**. Non impegnarti mai su un immobile prima di questa conferma.
 
 ---
