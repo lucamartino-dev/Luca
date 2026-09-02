@@ -3,12 +3,12 @@
 *Deciso il 29 ago 2026. Venere = build (energia founder). SAE = cassa (basso sforzo). Bandwidth: 80% Skylabs / 20% Venere (~1 giorno a settimana). Riservato.*
 
 ## La strategia in una frase
-Chiedere €500k con una tesi su carta = valutazione bassa e mille obiezioni. Chiedere €500k con **3 titolari che hanno firmato una lettera d'intenti** = un altro tavolo: dimostri che sai trovare i centri, che i titolari *vogliono*, che i numeri reali reggono. Il seed diventa **carburante per chiudere**, non una scommessa. Quindi: prima il campo, poi GKSD.
+Chiedere €700k con una tesi su carta = valutazione bassa e mille obiezioni. Chiedere €700k con **la 1ª lettera d'intenti firmata e una pipeline qualificata dietro** = un altro tavolo: dimostri che sai trovare i centri, che il titolare *vuole*, che i numeri reali reggono. Il seed diventa **carburante per chiudere**, non una scommessa. Quindi: prima il campo, poi GKSD.
 
 ## L'obiettivo del trimestre (il gate per il seed)
-Da 0 a **3 centri estetici convertibili con Lettera d'Intenti non vincolante** in mano, in una sola area (Milano), entro **~10-12 settimane**. Quello è il biglietto d'ingresso per il seed GKSD.
+Da 0 alla **1ª Lettera d'Intenti firmata + una pipeline qualificata** (altri 2-3 centri in lavorazione), in una sola area (Milano), entro **~8-10 settimane**. Quella è il biglietto d'ingresso per il seed GKSD. *(La conversione degli altri centri arriva con la Series A: al seed basta il pilota.)*
 
-## La matematica dell'imbuto (per arrivare a 3 LOI)
+## La matematica dell'imbuto (per arrivare alla 1ª LOI + pipeline)
 Serve volume in cima: nessuno chiude 3 su 3. Numeri realistici da tenere come bussola.
 
 | Stadio | Quanti | Cosa vuol dire |
@@ -41,8 +41,8 @@ Con 1 giorno a settimana: **4-6 nuovi primi contatti a settimana** + gestione de
 ## Le milestone (i gate)
 - **Settimana 2** — 40 centri identificati e scorati; kit e tracker in uso; primi 10 contatti partiti.
 - **Settimana 5** — 15 conversazioni fatte; 4-5 sopralluoghi; il primo "molto interessato".
-- **Settimana 8** — 2-3 LOI in lavorazione; economics validati su 1 centro reale.
-- **Settimana 10-12** — **3 LOI → apri il seed con GKSD** con la trazione in mano.
+- **Settimana 6-8** — 1ª LOI firmata + 2-3 in lavorazione; economics validati su 1 centro reale.
+- **Settimana 8-10** — **1ª LOI firmata (+ pipeline) → apri il seed con GKSD** con la trazione in mano.
 
 ## SAE in parallelo (modalità cassa, sforzo minimo)
 Nessuna raccolta attiva ora. **Una sola mossa:** tieni caldo Cegeka/Bip con un contatto esplorativo leggero, così quando vorrai monetizzare il tavolo è già aperto. Ci torniamo dopo il primo gate di Venere. La lista investitori SAE resta pronta nel cassetto.

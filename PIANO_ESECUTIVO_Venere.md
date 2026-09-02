@@ -8,8 +8,8 @@
 > - **Architettura hub & spoke:** ambulatori hub (invasivo, alto margine) + studi medici satellite (non invasivo, funnel, capex ridotto).
 > - **Bacino:** ~43.000 centri estetici in Italia, ~1.000-1.900 idonei ad ambulatorio (domanda +81% nel 2024). Vedi `Venere_Fattibilita_Ambulatori.md`.
 > - **Marcello Cammalleri = chirurgo maxillo-facciale**, CMO + direttore sanitario (max 3 strutture in Lombardia) + responsabile clinico rete; apre la strada alla chirurgia del volto.
-> - **Direttore Operativo dedicato = assunzione Fase 2** (dopo 3 LOI + playbook validato + seed).
-> - **Sequenza:** prima 3 centri con lettera d'intenti → poi seed €500k (GKSD lead) → scala.
+> - **Direttore Operativo dedicato = assunzione Fase 2** (dopo il pilota validato + seed).
+> - **Sequenza:** prima la **1ª LOI firmata + pipeline** → poi seed €700k (GKSD lead) → scala.
 
 ---
 

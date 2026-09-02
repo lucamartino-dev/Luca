@@ -2,9 +2,9 @@
 
 *Chi cercare per guidare la macchina: individuazione → analisi → trasformazione dei centri estetici. Con la ricetta di ricerca su LinkedIn e le domande di screening. Riservato.*
 
-> **Tempistica (decisa):** è un'assunzione di **Fase 2**, DOPO i primi **3 centri** e la **validazione del playbook** (e di norma dopo il seed). Fino a lì l'operatore sei **tu**, con il mio supporto a monte (sourcing/scoring, kit, tracker, verifiche). Assumere prima significherebbe pagare qualcuno per un modello ancora da provare; assumere dopo significa dargli un manuale già scritto da scalare.
+> **Tempistica (decisa):** è un'assunzione di **Fase 2**, DOPO il **pilota convertito** e la **validazione del playbook** (e di norma dopo il seed). Fino a lì l'operatore sei **tu**, con il mio supporto a monte (sourcing/scoring, kit, tracker, verifiche). Assumere prima significherebbe pagare qualcuno per un modello ancora da provare; assumere dopo significa dargli un manuale già scritto da scalare.
 >
-> **E soprattutto:** con un **progetto concreto** in mano (3 LOI, playbook validato, seed) è molto **più facile coinvolgere persone di esperienza**. Un senior operator non lascia il suo posto per una slide: lo fa per una macchina che gira, con trazione dimostrata ed equity/variabile legati a risultati reali. La validazione non serve solo a de-rischiare il modello: è anche ciò che ti rende **assumibile** un profilo forte. Questa scheda resta pronta nel cassetto per quel momento.
+> **E soprattutto:** con un **progetto concreto** in mano (pilota convertito, playbook validato, seed) è molto **più facile coinvolgere persone di esperienza**. Un senior operator non lascia il suo posto per una slide: lo fa per una macchina che gira, con trazione dimostrata ed equity/variabile legati a risultati reali. La validazione non serve solo a de-rischiare il modello: è anche ciò che ti rende **assumibile** un profilo forte. Questa scheda resta pronta nel cassetto per quel momento.
 
 ## Cosa deve saper fare (la missione del ruolo)
 Guidare tutto il funnel operativo: **trovare** i centri, **qualificarli** (desk + sopralluogo), **negoziare** con i titolari, e **coordinare la trasformazione** (adeguamento immobile + iter autorizzativo + integrazione del personale). È un ruolo di **terra**, non di scrivania: un operatore che apre e standardizza punti in serie.

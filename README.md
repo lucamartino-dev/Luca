@@ -21,7 +21,7 @@ Lancio: chiedi in chat "cerca investitori per SAE" (o equivalente).
 ---
 
 ## Venere — dossier del progetto (roll-up: centri estetici convertiti in ambulatori)
-Decisioni correnti (set 2026): regime **ambulatorio** in Lombardia; architettura **hub & spoke**; sequenza **de-risk (3 LOI) → seed €500k → scala**; Direttore Operativo dedicato in **Fase 2**; CMO/DS **Marcello Cammalleri (chirurgo maxillo-facciale)**.
+Decisioni correnti (set 2026): regime **ambulatorio** in Lombardia; architettura **hub & spoke**; sequenza **de-risk (1ª LOI + pipeline) → seed €700k → scala**; Direttore Operativo dedicato in **Fase 2**; CMO/DS **Marcello Cammalleri (chirurgo maxillo-facciale)**.
 
 **Strategia e pitch**
 - `Venere_Pitch_Deck_v7.pdf` — deck investitori (20 slide, versione corrente).

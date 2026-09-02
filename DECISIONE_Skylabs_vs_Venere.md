@@ -8,8 +8,8 @@
 > - **Architettura hub & spoke:** ambulatori "hub" (invasivo, alto margine, apertura al chirurgico) + studi medici "satellite" (non invasivo, funnel, capex ridotto).
 > - **Bacino:** ~43.000 centri estetici in Italia, **~1.000-1.900 idonei** ad ambulatorio (domanda +81% nel 2024, 1,37M procedure). Vedi `Venere_Fattibilita_Ambulatori.md`.
 > - **Marcello Cammalleri = chirurgo maxillo-facciale**, CMO + direttore sanitario (max 3 strutture in Lombardia) + responsabile clinico della rete; apre la strada alla chirurgia estetica del volto. Vedi `Venere_Nota_Direttore_Sanitario.md`.
-> - **Direttore Operativo/Acquisition dedicato = assunzione di Fase 2** (dopo 3 LOI + playbook validato + seed). Vedi `Venere_Profilo_Direttore_Operativo.md`.
-> - **Sequenza:** prima 3 centri con lettera d'intenti (de-risk) → poi seed €500k (GKSD è il lead più caldo) → scala. Vedi `Venere_Piano_90_Giorni.md`.
+> - **Direttore Operativo/Acquisition dedicato = assunzione di Fase 2** (dopo il pilota validato + seed). Vedi `Venere_Profilo_Direttore_Operativo.md`.
+> - **Sequenza:** prima la **1ª LOI firmata + pipeline qualificata** (de-risk) → poi seed €700k (GKSD è il lead più caldo) → scala. Vedi `Venere_Piano_90_Giorni.md`.
 
 > **Come leggere questo memo.** Non è una decisione presa. In particolare **la scelta principale — mettere il focus su Skylabs o su Venere — resta aperta**: la Parte A è la sua valutazione, non il suo verdetto. Le Parti B e C sono le valutazioni che diventano rilevanti *solo se* propendi per Venere. Dove scrivo "la mia lettura" è un consiglio, non una scelta fatta al posto tuo.
 
@@ -51,7 +51,7 @@ La consulenza **si biforca**: perde chi vende ore, vince chi vende esiti/prodott
 - *La mia lettura:* rafforza Venere, e dice che **il valore relativo di Skylabs è massimo ora** → se scegli Venere, monetizza Skylabs presto.
 
 ## A5. Valutazione — investitori e fiducia
-Temi che gli investitori non si fidino su un mercato nuovo. Gestibile: ti presenti come *l'operatore che ha exitato un gruppo AI e applica la stessa disciplina + un moat tech a un mercato vergine*, con Cammalleri per la credibilità clinica e una struttura a tranche che deriska (**seed €500k per provare 3 centri → scala 2,5-4,5M → 12M**). Mitigante più forte: coinvolgere come **advisor i fondatori di Hippocrates Holding** (il roll-up delle farmacie "La Farmacia"), che hanno già costruito un **buy-and-build healthcare-retail regolato in Italia** — la loro presenza chiude il tuo gap di credibilità di settore agli occhi dei family office (dettaglio e cautele nel Piano).
+Temi che gli investitori non si fidino su un mercato nuovo. Gestibile: ti presenti come *l'operatore che ha exitato un gruppo AI e applica la stessa disciplina + un moat tech a un mercato vergine*, con Cammalleri per la credibilità clinica e una struttura a tranche che deriska (**seed €700k per provare il pilota, sbloccato dalla 1ª LOI → Series A €3-5M → Series B €10-15M**). Mitigante più forte: coinvolgere come **advisor i fondatori di Hippocrates Holding** (il roll-up delle farmacie "La Farmacia"), che hanno già costruito un **buy-and-build healthcare-retail regolato in Italia** — la loro presenza chiude il tuo gap di credibilità di settore agli occhi dei family office (dettaglio e cautele nel Piano).
 - *La mia lettura:* pari sulla facilità di raccolta, **Venere sulla solidità della tesi**.
 
 ## A6. Valutazione — ritorno per te (NON è alla pari: B è superiore)
@@ -73,7 +73,7 @@ Correggo una semplificazione: confrontare i *casi di successo* (€26,5M vs €1
 
 ## A8. Valutazione — le due decisioni sono separabili
 - **Monetizzare Skylabs** (confidenza alta): regge da sola, quasi a prescindere da Venere.
-- **Redeployare in Venere** (confidenza media, testabile a basso costo): la struttura a fasi (seed €500k → scala 2,5-4,5M → 12M) ti fa provare il potenziale con rischio limitato.
+- **Redeployare in Venere** (confidenza media, testabile a basso costo): la struttura a fasi (seed €700k → Series A €3-5M → Series B €10-15M) ti fa provare il potenziale con rischio limitato.
 - *La mia lettura:* non "vendi perché Venere è fantastica", ma "**vendi perché è il momento giusto per Skylabs**", e usi i proventi per una scommessa a rischio limitato.
 
 ## → Raccomandazione sulla scelta di fondo
@@ -138,7 +138,7 @@ Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un 
 > ⚠️ **Riservatezza (vincolante).** I soci sono **già allineati sulla vendita insieme**: è un asset, non va rimesso in discussione. Ma l'ingresso di **Diana in Venere va tenuto riservato verso gli altri soci fino a dopo il closing** — comunicarlo prima **disgregherebbe il gruppo** e metterebbe a rischio la vendita congiunta. L'arrangement resta tra te e Diana; il suo sviluppo attivo su Venere si manifesta **post-closing** (il che è coerente anche con la pulizia IP: vedi C3).
 
 ## C2. Valutazione — struttura, funding e cap table di Venere
-**Quando raccogliere** (indipendente da Skylabs, non lo aspetta), in **tre tempi**: **(1) seed €500k** (Set-Nov '26) per **comprare e convertire in ambulatorio 3 dei primi 5 centri estetici** con Marcello direttore sanitario e **provare il modello**; **(2) round di scala €2,5-4,5M** a modello provato, per la replica; **(3) ~12M + debito** ~2028 a metriche provate. Co-invest personale da risorse personali, poi rimpolpato dalla liquidità Skylabs.
+**Quando raccogliere** (indipendente da Skylabs, non lo aspetta), in **tre tempi**: **(1) seed €700k** (Set-Nov '26) per **convertire il primo centro in ambulatorio (pilota)**, sbloccato dalla **1ª LOI firmata + pipeline**, con Marcello direttore sanitario, e **provare il modello**; **(2) Series A €3-5M** a modello provato, per la scala del cluster; **(3) Series B €10-15M + debito** ~2028 a metriche provate. Co-invest personale da risorse personali, poi rimpolpato dalla liquidità Skylabs.
 
 **Da chi:** 1 **lead family office anchor** (healthcare/consumer premium, board seat + funzione CFO) → 1-2 **angel di settore** (validazione) → 2-4 altri family office → banche in Fase 2. **Fuori** VC e PE di controllo in Fase 1.
 
@@ -171,7 +171,7 @@ Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un 
 | Quando/prezzo | Vendere a **≥ €13-16M**; puntare €18-30M con pipeline integrata |
 | Diana in Venere | Sì, come **#2 ~22%** (moat AI/dati = motore primario), vesting su milestone AI |
 | Marcello in Venere | **Clinical partner part-time ~6,6% (chirurgo maxillo-facciale)** (mantiene la pratica), rapporto **9:1 con Luca** preservato a ogni round |
-| Funding Venere | Seed €500k per provare 3 centri (Set '26) → scala 2,5-4,5M → 12M; da family office, non aspetta Skylabs |
+| Funding Venere | Seed €700k per il pilota, sbloccato dalla 1ª LOI (Set '26) → Series A €3-5M → Series B €10-15M; da family office, non aspetta Skylabs |
 
 Il *come* eseguire — se scegli questa direzione — è nel Piano operativo allegato.
 

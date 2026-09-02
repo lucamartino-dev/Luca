@@ -9,8 +9,8 @@
 > - **Capex più alto per sede:** l'ambulatorio costa di più del previsto (indicativamente ~€250-450k/sede di conversione) e ha tempi autorizzativi più lunghi.
 > - **Bacino:** ~43.000 centri estetici in Italia, ~1.000-1.900 idonei ad ambulatorio. Vedi `Venere_Fattibilita_Ambulatori.md`.
 > - **Marcello Cammalleri = chirurgo maxillo-facciale**, CMO + direttore sanitario (max 3 strutture in Lombardia) + responsabile clinico rete.
-> - **Direttore Operativo dedicato = assunzione Fase 2** (dopo 3 LOI + playbook validato + seed).
-> - **Sequenza:** prima 3 centri con lettera d'intenti → poi seed €500k (GKSD lead) → scala.
+> - **Direttore Operativo dedicato = assunzione Fase 2** (dopo il pilota validato + seed).
+> - **Sequenza:** prima la **1ª LOI firmata + pipeline** → poi seed €700k (GKSD lead) → scala.
 
 ## Cosa esegue questo piano
 Questo è il *come* di **una** direzione — la raccomandazione del memo — **non una scelta già presa**: la scelta principale (mettere il focus su **Skylabs o su Venere**) la fai tu, e la valuti nella Parte A del memo. *Se* propendi per Venere, il piano è questo:
@@ -34,7 +34,7 @@ La vendita di Skylabs (2026 → closing H2'27) è retta da **advisor M&A + GM + 
 La spina dorsale operativa dei primi 12 mesi, in sei passi:
 
 1. **Trova i venditori (settembre, Milano).** Individua **~5 centri estetici che vogliono vendere** (pipeline, con AIDA + registri + network di Marcello + annunci subito/idealista). Applica il **filtro di convertibilità** (destinazione d'uso, requisiti ambulatorio) per tenere solo i convertibili in ambulatorio.
-2. **Raccogli €500k (seed "prova").** Round iniziale con gli investitori per **blindare 3 centri con lettera d'intenti e convertire il primo in ambulatorio (pilota)**: è il *"dammi mezzo milione e ti provo la conversione in ambulatorio + la pipeline dei 3"*, check piccolo e a basso rischio prima del round grande. *(Attenzione: con l'ambulatorio il capex è ~€250-450k/sede, quindi €500k prova il modello sul primo ambulatorio e assicura le 3 LOI; la **conversione piena dei 3** richiede la Series A.)*
+2. **Raccogli €700k (seed "prova").** Round iniziale con gli investitori per **convertire il primo centro in ambulatorio (pilota)**, con la **1ª LOI già firmata + pipeline qualificata** dietro: è il *"dammi settecentomila e ti provo la conversione in ambulatorio"*, check piccolo e a basso rischio prima del round grande. *(Con l'ambulatorio il capex è ~€250-450k/sede: €700k prova il modello sul primo ambulatorio con runway comodo; la **scala dei centri successivi** richiede la Series A.)*
 3. **Closing di almeno 3 dei 5**, con **Marcello come direttore sanitario e medico estetico** (medico condiviso sulle tre sedi).
 4. **Testa il modello** sui 3-5 centri: tasso di conversione beauty→medico, tempi/costi di autorizzazione, EBITDA/sede, recurring. È il **format lab** su asset reali.
 5. **Se funziona → scala.** Round più grande (la Fase 1 di scala, €2,5-4,5M) e **replica massiva in Italia** con il playbook (autorizzazioni + medici condivisi + macchina AI).
@@ -42,7 +42,7 @@ La spina dorsale operativa dei primi 12 mesi, in sei passi:
 
 **Guardrail Skylabs (invalicabile):** finché Skylabs non è venduta, l'ingresso **visibile** di Diana aspetta il closing (riservatezza + continuità per il compratore + pulizia IP). Se il primo centro lo acquisti **prima** del closing Skylabs, Diana imposta **dietro le quinte** l'architettura-dati "Diana-ready" ma **non compare** ufficialmente finché Skylabs non è chiusa.
 
-**Le due raccolte, in sequenza:** (1) **€500k** = seed per **blindare 3 LOI + convertire il primo ambulatorio (pilota)**; (2) **round di scala** (€3-5M, la Series A del deck) **dopo** che il modello è provato, per **convertire pienamente i 3 e aggiungere le sedi del cluster**. Sono due momenti distinti, non la stessa cifra. *(L'ambulatorio ha capex più alto: per questo il seed prova, la Series A costruisce.)*
+**Le due raccolte, in sequenza:** (1) **€700k** = seed per **convertire il primo ambulatorio (pilota)**, sbloccato dalla **1ª LOI firmata + pipeline**; (2) **round di scala** (€3-5M, la Series A del deck) **dopo** che il modello è provato, per **convertire i centri successivi e costruire il cluster**. Sono due momenti distinti, non la stessa cifra. *(L'ambulatorio ha capex più alto: per questo il seed prova, la Series A costruisce.)*
 
 ---
 
