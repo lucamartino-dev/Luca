@@ -2,6 +2,15 @@
 
 *Memo strategico riservato — Luca Martino. Basato sui deck "Skylabs AI Evolution" e "Venere", sul Company Profile 2026 e sui dati reali 2025.*
 
+> **AGGIORNAMENTO (settembre 2026) · decisioni e novità recepite**
+> - **Regime = AMBULATORIO.** In Lombardia la maggior parte dei trattamenti di medicina estetica (iniettivi + laser medicali classi 3B-4) richiede l'**ambulatorio** (autorizzazione all'esercizio del Comune + parere/sopralluogo ATS via ASAN), non il semplice studio medico (che copre solo il non invasivo). Il target è il centro estetico **convertibile in ambulatorio** (~90-120 mq, locali distinti, meglio indipendente).
+> - **Focus: SOLO convertire centri estetici** in ambulatori (non acquistare cliniche mediche già fatte). Dove nel testo si legge "comprare cliniche" o "clinica", intendere "acquisire un centro estetico e convertirlo in ambulatorio".
+> - **Architettura hub & spoke:** ambulatori "hub" (invasivo, alto margine, apertura al chirurgico) + studi medici "satellite" (non invasivo, funnel, capex ridotto).
+> - **Bacino:** ~43.000 centri estetici in Italia, **~1.000-1.900 idonei** ad ambulatorio (domanda +81% nel 2024, 1,37M procedure). Vedi `Venere_Fattibilita_Ambulatori.md`.
+> - **Marcello Cammalleri = chirurgo maxillo-facciale**, CMO + direttore sanitario (max 3 strutture in Lombardia) + responsabile clinico della rete; apre la strada alla chirurgia estetica del volto. Vedi `Venere_Nota_Direttore_Sanitario.md`.
+> - **Direttore Operativo/Acquisition dedicato = assunzione di Fase 2** (dopo 3 LOI + playbook validato + seed). Vedi `Venere_Profilo_Direttore_Operativo.md`.
+> - **Sequenza:** prima 3 centri con lettera d'intenti (de-risk) → poi seed €500k (GKSD è il lead più caldo) → scala. Vedi `Venere_Piano_90_Giorni.md`.
+
 > **Come leggere questo memo.** Non è una decisione presa. In particolare **la scelta principale — mettere il focus su Skylabs o su Venere — resta aperta**: la Parte A è la sua valutazione, non il suo verdetto. Le Parti B e C sono le valutazioni che diventano rilevanti *solo se* propendi per Venere. Dove scrivo "la mia lettura" è un consiglio, non una scelta fatta al posto tuo.
 
 ---
@@ -38,7 +47,7 @@ Il vero sintetizzatore della scelta non è "quale vale di più", ma **come cambi
 - *La mia lettura:* **vantaggio Venere.** Il gap che ti manca (retail/cliniche) è il più assumibile.
 
 ## A4. Valutazione — dimensione × traiettoria della consulenza
-La consulenza **si biforca**: perde chi vende ore, vince chi vende esiti/prodotto. **Dati reali 2025: €8,2M ricavi, €465k EBITDA (5,65%)**; target 2026 €12M di cui €3M licenze — **ma le licenze sono rivendita SF/SAP (reseller), non prodotto**: pass-through a basso valore, in disintermediazione (Agentforce, Joule). Sei **piccolo, a margine sottile, nella nicchia deflazionata**. E la scala lavora al contrario: in AI resti un pesce piccolo tra le balene; in estetica a 20-30 cliniche sei **#1 nazionale** (multiplo che si espande, 4,5x→9,5x).
+La consulenza **si biforca**: perde chi vende ore, vince chi vende esiti/prodotto. **Dati reali 2025: €8,2M ricavi, €465k EBITDA (5,65%)**; target 2026 €12M di cui €3M licenze — **ma le licenze sono rivendita SF/SAP (reseller), non prodotto**: pass-through a basso valore, in disintermediazione (Agentforce, Joule). Sei **piccolo, a margine sottile, nella nicchia deflazionata**. E la scala lavora al contrario: in AI resti un pesce piccolo tra le balene; in estetica a 20-30 sedi (ambulatori convertiti) sei **#1 nazionale** (multiplo che si espande, 4,5x→9,5x).
 - *La mia lettura:* rafforza Venere, e dice che **il valore relativo di Skylabs è massimo ora** → se scegli Venere, monetizza Skylabs presto.
 
 ## A5. Valutazione — investitori e fiducia
@@ -123,13 +132,13 @@ Una società di servizi vale finché ci sei tu. Ma sei **quasi già svincolato**
 ## C1. Valutazione — chi portare in Venere
 Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un owner software focalizzato** — non di un secondo team AI-consulting. Da valutare persona per persona (desiderio *e* fit):
 - **Diana (Salvo)** — **operatore esperto, tuo #2 provato, e owner di uno dei due motori primari: il moat AI/dati.** Poiché il dataset si instrumenta dalla clinica #1 e il decision-support entra già in Fase 2 (non è un'optionality di Fase 3), il suo ruolo è **strategico, non di supporto** → la mia lettura sale a **~22%** (range 20-24%, fino a ~25% se co-leader strategico). I punti in più escono da Luca, non dagli operatori. Cautele: (a) incassa **anche** la vendita di Skylabs; (b) entra **post-closing** (~H2'27), **sincronizzato con la prima acquisizione** così struttura la clinica #1 AI-driven da subito (l'architettura dati va impostata Diana-ready fin dall'inizio; lever: accelerare Skylabs a H1'27); (c) **in Fase 1-2 è il *dataset/capability* a essere front-loaded, non i robot** (l'automazione fisica è lunga). Quindi **lega la parte alta della sua quota a milestone AI/dati** col reverse vesting (dataset costruito, decision-support live, POC automazione).
-- **Cammalleri (Marcello)** — **clinical partner part-time**: **1 giorno/settimana sul corporate** + **medico del flagship del gruppo** (dove guadagna i suoi ~€240k → zero cash-burn per la società). Il suo tempo è fondamentale su 5 aree non delegabili: **origination + DD clinica dei target, protocolli/format clinico, reclutamento e retention medici, volto clinico verso investitori/venditori, qualità e reputazione clinica**. Quota **~7%** (fondazione 90/10), con **impegno scritto e misurato** (deliverable trimestrali + vesting sui risultati, clausola underperformance) per evitare equity dormiente. Ottima leva: **lanciare la prima clinica brandizzata con lui** come "format lab" e showcase, poi replicare via buy-and-build. Le sue sedi, se confluiscono, valutate separatamente (related-party). *Dettaglio nel Piano.*
+- **Cammalleri (Marcello)** — **clinical partner part-time (chirurgo maxillo-facciale)**: **1 giorno/settimana sul corporate** + **medico del flagship del gruppo** (dove guadagna i suoi ~€240k → zero cash-burn per la società). Il suo tempo è fondamentale su 5 aree non delegabili: **origination + DD clinica dei target, protocolli/format clinico, reclutamento e retention medici, volto clinico verso investitori/venditori, qualità e reputazione clinica**. Quota **~7%** (fondazione 90/10), con **impegno scritto e misurato** (deliverable trimestrali + vesting sui risultati, clausola underperformance) per evitare equity dormiente. Ottima leva: **lanciare la prima clinica brandizzata con lui** come "format lab" e showcase, poi replicare via buy-and-build. Le sue sedi, se confluiscono, valutate separatamente (related-party). *Dettaglio nel Piano.*
 - **Gli altri soci** — il loro ritorno è la **liquidità della vendita di Skylabs**.
 
 > ⚠️ **Riservatezza (vincolante).** I soci sono **già allineati sulla vendita insieme**: è un asset, non va rimesso in discussione. Ma l'ingresso di **Diana in Venere va tenuto riservato verso gli altri soci fino a dopo il closing** — comunicarlo prima **disgregherebbe il gruppo** e metterebbe a rischio la vendita congiunta. L'arrangement resta tra te e Diana; il suo sviluppo attivo su Venere si manifesta **post-closing** (il che è coerente anche con la pulizia IP: vedi C3).
 
 ## C2. Valutazione — struttura, funding e cap table di Venere
-**Quando raccogliere** (indipendente da Skylabs, non lo aspetta), in **tre tempi**: **(1) seed €500k** (Set-Nov '26) per **comprare e medicalizzare 3 dei primi 5 centri estetici** con Marcello direttore sanitario e **provare il modello**; **(2) round di scala €2,5-4,5M** a modello provato, per la replica; **(3) ~12M + debito** ~2028 a metriche provate. Co-invest personale da risorse personali, poi rimpolpato dalla liquidità Skylabs.
+**Quando raccogliere** (indipendente da Skylabs, non lo aspetta), in **tre tempi**: **(1) seed €500k** (Set-Nov '26) per **comprare e convertire in ambulatorio 3 dei primi 5 centri estetici** con Marcello direttore sanitario e **provare il modello**; **(2) round di scala €2,5-4,5M** a modello provato, per la replica; **(3) ~12M + debito** ~2028 a metriche provate. Co-invest personale da risorse personali, poi rimpolpato dalla liquidità Skylabs.
 
 **Da chi:** 1 **lead family office anchor** (healthcare/consumer premium, board seat + funzione CFO) → 1-2 **angel di settore** (validazione) → 2-4 altri family office → banche in Fase 2. **Fuori** VC e PE di controllo in Fase 1.
 
@@ -161,7 +170,7 @@ Venere ha bisogno di **clinico (Cammalleri) + retail-ops (COO da assumere) + un 
 | A chi | **Cegeka / Bip** in processo competitivo |
 | Quando/prezzo | Vendere a **≥ €13-16M**; puntare €18-30M con pipeline integrata |
 | Diana in Venere | Sì, come **#2 ~22%** (moat AI/dati = motore primario), vesting su milestone AI |
-| Marcello in Venere | **Clinical partner part-time ~6,6%** (mantiene la pratica), rapporto **9:1 con Luca** preservato a ogni round |
+| Marcello in Venere | **Clinical partner part-time ~6,6% (chirurgo maxillo-facciale)** (mantiene la pratica), rapporto **9:1 con Luca** preservato a ogni round |
 | Funding Venere | Seed €500k per provare 3 centri (Set '26) → scala 2,5-4,5M → 12M; da family office, non aspetta Skylabs |
 
 Il *come* eseguire — se scegli questa direzione — è nel Piano operativo allegato.
@@ -191,7 +200,7 @@ Il *come* eseguire — se scegli questa direzione — è nel Piano operativo all
 → base **~€10M**, a breve e relativamente certo.
 
 *Parte 2 — Venere (tua quota ~13-16% diluita, + ratchet):*
-| Timing | Cliniche / EBITDA | EV | Tua quota lorda |
+| Timing | Sedi convertite / EBITDA | EV | Tua quota lorda |
 |---|---|---|---|
 | **2030 (early, Fase 2)** | 8-12 / €4-6M | €30-48M @7-8x | **€5-8M** |
 | 2032-33 (maturo, Fase 3) | 20-30 / €12M+ | €90-125M | **€15-25M+** |

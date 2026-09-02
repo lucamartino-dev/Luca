@@ -2,16 +2,23 @@
 
 *Tutto ciò che si applica a ogni clinica. Ripetibile. Riservato.*
 
+> **AGGIORNAMENTO (settembre 2026) · decisioni e novità recepite**
+> - **Regime = AMBULATORIO.** In Lombardia la maggior parte dei trattamenti (iniettivi + laser medicali 3B-4) richiede l'**ambulatorio** (autorizzazione all'esercizio del Comune + parere/sopralluogo ATS via ASAN), non lo studio medico (solo non invasivo). Il target è il centro estetico **convertibile in ambulatorio** (~90-120 mq, locali distinti, meglio indipendente).
+> - **Architettura hub & spoke:** ambulatori hub (invasivo, alto margine, apertura al chirurgico) + studi medici satellite (non invasivo, funnel, capex ridotto).
+> - **Medici condivisi + vincolo DS:** un direttore sanitario può coprire max 3 strutture in Lombardia (vincolo di ore); serve un DS per cluster a scala. Marcello Cammalleri (chirurgo maxillo-facciale) è CMO + DS + responsabile clinico rete.
+> - **Capex conversione più alto** per l'ambulatorio (indicativamente ~€250-450k/sede) e tempi autorizzativi più lunghi.
+> - **Bacino:** ~43.000 centri estetici in Italia, ~1.000-1.900 idonei ad ambulatorio. Vedi `Venere_Fattibilita_Ambulatori.md`.
+
 ## Come usare questo playbook
 È la lista completa delle mosse che trasformano una clinica acquisita (o il pilota) nel formato Venere, in **~100 giorni**. La prima clinica è il **format lab**: qui si testa e si codifica; poi si **ripete identico** su ogni acquisizione. Ogni blocco ha **Cosa · Mosse · Target**.
 
 ---
 
-# Parte 0 — Il motore del roll-up: medicalizzare i centri estetici
+# Parte 0 — Il motore del roll-up: convertire i centri estetici in ambulatori
 
 *Questa è la messa a fuoco principale del progetto: ciò che rende il roll-up **fattibile e veloce** dove gli altri (Klinicy, Faceland) vanno lenti e cari.*
 
-**La mossa:** non partire dalle poche cliniche mediche in vendita (scarse, care, contese). Partire dai **centri estetici** (universo ~36.000, economici, con clientela e footfall già attivi) e **aggiungere la medicina estetica**. Due playbook industrializzati tolgono i due colli di bottiglia.
+**La mossa:** non partire dalle poche cliniche mediche in vendita (scarse, care, contese). Partire dai **centri estetici** (platea ~43.000 (~1.000-1.900 idonei ad ambulatorio), economici, con clientela e footfall già attivi) e **aggiungere la medicina estetica**. Due playbook industrializzati tolgono i due colli di bottiglia.
 
 ## Motore 1 — Playbook autorizzazioni (rende *fattibile*)
 L'autorizzazione sanitaria della sede è lo step lento e variabile: va **industrializzato**.
@@ -22,10 +29,10 @@ L'autorizzazione sanitaria della sede è lo step lento e variabile: va **industr
 
 ## Motore 2 — Medici condivisi tra i centri (rende *veloce e scalabile*)
 Il medico è il collo di bottiglia: non trovi un medico dedicato per ogni sede.
-- **Pool di medici che ruota part-time** su più centri (come già fa Marcello a Milano/Verona): medicalizzi **molte sedi con pochi medici**.
-- Ogni sede è **subito profittevole** (niente costo di un medico full-time); il non-medico del centro **paga l'affitto** mentre medicalizzi.
+- **Pool di medici che ruota part-time** su più centri (come già fa Marcello a Milano/Verona): converti in ambulatorio **molte sedi con pochi medici**.
+- Ogni sede è **subito profittevole** (niente costo di un medico full-time); il non-medico del centro **paga l'affitto** mentre converti in ambulatorio.
 - **Depersonalizzazione by design**: il paziente è fedele al **brand e al percorso**, non al singolo medico → è ciò che fa scattare il multiplo.
-- **Governance obbligatoria**: protocolli condivisi + **comitato scientifico** per qualità costante su medici che ruotano; direttore sanitario per sede; gestione della responsabilità clinica e dei contratti medici.
+- **Governance obbligatoria**: protocolli condivisi + **comitato scientifico** per qualità costante su medici che ruotano; direttore sanitario per sede (in Lombardia un DS copre max 3 strutture per vincolo di ore: serve un DS per cluster a scala); gestione della responsabilità clinica e dei contratti medici.
 
 ## Il compounding (perché il roll-up "rotola")
 Centro estetico (footfall + cash non-medico) **+** medico condiviso (margine alto, costo fisso basso) **+** playbook autorizzazioni (replica sede dopo sede) = **ogni conversione è un'unità piccola, economica, veloce e ripetibile**. È così che il roll-up scala davvero, invece di arenarsi su acquisizioni mediche bespoke.
@@ -35,7 +42,7 @@ Centro estetico (footfall + cash non-medico) **+** medico condiviso (margine alt
 - **Convertibilità autorizzativa**: non tutte le sedi sono convertibili → il filtro pre-deal scarta quelle con vincoli urbanistici.
 - **Qualità dei medici condivisi**: protocolli + audit + comitato scientifico per non perdere qualità con la rotazione.
 
-**Sequenza:** prova l'unità di conversione (autorizzazione + tasso + capex) su 1-2 sedi → **poi** scala aggressivo sull'universo dei centri estetici. Corsia parallela: le cliniche mediche già avviate restano un'opzione (più sicure, per costruire brand e panchina medici).
+**Sequenza:** prova l'unità di conversione (autorizzazione + tasso + capex) su 1-2 sedi → **poi** scala aggressivo sulla platea dei centri estetici. Il focus è **solo** convertire i centri estetici in ambulatori: le cliniche mediche già avviate **non** sono in focus.
 
 ---
 
@@ -84,7 +91,7 @@ Centro estetico (footfall + cash non-medico) **+** medico condiviso (margine alt
 ## G. Gestione manageriale + KPI
 **Cosa:** la clinica gestita come cruscotto, non come racconto.
 **Mosse:** **GM di area** (condiviso sul cluster) sul P&L; **dashboard KPI settimanale**: saturazione agende, conversione consulenze, retention, % recurring, ricavo per ora-medico e per sede; **review settimanale**.
-**Target:** saturazione agende; EBITDA/clinica.
+**Target:** saturazione agende; EBITDA/sede.
 
 ## H. Gestionale + data layer (moat + data play)
 **Cosa:** il sistema che rende il format replicabile e misurabile.
@@ -126,7 +133,7 @@ Centro estetico (footfall + cash non-medico) **+** medico condiviso (margine alt
 # Parte 3 — La scorecard del "format provato"
 Soglie che dichiarano il format validato e fanno scattare la **scala per acquisizioni**:
 - [ ] **Recurring ≥ 10-15%** dei ricavi della clinica
-- [ ] **EBITDA/clinica +30%** vs pre-format (verso 27% di margine)
+- [ ] **EBITDA/sede +30%** vs pre-format (verso 27% di margine)
 - [ ] **Conversione consulenze** a target (definire baseline → +X%)
 - [ ] **Retention a 6 mesi** dei pazienti su percorso ≥ target
 - [ ] **Ticket medio** +X% con financing
@@ -185,7 +192,7 @@ Qui sta la novità: **AIzzare tutto il deal-making**, non solo le operations.
 
 ## 5C. Perché è un vero valore aggiunto (e non marketing)
 - **HQ minimo, scala massima:** l'AI fa il coordinamento che altrove richiede middle-management → **più sedi per persona di HQ**. È il moltiplicatore Bending Spoons.
-- **M&A più veloce ed economico:** sourcing e DD AIzzati abbassano costo e tempo per deal → puoi lavorare **l'universo da 36.000** invece delle poche cliniche visibili.
+- **M&A più veloce ed economico:** sourcing e DD AIzzati abbassano costo e tempo per deal → puoi lavorare **l'platea da ~43.000** invece delle poche cliniche visibili.
 - **Il moat che la finanza non compra:** origination-engine + dataset di outcome + decision-support sono ciò che Klinicy/Faceland (medical-first, finanziari) **non** hanno. È la ragione per cui il roll-up deve essere di *questo* team.
 - **Il ponte all'automazione (🔵):** ogni dato raccolto oggi è substrato per l'automazione futura delle procedure standardizzate → sposta l'exit da multiplo *healthcare-services* verso *AI-platform*.
 

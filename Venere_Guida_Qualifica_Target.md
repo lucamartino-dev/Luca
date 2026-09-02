@@ -1,6 +1,8 @@
-# Venere — Guida di qualifica dei target (centri estetici da medicalizzare)
+# Venere — Guida di qualifica dei target (centri estetici da convertire in ambulatorio)
 
-*Le domande da fare a ciascuno dei ~116 target per capire se è convertibile in clinica. Riservato.*
+*Le domande da fare a ciascuno dei ~116 target per capire se è convertibile in ambulatorio. Riservato.*
+
+> **AGGIORNAMENTO (settembre 2026).** Il regime target è l'**ambulatorio** (in Lombardia i trattamenti core, iniettivi e laser medicali, lo richiedono), non il semplice studio medico. Quindi la barra sull'immobile è più alta: ~90-120 mq, **locali distinti** (attesa + 2+ sale + servizi accessibili + percorsi pulito/sporco + sterilizzazione), meglio **indipendente/non condominiale**. Vedi `Venere_Protocollo_Verifica_Target.md`.
 
 ## Come si usa
 Il target NON è la clinica medica (contesa dai fondi): è il **centro estetico convertibile**. Un centro è "in target" se ha **tre cose insieme**: (1) un **immobile autorizzabile** ad ambulatorio, (2) una **base clienti reale e fedele all'insegna**, (3) un **titolare disposto a vendere e restare**. Le domande sotto servono a verificarle, in 3 passaggi per **fonte**: prima quello che scopri **da solo** (senza contatto), poi quello che chiedi al **titolare**, infine quello che verifichi **sul posto**. Chiudi con la **scorecard GO/NO-GO**.
@@ -68,7 +70,7 @@ Il target NON è la clinica medica (contesa dai fondi): è il **centro estetico 
 ## Blocco D — I paletti che dicono NO-GO (red flags)
 - **Immobile non convertibile** (destinazione d'uso vincolata, spazi insufficienti). → il n°1.
 - **Clientela legata a una singola persona** che se ne va con i clienti.
-- **Micro-salon** senza vera base clienti (2 cabine, pochi passaggi): niente da medicalizzare.
+- **Micro-salon** senza vera base clienti (2 cabine, pochi passaggi): niente da convertire, e comunque troppo piccolo per un ambulatorio.
 - **Titolare che pretende credito per il nero** non dimostrabile, o rifiuta il "periodo bianco".
 - **Reputazione compromessa** / contenziosi / autorizzazioni fuori regola.
 - **Titolare che non vuole restare** né rollare equity (per le sedi dove serve continuità).

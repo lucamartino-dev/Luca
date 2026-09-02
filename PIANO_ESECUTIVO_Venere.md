@@ -2,13 +2,22 @@
 
 *Sintesi decisionale di tutto ciò stabilito finora. Documento di regia: cosa fare, in che ordine, con quali regole. Riservato.*
 
+> **AGGIORNAMENTO (settembre 2026) · decisioni e novità recepite**
+> - **Regime = AMBULATORIO.** In Lombardia la maggior parte dei trattamenti (iniettivi + laser medicali 3B-4) richiede l'**ambulatorio** (autorizzazione all'esercizio del Comune + parere/sopralluogo ATS via ASAN), non lo studio medico (solo non invasivo). Target: centro estetico **convertibile in ambulatorio** (~90-120 mq, locali distinti, meglio indipendente).
+> - **Focus: SOLO convertire centri estetici** in ambulatori (non comprare cliniche mediche già fatte). Dove si legge "roll-up di cliniche" o "clinica", intendere "roll-up di centri estetici convertiti in ambulatori" / "sede".
+> - **Architettura hub & spoke:** ambulatori hub (invasivo, alto margine) + studi medici satellite (non invasivo, funnel, capex ridotto).
+> - **Bacino:** ~43.000 centri estetici in Italia, ~1.000-1.900 idonei ad ambulatorio (domanda +81% nel 2024). Vedi `Venere_Fattibilita_Ambulatori.md`.
+> - **Marcello Cammalleri = chirurgo maxillo-facciale**, CMO + direttore sanitario (max 3 strutture in Lombardia) + responsabile clinico rete; apre la strada alla chirurgia del volto.
+> - **Direttore Operativo dedicato = assunzione Fase 2** (dopo 3 LOI + playbook validato + seed).
+> - **Sequenza:** prima 3 centri con lettera d'intenti → poi seed €500k (GKSD lead) → scala.
+
 ---
 
 ## La tesi in una pagina
 
-**Cosa:** roll-up (buy-and-build) di cliniche di medicina estetica mid-small in Italia, gestite con una piattaforma centrale AI-driven. Comprare a **3-4x EBITDA**, creare valore (formalizzazione del nero + recurring + format + scala), uscire a **7-10x** — con l'upside lungo del **data play** (dataset outcome → decision-support → automazione).
+**Cosa:** roll-up (buy-and-build) di centri estetici convertiti in ambulatori di medicina estetica mid-small in Italia, gestite con una piattaforma centrale AI-driven. Comprare a **3-4x EBITDA**, creare valore (formalizzazione del nero + recurring + format + scala), uscire a **7-10x** — con l'upside lungo del **data play** (dataset outcome → decision-support → automazione).
 
-**Perché questo team:** DNA AI (commodity nella consulenza, **scarso e decisivo** qui) + partner clinico credibile (Marcello) + capacità di execution M&A.
+**Perché questo team:** DNA AI (commodity nella consulenza, **scarso e decisivo** qui) + partner clinico credibile (Marcello, chirurgo maxillo-facciale) + capacità di execution M&A.
 
 **La mossa doppia:** **vendere Skylabs** a uno strategico entro il 2027 (libera te e il capitale) **e costruire Venere** in parallelo, tenendo le due aziende **separate**.
 
@@ -21,7 +30,7 @@
 1. **Aziende separate.** Di Skylabs porti in Venere **l'esperienza, non l'asset**: nessun riuso di codice/IP, nessun accordo commerciale, nessun ponte che possa intaccare la vendita di Skylabs.
 2. **Sequenza, non parallelo cieco.** Skylabs non si chiude finché Venere-Fase 1 non è finanziata; gate in sequenza.
 3. **Riservatezza sacra** su due fronti: il disimpegno da Skylabs (fino al closing) e il coinvolgimento di Diana in Venere (fino al closing di Skylabs).
-4. **Compra il provato, non il nuovo.** Cliniche con pazienti ed EBITDA reali; il valore si crea **operando meglio**.
+4. **Compra il provato, non il nuovo.** Centri estetici con clientela ed EBITDA reali, da convertire in ambulatorio; il valore si crea **operando meglio**.
 5. **Una piattaforma, molti nodi** (modello Bending Spoons): il prodotto è la macchina centrale; le cliniche sono nodi. HQ snello ed elitario.
 6. **La medicina non si tocca.** La piattaforma gestisce tutto *tranne* l'atto clinico. È il paletto che protegge brand, deontologia e multiplo.
 7. **Bianco per costruzione.** Formalizzazione (POS, financing, fatturazione piena) = creazione di valore, non un costo. Zero sconti cash su atti medici.
@@ -33,7 +42,7 @@
 
 | | Skylabs (uscita) | Venere (costruzione) |
 |---|---|---|
-| **Obiettivo** | Vendere a strategico, incassare, liberarti | Fase 1 finanziata + 2-4 cliniche closed |
+| **Obiettivo** | Vendere a strategico, incassare, liberarti | Fase 1 finanziata + 2-4 sedi closed |
 | **Orizzonte** | Entro 2027 (picco M&A AI) | Diana entra ~H2'27; scala 2027-28 |
 | **Gate** | Non chiudere finché Venere-Fase 1 non è soft-circled | Non ancorare la raccolta all'exit di Skylabs |
 
@@ -58,7 +67,7 @@
 - **Cap table founder:** **Luca 59,4% · Diana 22% · COO 12% · Marcello 6,6%**.
 - **Regola ferrea:** rapporto **Luca:Marcello = 9:1** da mantenere anche dopo l'ingresso di nuovi soci.
 - **Diana (Chief AI Officer):** entra **dopo la prima acquisizione**, con closing **temporizzato su H2'27** per coincidere con l'uscita da Skylabs (riservatezza). Pre-ingresso: architettura-dati pronta "Diana-ready".
-- **Marcello (clinical partner part-time):** mantiene la sua pratica; comp **~€240k dalla pratica/flagship, non dalla società**. Non ribranda la clinica di Gela (con i fratelli); a Milano/Verona affitta part-time.
+- **Marcello (chirurgo maxillo-facciale, clinical partner part-time):** mantiene la sua pratica; comp **~€240k dalla pratica/flagship, non dalla società**. Non ribranda la clinica di Gela (con i fratelli); a Milano/Verona affitta part-time.
 - **Reverse vesting** su tutti i founder operativi (cliff + good/bad leaver).
 - **Nodi legali da chiudere prima di muoverti:** separazione IP da Skylabs (clean-room), patti parasociali (drag/tag/prelazione), struttura MSO.
 
@@ -112,7 +121,7 @@ Prezzo = **3-4x EBITDA normalizzato** (documentato, non il nero). Split:
 
 ## 7. Il format (la macchina replicabile — 100 giorni)
 
-**Prima clinica = format lab.** Flagship snello: **affitta uno spazio a Milano e portaci i pazienti di Marcello** (NON comprare l'immobile).
+**Prima sede = format lab.** Flagship snello: **affitta uno spazio a Milano e portaci i pazienti di Marcello** (NON comprare l'immobile).
 
 **I blocchi da applicare a ogni clinica:**
 - **Recurring da prescrizione:** percorsi di cura annuali a rata mensile (target **15-20% ricavi a 24 mesi, 30% a regime**).
@@ -161,7 +170,7 @@ Prezzo = **3-4x EBITDA normalizzato** (documentato, non il nero). Split:
 |---|---|---|---|
 | **1** | Set 2026 (M1) | Avvia processo/advisor; panchina | Bridge; team; architettura-dati; origination |
 | **2** | Ott-Nov 2026 (M2-3) | Info memo; sonda compratori | Pilot demand-side; pipeline+LOI; raccolta Fase 1 |
-| **3** | Dic 2026-H2 2027 (M4-12) | **Closing** + transizione | Diana entra; **closing 2-4 cliniche**; format lab |
+| **3** | Dic 2026-H2 2027 (M4-12) | **Closing** + transizione | Diana entra; **closing 2-4 sedi**; format lab |
 | **4** | 2027-28 (M12-24) | (fuori) | Prova del format; scala cluster; debito Fase 2 |
 
 ---
@@ -170,9 +179,9 @@ Prezzo = **3-4x EBITDA normalizzato** (documentato, non il nero). Split:
 
 - ☐ Skylabs venduta a strategico, tutti incassati, closing fatto
 - ☐ Separazione IP e related-party chiuse per iscritto
-- ☐ Venere: team completo (Diana + COO), Fase 1 finanziata, **2-4 cliniche closed** e in integrazione
+- ☐ Venere: team completo (Diana + COO), Fase 1 finanziata, **2-4 sedi closed** e in integrazione
 - ☐ Tu: full-time su Venere, fuori da Skylabs
-- ☐ Format lab: recurring ≥10-15%, EBITDA/clinica +30%, ≥2 provider, dataset popolato
+- ☐ Format lab: recurring ≥10-15%, EBITDA/sede +30%, ≥2 provider, dataset popolato
 
 ---
 

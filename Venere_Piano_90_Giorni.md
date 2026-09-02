@@ -28,7 +28,9 @@ Con 1 giorno a settimana: **4-6 nuovi primi contatti a settimana** + gestione de
 ## Le 3 prove che devi portare a casa ("modello validato")
 1. **Il sourcing funziona** — trovi centri convertibili in volume, non 1 per fortuna. → 40 identificati, 8 qualificati.
 2. **Il titolare vuole** — esiste il venditore disposto a vendere, restare e fare rollover. → almeno 3 aperti al deal + rollover.
-3. **I numeri reali reggono** — su 1-2 centri i conti veri (fatturato, ticket, spazio medicalizzabile) confermano il modello. → economics validati su dati reali, non stimati.
+3. **I numeri reali reggono** — su 1-2 centri i conti veri (fatturato, ticket, spazio convertibile in ambulatorio, capex di conversione) confermano il modello. → economics validati su dati reali, non stimati.
+
+> **Nota target (ambulatorio).** In Lombardia i trattamenti core richiedono l'**ambulatorio**: il target non è il micro-salon ma il **centro estetico grande e affermato** (~90-120 mq, locali distinti, meglio indipendente), con capex di conversione più alto (~€250-450k/sede). Vedi `Venere_Protocollo_Verifica_Target.md` e `Venere_Fattibilita_Ambulatori.md`.
 
 ## La tua settimana tipo (il 20%)
 - **2h sourcing** — esporti nuovi centri (portali + Google Maps sulle zone target), me li mandi, te li torno scorati.

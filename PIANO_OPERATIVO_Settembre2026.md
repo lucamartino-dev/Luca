@@ -2,6 +2,16 @@
 
 *Piano d'azione esecutivo. Riservato. Complemento a `DECISIONE_Skylabs_vs_Venere.md`.*
 
+> **AGGIORNAMENTO (settembre 2026) · decisioni e novità recepite**
+> - **Regime = AMBULATORIO.** In Lombardia la maggior parte dei trattamenti (iniettivi + laser medicali 3B-4) richiede l'**ambulatorio** (autorizzazione all'esercizio del Comune + parere/sopralluogo ATS via ASAN), non lo studio medico (solo non invasivo). Il target è il centro estetico **convertibile in ambulatorio** (~90-120 mq, locali distinti, meglio indipendente).
+> - **Focus: SOLO convertire centri estetici** in ambulatori (non comprare cliniche già fatte). Dove si legge "clinica/cliniche" riferito a noi, intendere "sede/ambulatorio convertito".
+> - **Architettura hub & spoke:** ambulatori hub (invasivo, alto margine) + studi medici satellite (non invasivo, funnel, capex ridotto).
+> - **Capex più alto per sede:** l'ambulatorio costa di più del previsto (indicativamente ~€250-450k/sede di conversione) e ha tempi autorizzativi più lunghi.
+> - **Bacino:** ~43.000 centri estetici in Italia, ~1.000-1.900 idonei ad ambulatorio. Vedi `Venere_Fattibilita_Ambulatori.md`.
+> - **Marcello Cammalleri = chirurgo maxillo-facciale**, CMO + direttore sanitario (max 3 strutture in Lombardia) + responsabile clinico rete.
+> - **Direttore Operativo dedicato = assunzione Fase 2** (dopo 3 LOI + playbook validato + seed).
+> - **Sequenza:** prima 3 centri con lettera d'intenti → poi seed €500k (GKSD lead) → scala.
+
 ## Cosa esegue questo piano
 Questo è il *come* di **una** direzione — la raccomandazione del memo — **non una scelta già presa**: la scelta principale (mettere il focus su **Skylabs o su Venere**) la fai tu, e la valuti nella Parte A del memo. *Se* propendi per Venere, il piano è questo:
 - **Focus: Venere.**
@@ -12,7 +22,7 @@ Questo è il *come* di **una** direzione — la raccomandazione del memo — **n
 ## Principio guida — cosa può correre in parallelo e cosa no
 La vendita di Skylabs (2026 → closing H2'27) è retta da **advisor M&A + GM + panchina** (Partner Program e leader delle acquisizioni): non è il tuo focus operativo pieno. Quindi **sì, la porti avanti mentre avvii Venere — ma con una linea netta:**
 
-- **In parallelo, a basso profilo, già da settembre '26:** costituzione **NewCo Venere**, conversazioni con gli **anchor** family office, e **sourcing/avvio delle prime cliniche via Cammalleri + COO**. Non coinvolge Diana e non tocca persone/IP/clienti di Skylabs → non disgrega il gruppo.
+- **In parallelo, a basso profilo, già da settembre '26:** costituzione **NewCo Venere**, conversazioni con gli **anchor** family office, e **sourcing/avvio delle prime sedi (ambulatori convertiti) via Cammalleri + COO**. Non coinvolge Diana e non tocca persone/IP/clienti di Skylabs → non disgrega il gruppo.
 - **Solo a/dopo il closing (H2'27):** ingresso **visibile di Diana** in Venere, **sviluppo attivo del gestionale**, e il tuo passaggio **full-time**. Perché: (a) la riservatezza sul move di Diana tiene insieme il gruppo finché tutti hanno incassato; (b) Diana serve alla **continuità per il compratore** fino al closing; (c) pulizia IP.
 
 **Le due regole invalicabili:** nessuno spostamento di persone/IP/clienti da Skylabs a Venere prima della separazione formale; **Diana resta a Skylabs, visibilmente, fino al closing.** E tieni Venere **a basso profilo** durante il processo di vendita (un fondatore troppo visibilmente "altrove" può raffreddare il compratore).
@@ -23,8 +33,8 @@ La vendita di Skylabs (2026 → closing H2'27) è retta da **advisor M&A + GM + 
 
 La spina dorsale operativa dei primi 12 mesi, in sei passi:
 
-1. **Trova i venditori (settembre, Milano).** Individua **~5 centri estetici che vogliono vendere** (pipeline, con AIDA + registri + network di Marcello + annunci subito/idealista). Applica il **filtro di convertibilità** (destinazione d'uso, requisiti) per tenere solo i medicalizzabili.
-2. **Raccogli €500k (seed "prova").** Round iniziale con gli investitori per **comprare e medicalizzare i primi centri**: è il *"dammi mezzo milione e ti provo 3 conversioni"*, check piccolo e a basso rischio prima del round grande. *(€500k è coerente con centri piccoli + prima medicalizzazione; il capex pieno di conversione arriva col round di scala.)*
+1. **Trova i venditori (settembre, Milano).** Individua **~5 centri estetici che vogliono vendere** (pipeline, con AIDA + registri + network di Marcello + annunci subito/idealista). Applica il **filtro di convertibilità** (destinazione d'uso, requisiti ambulatorio) per tenere solo i convertibili in ambulatorio.
+2. **Raccogli €500k (seed "prova").** Round iniziale con gli investitori per **blindare 3 centri con lettera d'intenti e convertire il primo in ambulatorio (pilota)**: è il *"dammi mezzo milione e ti provo la conversione in ambulatorio + la pipeline dei 3"*, check piccolo e a basso rischio prima del round grande. *(Attenzione: con l'ambulatorio il capex è ~€250-450k/sede, quindi €500k prova il modello sul primo ambulatorio e assicura le 3 LOI; la **conversione piena dei 3** richiede la Series A.)*
 3. **Closing di almeno 3 dei 5**, con **Marcello come direttore sanitario e medico estetico** (medico condiviso sulle tre sedi).
 4. **Testa il modello** sui 3-5 centri: tasso di conversione beauty→medico, tempi/costi di autorizzazione, EBITDA/sede, recurring. È il **format lab** su asset reali.
 5. **Se funziona → scala.** Round più grande (la Fase 1 di scala, €2,5-4,5M) e **replica massiva in Italia** con il playbook (autorizzazioni + medici condivisi + macchina AI).
@@ -32,7 +42,7 @@ La spina dorsale operativa dei primi 12 mesi, in sei passi:
 
 **Guardrail Skylabs (invalicabile):** finché Skylabs non è venduta, l'ingresso **visibile** di Diana aspetta il closing (riservatezza + continuità per il compratore + pulizia IP). Se il primo centro lo acquisti **prima** del closing Skylabs, Diana imposta **dietro le quinte** l'architettura-dati "Diana-ready" ma **non compare** ufficialmente finché Skylabs non è chiusa.
 
-**Le due raccolte, in sequenza:** (1) **€500k** = seed per **provare 3 centri**; (2) **round di scala** (€2,5-4,5M, il "4M" del deck) **dopo** che il modello è provato. Sono due momenti distinti, non la stessa cifra.
+**Le due raccolte, in sequenza:** (1) **€500k** = seed per **blindare 3 LOI + convertire il primo ambulatorio (pilota)**; (2) **round di scala** (€3-5M, la Series A del deck) **dopo** che il modello è provato, per **convertire pienamente i 3 e aggiungere le sedi del cluster**. Sono due momenti distinti, non la stessa cifra. *(L'ambulatorio ha capex più alto: per questo il seed prova, la Series A costruisce.)*
 
 ---
 
@@ -61,7 +71,7 @@ La spina dorsale operativa dei primi 12 mesi, in sei passi:
 
 **Venere**
 - **Assumi il COO/AD operativo** (retail/sanità multi-sede).
-- **Pipeline prime cliniche:** 1 cluster (Nord-Ovest o Nord-Est), 8-12 target, **LOI su 2-4**.
+- **Pipeline prime sedi (ambulatori convertiti):** 1 cluster (Nord-Ovest o Nord-Est), 8-12 target, **LOI su 2-4**.
 - **Commitment Fase 1 (4-5M)** dagli anchor; insedia comitato scientifico + advisor regolatorio/fiscale.
 
 **🚦 Gate 2 (fine novembre):** Partner Program completo e panchina che regge commerciale/delivery senza i fondatori (= *go* per l'exit in H1'27); commitment Fase 1 Venere + COO + LOI cliniche.
@@ -74,15 +84,15 @@ La spina dorsale operativa dei primi 12 mesi, in sei passi:
 - **Advant (mag'27)** integrata; processo competitivo → offerte → DD → SPA → **closing entro fine 2027**. Tutti e quattro escono; **incassi**.
 
 **Venere**
-- **Closing prime 2-4 cliniche**, avvio integrazione a 100 giorni + gestionale.
+- **Closing prime 2-4 sedi**, avvio integrazione a 100 giorni + gestionale.
 - **Tu e Diana full-time su Venere** dalla chiusura della vendita.
 
-**🚦 Gate 3 (H2 2027):** Skylabs venduta e incassata + prime cliniche closed + tu full-time su Venere.
+**🚦 Gate 3 (H2 2027):** Skylabs venduta e incassata + prime sedi (ambulatori convertiti) closed + tu full-time su Venere.
 
 ---
 
 ## FASE 4 — 2027-28 (Mese 12-24): prova del formato Venere
-- KPI: **recurring 10%+, EBITDA/clinica +30%** in 18-24 mesi.
+- KPI: **recurring 10%+, EBITDA/sede +30%** in 18-24 mesi.
 - Se il formato è provato → **chiami il resto dei 12M** (Fase 2 Venere) + linea di debito bancario. Se no, hai rischiato solo 4-5M.
 
 ---
@@ -110,7 +120,7 @@ Tu puoi tiltare presto sulla prep di Venere (Cammalleri-led, basso profilo). **D
 
 Due attenzioni su Diana:
 - **Porta un segreto mentre resta a Skylabs:** deve performare il suo ruolo e **non disimpegnarsi visibilmente** fino al closing. L'handover al GM va fatto passare come normale prep di vendita, non come "Diana che se ne va".
-- **Il suo valore in Venere è la piattaforma, non le operations cliniche** (di cui non sa nulla): full-time dal closing a costruire il moat, mentre le prime cliniche (Fase 1) le reggono Cammalleri + COO.
+- **Il suo valore in Venere è la piattaforma, non le operations cliniche** (di cui non sa nulla): full-time dal closing a costruire il moat, mentre le prime sedi (ambulatori convertiti) (Fase 1) le reggono Cammalleri + COO.
 
 ---
 
@@ -154,7 +164,7 @@ Standalone €8-14M; **con Sidea (+Advant) integrate e la panchina in piedi**, u
 | Periodo | Mossa | Importo |
 |---|---|---|
 | **Set-Nov '26** | Apri conversazioni anchor; **soft-circle Fase 1**; chiudi lead anchor + funzione CFO | commitment 4-5M |
-| **Dic '26 - Q1 '27** | **Closing Fase 1**; firma LOI / prime 2-4 cliniche | 4-5M deployati |
+| **Dic '26 - Q1 '27** | **Closing Fase 1**; firma LOI / prime 2-4 sedi | 4-5M deployati |
 | **2027 (0-18 mesi)** | Deploy + **prova del formato** | — |
 | **~H2 2028** | A metriche provate, **resto dei 12M** + debito bancario | fino a 12M |
 
@@ -173,32 +183,32 @@ Il tuo **co-invest personale** lo copri con risorse personali, poi lo rimpolpi c
 ### Quanto costa ogni clinica e quanto raccogliere per le prime 2-4
 Illustrativo, sulle ipotesi del deck (ricavi 0,8-2,5M, EBITDA 20%+, prezzo 3-4x).
 
-**Costo per clinica:**
+**Costo per sede:**
 | | EBITDA | Prezzo (3-4x) | Cash al closing (~65%) |
 |---|---|---|---|
 | Piccola (~€0,8M ricavi) | ~€160k | €0,5-0,65M | ~€0,35-0,45M |
 | **Tipo (~€1,2M ricavi)** | ~€240k | **~€0,84M** (3,5x) | **~€0,55M** |
 | Mid-size (~€2M ricavi) | ~€400-500k | €1,4-2M | ~€0,9-1,3M |
 
-Il **cash al closing è ~60-70% del prezzo**: il resto è **rollover equity** (venditore reinveste, zero cassa) + **earn-out differito** (24 mesi, dai risultati). Più **capex format ~€100-200k/clinica**.
+Il **cash al closing è ~60-70% del prezzo**: il resto è **rollover equity** (venditore reinveste, zero cassa) + **earn-out differito** (24 mesi, dai risultati). Più **capex conversione ambulatorio ~€250-450k/sede**.
 
-**Cassa da raccogliere per le prime 2-4 (clinica-tipo ~€1M EV):**
-| Voce | 2 cliniche | 3 cliniche | 4 cliniche |
+**Cassa da raccogliere per le prime 2-4 (sede-tipo ~€1M EV):**
+| Voce | 2 sedi | 3 sedi | 4 sedi |
 |---|---|---|---|
 | Cash acquisizioni (65%) | €1,3M | €1,95M | €2,6M |
-| Capex format (~€150k/cl) | €0,3M | €0,45M | €0,6M |
+| Capex conversione ambulatorio (~€350k/sede) | €0,7M | €1,05M | €1,4M |
 | Piattaforma / team / WC / riserva | ~€0,6M | ~€0,7M | ~€0,9M |
-| **Cassa da raccogliere** | **~€2,2M** | **~€3,1M** | **~€4,1M** |
+| **Cassa da raccogliere** | **~€2,6M** | **~€3,7M** | **~€4,9M** |
 
-→ **~€2,5-4,5M = la Fase 1 da 4-5M del deck.** Note: (a) **paghi sull'EBITDA verificato** (dichiarato/normalizzato), spesso meno del reale gonfiato dal nero → a tuo favore; (b) per le prime 2-4 assumi **quasi tutto equity** (banche prestano poco senza track record); la **leva arriva in Fase 2** e riduce l'equity per clinica — è così che i 12M totali fanno 6-8+ cliniche.
+→ **~€3-5M = la Fase 1 (Series A) del deck.** Note: (a) **paghi sull'EBITDA verificato** (dichiarato/normalizzato), spesso meno del reale gonfiato dal nero → a tuo favore; (b) il **capex per l'ambulatorio è più alto** dello studio medico (locali distinti, impianti, autorizzazione), per questo la Fase 1 sale; (c) per le prime 2-4 assumi **quasi tutto equity** (banche prestano poco senza track record); la **leva arriva in Fase 2** e riduce l'equity per sede. L'architettura **hub & spoke** (pochi hub costosi + satellite leggeri) contiene il fabbisogno di capitale.
 
 ### Chi mette il capitale: founder, debito o investitori?
-Le prime cliniche si comprano con il **capitale degli investitori** (raccolta Fase 1, equity), **non** con soldi dei founder e **non** con debito.
+Le prime sedi (ambulatori convertiti) si comprano con il **capitale degli investitori** (raccolta Fase 1, equity), **non** con soldi dei founder e **non** con debito.
 
 | Fonte | Cosa finanzia | Quando |
 |---|---|---|
 | **Bridge founder** (~€100-300k, quasi tutto Luca) | Setup NewCo, advisor, pilot, runway pre-raccolta | Set-Q4'26 |
-| **Raccolta investitori 4-5M (equity)** | **Prime 2-4 cliniche + piattaforma** | Q4'26-2027 |
+| **Raccolta investitori 4-5M (equity)** | **Prime 2-4 sedi + piattaforma** | Q4'26-2027 |
 | **Co-invest Luca 0,5-2M (opzionale)** | Skin-in-the-game + equity extra al prezzo del round | Al round |
 | **Debito bancario** | Acquisizioni successive (riduce equity/clinica) | Fase 2 (2028) |
 
@@ -265,7 +275,7 @@ Struttura raccomandata: **Marcello porta due cappelli** — (a) **1 giorno/setti
 
 ### Il flagship come "format lab" (con Marcello)
 Idea forte: **lanciare la prima clinica brandizzata con Marcello come medico di riferimento**, per **testare e codificare il format** in un ambiente che controlli al 100%, poi replicarlo. Vantaggi:
-- **Prova del formato pulita:** dimostri i KPI (recurring, uplift EBITDA/clinica) in una sede tua, senza le abitudini legacy di una clinica acquisita.
+- **Prova del formato pulita:** dimostri i KPI (recurring, uplift EBITDA/sede) in una sede tua, senza le abitudini legacy di una clinica acquisita.
 - **Credibilità istantanea:** Marcello come anchor doctor + **showcase** per investitori e per i medici-venditori ("guarda cosa fa il format").
 - **Comp di Marcello risolta:** pratica nel flagship → guadagna lì i suoi ~€240k (market-rate, related-party), **zero cash-burn** per la società.
 - **Il pilota parte senza Diana** (gira su Marcello + COO + te); ma **la prima *acquisizione* chiude con Diana dentro** (sincronizzata col closing Skylabs) → clinica #1 AI-driven dal giorno zero. L'architettura dati va però impostata subito, Diana-ready.
@@ -275,7 +285,7 @@ Idea forte: **lanciare la prima clinica brandizzata con Marcello come medico di 
 **Come tenerlo snello — 7 regole:**
 1. **Affitta uno spazio + porta dentro i pazienti di Marcello (NON comprare l'immobile, NON greenfield puro).** Marcello non ha una clinica di proprietà convertibile in una città strategica (Gela è co-owned coi fratelli e fuori mercato; Milano/Verona sono studi affittati part-time). La via snella è la **terza**: **affitta** uno spazio dedicato a **Milano** (piccolo, espandibile), brandizzalo con fit-out leggero, e **fai confluire lì la sua pratica part-time Milano+Verona** → **location greenfield ma domanda non-greenfield** (testi il recurring su pazienti reali dal giorno 1). Marcello riceve lì e ci guadagna i suoi ~€240k (market-rate, ⚠️ related-party documentato). **Non comprare l'immobile:** il capitale di Fase 1 è per format + acquisizioni, non per il mattone; semmai una **propco/sale-leaseback separata** più avanti. **Una sola sede** (Gela fuori).
 2. **Capex minimo e in fasi:** affitto non acquisto; parti dagli **iniettabili** (basso capex), aggiungi i **dispositivi energy-based** (parte cara) **solo dopo** aver provato il recurring. Sede credibile, non un monumento.
-3. **Time-box 6-9 mesi:** l'obiettivo non è fatturato, è **codificare il format e centrare i KPI** (recurring %, uplift EBITDA/clinica, conversione, retention). Poi sposti il focus sulle acquisizioni.
+3. **Time-box 6-9 mesi:** l'obiettivo non è fatturato, è **codificare il format e centrare i KPI** (recurring %, uplift EBITDA/sede, conversione, retention). Poi sposti il focus sulle acquisizioni.
 4. **Strumenta, non ingioiellare:** produce **dati + playbook replicabile**, non è un profit center. **Gestionale interim off-the-shelf** (quello di Diana viene dopo), protocolli standard, fornitori esistenti. Zero bespoke pre-prova.
 5. **Team leggero:** Marcello (1 g/sett + pratica) + **un site manager** + supervisione COO. Serve a *disegnare* i ruoli da replicare, non a staffare un team centrale attorno a una clinica.
 6. **Una sola, non una mini-catena.** Uno basta per provare e codificare; la moltiplicazione viene dalle acquisizioni.
@@ -325,12 +335,12 @@ Cautela trasversale: per gli advisor che operano in **consolidamento adiacente**
 **Mese 4-6 (dic-feb) — Chiudere e partire**
 10. **Assumi il COO.**
 11. **Closing Fase 1** (4-5M).
-12. **LOI + due diligence** sulle prime cliniche (con normalizzazione ricavi → nodo nero sotto). *Il closing della prima acquisizione si sincronizza con l'ingresso di Diana (~closing Skylabs, H2'27) per strutturarla AI-driven da subito; accelerando Skylabs a H1'27 lo anticipi.*
+12. **LOI + due diligence** sulle prime sedi (ambulatori convertiti) (con normalizzazione ricavi → nodo nero sotto). *Il closing della prima acquisizione si sincronizza con l'ingresso di Diana (~closing Skylabs, H2'27) per strutturarla AI-driven da subito; accelerando Skylabs a H1'27 lo anticipi.*
 13. **Playbook integrazione a 100 giorni** pronto.
 
 *(Diana entra al closing di Skylabs, ~H2'27 — riservato fino ad allora.)*
 
-## Come individuare e acquisire in fretta le prime cliniche
+## Come individuare e acquisire in fretta le prime sedi (ambulatori convertiti)
 
 ### A. Individuarle (origination + screening)
 **Canali di sourcing, in ordine di potenza:**
@@ -438,7 +448,7 @@ Chiedere al venditore di **andare bianco 6-12 mesi prima di comprare**, osservar
 
 **Robustezza:** 6-12 mesi (12 meglio per stagionalità); **triangola coi dati dei fornitori** (ordini iniettabili/device) anti-gaming; **introduci già gli strumenti white-friendly del format** (rateizzazione, recurring, carte) così vedi il **bianco assistito dal format**, più rappresentativo del post-acquisizione. Il periodo pulito è anche l'inizio della transizione.
 
-**Alternativa più veloce:** prezzo sul **dichiarato storico + earn-out** sui risultati bianchi futuri → stesso risk-sharing senza aspettare. *Raccomandazione:* periodo pulito per le **prime cliniche** (hai tempo mentre aspetti Diana/closing Skylabs, costruisci il playbook); poi earn-out + triangolazione fornitori per la velocità.
+**Alternativa più veloce:** prezzo sul **dichiarato storico + earn-out** sui risultati bianchi futuri → stesso risk-sharing senza aspettare. *Raccomandazione:* periodo pulito per le **prime sedi (ambulatori convertiti)** (hai tempo mentre aspetti Diana/closing Skylabs, costruisci il playbook); poi earn-out + triangolazione fornitori per la velocità.
 
 ### Cosa impariamo dall'estero (e come farne un'opportunità)
 I precedenti utili: roll-up di **sanità/dentale in mercati con forte informalità** (Brasile, India) + **USA** per il recurring.
@@ -530,6 +540,6 @@ La "macchina centrale" di Venere (il platform-team alla Bending Spoons) di fatto
 ## KPI di successo (misura a ~settembre 2027)
 - [ ] Skylabs venduta a strategico, tutti e quattro incassati, closing fatto
 - [ ] Separazione IP e related-party chiuse per iscritto
-- [ ] Venere: team completo (incl. Diana + COO), Fase 1 finanziata, 2-4 cliniche closed e in integrazione
+- [ ] Venere: team completo (incl. Diana + COO), Fase 1 finanziata, 2-4 sedi closed e in integrazione
 - [ ] Tu: full-time su Venere, fuori da Skylabs
-- [ ] Prima evidenza di uplift EBITDA/clinica sul formato
+- [ ] Prima evidenza di uplift EBITDA/sede sul formato

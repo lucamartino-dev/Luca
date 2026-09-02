@@ -1,67 +1,64 @@
 # Venere — Costruire la lista dei target (starter)
 
-*Strumento operativo di origination. Riservato.*
+*Strumento operativo di origination. Target: centri estetici da convertire in ambulatorio. Riservato.*
+
+> **AGGIORNAMENTO (settembre 2026).** Il target NON sono le cliniche mediche (contese dai fondi): sono i **centri estetici** (ATECO 96.02.02) **convertibili in ambulatorio**. In Lombardia i trattamenti core (iniettivi, laser medicali) richiedono l'ambulatorio, quindi cerchiamo centri **grandi e affermati** (~90-120 mq, locali distinti, meglio indipendenti). Vedi `Venere_Protocollo_Verifica_Target.md` e `Venere_Fattibilita_Ambulatori.md`.
 
 ## Premessa: come si costruisce DAVVERO la lista
-**Non con Google.** Le cliniche famose che compaiono online sono o troppo grandi/branded o non vendono — non sono il target. Il target è la **coda lunga di studi mid-small** (€0,8-2,5M) che si trova con:
-1. **Database finanziari** (AIDA / Cerved / Bureau van Dijk) → screening oggettivo dell'universo per bilanci.
-2. **Registri autorizzazioni sanitarie regionali** → l'universo delle strutture ambulatoriali per provincia.
-3. **Network clinico di Marcello + fornitori** → intel qualitativa e **vie calde** (chi possiamo raggiungere con un'intro).
-4. **Associazioni e congressi** → i medici di riferimento per città.
+**Non con Google e basta.** Il target &egrave; la **coda lunga di centri estetici mid-large** affermati che si trova con:
+1. **Annunci di vendita/cessione** (idealista, immobiliare.it, portali di cessione attivit&agrave;) → chi &egrave; gi&agrave; in vendita.
+2. **Google Maps / Street View** sulle zone target → mappatura per zona, dimensione, recensioni (base clienti proxy).
+3. **Database finanziari** (AIDA / Cerved) filtrati su **ATECO estetica** → screening oggettivo per bilanci.
+4. **Network + fornitori** (rep di apparecchiature estetiche/dermocosmesi, laser) → intel qualitativa e **vie calde**.
 
-## Il profilo target (dal deck)
-- Ricavi **0,8-2,5M**, EBITDA **20%+** (verificabile/normalizzabile)
-- Bacino **100k+ abitanti**; cluster prioritari (sotto)
-- Base pazienti **1.500+**, quota **iniettabili/ripetibili** prevalente
-- **2+ medici** o convertibile a multi-provider entro 12 mesi
-- Titolare disponibile a **permanenza 24-36 mesi + rollover**
-- Autorizzazioni in regola, sede ampliabile
+## Il profilo target (allineato al regime ambulatorio)
+- **Centro estetico affermato** (non micro-salon): ricavi indicativi **0,4-1,5M**
+- **Immobile convertibile in ambulatorio:** ~**90-120 mq**, frazionabile in **locali distinti** (attesa + 2+ sale + servizi accessibili + percorsi pulito/sporco + sterilizzazione), meglio **indipendente/non condominiale**
+- **Base clienti reale e fedele all'insegna** (non a una persona), abituata a trattamenti **injectables-amenable** (peeling, radiofrequenza, laser, IPL)
+- **Bacino 100k+ ab.**, zona di reddito/passaggio; cluster prioritari (sotto)
+- **Titolare** disponibile a **permanenza 24-36 mesi + rollover**
+- **Destinazione d'uso** compatibile (a Milano-TUC di norma ok), stato legittimo dell'immobile in regola
 
 ## Scorecard di screening (griglia di punteggio)
-Punteggio 1-5 per criterio × peso → totale pesato → priorità **A / B / C**.
+Punteggio 1-5 per criterio × peso → totale pesato → priorit&agrave; **A / B / C**. *(Versione completa e pesata nel file `Venere_Scorecard_116_Target.xlsx`.)*
 
 | Criterio | Peso | Punteggio (1-5) | Note |
 |---|---|---|---|
-| Dimensione (ricavi 0,8-2,5M) ed EBITDA 20%+ | 20% | | |
-| Quota iniettabili / trattamenti ricorrenti | 15% | | recurring-amenable |
+| Convertibilit&agrave; immobile ad ambulatorio | 25% | | il gate: mq, locali distinti, indipendente |
+| Base clienti (dimensione + fedelt&agrave; al brand) | 20% | | non legata a una persona |
+| Mix servizi injectables-amenable | 10% | | vicinanza della clientela al medico |
 | Bacino e location (100k+, reddito) | 10% | | |
-| Multi-provider o convertibilità | 10% | | 2+ medici o headroom |
-| Qualità bilanci / verificabilità (POS, fornitori) | 15% | | anti-nero |
-| Motivazione e apertura del titolare | 15% | | pensione / crescita / stanchezza admin |
-| Fit culturale e reputazione clinica | 5% | | zero baggage |
-| **Via calda disponibile** (network Marcello / fornitore) | 10% | | quanto è raggiungibile caldo |
+| Economics e verificabilit&agrave; (POS, fornitori) | 15% | | anti-nero |
+| Motivazione e apertura del titolare | 15% | | pensione / crescita / rollover |
+| Reputazione / compliance | 5% | | recensioni, zero baggage |
 | **Totale pesato** | 100% | | → A (≥4), B (3-4), C (<3) |
 
 ## Dove prendere i dati (fonti concrete)
-- **AIDA / Cerved:** filtra per **codice ATECO** (es. 86.22 *studi medici specialistici*, 86.90 *altri servizi sanitari*) + **regione/provincia** + **ricavi 0,8-2,5M** → estrai l'universo con bilanci. Screening finanziario oggettivo.
-- **Registri regionali delle strutture sanitarie autorizzate** (ambulatori/poliambulatori) → l'universo per provincia.
-- **Fornitori di iniettabili/device** (rep AbbVie/Allergan, Galderma, Merz; laser) → **volumi reali** + intro calde.
-- **Associazioni** (AITEB, SIME, AICPE, SMPeC) e **congressi** (liste relatori/espositori) → medici di riferimento per città.
-- **Network di Marcello** → intel qualitativa (chi vende, chi è credibile, chi è vicino alla pensione) + le vie calde.
+- **Portali di vendita:** idealista, immobiliare.it, portali di **cessione attivit&agrave;/licenze** → centri gi&agrave; in vendita (venditore motivato).
+- **Google Maps:** cerca "centro estetico" nelle zone target → dimensione stimata, recensioni (n. e voto = base clienti proxy), anni di attivit&agrave;.
+- **AIDA / Cerved:** filtra per **ATECO 96.02.02** (*servizi degli istituti di bellezza*) + **regione/provincia** + **ricavi 0,4-1,5M** → estrai la platea con bilanci.
+- **Fornitori di apparecchiature estetiche / dermocosmesi / laser** → volumi reali + intro calde.
+- **Network** (incluso quello di Marcello per la parte medica) → chi vende, chi &egrave; credibile, chi &egrave; vicino alla pensione.
 
-## Il funnel (dall'universo alla shortlist)
-1. **Universo** (registri + AIDA: centinaia per cluster)
-2. → **Screen finanziario** (ricavi 0,8-2,5M, margine) → decine
-3. → **Screen di fit** (iniettabili, multi-provider/convertibile, bacino) → ~15-25
+## Il funnel (dalla platea alla shortlist)
+1. **Platea** (annunci + Maps + AIDA: centinaia per cluster)
+2. → **Pre-screen da desk** (immobile convertibile ad ambulatorio, dimensione, zona) → decine
+3. → **Screen di fit** (base clienti, injectables-amenable, reputazione) → ~15-25
 4. → **Screen "via calda"** (chi possiamo raggiungere con intro) → ~10
 5. → **Shortlist prioritizzata A/B/C** con la scorecard → **5-8 target A** per il primo cluster
 
-## Cluster map (priorità)
-Regola: **un solo cluster per partire** (densità = leva operativa).
+## Cluster map (priorit&agrave;)
+Regola: **un solo cluster per partire** (densit&agrave; = leva operativa).
+- **Milano first — priorit&agrave; 1:** Milano + hinterland. Densit&agrave;, reddito, bacino, indifferenza funzionale del PGT (destinazione d'uso raramente un ostacolo).
+- **Nord-Est — priorit&agrave; 1-2:** Verona, Padova, Venezia, Bologna. *(Verona lega alla pratica esistente di Marcello → vie calde naturali.)*
+- **Nord-Ovest / Roma — priorit&agrave; 2:** Torino, Brescia, Bergamo; Roma come secondo cluster.
 
-- **Nord-Ovest — priorità 1:** Milano + hinterland, Torino, Brescia, Bergamo. Densità, reddito, bacino.
-- **Nord-Est — priorità 1:** Verona, Padova, Venezia, Bologna. *(Verona lega alla pratica esistente di Marcello → vie calde naturali.)*
-- **Roma — priorità 2:** grande bacino ma dinamiche/frammentazione diverse → secondo cluster.
-
-**Suggerimento:** parti da **Milano** (dove metti anche il flagship-pilota) **o Verona-Padova** (dove Marcello ha radici e intro immediate).
-
-## La punta visibile (contesto, NON target vettati)
-Cliniche pubblicamente note a Milano — utili come **benchmark del segmento branded/alto**, per lo più **troppo grandi o non venditrici**, quindi *non* il target tipico: *theClinic, IDE (Istituto Dermatologico Europeo), Equipe, Meldes, Clinica Luce, Sotherga* (e gruppi ospedalieri come MultiMedica, che NON sono target). Servono a capire il posizionamento premium; **non contattarle a freddo**. I target reali sono i **mid-small non-branded** che escono dallo screening AIDA + network.
+**Suggerimento:** parti da **Milano** (dove hai gi&agrave; il prescreen di 9 centri reali in `Venere_Prescreen_Milano_annunci.csv`) e usa il `Venere_Funnel_Tracker.xlsx` per gestire la pipeline.
 
 ## Prossimi passi operativi
-1. **Estrai da AIDA** l'universo del primo cluster (ATECO + regione + ricavi 0,8-2,5M).
-2. **Con Marcello**, sovrapponi il suo network ai risultati → chi possiamo raggiungere caldo.
+1. **Estrai la platea** del primo cluster (annunci + Google Maps + AIDA su ATECO 96.02.02).
+2. **Pre-screen da desk** con il `Venere_Protocollo_Verifica_Target.md` (gate immobile/ambulatorio) → scarta i non convertibili.
 3. **Prioritizza con la scorecard** → shortlist **A (5-8 target)**.
-4. **Attiva le vie calde** (Marcello + fornitori) → primi **incontri informali tra pari** (vedi playbook di approccio nel Piano).
+4. **Attiva le vie calde** e i primi contatti (kit in `Venere_Kit_Contatto_Titolari.md`).
 
-*Nota: questo è il metodo per costruire la lista con dati reali e verificabili. Non contiene numeri di bilancio o segnali di "disponibilità a vendere" su cliniche specifiche: quelli vanno raccolti da AIDA/Cerved e dal network, non stimati a tavolino.*
+*Nota: metodo per costruire la lista con dati reali e verificabili. I numeri di bilancio e i segnali di "disponibilit&agrave; a vendere" vanno raccolti da AIDA/annunci/network, non stimati a tavolino.*
