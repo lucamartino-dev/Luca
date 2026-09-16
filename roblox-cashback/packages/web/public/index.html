@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Robuxback</title>
+    <meta name="description" content="Gioca ai giochi Roblox partner passando da qui e ricevi il 10% dei Robux che spendi." />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💸</text></svg>" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><span class="logo">R</span> Robuxback</div>
+      <div id="account" class="account"></div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <h1>Il <strong>10%</strong> dei Robux che spendi, indietro.</h1>
+        <p>Apri i giochi partner da qui. Quello che spendi dentro al gioco ti torna in parte nel portafoglio Robuxback.</p>
+      </section>
+
+      <section id="login" class="card hidden">
+        <h2>Collega il tuo account Roblox</h2>
+        <p class="muted">Nessuna password: ti diamo un codice da incollare nella bio del tuo profilo.</p>
+        <form id="login-form" class="row">
+          <input id="username" name="username" placeholder="Il tuo username Roblox" autocomplete="username" required />
+          <button type="submit">Continua</button>
+        </form>
+        <div id="challenge" class="challenge hidden">
+          <ol>
+            <li>Copia questo codice: <code id="challenge-code"></code></li>
+            <li>Incollalo nella sezione <em>About</em> del tuo profilo Roblox e salva.</li>
+            <li>Torna qui e conferma.</li>
+          </ol>
+          <button id="confirm-btn" type="button">Ho incollato il codice</button>
+        </div>
+      </section>
+
+      <section id="wallet" class="card hidden">
+        <h2>Portafoglio</h2>
+        <div class="balances">
+          <div class="balance"><span class="label">Disponibile</span><span class="value" id="balance-available">0</span></div>
+          <div class="balance"><span class="label">In maturazione</span><span class="value" id="balance-pending">0</span></div>
+          <div class="balance"><span class="label">In pagamento</span><span class="value" id="balance-reserved">0</span></div>
+        </div>
+        <form id="payout-form" class="row">
+          <input id="payout-amount" type="number" min="1" step="1" placeholder="Robux da riscattare" required />
+          <select id="payout-method">
+            <option value="group_payout">Group payout</option>
+            <option value="gift_card">Gift card Roblox</option>
+          </select>
+          <button type="submit">Riscatta</button>
+        </form>
+        <p class="muted" id="payout-hint"></p>
+        <ul id="payout-list" class="list"></ul>
+      </section>
+
+      <section id="games" class="card">
+        <h2>Giochi partner</h2>
+        <p class="muted">Apri il gioco da questi pulsanti: è così che tracciamo il tuo cashback.</p>
+        <ul id="game-list" class="list"></ul>
+      </section>
+
+      <section id="activity" class="card hidden">
+        <h2>Movimenti</h2>
+        <ul id="activity-list" class="list"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p class="muted small">
+        Robuxback non è affiliato a Roblox Corporation. Il cashback è finanziato dagli sviluppatori partner
+        e pagato tramite group payout o gift card: nessuno scambio di Robux fuori dalla piattaforma.
+      </p>
+    </footer>
+
+    <div id="toast" class="toast hidden"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "robuxback-sdk",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "Robuxback": { "$path": "src/Robuxback" },
+      "RobuxbackBootstrap": { "$path": "examples/ServerBootstrap.server.luau" }
+    }
+  }
+}

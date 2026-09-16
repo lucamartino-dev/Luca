@@ -17,3 +17,16 @@ recuperarne le email dei decision maker.
   outreach.
 
 Lancio: chiedi in chat "cerca investitori per SAE" (o equivalente).
+
+## roblox-cashback
+Programma di cashback per Roblox: chi apre un gioco partner dalla nostra app
+riceve il 10% dei Robux che spende dentro quel gioco.
+
+- `roblox-cashback/packages/api` — backend (attribuzione, ledger in partita
+  doppia, risk engine, payout), senza dipendenze esterne.
+- `roblox-cashback/packages/web` — app del giocatore.
+- `roblox-cashback/packages/roblox-sdk` — ModuleScript Luau per i giochi partner.
+- `roblox-cashback/docs` — architettura, API, integrazione partner, vincoli
+  Roblox e conti economici.
+
+Prova: `cd roblox-cashback/packages/api && RBX_MODE=mock npm start`

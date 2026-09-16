@@ -1,0 +1,14 @@
+{
+  "name": "@robuxback/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend del programma Robuxback: attribuzione, ledger, cashback e payout.",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "start": "node --no-warnings src/index.js",
+    "dev": "RBX_MODE=mock node --no-warnings --watch src/index.js",
+    "seed": "node --no-warnings scripts/seed.js",
+    "test": "node --no-warnings --test \"test/**/*.test.js\""
+  }
+}
