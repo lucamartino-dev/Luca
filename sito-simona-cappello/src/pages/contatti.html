@@ -1,0 +1,48 @@
+<!--META {"title": "Contatti | Dott.ssa Simona Cappello, Psicologa", "description": "Contatta la Dott.ssa Simona Cappello, psicologa a Pregnana Milanese, per fissare un primo colloquio: telefono, WhatsApp, email o prenotazione su MioDottore."} -->
+<section class="page-head">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Percorso"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Contatti</span></nav>
+    <h1>Contatti</h1>
+    <p class="lead">Per fissare un primo colloquio puoi prenotare direttamente su MioDottore, scrivermi su WhatsApp o lasciarmi un messaggio qui sotto. Ti risponderò il prima possibile.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap split">
+    <div class="stack">
+      <div class="contact-lines">
+        <div class="row"><span>Telefono / WhatsApp</span><strong>{{phone}}</strong></div>
+        <div class="row"><span>Email</span><strong>{{email}}</strong></div>
+        <div class="row"><span>Studio</span><strong>{{address}}, {{city}}</strong></div>
+        <div class="row"><span>Orari</span><strong>Su appuntamento</strong></div>
+      </div>
+      <div class="actions">
+        <a class="btn" href="{{miodottore}}" target="_blank" rel="noopener">{{icon:calendar}}Prenota su MioDottore</a>
+        <a class="btn secondary" href="{{whatsapp_url}}" target="_blank" rel="noopener">{{icon:chat}}WhatsApp</a>
+      </div>
+      <p><a class="link-arrow" href="{{maps}}" target="_blank" rel="noopener">Indicazioni stradali</a></p>
+    </div>
+
+    <form class="contact" id="contact-form" novalidate>
+      <h2 style="font-size:1.5rem">Scrivimi</h2>
+      <label for="f-name">Nome<input id="f-name" name="name" autocomplete="given-name" required></label>
+      <label for="f-contact">Email o telefono<input id="f-contact" name="contact" autocomplete="email" required></label>
+      <label for="f-topic">Per chi è il colloquio
+        <select id="f-topic" name="topic">
+          <option>Per me</option>
+          <option>Per la coppia</option>
+          <option>Per mio figlio o mia figlia</option>
+          <option>Sostegno alla genitorialità</option>
+          <option>Coaching</option>
+        </select>
+      </label>
+      <label for="f-msg">Messaggio (facoltativo)
+        <textarea id="f-msg" name="message" placeholder="Bastano due righe con le tue disponibilità."></textarea>
+        <span class="hint">Non è necessario scrivere qui informazioni personali o di salute: ne parleremo con calma durante il colloquio.</span>
+      </label>
+      <label class="check" for="f-privacy"><input type="checkbox" id="f-privacy" required> Ho letto l'<a href="note-legali.html#privacy">informativa privacy</a> e acconsento al trattamento dei miei dati per essere ricontattato.</label>
+      <button class="btn" type="submit">Invia la richiesta</button>
+      <p class="form-status" id="form-status" role="status" hidden></p>
+    </form>
+  </div>
+</section>
