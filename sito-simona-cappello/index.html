@@ -1,0 +1,378 @@
+<title>Dott.ssa Simona Cappello</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Dott.ssa Simona Cappello, psicologa a orientamento cognitivo post-razionalista e coach certificata. Studi a Pregnana Milanese e Cornaredo, colloqui anche online.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Figtree:wght@400;500;600&display=swap">
+<style>
+/* Layout: colonna di lettura stretta, sezioni alternate su fondo salvia e carta, un solo accento petrolio */
+:root {
+  --bg: #f4f6f3;
+  --paper: #ffffff;
+  --band: #e6ece7;
+  --fg: #1d2827;
+  --muted: #55625f;
+  --line: #cfd8d2;
+  --accent: #2c5a5e;
+  --accent-soft: #d7e5e3;
+  --note: #f6ecd4;
+  --note-fg: #6b5214;
+  --display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141b1b; --paper: #1b2423; --band: #19211f; --fg: #e4ebe8; --muted: #a2b0ac;
+    --line: #2f3c3a; --accent: #8cc4c2; --accent-soft: #23393a; --note: #3a3220; --note-fg: #ecd59b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141b1b; --paper: #1b2423; --band: #19211f; --fg: #e4ebe8; --muted: #a2b0ac;
+  --line: #2f3c3a; --accent: #8cc4c2; --accent-soft: #23393a; --note: #3a3220; --note-fg: #ecd59b;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--body); font-size: 1.0625rem; line-height: 1.65;
+}
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; text-wrap: balance; line-height: 1.15; margin: 0; }
+h2 { font-size: clamp(1.9rem, 4vw, 2.6rem); }
+h3 { font-size: 1.35rem; font-weight: 500; }
+p { margin: 0; }
+
+.wrap {
+  max-width: 68rem; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.eyebrow { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+
+/* Bozza */
+.draft { background: var(--note); color: var(--note-fg); font-size: .9rem; }
+.draft .wrap { padding-block: .7rem; }
+.todo { background: var(--note); color: var(--note-fg); border-radius: 4px; padding: 0 .35em; font-size: .92em; white-space: nowrap; }
+
+/* Header */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: .85rem; flex-wrap: wrap; }
+.brand { font-family: var(--display); font-size: 1.3rem; text-decoration: none; color: var(--fg); }
+.brand small { display: block; font-family: var(--body); font-size: .75rem; color: var(--muted); letter-spacing: .04em; }
+nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 1.25rem; flex-wrap: wrap; font-size: .95rem; }
+nav a { color: var(--fg); text-decoration: none; }
+nav a:hover { color: var(--accent); }
+@media (max-width: 760px) { nav { display: none; } }
+
+.btn {
+  display: inline-flex; align-items: center; gap: .5rem; padding: .8rem 1.3rem; border-radius: 999px;
+  background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 600; font-size: .98rem; border: 0; cursor: pointer;
+}
+.btn.ghost { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 1.5px var(--accent); }
+
+/* Hero */
+.hero .wrap { padding-block: clamp(3rem, 8vw, 6rem); display: grid; grid-template-columns: 1.35fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: center; }
+.hero h1 { font-size: clamp(2.5rem, 6.2vw, 4.4rem); letter-spacing: -.01em; }
+.hero h1 em { color: var(--accent); }
+.hero .lead { margin-top: 1.4rem; max-width: 36rem; color: var(--muted); font-size: 1.15rem; }
+.hero .cta { margin-top: 2rem; display: flex; gap: .8rem; flex-wrap: wrap; }
+.portrait {
+  aspect-ratio: 4 / 5; max-width: 100%; border-radius: 200px 200px 12px 12px; background: var(--accent-soft);
+  display: grid; place-items: center; text-align: center; color: var(--muted); font-size: .9rem; padding: 2rem;
+  border: 1px dashed var(--line);
+}
+@media (max-width: 760px) { .hero .wrap { grid-template-columns: 1fr; } .portrait { max-width: 18rem; } }
+
+/* Sezioni */
+section.block .wrap { padding-block: clamp(3.5rem, 7vw, 5.5rem); }
+section.alt { background: var(--band); }
+.head { display: grid; gap: .6rem; margin-bottom: 2.5rem; max-width: 42rem; }
+.head p { color: var(--muted); }
+
+.about { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 4rem); }
+.about .text { display: grid; gap: 1.1rem; max-width: 65ch; min-width: 0; }
+.facts { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--line); align-self: start; }
+.facts li { display: grid; grid-template-columns: 9rem 1fr; gap: 1rem; padding: .9rem 0; border-bottom: 1px solid var(--line); }
+.facts span:first-child { color: var(--muted); font-size: .9rem; }
+@media (max-width: 760px) { .about { grid-template-columns: 1fr; } .facts li { grid-template-columns: 1fr; gap: .2rem; } }
+
+.areas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.2rem 2.5rem; }
+.area { display: grid; gap: .5rem; align-content: start; padding-top: 1.1rem; border-top: 1.5px solid var(--accent); }
+.area p { color: var(--muted); font-size: 1rem; }
+@media (max-width: 900px) { .areas { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .areas { grid-template-columns: 1fr; } }
+
+.method { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: start; }
+.method blockquote { margin: 0; font-family: var(--display); font-style: italic; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.3; color: var(--accent); }
+.method .text { display: grid; gap: 1.1rem; max-width: 65ch; min-width: 0; }
+.steps { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 1rem; counter-reset: s; }
+.steps li { counter-increment: s; display: grid; grid-template-columns: 2.2rem 1fr; gap: .8rem; }
+.steps li::before { content: counter(s); font-family: var(--display); font-size: 1.5rem; color: var(--accent); line-height: 1.2; }
+@media (max-width: 760px) { .method { grid-template-columns: 1fr; } }
+
+.prices { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; overflow-x: auto; }
+.prices table { width: 100%; border-collapse: collapse; min-width: 30rem; }
+.prices th, .prices td { text-align: left; padding: 1rem 1.25rem; border-bottom: 1px solid var(--line); }
+.prices tr:last-child td { border-bottom: 0; }
+.prices th { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.prices td:last-child, .prices th:last-child { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.prices td small { display: block; color: var(--muted); font-size: .88rem; }
+.fine { margin-top: 1rem; color: var(--muted); font-size: .92rem; max-width: 65ch; }
+
+.places { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.place { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 1.5rem; display: grid; gap: .5rem; align-content: start; }
+.place .eyebrow { color: var(--accent); }
+.place address { font-style: normal; color: var(--muted); }
+@media (max-width: 900px) { .places { grid-template-columns: 1fr; } }
+
+.reviews { display: grid; grid-template-columns: auto 1fr; gap: 2rem 3rem; align-items: center; }
+.score { font-family: var(--display); font-size: clamp(3.5rem, 8vw, 5rem); line-height: 1; color: var(--accent); }
+.score small { display: block; font-family: var(--body); font-size: .95rem; color: var(--muted); margin-top: .5rem; }
+.slots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.slot { border: 1px dashed var(--line); border-radius: 12px; padding: 1.25rem; color: var(--muted); font-size: .95rem; min-height: 7rem; }
+@media (max-width: 900px) { .reviews { grid-template-columns: 1fr; } .slots { grid-template-columns: 1fr; } }
+
+.contact { display: grid; grid-template-columns: 1.2fr 1fr; gap: clamp(2rem, 5vw, 4rem); }
+.contact .lines { display: grid; gap: 1.1rem; }
+.contact .row { display: grid; gap: .1rem; }
+.contact .row span { color: var(--muted); font-size: .88rem; }
+.contact .row strong { font-weight: 500; font-size: 1.1rem; }
+form { display: grid; gap: .9rem; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 1.5rem; }
+label { display: grid; gap: .3rem; font-size: .9rem; color: var(--muted); }
+input, textarea, select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: .7rem .8rem; width: 100%; }
+textarea { min-height: 7rem; resize: vertical; }
+.check { display: flex; gap: .6rem; align-items: flex-start; font-size: .85rem; }
+.check input { width: auto; margin-top: .25rem; }
+.sent { font-size: .95rem; color: var(--accent); }
+@media (max-width: 760px) { .contact { grid-template-columns: 1fr; } }
+
+footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
+footer .wrap { padding-block: 2rem; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+</style>
+
+<div class="draft" role="note">
+  <div class="wrap"><strong>Bozza.</strong> Le parti evidenziate <span class="todo">così</span> vanno completate o verificate prima della pubblicazione.</div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inizio">Dott.ssa Simona Cappello<small>Psicologa · Coach certificata</small></a>
+    <nav aria-label="Sezioni">
+      <ul>
+        <li><a href="#chi-sono">Chi sono</a></li>
+        <li><a href="#di-cosa-mi-occupo">Di cosa mi occupo</a></li>
+        <li><a href="#approccio">Approccio</a></li>
+        <li><a href="#tariffe">Tariffe</a></li>
+        <li><a href="#studi">Studi</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="inizio">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Psicologa a Pregnana Milanese, Cornaredo e online</p>
+        <h1>Dare un senso a ciò che provi, <em>per tornare a scegliere</em>.</h1>
+        <p class="lead">Accompagno adulti e genitori attraverso ansia, pensieri ricorrenti e fasi di cambiamento difficili, con percorsi costruiti sulla persona e non su un protocollo.</p>
+        <div class="cta">
+          <a class="btn" href="https://www.miodottore.it/profilo/simona-cappello" target="_blank" rel="noopener">Prenota su MioDottore</a>
+          <a class="btn ghost" href="#contatti">Scrivimi</a>
+        </div>
+      </div>
+      <div class="portrait" role="img" aria-label="Spazio per la fotografia">Spazio per una tua foto<br>(ritratto verticale, luce naturale)</div>
+    </div>
+  </section>
+
+  <section class="block alt" id="chi-sono">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Chi sono</p>
+        <h2>Una psicologa con una formazione da ingegnera</h2>
+      </div>
+      <div class="about">
+        <div class="text">
+          <p>Sono psicologa a orientamento cognitivo post-razionalista e coach certificata. Prima della psicologia mi sono laureata in Ingegneria: da quel percorso ho tenuto il gusto per la chiarezza e per gli obiettivi concreti.</p>
+          <p>In seduta lavoriamo insieme per capire come costruisci il significato di ciò che ti accade, perché certe emozioni tornano e cosa ti stanno dicendo. Da lì diventa possibile cambiare il modo in cui le vivi.</p>
+          <p>Ricevo in studio nell'area ovest di Milano e online. Collaboro anche con centri che lavorano in équipe multidisciplinare, quando un percorso ha bisogno di più figure.</p>
+          <p><span class="todo">Aggiungere 2 righe personali: perché hai scelto questo lavoro</span></p>
+        </div>
+        <ul class="facts">
+          <li><span>Albo</span><span>Ordine degli Psicologi della Lombardia, n. 29185</span></li>
+          <li><span>Formazione</span><span>Laurea magistrale in Psicologia<br>Master in Coaching umanistico<br>Laurea magistrale in Ingegneria</span></li>
+          <li><span>Tirocinio</span><span>Centro di psicologia, Bollate <span class="todo">nome del centro</span></span></li>
+          <li><span>Approccio</span><span>Cognitivo post-razionalista</span></li>
+          <li><span>Modalità</span><span>In studio e online</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="di-cosa-mi-occupo">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Di cosa mi occupo</p>
+        <h2>Quando qualcosa pesa più del solito</h2>
+        <p>Non serve avere un nome preciso per ciò che stai vivendo. Spesso il primo colloquio serve proprio a trovarlo insieme.</p>
+      </div>
+      <div class="areas">
+        <div class="area"><h3>Ansia</h3><p>Preoccupazioni che non si spengono, agitazione, sintomi fisici senza una causa chiara, attacchi di panico.</p></div>
+        <div class="area"><h3>Pensieri ricorrenti</h3><p>Rimuginio, dubbi che tornano, la sensazione di non riuscire a staccare la testa.</p></div>
+        <div class="area"><h3>Emozioni difficili da gestire</h3><p>Rabbia, tristezza o irritabilità che sembrano più grandi di te e influenzano le relazioni.</p></div>
+        <div class="area"><h3>Autostima</h3><p>Sentirsi sempre inadeguati, il confronto continuo con gli altri, la paura di sbagliare.</p></div>
+        <div class="area"><h3>Fasi di cambiamento</h3><p>Una separazione, un nuovo lavoro, un trasferimento, una diagnosi: momenti in cui le vecchie certezze non bastano più.</p></div>
+        <div class="area"><h3>Sostegno alla genitorialità</h3><p>Uno spazio per i genitori che vogliono capire meglio i figli e ritrovare equilibrio in famiglia.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block alt" id="approccio">
+    <div class="wrap">
+      <div class="method">
+        <div>
+          <p class="eyebrow">Approccio</p>
+          <h2 style="margin-top:.6rem">Cognitivo post-razionalista</h2>
+          <blockquote style="margin-top:1.6rem">Non c'è un modo giusto di sentire. C'è il tuo modo, e vale la pena capirlo.</blockquote>
+        </div>
+        <div class="text">
+          <p>L'approccio post-razionalista parte da un'idea semplice: ognuno di noi dà un significato personale alle proprie esperienze, e quel significato si è formato nel tempo, nella propria storia. I sintomi non sono errori da correggere, ma segnali di un equilibrio che sta cercando di riorganizzarsi.</p>
+          <p>Quando serve, integro strumenti di coaching per lavorare su obiettivi pratici: decisioni, lavoro, organizzazione del tempo.</p>
+          <ol class="steps">
+            <li><span><strong>Primo colloquio.</strong> Mi racconti cosa ti porta qui. Capiamo insieme se e come posso esserti utile.</span></li>
+            <li><span><strong>Definizione del percorso.</strong> Concordiamo obiettivi, frequenza degli incontri e modalità, in studio o online.</span></li>
+            <li><span><strong>Il lavoro insieme.</strong> Sedute regolari in cui osserviamo episodi concreti della tua vita e il modo in cui li vivi.</span></li>
+            <li><span><strong>Verifica.</strong> A intervalli regolari facciamo il punto su cosa è cambiato e su cosa resta da fare.</span></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="tariffe">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Percorsi e tariffe</p>
+        <h2>Prestazioni</h2>
+      </div>
+      <div class="prices">
+        <table>
+          <thead><tr><th scope="col">Prestazione</th><th scope="col">Durata</th><th scope="col">Tariffa</th></tr></thead>
+          <tbody>
+            <tr><td>Colloquio psicologico clinico<small>In studio</small></td><td><span class="todo">50 min?</span></td><td>70 €</td></tr>
+            <tr><td>Sostegno psicologico<small>In studio</small></td><td><span class="todo">50 min?</span></td><td>70 €</td></tr>
+            <tr><td>Sostegno alla genitorialità<small>In studio</small></td><td><span class="todo">50 min?</span></td><td>70 €</td></tr>
+            <tr><td>Coaching<small>In studio</small></td><td><span class="todo">50 min?</span></td><td>70 €</td></tr>
+            <tr><td>Consulenza online<small>Videochiamata</small></td><td><span class="todo">50 min?</span></td><td>60 €</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="fine">Pagamento in contanti, carta di credito, Satispay o PayPal. Le prestazioni psicologiche sono detraibili come spese sanitarie. <span class="todo">Verificare: alcune directory riportano 50 € a seduta</span></p>
+    </div>
+  </section>
+
+  <section class="block alt" id="studi">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Dove ricevo</p>
+        <h2>Studi e consulenze online</h2>
+      </div>
+      <div class="places">
+        <div class="place">
+          <p class="eyebrow">Studio privato</p>
+          <h3>Pregnana Milanese</h3>
+          <address>Via Cornaredo, 17<br>20006 Pregnana Milanese (MI)</address>
+        </div>
+        <div class="place">
+          <p class="eyebrow">Medea Studio Professionale di Psicologia</p>
+          <h3>Cornaredo</h3>
+          <address>Via Vittime delle Foibe, 12<br>20007 Cornaredo (MI)</address>
+        </div>
+        <div class="place">
+          <p class="eyebrow">Online</p>
+          <h3>In videochiamata</h3>
+          <address>Da casa tua, ovunque ti trovi. Serve solo una connessione stabile e un luogo tranquillo.</address>
+        </div>
+      </div>
+      <p class="fine"><span class="todo">Confermare gli studi attivi: su MioDottore compaiono anche Rho (Via Luigi Capuana 50) e altre sedi</span></p>
+    </div>
+  </section>
+
+  <section class="block" id="recensioni">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Cosa dicono i pazienti</p>
+        <h2>Recensioni verificate</h2>
+      </div>
+      <div class="reviews">
+        <div class="score">87<small>recensioni su MioDottore</small></div>
+        <div class="slots">
+          <div class="slot"><span class="todo">Recensione 1</span><br>Copia il testo da MioDottore o Google, con iniziale e data.</div>
+          <div class="slot"><span class="todo">Recensione 2</span><br>I pazienti citano spesso l'attenzione durante la visita e la chiarezza delle spiegazioni.</div>
+          <div class="slot"><span class="todo">Recensione 3</span><br>Meglio scegliere recensioni che parlano di temi diversi.</div>
+        </div>
+      </div>
+      <p class="fine" style="margin-top:1.5rem"><a href="https://www.miodottore.it/profilo/simona-cappello" target="_blank" rel="noopener">Leggi tutte le recensioni su MioDottore</a></p>
+    </div>
+  </section>
+
+  <section class="block alt" id="contatti">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Contatti</p>
+        <h2>Fissiamo un primo colloquio</h2>
+        <p>Rispondo di solito entro un giorno lavorativo. Se preferisci, puoi prenotare direttamente un orario libero su MioDottore.</p>
+      </div>
+      <div class="contact">
+        <div class="lines">
+          <div class="row"><span>Telefono / WhatsApp</span><strong><span class="todo">+39 ...</span></strong></div>
+          <div class="row"><span>Email</span><strong><span class="todo">nome@dominio.it</span></strong></div>
+          <div class="row"><span>Prenotazione online</span><strong><a href="https://www.miodottore.it/profilo/simona-cappello" target="_blank" rel="noopener">miodottore.it/profilo/simona-cappello</a></strong></div>
+          <div class="row"><span>Orari</span><strong><span class="todo">es. lun-ven 9-20, su appuntamento</span></strong></div>
+        </div>
+        <form id="contact-form" novalidate>
+          <label for="f-name">Nome<input id="f-name" name="name" autocomplete="given-name" required></label>
+          <label for="f-contact">Email o telefono<input id="f-contact" name="contact" required></label>
+          <label for="f-mode">Preferisci
+            <select id="f-mode" name="mode">
+              <option>In studio a Pregnana Milanese</option>
+              <option>In studio a Cornaredo</option>
+              <option>Online</option>
+            </select>
+          </label>
+          <label for="f-msg">Messaggio (facoltativo)<textarea id="f-msg" name="message" placeholder="Bastano due righe su cosa ti porta a scrivere."></textarea></label>
+          <label class="check" for="f-privacy"><input type="checkbox" id="f-privacy" required> Ho letto l'informativa privacy e acconsento al trattamento dei dati per essere ricontattato.</label>
+          <button class="btn" type="submit">Invia la richiesta</button>
+          <p class="sent" id="f-status" hidden></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Dott.ssa Simona Cappello · Psicologa, iscritta all'Ordine degli Psicologi della Lombardia n. 29185 · P.IVA <span class="todo">da inserire</span></span>
+    <span><a href="#inizio">Privacy</a> · <a href="#inizio">Cookie</a></span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var status = document.getElementById('f-status');
+    if (!this.checkValidity()) {
+      status.textContent = 'Inserisci nome, un recapito e accetta l\'informativa privacy.';
+    } else {
+      status.textContent = 'Anteprima: nella versione online il modulo verrà collegato alla tua email.';
+    }
+    status.hidden = false;
+  });
+</script>
