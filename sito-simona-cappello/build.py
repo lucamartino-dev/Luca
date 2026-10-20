@@ -19,7 +19,7 @@ CONFIG = {
     "role": "Psicologa",
     "phone": "+39 347 051 5781",
     "whatsapp": "393470515781",
-    "email": "",          # es. "info@simonacappellopsicologa.it"
+    "email": "simonacappello@gmail.com",
     "miodottore": "https://www.miodottore.it/profilo/simona-cappello",
     "address": "Via Cornaredo 17",
     "cap": "20006",
