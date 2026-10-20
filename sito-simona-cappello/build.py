@@ -17,8 +17,8 @@ CONFIG = {
     "site_url": "https://www.simonacappellopsicologa.it",  # da confermare quando acquisti il dominio
     "name": "Dott.ssa Simona Cappello",
     "role": "Psicologa",
-    "phone": "",          # es. "+39 333 123 4567"
-    "whatsapp": "",       # solo cifre con prefisso, es. "393331234567"
+    "phone": "+39 347 051 5781",
+    "whatsapp": "393470515781",
     "email": "",          # es. "info@simonacappellopsicologa.it"
     "miodottore": "https://www.miodottore.it/profilo/simona-cappello",
     "address": "Via Cornaredo 17",
