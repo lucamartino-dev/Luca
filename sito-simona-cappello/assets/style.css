@@ -97,12 +97,6 @@ details.mnav a[aria-current="page"] { color: var(--tortora-scuro); font-weight: 
 .hero { background: linear-gradient(180deg, var(--avorio) 0%, var(--cipria-tenue) 100%); overflow: hidden; }
 .hero .wrap { padding-block: clamp(3rem, 7vw, 5.5rem); display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(2rem, 6vw, 5rem); align-items: center; }
 .hero-text { display: grid; gap: 1.4rem; min-width: 0; }
-.hero-text > * { animation: rise .9s cubic-bezier(.2, .7, .2, 1) both; }
-.hero-text > *:nth-child(2) { animation-delay: .08s; }
-.hero-text > *:nth-child(3) { animation-delay: .16s; }
-.hero-text > *:nth-child(4) { animation-delay: .24s; }
-.hero-text > *:nth-child(5) { animation-delay: .32s; }
-@keyframes rise { from { opacity: .001; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 .signature { display: grid; gap: .1rem; padding-left: 1rem; border-left: 1.5px solid var(--nude); }
 .signature strong { font-family: var(--display); font-weight: 400; font-size: 1.15rem; }
 .signature span { font-size: .92rem; }
