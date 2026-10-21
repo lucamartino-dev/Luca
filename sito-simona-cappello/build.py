@@ -220,9 +220,8 @@ def layout(meta, body, path):
 <meta property="og:image" content="{CONFIG['site_url']}/assets/simona-cappello.jpg">
 <meta name="theme-color" content="#FAF7F4">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700&display=swap">
+<link rel="preload" href="assets/fonts/playfair-display-normal-4.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="assets/style.css">
 {ld_html}
 </head>
@@ -254,9 +253,7 @@ def render(text):
 def main():
     if OUT.exists():
         shutil.rmtree(OUT)
-    (OUT / "assets").mkdir(parents=True)
-    for f in (ROOT / "assets").iterdir():
-        shutil.copy(f, OUT / "assets" / f.name)
+    shutil.copytree(ROOT / "assets", OUT / "assets")
 
     pages = []
     for src in sorted(SRC.glob("*.html")):

@@ -15,19 +15,13 @@ Sito statico in HTML e CSS, senza dipendenze. Si pubblica su qualunque hosting (
 2. Modifica i testi in `src/pages/`.
 3. Lancia `python3 build.py` e carica online la cartella `site/`.
 
-## Da completare prima della pubblicazione
+## Da completare
 
-Nel sito le parti da completare sono evidenziate in rosa.
-
-- [ ] Telefono, WhatsApp, email, P. IVA (in `build.py`)
-- [ ] Foto professionale per la home e la pagina Chi sono
-- [ ] Foto dello studio (stanza, dettaglio, sala d'attesa)
-- [ ] Verifica del numero di iscrizione all'Albo
-- [ ] Tariffe e durata delle sedute
-- [ ] Colloqui online: sì o no
-- [ ] Università e anni dei titoli, nome del centro di tirocinio
-- [ ] Come arrivare: parcheggio, treno, accessibilità
-- [ ] Privacy e cookie policy definitive
-- [ ] Collegare il modulo di contatto a un servizio di invio (es. Formspree o Netlify Forms)
-- [ ] Acquistare il dominio e aggiornare `site_url`
-- [ ] Creare o collegare la scheda Google Business Profile al sito
+- [x] Telefono, WhatsApp, email, P. IVA
+- [x] Foto della dottoressa e dello studio
+- [x] Tariffe, durata, colloqui online, orari, accesso allo studio
+- [x] Caratteri tipografici ospitati sul sito (niente Google Fonts esterni)
+- [x] Modulo di contatto pronto per Netlify Forms
+- [ ] Acquisto del dominio e pubblicazione (vedi GUIDA-PUBBLICAZIONE.md)
+- [ ] Privacy policy definitiva
+- [ ] Scheda Google Business Profile e Google Search Console
