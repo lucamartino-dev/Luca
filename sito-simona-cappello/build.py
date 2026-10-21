@@ -79,7 +79,7 @@ SERVICES = [
 
 # Incontri e workshop già realizzati (anche in studio, in piccoli gruppi)
 EVENTS = [
-    ("Burnout", "Riconoscerlo, prevenirlo, uscirne", "Quando il lavoro consuma le energie: segnali, cause e strategie per ritrovare equilibrio.", "Aziende e professionisti", True, "salvia"),
+    ("Burnout", "Capirlo e superarlo", "Quando il lavoro consuma le energie: segnali, cause e strategie per ritrovare equilibrio.", "Aziende e professionisti", True, "salvia"),
     ("Ansia", "Conoscerla per gestirla", "Cos'è l'ansia, perché arriva e come imparare ad ascoltarla senza esserne travolti.", "Adulti e gruppi", False, "sabbia"),
     ("Le emozioni", "Riconoscerle, nominarle, viverle", "Un incontro per imparare a dare un nome a ciò che proviamo e a farne una risorsa.", "Adulti, scuole e associazioni", False, "legno"),
     ("Fame emotiva", "Quando il cibo parla delle emozioni", "Il legame tra cibo, emozioni e corpo, e come costruire un rapporto più sereno con l'alimentazione.", "Adulti e gruppi", False, "sabbia"),
