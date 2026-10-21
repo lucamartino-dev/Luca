@@ -210,6 +210,7 @@ def layout(meta, body, path):
 <title>{meta['title']}</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="{meta['description']}">
+{'<meta name="robots" content="noindex">' if meta.get('noindex') else ''}
 <link rel="canonical" href="{url}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="it_IT">
@@ -264,7 +265,8 @@ def main():
         meta = json.loads(m.group(1))
         body = render(raw[m.end():])
         (OUT / src.name).write_text(layout(meta, body, src.name), encoding="utf-8")
-        pages.append(src.name)
+        if not meta.get("noindex"):
+            pages.append(src.name)
 
     base = CONFIG["site_url"]
     urls = "\n".join(

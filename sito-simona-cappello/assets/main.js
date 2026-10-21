@@ -11,12 +11,17 @@ document.querySelectorAll('[data-year]').forEach(function (el) {
 // Modulo contatti: anteprima finché non viene collegato a un servizio di invio
 var form = document.getElementById('contact-form');
 if (form) {
+  // Sul sito pubblicato (Netlify) il modulo viene inviato davvero; altrove resta un'anteprima
+  var live = /simonacappellopsicologa\.it$|netlify\.app$/.test(location.hostname);
   form.addEventListener('submit', function (e) {
-    e.preventDefault();
     var status = document.getElementById('form-status');
     if (!form.checkValidity()) {
+      e.preventDefault();
       status.textContent = 'Per inviare la richiesta servono nome, un recapito e il consenso privacy.';
+    } else if (live) {
+      return;
     } else {
+      e.preventDefault();
       status.textContent = 'Grazie. In questa anteprima il modulo non invia ancora messaggi: verrà collegato alla tua email al momento della pubblicazione.';
       form.reset();
     }
