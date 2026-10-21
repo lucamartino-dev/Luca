@@ -28,6 +28,7 @@ CONFIG = {
     "albo": "Ordine degli Psicologi della Lombardia n. 29185",
     "piva": "13929220963",
     "hours": "Lunedì-venerdì, 9-18, anche in pausa pranzo",
+    "google_reviews": "https://www.google.com/maps/search/?api=1&query=Dott.ssa+Simona+Cappello+Psicologa",
     "maps": "https://www.google.com/maps/search/?api=1&query=Via+Cornaredo+17+20006+Pregnana+Milanese",
     "towns": ["Pregnana Milanese", "Cornaredo", "Rho", "Bareggio", "Vanzago", "Arluno"],
 }
