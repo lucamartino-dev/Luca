@@ -156,8 +156,8 @@ a.card:hover { border-color: var(--salvia); box-shadow: 0 18px 40px -26px rgba(7
 .card p { font-size: 1rem; color: var(--testo-2); }
 .card .go { margin-top: .3rem; font-weight: 700; font-size: .92rem; color: var(--salvia); }
 .cards.services { grid-template-columns: repeat(4, 1fr); }
-.card.help { background: var(--salvia-chiaro); border-color: transparent; }
-.card.help p { color: var(--testo); }
+.help-strip { margin-top: 1.3rem; display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; justify-content: space-between; background: var(--salvia-chiaro); border-radius: var(--r); padding: 1.2rem 1.5rem; }
+.help-strip p { max-width: 50rem; }
 .journey { list-style: none; padding-left: 0 !important; display: grid; gap: .7rem !important; }
 .journey li { padding-left: 1.1rem; border-left: 2px solid var(--legno); }
 @media (max-width: 1100px) { .cards.services { grid-template-columns: repeat(2, 1fr); } }
@@ -195,6 +195,23 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .review-source .num svg { width: 1.7rem; height: 1.7rem; }
 .review-source strong { display: block; font-size: 1.05rem; }
 .review-source .muted { display: block; font-size: .92rem; text-decoration: underline; text-decoration-color: var(--linea-scura); }
+
+/* Locandine di incontri e workshop */
+.posters { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.3rem; }
+.poster { position: relative; min-height: 27rem; border-radius: 140px 140px 14px 14px; padding: 3.2rem 1.4rem 1.6rem; display: flex; flex-direction: column; gap: .45rem; overflow: hidden; }
+.poster::after { content: ""; position: absolute; inset: .55rem; border-radius: 132px 132px 9px 9px; border: 1px solid currentColor; opacity: .28; pointer-events: none; }
+.poster.salvia { background: var(--salvia); color: var(--avorio); }
+.poster.legno { background: #7C5F45; color: var(--avorio); }
+.poster.sabbia { background: var(--greige); color: var(--testo); }
+.poster-top { display: flex; justify-content: center; }
+.poster .badge { font-size: .74rem; font-weight: 700; letter-spacing: .04em; border: 1px solid currentColor; border-radius: 999px; padding: .15rem .7rem; }
+.poster h3 { color: inherit; font-size: clamp(1.5rem, 2.2vw, 1.85rem); text-align: center; margin-top: .6rem; }
+.poster .sub { font-family: var(--display); font-style: italic; text-align: center; font-size: 1.02rem; line-height: 1.35; }
+.poster .txt { font-size: .9rem; line-height: 1.55; margin-top: .4rem; text-align: center; }
+.poster .who { margin-top: auto; font-size: .82rem; font-weight: 700; text-align: center; }
+.poster .sign { font-size: .74rem; text-align: center; opacity: .85; border-top: 1px solid currentColor; padding-top: .45rem; }
+@media (max-width: 1100px) { .posters { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .posters { grid-template-columns: 1fr; max-width: 22rem; } }
 
 /* Tariffe */
 .prices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }

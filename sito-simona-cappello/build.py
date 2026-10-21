@@ -58,6 +58,7 @@ ICONS = {
     "star": f'<svg {_S}><path d="M12 4l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.4l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/></svg>',
     "video": f'<svg {_S}><rect x="3.5" y="6.5" width="12" height="11" rx="2"/><path d="M15.5 10.5l5-3v9l-5-3"/></svg>',
     "receipt": f'<svg {_S}><path d="M6 3.5h12v17l-3-2-3 2-3-2-3 2z"/><path d="M9 8.5h6M9 12h6"/></svg>',
+    "bowl": f'<svg {_S}><path d="M3.5 11h17a8.5 8.5 0 0 1-17 0z"/><path d="M9 7c0-1.5 1-2 1-3.5M13 7c0-1.5 1-2 1-3.5"/></svg>',
     "leaf": f'<svg {_S}><path d="M5 19c0-8 5-14 14-14 0 9-6 14-14 14z"/><path d="M5 19c3-4 6-7 10-9"/></svg>',
     "info": f'<svg {_S}><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg>',
 }
@@ -70,7 +71,20 @@ SERVICES = [
     ("adolescenti.html", "sprout", "Adolescenti", "Uno spazio di ascolto dedicato ai ragazzi, per affrontare fragilità, vissuti emotivi, difficoltà relazionali e momenti delicati della crescita."),
     ("neo-mamme-maternita.html", "heart", "Neo-mamme e maternità", "Per accogliere dubbi, cambiamenti, fatiche e vissuti emotivi legati alla maternità e alla ridefinizione di sé."),
     ("malattia-cronica.html", "leaf", "Convivere con una malattia cronica", "Uno spazio per chi convive con una malattia cronica, e per chi gli sta accanto, per dare voce a ciò che la malattia porta con sé."),
+    ("rapporto-con-il-cibo.html", "bowl", "Il rapporto con il cibo", "Per chi sente che il cibo è diventato fonte di fatica, senso di colpa o preoccupazione: fame emotiva, abbuffate, diete continue, immagine corporea."),
     ("coaching-orientamento.html", "compass", "Coaching e crescita professionale", "Percorsi mirati per chi desidera fare chiarezza in una fase di cambiamento personale o professionale, o vive lo stress del lavoro."),
+]
+
+# Temi di incontri e workshop. done=True solo per gli incontri già realizzati davvero.
+EVENTS = [
+    ("Burnout", "Riconoscerlo, prevenirlo, uscirne", "Quando il lavoro consuma le energie: segnali, cause e strategie per ritrovare equilibrio.", "Aziende e professionisti", True, "salvia"),
+    ("Ansia", "Conoscerla per gestirla", "Cos'è l'ansia, perché arriva e come imparare ad ascoltarla senza esserne travolti.", "Adulti e gruppi", False, "sabbia"),
+    ("Le emozioni", "Riconoscerle, nominarle, viverle", "Un incontro per imparare a dare un nome a ciò che proviamo e a farne una risorsa.", "Adulti, scuole e associazioni", False, "legno"),
+    ("Fame emotiva", "Quando il cibo parla delle emozioni", "Il legame tra cibo, emozioni e corpo, e come costruire un rapporto più sereno con l'alimentazione.", "Adulti e gruppi", False, "sabbia"),
+    ("Stress e lavoro", "Ritrovare equilibrio", "Pressione, carichi, conciliazione: strumenti concreti per stare meglio al lavoro.", "Aziende e team", False, "legno"),
+    ("Diventare mamma", "Il benessere dopo la nascita", "Emozioni, fatiche e cambiamenti dei primi mesi, per non sentirsi sole.", "Neo-mamme e gruppi di genitori", False, "salvia"),
+    ("Crescere con loro", "Adolescenti ed emozioni", "Un incontro per genitori: capire i ragazzi e trovare il modo di stare loro accanto.", "Genitori e scuole", False, "sabbia"),
+    ("Cambiare strada", "Affrontare le transizioni di vita", "Cambiare lavoro, città, ruolo: come attraversare il cambiamento senza perdersi.", "Adulti e professionisti", False, "legno"),
 ]
 
 PRICES = [
@@ -112,13 +126,14 @@ def service_cards(exclude=None, with_help=True):
             f'<a class="card" href="{href}"><span class="ico">{ICONS[icon]}</span>'
             f'<h3>{title}</h3><p>{text}</p><span class="go">Scopri di più</span></a>'
         )
+    html = "\n      ".join(out)
     if with_help:
-        out.append(
-            f'<a class="card help" href="contatti.html"><h3>Non sai quale scegliere?</h3>'
-            f'<p>Non serve saperlo prima. Lo capiamo insieme nel primo colloquio, oppure scrivimi due righe.</p>'
-            f'<span class="go">Contattami</span></a>'
+        html += (
+            '\n    </div>\n    <div class="help-strip"><p><strong>Non sai quale scegliere?</strong> '
+            'Non serve saperlo prima: lo capiamo insieme nel primo colloquio.</p>'
+            '<a class="btn secondary" href="contatti.html">Scrivimi due righe</a>'
         )
-    return "\n      ".join(out)
+    return html
 
 
 def service_chips(exclude):
@@ -127,6 +142,18 @@ def service_chips(exclude):
         for href, icon, title, _ in SERVICES if href != exclude
     )
     return f'<ul class="chips">{items}</ul>'
+
+
+def posters(limit=None):
+    out = []
+    for title, sub, text, who, done, tone in EVENTS[:limit]:
+        badge = '<span class="badge">Già realizzato</span>' if done else '<span class="badge">Workshop</span>'
+        out.append(
+            f'<article class="poster {tone}"><div class="poster-top">{badge}</div>'
+            f'<h3>{title}</h3><p class="sub">{sub}</p><p class="txt">{text}</p>'
+            f'<p class="who">{who}</p><p class="sign">Dott.ssa Simona Cappello</p></article>'
+        )
+    return "\n      ".join(out)
 
 
 def prices_block():
@@ -220,6 +247,7 @@ def footer():
       <p class="label">Di cosa mi occupo</p>
       <ul>
         {"".join(f'<li><a href="{h}">{t}</a></li>' for h, _, t, _ in SERVICES)}
+        <li><a href="incontri.html">Incontri e workshop</a></li>
       </ul>
     </div>
     <div class="col">
@@ -317,6 +345,8 @@ def render(text):
     text = text.replace("{{final_cta}}", final_cta())
     text = text.replace("{{trust}}", trust_strip())
     text = text.replace("{{prices}}", prices_block())
+    text = text.replace("{{posters}}", posters())
+    text = text.replace("{{posters_teaser}}", posters(4))
     text = text.replace("{{emergency}}", emergency())
     text = text.replace("{{service_cards}}", service_cards())
     text = re.sub(r"\{\{other_services:([\w.-]+)\}\}", lambda m: service_chips(m.group(1)), text)
