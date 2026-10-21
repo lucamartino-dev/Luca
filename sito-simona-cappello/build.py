@@ -27,7 +27,7 @@ CONFIG = {
     "province": "MI",
     "albo": "Ordine degli Psicologi della Lombardia n. 29185",
     "piva": "13929220963",
-    "hours": "Lunedì-venerdì, 9-18, anche in pausa pranzo",
+    "hours": "Dal lunedì al venerdì, dalle 9 alle 18, anche in pausa pranzo",
     "google_reviews": "https://www.google.com/maps/search/?api=1&query=Dott.ssa+Simona+Cappello+Psicologa",
     "maps": "https://www.google.com/maps/search/?api=1&query=Via+Cornaredo+17+20006+Pregnana+Milanese",
     "towns": ["Pregnana Milanese", "Cornaredo", "Rho", "Bareggio", "Vanzago", "Arluno"],
@@ -58,6 +58,7 @@ ICONS = {
     "star": f'<svg {_S}><path d="M12 4l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.4l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/></svg>',
     "video": f'<svg {_S}><rect x="3.5" y="6.5" width="12" height="11" rx="2"/><path d="M15.5 10.5l5-3v9l-5-3"/></svg>',
     "receipt": f'<svg {_S}><path d="M6 3.5h12v17l-3-2-3 2-3-2-3 2z"/><path d="M9 8.5h6M9 12h6"/></svg>',
+    "leaf": f'<svg {_S}><path d="M5 19c0-8 5-14 14-14 0 9-6 14-14 14z"/><path d="M5 19c3-4 6-7 10-9"/></svg>',
     "info": f'<svg {_S}><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg>',
 }
 
@@ -68,7 +69,8 @@ SERVICES = [
     ("sostegno-genitorialita.html", "family", "Sostegno alla genitorialità", "Per accompagnare i genitori nella comprensione dei bisogni dei figli e delle difficoltà educative o relazionali."),
     ("adolescenti.html", "sprout", "Adolescenti", "Uno spazio di ascolto dedicato ai ragazzi, per affrontare fragilità, vissuti emotivi, difficoltà relazionali e momenti delicati della crescita."),
     ("neo-mamme-maternita.html", "heart", "Neo-mamme e maternità", "Per accogliere dubbi, cambiamenti, fatiche e vissuti emotivi legati alla maternità e alla ridefinizione di sé."),
-    ("coaching-orientamento.html", "compass", "Coaching e orientamento", "Percorsi mirati per chi desidera fare maggiore chiarezza in una fase di cambiamento personale o professionale."),
+    ("malattia-cronica.html", "leaf", "Convivere con una malattia cronica", "Uno spazio per chi convive con una malattia cronica, e per chi gli sta accanto, per dare voce a ciò che la malattia porta con sé."),
+    ("coaching-orientamento.html", "compass", "Coaching e crescita professionale", "Percorsi mirati per chi desidera fare chiarezza in una fase di cambiamento personale o professionale, o vive lo stress del lavoro."),
 ]
 
 PRICES = [
@@ -101,7 +103,7 @@ def email_text():
     return CONFIG["email"] or todo("email da inserire")
 
 
-def service_cards(exclude=None):
+def service_cards(exclude=None, with_help=True):
     out = []
     for href, icon, title, text in SERVICES:
         if href == exclude:
@@ -109,6 +111,12 @@ def service_cards(exclude=None):
         out.append(
             f'<a class="card" href="{href}"><span class="ico">{ICONS[icon]}</span>'
             f'<h3>{title}</h3><p>{text}</p><span class="go">Scopri di più</span></a>'
+        )
+    if with_help:
+        out.append(
+            f'<a class="card help" href="contatti.html"><h3>Non sai quale scegliere?</h3>'
+            f'<p>Non serve saperlo prima. Lo capiamo insieme nel primo colloquio, oppure scrivimi due righe.</p>'
+            f'<span class="go">Contattami</span></a>'
         )
     return "\n      ".join(out)
 
@@ -136,7 +144,7 @@ def prices_block():
 
 def trust_strip():
     return f"""<ul class="trust" aria-label="In breve">
-        <li>{ICONS['badge']}Iscritta all'Albo della Lombardia, n. 29185</li>
+        <li>{ICONS['badge']}Iscritta all'Albo degli Psicologi della Lombardia, n. 29185</li>
         <li>{ICONS['star']}<a href="{CONFIG['miodottore']}" target="_blank" rel="noopener">87 recensioni su MioDottore</a></li>
         <li>{ICONS['video']}In studio e online</li>
         <li>{ICONS['receipt']}Prestazioni detraibili</li>
