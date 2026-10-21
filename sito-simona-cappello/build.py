@@ -295,7 +295,7 @@ def business_jsonld():
         "@context": "https://schema.org",
         "@type": "MedicalBusiness",
         "name": f"{CONFIG['name']}, {CONFIG['role']}",
-        "description": "Psicologa a orientamento cognitivo post-razionalista e coach certificata. Supporto individuale, di coppia, alla genitorialità, adolescenti e neo-mamme.",
+        "description": "Psicologa e coach certificata. Supporto individuale, di coppia, alla genitorialità, adolescenti e neo-mamme.",
         "url": CONFIG["site_url"] + "/",
         "address": {
             "@type": "PostalAddress",
