@@ -15,6 +15,11 @@ Sito statico in HTML e CSS, senza dipendenze. Si pubblica su qualunque hosting (
 2. Modifica i testi in `src/pages/`.
 3. Lancia `python3 build.py` e carica online la cartella `site/`.
 
+## Test
+
+- `node tests/e2e.js`: prova tutto il sito in un browser vero (desktop e smartphone): pagine, menu, link e ancore, immagini, caratteri, modulo, domande frequenti, scorrimento laterale, errori.
+- `python3 tools/preview.py <cartella>` e poi `node tests/preview.js <cartella>`: crea e prova l'anteprima a pagina unica usata su Claude.
+
 ## Da completare
 
 - [x] Telefono, WhatsApp, email, P. IVA
