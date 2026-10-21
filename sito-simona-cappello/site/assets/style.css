@@ -183,7 +183,7 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .thoughts a { color: var(--testo); text-decoration: none; font-size: 1.04rem; line-height: 1.5; }
 .thoughts a:hover { color: var(--salvia); text-decoration: underline; text-decoration-color: var(--linea-scura); }
 .recognize-cta { margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; }
-.recognize-cta p { font-family: var(--display); font-style: italic; font-size: 1.3rem; line-height: 1.45; }
+.recognize-cta p { max-width: 40rem; font-family: var(--display); font-style: italic; font-size: 1.3rem; line-height: 1.45; }
 .closing { margin-top: 2.2rem; max-width: 42rem; font-family: var(--display); font-style: italic; font-size: 1.3rem; line-height: 1.5; }
 .closing span { display: block; margin-top: .5rem; font-family: var(--body); font-style: normal; font-size: 1.05rem; font-weight: 300; }
 @media (max-width: 700px) { .when-list { grid-template-columns: 1fr; } }
