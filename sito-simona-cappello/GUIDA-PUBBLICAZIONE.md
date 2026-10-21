@@ -98,3 +98,7 @@ Obiettivo: tenere la scheda di Cornaredo con le sue recensioni, ma con l'indiriz
 ## Se in futuro vuoi modificare il sito
 
 Ogni volta che il sito cambia, ti verrà data una nuova cartella **site**. Basta entrare su Netlify, aprire **Deploys** e trascinare la nuova cartella nel riquadro in fondo alla pagina: il sito si aggiorna in pochi secondi.
+
+- **Non devi rifare nulla su Aruba né sul dominio:** il collegamento resta attivo, come il lucchetto di sicurezza e il modulo di contatto.
+- **Puoi sempre tornare indietro:** in **Deploys** trovi tutte le versioni precedenti. Clicca su quella che vuoi ripristinare e scegli **Publish deploy**.
+- **In futuro, se le modifiche diventano frequenti:** Netlify si può collegare direttamente all'archivio del sito, così ogni modifica va online da sola, senza zip.
