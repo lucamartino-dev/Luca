@@ -185,10 +185,11 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .letter .opening { font-family: var(--display); font-style: italic; font-size: 1.35rem; line-height: 1.45; color: var(--testo); }
 .letter .sign-off { font-family: var(--display); font-style: italic; font-size: 1.6rem; color: var(--salvia); margin-top: -.2rem; }
 
-/* Il metodo: quattro passaggi del lavoro in seduta */
-.method { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.3rem; counter-reset: m; }
-.method li { counter-increment: m; background: var(--bianco); border: 1px solid var(--linea); border-radius: var(--r); padding: 1.5rem 1.6rem; display: grid; grid-template-columns: 2.4rem 1fr; gap: .2rem 1rem; align-content: start; }
-.method li::before { content: counter(m); grid-row: span 2; width: 2.4rem; height: 2.4rem; border-radius: 50%; background: var(--salvia-chiaro); color: var(--salvia); display: grid; place-items: center; font-family: var(--display); font-size: 1.2rem; }
+/* Come lavoriamo insieme: quattro principi, non una sequenza */
+.method { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.3rem; }
+.method li { background: var(--bianco); border: 1px solid var(--linea); border-radius: var(--r); padding: 1.5rem 1.6rem; display: grid; grid-template-columns: 2.6rem 1fr; gap: .2rem 1rem; align-content: start; }
+.method .ico { grid-row: span 2; width: 2.6rem; height: 2.6rem; border-radius: 999px 999px 8px 8px; background: var(--salvia-chiaro); color: var(--salvia); display: grid; place-items: center; }
+.method .ico svg { width: 1.3rem; height: 1.3rem; }
 .method h3 { font-size: 1.2rem; }
 .method p { font-size: 1rem; color: var(--testo-2); }
 .method-end { margin-top: 1.8rem; max-width: 65ch; }

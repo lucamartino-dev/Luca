@@ -160,15 +160,15 @@ def posters(limit=None):
 
 
 METHOD = [
-    ("Partiamo dalla tua esperienza", "Non parliamo in astratto. Ripercorriamo insieme momenti concreti della tua vita, una discussione, un attacco d'ansia, una scelta difficile, per osservare con calma cosa hai sentito e come te lo sei spiegato."),
-    ("Diamo un senso alle emozioni", "Le emozioni non sono nemiche da eliminare: sono informazioni preziose su di te. Capire perché una certa situazione ti fa sentire proprio così è il primo passo per viverla in modo diverso."),
-    ("Ricostruiamo il significato della tua storia", "Ognuno di noi, crescendo, costruisce un modo personale di dare significato a ciò che vive. Conoscerlo meglio aiuta a capire perché alcune situazioni ci toccano così tanto, e ad affrontarle con più flessibilità."),
-    ("Strumenti concreti, quando servono", "Se c'è un obiettivo pratico, come una decisione, un cambiamento di lavoro o l'organizzazione delle giornate, integro strumenti di coaching: domande mirate, obiettivi chiari, piccoli passi da provare tra un incontro e l'altro."),
+    ("heart", "Ogni percorso è diverso", "Non ho un programma uguale per tutti. Partiamo da quello che porti tu, oggi, e costruiamo il percorso su di te, sulla tua storia e su ciò di cui hai bisogno."),
+    ("chat", "Siamo in due", "Non parlerai nel vuoto mentre io ascolto in silenzio. È un dialogo vero: ti faccio domande, ti restituisco quello che vedo, ti propongo spunti. E tu puoi sempre dirmi cosa ti serve e cosa no."),
+    ("compass", "Decidi tu il ritmo", "Non devi raccontare tutto subito, né partire dall'inizio. Puoi cominciare da quello che senti più urgente: il resto arriverà quando te la sentirai."),
+    ("sprout", "Qualcosa da portare con te", "Ogni incontro ha uno scopo: capire meglio cosa sta succedendo e trovare insieme modi nuovi per affrontarlo nella vita di tutti i giorni, anche con strumenti pratici quando servono."),
 ]
 
 
 def method_block():
-    items = "\n      ".join(f"<li><h3>{t}</h3><p>{d}</p></li>" for t, d in METHOD)
+    items = "\n      ".join(f'<li><span class="ico">{ICONS[i]}</span><h3>{t}</h3><p>{d}</p></li>' for i, t, d in METHOD)
     return f'''<ol class="method">
       {items}
     </ol>'''
