@@ -129,7 +129,7 @@ def prices_block():
     </div>
     <div class="price-notes">
       <p><strong>Detraibili.</strong> Le prestazioni psicologiche sono spese sanitarie detraibili nella dichiarazione dei redditi, se pagate con metodi tracciabili. Rilascio sempre fattura.</p>
-      <p><strong>Pagamento</strong> con carta, Satispay, PayPal o in contanti.</p>
+      <p><strong>Pagamento</strong> con bonifico, carta, Satispay o PayPal. È possibile pagare anche in contanti, ma in questo caso la prestazione non è detraibile.</p>
     </div>"""
 
 
