@@ -62,10 +62,34 @@ Ti serve il file **sito-simona-cappello.zip**. Scaricalo su un computer: questi 
 
 ---
 
-## Parte 4. Dopo la pubblicazione
+## Parte 4. Sistemare le schede Google
+
+Obiettivo: tenere la scheda di Cornaredo con le sue recensioni, ma con l'indirizzo giusto dello studio. Le recensioni restano anche se cambi l'indirizzo. Le voci dei menu di Google cambiano spesso: se un nome non corrisponde, cerca quello più simile.
+
+### La scheda di Cornaredo (quella con più recensioni)
+
+1. Vai su **business.google.com** ed entra con l'account Google che gestisce la scheda.
+2. Apri la scheda di Cornaredo e premi **Modifica profilo**.
+3. Nella sezione **Posizione**, alla voce **Indirizzo dell'attività**, inserisci `Via Cornaredo 17, 20006 Pregnana Milanese (MI)` e salva. Google potrebbe chiederti una nuova verifica, per esempio con un breve video dello studio: è normale.
+4. Alla voce **Area servita** (o **Zone di copertura**) aggiungi Cornaredo, Rho, Bareggio, Vanzago e Arluno.
+5. Controlla anche il resto:
+   - orari: dal lunedì al venerdì, dalle 9 alle 18;
+   - telefono: 347 051 5781;
+   - sito web: `https://www.simonacappellopsicologa.it`;
+   - categoria principale: **Psicologo**;
+   - foto: aggiungi quelle dello studio, della sala d'attesa e dell'ingresso.
+
+### La scheda di Pregnana (quella con poche recensioni)
+
+6. Aspetta che la scheda di Cornaredo sia aggiornata e verificata con il nuovo indirizzo. **Non toccare la seconda scheda prima.**
+7. A quel punto le due schede sono doppioni. Contatta l'assistenza di Google Business Profile da **support.google.com/business** e chiedi di unire i due profili duplicati. Se non è possibile, puoi rimuovere quella con meno recensioni.
+
+---
+
+## Parte 5. Dopo la pubblicazione
 
 - **MioDottore:** aggiungi l'indirizzo del sito al tuo profilo.
-- **Scheda Google (Google Business Profile):** se non ce l'hai, creala su **business.google.com**, con indirizzo, orari, foto dello studio e link al sito. È lo strumento che porta più persone dalla zona.
+- **Link delle recensioni Google:** quando la scheda è sistemata, mandami il suo link. Lo inserisco nel sito al posto della ricerca generica.
 - **Google Search Console:** su **search.google.com/search-console** aggiungi il sito e invia la mappa `https://www.simonacappellopsicologa.it/sitemap.xml`. Così Google lo trova prima.
 - **Privacy policy:** completa il testo della pagina "Privacy e note legali", ad esempio con iubenda o con un consulente.
 
