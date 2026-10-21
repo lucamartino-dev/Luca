@@ -38,6 +38,7 @@ NAV = [
     ("di-cosa-mi-occupo.html", "Di cosa mi occupo"),
     ("approccio.html", "Il mio approccio"),
     ("studio.html", "Lo studio"),
+    ("domande-frequenti.html", "Tariffe e FAQ"),
     ("contatti.html", "Contatti"),
 ]
 
@@ -52,12 +53,33 @@ ICONS = {
     "pin": f'<svg {_S}><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>',
     "chat": f'<svg {_S}><path d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4.1A8 8 0 1 1 20 12z"/></svg>',
     "calendar": f'<svg {_S}><rect x="4" y="5.5" width="16" height="14" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg>',
+    "badge": f'<svg {_S}><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg>',
+    "star": f'<svg {_S}><path d="M12 4l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.4l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/></svg>',
+    "video": f'<svg {_S}><rect x="3.5" y="6.5" width="12" height="11" rx="2"/><path d="M15.5 10.5l5-3v9l-5-3"/></svg>',
+    "receipt": f'<svg {_S}><path d="M6 3.5h12v17l-3-2-3 2-3-2-3 2z"/><path d="M9 8.5h6M9 12h6"/></svg>',
+    "info": f'<svg {_S}><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg>',
 }
+
+# Gli ambiti di intervento: una pagina ciascuno
+SERVICES = [
+    ("supporto-individuale.html", "person", "Supporto individuale", "Per momenti di difficoltà emotiva, ansia, stress, senso di blocco, cambiamenti di vita, fragilità relazionali o bisogno di maggiore consapevolezza."),
+    ("sostegno-coppia.html", "couple", "Sostegno alla coppia", "Uno spazio per comprendere dinamiche, fatiche comunicative, distanza emotiva e momenti di crisi all'interno della relazione."),
+    ("sostegno-genitorialita.html", "family", "Sostegno alla genitorialità", "Per accompagnare i genitori nella comprensione dei bisogni dei figli e delle difficoltà educative o relazionali."),
+    ("adolescenti.html", "sprout", "Adolescenti", "Uno spazio di ascolto dedicato ai ragazzi, per affrontare fragilità, vissuti emotivi, difficoltà relazionali e momenti delicati della crescita."),
+    ("neo-mamme-maternita.html", "heart", "Neo-mamme e maternità", "Per accogliere dubbi, cambiamenti, fatiche e vissuti emotivi legati alla maternità e alla ridefinizione di sé."),
+    ("coaching-orientamento.html", "compass", "Coaching e orientamento", "Percorsi mirati per chi desidera fare maggiore chiarezza in una fase di cambiamento personale o professionale."),
+]
+
+PRICES = [
+    ("Colloquio individuale", "70 €", "50 minuti, in studio"),
+    ("Colloquio di coppia", "100 €", "In studio"),
+    ("Colloquio online", "60 €", "50 minuti, in videochiamata"),
+]
 
 MONOGRAM = (
     '<svg class="mono" viewBox="0 0 48 48" aria-hidden="true">'
-    '<path d="M8 44V22a16 16 0 0 1 32 0v22" fill="none" stroke="#A8958A" stroke-width="1.3"/>'
-    '<text x="24" y="34" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="15" font-style="italic" fill="#5F514C">SC</text>'
+    '<path d="M8 44V22a16 16 0 0 1 32 0v22" fill="none" stroke="#9A7656" stroke-width="1.3"/>'
+    '<text x="24" y="34" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="15" font-style="italic" fill="#4C5F50">SC</text>'
     "</svg>"
 )
 
@@ -76,6 +98,52 @@ def phone_text():
 
 def email_text():
     return CONFIG["email"] or todo("email da inserire")
+
+
+def service_cards(exclude=None):
+    out = []
+    for href, icon, title, text in SERVICES:
+        if href == exclude:
+            continue
+        out.append(
+            f'<a class="card" href="{href}"><span class="ico">{ICONS[icon]}</span>'
+            f'<h3>{title}</h3><p>{text}</p><span class="go">Scopri di più</span></a>'
+        )
+    return "\n      ".join(out)
+
+
+def service_chips(exclude):
+    items = "".join(
+        f'<li><a href="{href}"><span class="ico">{ICONS[icon]}</span>{title}</a></li>'
+        for href, icon, title, _ in SERVICES if href != exclude
+    )
+    return f'<ul class="chips">{items}</ul>'
+
+
+def prices_block():
+    cards = "\n      ".join(
+        f'<div class="price"><h3>{t}</h3><p class="amount">{a}</p><p class="meta">{m}</p></div>' for t, a, m in PRICES
+    )
+    return f"""<div class="prices">
+      {cards}
+    </div>
+    <div class="price-notes">
+      <p><strong>Detraibili.</strong> Le prestazioni psicologiche sono spese sanitarie detraibili nella dichiarazione dei redditi, se pagate con metodi tracciabili. Rilascio sempre fattura.</p>
+      <p><strong>Pagamento</strong> con carta, Satispay, PayPal o in contanti.</p>
+    </div>"""
+
+
+def trust_strip():
+    return f"""<ul class="trust" aria-label="In breve">
+        <li>{ICONS['badge']}Iscritta all'Albo della Lombardia, n. 29185</li>
+        <li>{ICONS['star']}<a href="{CONFIG['miodottore']}" target="_blank" rel="noopener">Oltre 80 recensioni su MioDottore</a></li>
+        <li>{ICONS['video']}In studio e online</li>
+        <li>{ICONS['receipt']}Prestazioni detraibili</li>
+      </ul>"""
+
+
+def emergency():
+    return f"""<p class="emergency">{ICONS['info']}<span><strong>Non è un servizio di emergenza.</strong> Se sei in pericolo o temi per la tua sicurezza o per quella di qualcun altro, chiama subito il <strong>112</strong>.</span></p>"""
 
 
 def nav_items(current, cls=""):
@@ -116,10 +184,10 @@ def final_cta():
     <h2 id="cta-title">Prendersi uno spazio per sé può essere il primo passo</h2>
     <p>Se senti il bisogno di un luogo in cui fermarti, comprenderti e affrontare con maggiore chiarezza ciò che stai vivendo, puoi contattarmi per un primo colloquio.</p>
     <div class="actions">
-      <a class="btn" href="{CONFIG['miodottore']}" target="_blank" rel="noopener">{ICONS['calendar']}Prenota un colloquio</a>
+      <a class="btn" href="{CONFIG['miodottore']}" target="_blank" rel="noopener">{ICONS['calendar']}Prenota su MioDottore</a>
       <a class="btn secondary" href="{whatsapp_url()}" target="_blank" rel="noopener">{ICONS['chat']}Scrivimi su WhatsApp</a>
-      <a class="btn secondary" href="{CONFIG['miodottore']}" target="_blank" rel="noopener">Vai al profilo MioDottore</a>
     </div>
+    <p class="small-note">Preferisci parlarne prima? Chiamami o scrivimi al {phone_text()}: rispondo personalmente.</p>
   </div>
 </section>"""
 
@@ -140,12 +208,9 @@ def footer():
       <a href="{CONFIG['miodottore']}" target="_blank" rel="noopener">Profilo MioDottore</a>
     </div>
     <div class="col">
-      <p class="label">Il sito</p>
+      <p class="label">Di cosa mi occupo</p>
       <ul>
-        <li><a href="chi-sono.html">Chi sono</a></li>
-        <li><a href="di-cosa-mi-occupo.html">Di cosa mi occupo</a></li>
-        <li><a href="approccio.html">Il mio approccio</a></li>
-        <li><a href="domande-frequenti.html">Domande frequenti</a></li>
+        {"".join(f'<li><a href="{h}">{t}</a></li>' for h, _, t, _ in SERVICES)}
       </ul>
     </div>
     <div class="col">
@@ -153,6 +218,7 @@ def footer():
       <span>Iscritta all'{CONFIG['albo']}</span>
       <span>P. IVA {CONFIG['piva'] or todo('da inserire')}</span>
     </div>
+    <div class="sos">{emergency()}</div>
     <div class="legal">
       <span>© <span data-year>2026</span> {CONFIG['name']}, {CONFIG['role']}</span>
       <nav aria-label="Note legali">
@@ -164,7 +230,7 @@ def footer():
   </div>
 </footer>
 <div class="float-cta">
-  <a class="btn" href="{CONFIG['miodottore']}" target="_blank" rel="noopener">Prenota</a>
+  <a class="btn" href="{CONFIG['miodottore']}" target="_blank" rel="noopener">{ICONS['calendar']}Prenota</a>
   <a class="btn secondary" href="{whatsapp_url()}" target="_blank" rel="noopener">{ICONS['chat']}WhatsApp</a>
 </div>"""
 
@@ -187,6 +253,7 @@ def business_jsonld():
         "areaServed": [{"@type": "City", "name": t} for t in CONFIG["towns"]],
         "sameAs": [CONFIG["miodottore"]],
         "openingHours": "Mo-Fr 09:00-18:00",
+        "priceRange": "60-100 €",
         "founder": {"@type": "Person", "name": "Simona Cappello", "jobTitle": "Psicologa"},
     }
     if CONFIG["phone"]:
@@ -239,6 +306,11 @@ def layout(meta, body, path):
 
 def render(text):
     text = text.replace("{{final_cta}}", final_cta())
+    text = text.replace("{{trust}}", trust_strip())
+    text = text.replace("{{prices}}", prices_block())
+    text = text.replace("{{emergency}}", emergency())
+    text = text.replace("{{service_cards}}", service_cards())
+    text = re.sub(r"\{\{other_services:([\w.-]+)\}\}", lambda m: service_chips(m.group(1)), text)
     text = re.sub(r"\{\{icon:(\w+)\}\}", lambda m: ICONS[m.group(1)], text)
     text = re.sub(r"\{\{todo:([^}]*)\}\}", lambda m: todo(m.group(1)), text)
     text = text.replace("{{whatsapp_url}}", whatsapp_url())
