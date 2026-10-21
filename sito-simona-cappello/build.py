@@ -216,6 +216,7 @@ def layout(meta, body, path):
 <meta property="og:title" content="{meta['title']}">
 <meta property="og:description" content="{meta['description']}">
 <meta property="og:url" content="{url}">
+<meta property="og:image" content="{CONFIG['site_url']}/assets/simona-cappello.jpg">
 <meta name="theme-color" content="#FAF7F4">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
