@@ -193,6 +193,7 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 
 .letter .opening { font-family: var(--display); font-style: italic; font-size: 1.35rem; line-height: 1.45; color: var(--testo); }
 .letter .sign-off { font-family: var(--display); font-style: italic; font-size: 1.6rem; color: var(--salvia); margin-top: -.2rem; }
+.letter .credential { font-size: .88rem; color: var(--testo-2); margin-top: -.6rem; }
 
 /* Come lavoriamo insieme: quattro principi, non una sequenza */
 .method { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.3rem; }
