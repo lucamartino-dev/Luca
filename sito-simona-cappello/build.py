@@ -266,10 +266,10 @@ def footer():
     </div>
   </div>
 </footer>
-<div class="float-cta">
+<nav class="float-cta" aria-label="Prenotazione rapida">
   <a class="btn" href="{CONFIG['miodottore']}" target="_blank" rel="noopener">{ICONS['calendar']}Prenota</a>
   <a class="btn secondary" href="{whatsapp_url()}" target="_blank" rel="noopener">{ICONS['chat']}WhatsApp</a>
-</div>"""
+</nav>"""
 
 
 def business_jsonld():

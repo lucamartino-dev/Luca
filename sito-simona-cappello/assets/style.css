@@ -161,6 +161,7 @@ a.card:hover { border-color: var(--salvia); box-shadow: 0 18px 40px -26px rgba(7
 .journey { list-style: none; padding-left: 0 !important; display: grid; gap: .7rem !important; }
 .journey li { padding-left: 1.1rem; border-left: 2px solid var(--legno); }
 @media (max-width: 1100px) { .cards.services { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .cards.services { grid-template-columns: 1fr; } }
 @media (max-width: 960px) { .cards { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .cards { grid-template-columns: 1fr; } }
 
@@ -209,9 +210,9 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .poster .sub { font-family: var(--display); font-style: italic; text-align: center; font-size: 1.02rem; line-height: 1.35; }
 .poster .txt { font-size: .9rem; line-height: 1.55; margin-top: .4rem; text-align: center; }
 .poster .who { margin-top: auto; font-size: .82rem; font-weight: 700; text-align: center; }
-.poster .sign { font-size: .74rem; text-align: center; opacity: .85; border-top: 1px solid currentColor; padding-top: .45rem; }
+.poster .sign { font-size: .76rem; text-align: center; border-top: 1px solid currentColor; padding-top: .45rem; }
 @media (max-width: 1100px) { .posters { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 560px) { .posters { grid-template-columns: 1fr; max-width: 22rem; } }
+@media (max-width: 560px) { .posters { grid-template-columns: 1fr; max-width: 22rem; margin-inline: auto; } .poster { min-height: 0; } .poster .who { margin-top: .8rem; } }
 
 /* Tariffe */
 .prices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
