@@ -75,14 +75,14 @@ SERVICES = [
     ("coaching-orientamento.html", "compass", "Coaching e crescita professionale", "Percorsi mirati per chi desidera fare chiarezza in una fase di cambiamento personale o professionale, o vive lo stress del lavoro."),
 ]
 
-# Temi di incontri e workshop. done=True solo per gli incontri già realizzati davvero.
+# Incontri e workshop già realizzati (anche in studio, in piccoli gruppi)
 EVENTS = [
     ("Burnout", "Riconoscerlo, prevenirlo, uscirne", "Quando il lavoro consuma le energie: segnali, cause e strategie per ritrovare equilibrio.", "Aziende e professionisti", True, "salvia"),
     ("Ansia", "Conoscerla per gestirla", "Cos'è l'ansia, perché arriva e come imparare ad ascoltarla senza esserne travolti.", "Adulti e gruppi", False, "sabbia"),
     ("Le emozioni", "Riconoscerle, nominarle, viverle", "Un incontro per imparare a dare un nome a ciò che proviamo e a farne una risorsa.", "Adulti, scuole e associazioni", False, "legno"),
     ("Fame emotiva", "Quando il cibo parla delle emozioni", "Il legame tra cibo, emozioni e corpo, e come costruire un rapporto più sereno con l'alimentazione.", "Adulti e gruppi", False, "sabbia"),
     ("Stress e lavoro", "Ritrovare equilibrio", "Pressione, carichi, conciliazione: strumenti concreti per stare meglio al lavoro.", "Aziende e team", False, "legno"),
-    ("Diventare mamma", "Il benessere dopo la nascita", "Emozioni, fatiche e cambiamenti dei primi mesi, per non sentirsi sole.", "Neo-mamme e gruppi di genitori", False, "salvia"),
+    ("Diventare mamma", "Il benessere dopo la nascita", "Emozioni, fatiche e cambiamenti dei primi mesi, per non sentirsi sole.", "Neo-mamme con i loro bambini", False, "salvia"),
     ("Crescere con loro", "Adolescenti ed emozioni", "Un incontro per genitori: capire i ragazzi e trovare il modo di stare loro accanto.", "Genitori e scuole", False, "sabbia"),
     ("Cambiare strada", "Affrontare le transizioni di vita", "Cambiare lavoro, città, ruolo: come attraversare il cambiamento senza perdersi.", "Adulti e professionisti", False, "legno"),
 ]
@@ -147,7 +147,7 @@ def service_chips(exclude):
 def posters(limit=None):
     out = []
     for title, sub, text, who, done, tone in EVENTS[:limit]:
-        badge = '<span class="badge">Già realizzato</span>' if done else '<span class="badge">Workshop</span>'
+        badge = '<span class="badge">Incontro</span>'
         out.append(
             f'<article class="poster {tone}"><div class="poster-top">{badge}</div>'
             f'<h3>{title}</h3><p class="sub">{sub}</p><p class="txt">{text}</p>'
