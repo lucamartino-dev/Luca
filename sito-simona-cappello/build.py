@@ -16,7 +16,7 @@ OUT = ROOT / "site"
 CONFIG = {
     "site_url": "https://www.simonacappellopsicologa.it",  # da confermare quando acquisti il dominio
     "name": "Dott.ssa Simona Cappello",
-    "role": "Psicologa",
+    "role": "Psicologa e coach",
     "phone": "+39 347 051 5781",
     "whatsapp": "393470515781",
     "email": "simonacappello@gmail.com",
