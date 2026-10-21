@@ -191,7 +191,6 @@ def trust_strip():
     return f"""<ul class="trust" aria-label="In breve">
         <li>{ICONS['badge']}Iscritta all'Albo degli Psicologi della Lombardia, n. 29185</li>
         <li>{ICONS['star']}<a href="{CONFIG['miodottore']}" target="_blank" rel="noopener">87 recensioni su MioDottore</a></li>
-        <li>{ICONS['award']}Certificato di eccellenza MioDottore 2025</li>
         <li>{ICONS['video']}In studio e online</li>
         <li>{ICONS['receipt']}Prestazioni detraibili</li>
       </ul>"""
