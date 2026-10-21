@@ -61,6 +61,7 @@ ICONS = {
     "circles": f'<svg {_S}><circle cx="9" cy="12" r="5.5"/><circle cx="15" cy="12" r="5.5"/></svg>',
     "bowl": f'<svg {_S}><path d="M3.5 11h17a8.5 8.5 0 0 1-17 0z"/><path d="M9 7c0-1.5 1-2 1-3.5M13 7c0-1.5 1-2 1-3.5"/></svg>',
     "leaf": f'<svg {_S}><path d="M5 19c0-8 5-14 14-14 0 9-6 14-14 14z"/><path d="M5 19c3-4 6-7 10-9"/></svg>',
+    "award": f'<svg {_S}><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.5L7 21l5-2.5 5 2.5-1.5-7.5"/></svg>',
     "info": f'<svg {_S}><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg>',
 }
 
@@ -159,9 +160,9 @@ def posters(limit=None):
 
 
 METHOD = [
-    ("Partiamo da episodi concreti", "Non parliamo in astratto. Prendiamo un momento preciso della tua settimana, una discussione, un attacco d'ansia, una scelta difficile, e lo ripercorriamo insieme quasi al rallentatore: cosa è successo, cosa hai provato, cosa hai pensato, cosa hai fatto. Nel modello post-razionalista questa tecnica si chiama \"moviola\"."),
+    ("Partiamo dalla tua esperienza", "Non parliamo in astratto. Ripercorriamo insieme momenti concreti della tua vita, una discussione, un attacco d'ansia, una scelta difficile, per osservare con calma cosa hai sentito e come te lo sei spiegato."),
     ("Diamo un senso alle emozioni", "Le emozioni non sono nemiche da eliminare: sono informazioni preziose su di te. Capire perché una certa situazione ti fa sentire proprio così è il primo passo per viverla in modo diverso."),
-    ("Colleghiamo i fili della tua storia", "Episodio dopo episodio emergono schemi che si ripetono e che spesso hanno radici lontane. Riconoscerli ti restituisce libertà: smetti di subirli e puoi scegliere come rispondere."),
+    ("Ricostruiamo il significato della tua storia", "Ognuno di noi, crescendo, costruisce un modo personale di dare significato a ciò che vive. Conoscerlo meglio aiuta a capire perché alcune situazioni ci toccano così tanto, e ad affrontarle con più flessibilità."),
     ("Strumenti concreti, quando servono", "Se c'è un obiettivo pratico, come una decisione, un cambiamento di lavoro o l'organizzazione delle giornate, integro strumenti di coaching: domande mirate, obiettivi chiari, piccoli passi da provare tra un incontro e l'altro."),
 ]
 
@@ -190,6 +191,7 @@ def trust_strip():
     return f"""<ul class="trust" aria-label="In breve">
         <li>{ICONS['badge']}Iscritta all'Albo degli Psicologi della Lombardia, n. 29185</li>
         <li>{ICONS['star']}<a href="{CONFIG['miodottore']}" target="_blank" rel="noopener">87 recensioni su MioDottore</a></li>
+        <li>{ICONS['award']}Certificato di eccellenza MioDottore 2025</li>
         <li>{ICONS['video']}In studio e online</li>
         <li>{ICONS['receipt']}Prestazioni detraibili</li>
       </ul>"""

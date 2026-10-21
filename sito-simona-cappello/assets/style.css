@@ -208,6 +208,7 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .review-source .num { width: 4.2rem; height: 4.2rem; border-radius: 999px 999px 10px 10px; background: var(--salvia-chiaro); display: grid; place-items: center; font-family: var(--display); font-size: 1.7rem; color: var(--salvia); }
 .review-source .num svg { width: 1.7rem; height: 1.7rem; }
 .review-source strong { display: block; font-size: 1.05rem; }
+.review-source .note-line { display: block; font-size: .9rem; color: var(--salvia); font-weight: 700; }
 .review-source .muted { display: block; font-size: .92rem; text-decoration: underline; text-decoration-color: var(--linea-scura); }
 
 /* Locandine di incontri e workshop: rettangolari, con un cerchio decorativo */
