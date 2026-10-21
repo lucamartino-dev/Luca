@@ -136,7 +136,7 @@ details.mnav a[aria-current="page"] { color: var(--salvia); font-weight: 700; }
 /* Testata pagine interne */
 .page-head { background: linear-gradient(180deg, var(--avorio) 0%, var(--sabbia) 100%); border-bottom: 1px solid var(--linea); }
 .page-head .wrap { padding-block: clamp(2.6rem, 6vw, 4.2rem); display: grid; gap: 1rem; }
-.page-head .lead { max-width: 46rem; }
+.page-head .lead { max-width: 64rem; }
 .page-head .actions { margin-top: .4rem; }
 .crumbs { font-size: .88rem; display: flex; gap: .5rem; flex-wrap: wrap; color: var(--testo-2); }
 .crumbs a { color: var(--salvia); text-decoration: none; }
@@ -145,7 +145,7 @@ details.mnav a[aria-current="page"] { color: var(--salvia); font-weight: 700; }
 /* Sezioni */
 section.block > .wrap { padding-block: clamp(3.4rem, 7vw, 5.5rem); }
 section.tint { background: var(--sabbia); }
-.head { display: grid; gap: .8rem; margin-bottom: 2.4rem; max-width: 46rem; }
+.head { display: grid; gap: .8rem; margin-bottom: 2.4rem; max-width: 64rem; }
 .head p { color: var(--testo-2); }
 .head.wide { max-width: 64rem; }
 .split { display: grid; grid-template-columns: 1fr 1.3fr; gap: clamp(2rem, 6vw, 5rem); align-items: start; }
@@ -201,7 +201,7 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .method .ico svg { width: 1.3rem; height: 1.3rem; }
 .method h3 { font-size: 1.2rem; }
 .method p { font-size: 1rem; color: var(--testo-2); }
-.method-end { margin-top: 1.8rem; max-width: 65ch; }
+.method-end { margin-top: 1.8rem; max-width: 64rem; }
 @media (max-width: 760px) { .method { grid-template-columns: 1fr; } }
 
 /* Primo colloquio: tre passi reali, in sequenza */
@@ -244,7 +244,7 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .price h3 { font-size: 1.15rem; }
 .price .amount { font-family: var(--display); font-size: 2.3rem; line-height: 1.1; color: var(--testo); font-variant-numeric: tabular-nums; }
 .price .meta { font-size: .92rem; color: var(--testo-2); }
-.price-notes { margin-top: 1.4rem; display: grid; gap: .5rem; font-size: .98rem; color: var(--testo-2); max-width: 65ch; }
+.price-notes { margin-top: 1.4rem; display: grid; gap: .5rem; font-size: .98rem; color: var(--testo-2); max-width: 64rem; }
 .price-notes strong { color: var(--testo); }
 @media (max-width: 760px) { .prices { grid-template-columns: 1fr; } }
 
@@ -328,7 +328,7 @@ form.contact .check input { width: auto; margin-top: .3rem; accent-color: var(--
 .final { background: var(--salvia); color: var(--avorio); position: relative; overflow: hidden; }
 .final .wrap { position: relative; padding-block: clamp(3.4rem, 7vw, 5.2rem); display: grid; gap: 1.2rem; justify-items: center; text-align: center; }
 .final h2 { color: var(--avorio); }
-.final p { max-width: 40rem; }
+.final p { max-width: 52rem; }
 .final .eyebrow { color: var(--salvia-chiaro); }
 .final .actions { justify-content: center; margin-top: .6rem; }
 .final .btn { background: var(--avorio); color: var(--salvia-scuro); border-color: var(--avorio); }
