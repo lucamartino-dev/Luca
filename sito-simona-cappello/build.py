@@ -58,6 +58,7 @@ ICONS = {
     "star": f'<svg {_S}><path d="M12 4l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 16.4l-4.8 2.5.9-5.4-3.9-3.8 5.4-.8z"/></svg>',
     "video": f'<svg {_S}><rect x="3.5" y="6.5" width="12" height="11" rx="2"/><path d="M15.5 10.5l5-3v9l-5-3"/></svg>',
     "receipt": f'<svg {_S}><path d="M6 3.5h12v17l-3-2-3 2-3-2-3 2z"/><path d="M9 8.5h6M9 12h6"/></svg>',
+    "circles": f'<svg {_S}><circle cx="9" cy="12" r="5.5"/><circle cx="15" cy="12" r="5.5"/></svg>',
     "bowl": f'<svg {_S}><path d="M3.5 11h17a8.5 8.5 0 0 1-17 0z"/><path d="M9 7c0-1.5 1-2 1-3.5M13 7c0-1.5 1-2 1-3.5"/></svg>',
     "leaf": f'<svg {_S}><path d="M5 19c0-8 5-14 14-14 0 9-6 14-14 14z"/><path d="M5 19c3-4 6-7 10-9"/></svg>',
     "info": f'<svg {_S}><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg>',
@@ -71,6 +72,7 @@ SERVICES = [
     ("adolescenti.html", "sprout", "Adolescenti", "Uno spazio di ascolto dedicato ai ragazzi, per affrontare fragilità, vissuti emotivi, difficoltà relazionali e momenti delicati della crescita."),
     ("neo-mamme-maternita.html", "heart", "Neo-mamme e maternità", "Per accogliere dubbi, cambiamenti, fatiche e vissuti emotivi legati alla maternità e alla ridefinizione di sé."),
     ("malattia-cronica.html", "leaf", "Convivere con una malattia cronica", "Uno spazio per chi convive con una malattia cronica, e per chi gli sta accanto, per dare voce a ciò che la malattia porta con sé."),
+    ("sessualita-identita.html", "circles", "Sessualità, identità e orientamento", "Uno spazio sicuro e senza giudizio per parlare di sessualità, desiderio, orientamento sessuale e identità di genere."),
     ("rapporto-con-il-cibo.html", "bowl", "Il rapporto con il cibo", "Per chi sente che il cibo è diventato fonte di fatica, senso di colpa o preoccupazione: fame emotiva, abbuffate, diete continue, immagine corporea."),
     ("coaching-orientamento.html", "compass", "Coaching e crescita professionale", "Percorsi mirati per chi desidera fare chiarezza in una fase di cambiamento personale o professionale, o vive lo stress del lavoro."),
 ]

@@ -155,7 +155,7 @@ a.card:hover { border-color: var(--salvia); box-shadow: 0 18px 40px -26px rgba(7
 .card .ico svg { width: 1.3rem; height: 1.3rem; }
 .card p { font-size: 1rem; color: var(--testo-2); }
 .card .go { margin-top: .3rem; font-weight: 700; font-size: .92rem; color: var(--salvia); }
-.cards.services { grid-template-columns: repeat(4, 1fr); }
+.cards.services { grid-template-columns: repeat(3, 1fr); }
 .help-strip { margin-top: 1.3rem; display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; justify-content: space-between; background: var(--salvia-chiaro); border-radius: var(--r); padding: 1.2rem 1.5rem; }
 .help-strip p { max-width: 50rem; }
 .journey { list-style: none; padding-left: 0 !important; display: grid; gap: .7rem !important; }
