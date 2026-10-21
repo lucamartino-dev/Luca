@@ -158,6 +158,21 @@ def posters(limit=None):
     return "\n      ".join(out)
 
 
+METHOD = [
+    ("Partiamo da episodi concreti", "Non parliamo in astratto. Prendiamo un momento preciso della tua settimana, una discussione, un attacco d'ansia, una scelta difficile, e lo ripercorriamo insieme quasi al rallentatore: cosa è successo, cosa hai provato, cosa hai pensato, cosa hai fatto. Nel modello post-razionalista questa tecnica si chiama \"moviola\"."),
+    ("Diamo un senso alle emozioni", "Le emozioni non sono nemiche da eliminare: sono informazioni preziose su di te. Capire perché una certa situazione ti fa sentire proprio così è il primo passo per viverla in modo diverso."),
+    ("Colleghiamo i fili della tua storia", "Episodio dopo episodio emergono schemi che si ripetono e che spesso hanno radici lontane. Riconoscerli ti restituisce libertà: smetti di subirli e puoi scegliere come rispondere."),
+    ("Strumenti concreti, quando servono", "Se c'è un obiettivo pratico, come una decisione, un cambiamento di lavoro o l'organizzazione delle giornate, integro strumenti di coaching: domande mirate, obiettivi chiari, piccoli passi da provare tra un incontro e l'altro."),
+]
+
+
+def method_block():
+    items = "\n      ".join(f"<li><h3>{t}</h3><p>{d}</p></li>" for t, d in METHOD)
+    return f'''<ol class="method">
+      {items}
+    </ol>'''
+
+
 def prices_block():
     cards = "\n      ".join(
         f'<div class="price"><h3>{t}</h3><p class="amount">{a}</p><p class="meta">{m}</p></div>' for t, a, m in PRICES
@@ -347,6 +362,7 @@ def render(text):
     text = text.replace("{{final_cta}}", final_cta())
     text = text.replace("{{trust}}", trust_strip())
     text = text.replace("{{prices}}", prices_block())
+    text = text.replace("{{method}}", method_block())
     text = text.replace("{{posters}}", posters())
     text = text.replace("{{posters_teaser}}", posters(4))
     text = text.replace("{{emergency}}", emergency())

@@ -184,6 +184,15 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .letter .opening { font-family: var(--display); font-style: italic; font-size: 1.35rem; line-height: 1.45; color: var(--testo); }
 .letter .sign-off { font-family: var(--display); font-style: italic; font-size: 1.6rem; color: var(--salvia); margin-top: -.2rem; }
 
+/* Il metodo: quattro passaggi del lavoro in seduta */
+.method { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.3rem; counter-reset: m; }
+.method li { counter-increment: m; background: var(--bianco); border: 1px solid var(--linea); border-radius: var(--r); padding: 1.5rem 1.6rem; display: grid; grid-template-columns: 2.4rem 1fr; gap: .2rem 1rem; align-content: start; }
+.method li::before { content: counter(m); grid-row: span 2; width: 2.4rem; height: 2.4rem; border-radius: 50%; background: var(--salvia-chiaro); color: var(--salvia); display: grid; place-items: center; font-family: var(--display); font-size: 1.2rem; }
+.method h3 { font-size: 1.2rem; }
+.method p { font-size: 1rem; color: var(--testo-2); }
+.method-end { margin-top: 1.8rem; max-width: 65ch; }
+@media (max-width: 760px) { .method { grid-template-columns: 1fr; } }
+
 /* Primo colloquio: tre passi reali, in sequenza */
 .steps { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; counter-reset: s; }
 .steps li { counter-increment: s; display: grid; gap: .55rem; align-content: start; padding-top: 1.1rem; border-top: 2px solid var(--legno); }
