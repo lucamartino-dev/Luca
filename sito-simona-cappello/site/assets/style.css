@@ -286,6 +286,15 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .timeline .k { font-size: .85rem; color: var(--salvia); font-weight: 700; }
 .timeline span:not(.k) { color: var(--testo-2); }
 
+/* Corsi di formazione */
+.courses { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.courses li { background: var(--bianco); border: 1px solid var(--linea); border-radius: var(--r); padding: 1.1rem 1.3rem; display: grid; gap: .2rem; align-content: start; }
+.courses .k { font-size: .85rem; color: var(--salvia); font-weight: 700; }
+.courses strong { font-family: var(--display); font-weight: 400; font-size: 1.15rem; line-height: 1.3; }
+.courses span:last-child { font-size: .92rem; color: var(--testo-2); }
+@media (max-width: 900px) { .courses { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .courses { grid-template-columns: 1fr; } }
+
 /* Contatti */
 .contact-lines { display: grid; gap: 1.2rem; }
 .contact-lines .row { display: grid; gap: .1rem; }
