@@ -27,6 +27,7 @@ CONFIG = {
     "province": "MI",
     "albo": "Ordine degli Psicologi della Lombardia n. 29185",
     "piva": "13929220963",
+    "hours": "Lunedì-venerdì, 9-18, anche in pausa pranzo",
     "maps": "https://www.google.com/maps/search/?api=1&query=Via+Cornaredo+17+20006+Pregnana+Milanese",
     "towns": ["Pregnana Milanese", "Cornaredo", "Rho", "Bareggio", "Vanzago", "Arluno"],
 }
@@ -130,7 +131,7 @@ def footer():
       <h2>{CONFIG['name']}</h2>
       <span>{CONFIG['role']} a {CONFIG['city']}</span>
       <span>{CONFIG['address']}, {CONFIG['cap']} {CONFIG['city']} ({CONFIG['province']})</span>
-      <span>Ricevo su appuntamento</span>
+      <span>{CONFIG['hours']}, su appuntamento</span>
     </div>
     <div class="col">
       <p class="label">Contatti</p>
@@ -185,6 +186,7 @@ def business_jsonld():
         },
         "areaServed": [{"@type": "City", "name": t} for t in CONFIG["towns"]],
         "sameAs": [CONFIG["miodottore"]],
+        "openingHours": "Mo-Fr 09:00-18:00",
         "founder": {"@type": "Person", "name": "Simona Cappello", "jobTitle": "Psicologa"},
     }
     if CONFIG["phone"]:
