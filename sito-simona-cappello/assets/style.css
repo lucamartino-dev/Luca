@@ -180,6 +180,8 @@ blockquote.pull { margin: 1.4rem 0 0; font-family: var(--display); font-style: i
 .when-list { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 3rem; border-top: 1px solid var(--linea); }
 .when-list li { display: grid; grid-template-columns: 1.4rem 1fr; gap: .8rem; padding: 1rem 0; border-bottom: 1px solid var(--linea); align-items: baseline; }
 .when-list li::before { content: ""; width: .5rem; height: .5rem; border-radius: 50%; background: var(--legno); transform: translateY(-.1rem); }
+.thoughts a { color: var(--testo); text-decoration: none; font-size: 1.04rem; line-height: 1.5; }
+.thoughts a:hover { color: var(--salvia); text-decoration: underline; text-decoration-color: var(--linea-scura); }
 .recognize-cta { margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; }
 .recognize-cta p { font-family: var(--display); font-style: italic; font-size: 1.3rem; line-height: 1.45; }
 .closing { margin-top: 2.2rem; max-width: 42rem; font-family: var(--display); font-style: italic; font-size: 1.3rem; line-height: 1.5; }
