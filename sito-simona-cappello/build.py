@@ -250,7 +250,7 @@ def footer():
   <div class="wrap">
     <div class="col">
       <h2>{CONFIG['name']}</h2>
-      <span>{CONFIG['role']} a {CONFIG['city']}</span>
+      <span>{CONFIG['role']}</span>
       <span>{CONFIG['address']}, {CONFIG['cap']} {CONFIG['city']} ({CONFIG['province']})</span>
       <span>{CONFIG['hours']}, su appuntamento</span>
     </div>
