@@ -30,7 +30,7 @@ CONFIG = {
     "hours": "Dal lunedì al venerdì, dalle 9 alle 18, anche in pausa pranzo",
     "google_reviews": "https://www.google.com/maps/search/?api=1&query=Dott.ssa+Simona+Cappello+Psicologa",
     "maps": "https://www.google.com/maps/search/?api=1&query=Via+Cornaredo+17+20006+Pregnana+Milanese",
-    "towns": ["Pregnana Milanese", "Cornaredo", "Rho", "Bareggio", "Vanzago", "Arluno"],
+    "towns": ["Pregnana Milanese", "Cornaredo", "Settimo Milanese", "Vighignolo", "Rho", "Bareggio", "Vanzago", "Arluno"],
 }
 
 NAV = [
@@ -89,7 +89,7 @@ EVENTS = [
 
 PRICES = [
     ("Colloquio individuale", "70 €", "50 minuti, in studio"),
-    ("Colloquio di coppia", "100 €", "In studio"),
+    ("Colloquio di coppia", "100 €", "60 minuti, in studio"),
     ("Colloquio online", "60 €", "50 minuti, in videochiamata"),
 ]
 

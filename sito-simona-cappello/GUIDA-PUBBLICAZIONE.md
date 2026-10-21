@@ -71,7 +71,7 @@ Obiettivo: tenere la scheda di Cornaredo con le sue recensioni, ma con l'indiriz
 1. Vai su **business.google.com** ed entra con l'account Google che gestisce la scheda.
 2. Apri la scheda di Cornaredo e premi **Modifica profilo**.
 3. Nella sezione **Posizione**, alla voce **Indirizzo dell'attività**, inserisci `Via Cornaredo 17, 20006 Pregnana Milanese (MI)` e salva. Google potrebbe chiederti una nuova verifica, per esempio con un breve video dello studio: è normale.
-4. Alla voce **Area servita** (o **Zone di copertura**) aggiungi Cornaredo, Rho, Bareggio, Vanzago e Arluno.
+4. Alla voce **Area servita** (o **Zone di copertura**) aggiungi Cornaredo, Settimo Milanese, Vighignolo, Rho, Bareggio, Vanzago e Arluno.
 5. Controlla anche il resto:
    - orari: dal lunedì al venerdì, dalle 9 alle 18;
    - telefono: 347 051 5781;
