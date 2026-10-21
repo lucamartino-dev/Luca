@@ -26,7 +26,7 @@ CONFIG = {
     "city": "Pregnana Milanese",
     "province": "MI",
     "albo": "Ordine degli Psicologi della Lombardia n. 29185",
-    "piva": "",
+    "piva": "13929220963",
     "maps": "https://www.google.com/maps/search/?api=1&query=Via+Cornaredo+17+20006+Pregnana+Milanese",
     "towns": ["Pregnana Milanese", "Cornaredo", "Rho", "Bareggio", "Vanzago", "Arluno"],
 }
