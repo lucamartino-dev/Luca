@@ -128,7 +128,7 @@ function check(name, ok, detail = '') { results.push({ name, ok, detail }); }
     await page.goto(BASE + f);
     (await page.$$eval('a[href^="http"]', as => as.map(a => a.href))).forEach(h => ext.add(h));
   }
-  for (const h of ext) check(`link esterno ${h}`, /^https:\/\/(www\.miodottore\.it|wa\.me|www\.google\.com)\//.test(h));
+  for (const h of ext) check(`link esterno ${h}`, /^https:\/\/(www\.miodottore\.it|wa\.me|www\.google\.com|www\.movibus\.it)\//.test(h));
 
   await browser.close();
   server.close();
