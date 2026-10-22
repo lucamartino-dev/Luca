@@ -87,7 +87,9 @@ EVENTS = [
     ("Stress e lavoro", "Ritrovare equilibrio", "Pressione, carichi, conciliazione: strumenti concreti per stare meglio al lavoro.", "Aziende e team", False, "legno"),
     ("Diventare mamma", "Il benessere dopo la nascita", "Emozioni, fatiche e cambiamenti dei primi mesi, per non sentirsi sole.", "Neo-mamme con i loro bambini", False, "salvia"),
     ("Crescere con loro", "Adolescenti ed emozioni", "Un incontro per genitori: capire i ragazzi e trovare il modo di stare loro accanto.", "Genitori e scuole", False, "sabbia"),
-    ("Cambiare strada", "Affrontare le transizioni di vita", "Cambiare lavoro, città, ruolo: come attraversare il cambiamento senza perdersi.", "Adulti e professionisti", False, "legno"),
+    ("Il corpo che cresce", "Intimità e scoperta di sé", "La scoperta del corpo, l'intimità, il ciclo: parole semplici e serene per parlarne in famiglia, senza imbarazzo.", "Genitori e bambini", False, "legno"),
+    ("Schermi e dispositivi", "Quando diventano una dipendenza", "Smartphone, videogiochi e social: capire quando preoccuparsi e come accompagnare i bambini verso un uso più sereno.", "Genitori e bambini", False, "salvia"),
+    ("Cambiare strada", "Affrontare le transizioni di vita", "Cambiare lavoro, città, ruolo: come attraversare il cambiamento senza perdersi.", "Adulti e professionisti", False, "sabbia"),
 ]
 
 PRICES = [
