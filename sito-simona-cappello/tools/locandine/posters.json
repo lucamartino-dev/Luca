@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "ansia",
+    "tagline": "Capire cosa ci sta dicendo l'ansia<br>per imparare ad ascoltarla",
+    "title1": "Ansia:",
+    "title2": "Conoscerla per Gestirla",
+    "cols": [
+      ["flower", "Cos'è<br>l'ansia", "Scopri da dove nasce, a cosa serve e perché a volte diventa così intensa da toglierci il respiro."],
+      ["peak", "I segnali<br>del corpo", "Impara a riconoscere i messaggi del corpo e della mente prima che l'ansia prenda il sopravvento."],
+      ["heart", "Strategie<br>pratiche", "Strumenti semplici da usare ogni giorno per ritrovare calma, respiro e fiducia in te."]
+    ]
+  },
+  {
+    "slug": "schermi-dispositivi",
+    "tagline": "Un incontro per genitori e bambini<br>sul rapporto con la tecnologia",
+    "title1": "Schermi e Dispositivi:",
+    "title2": "quando diventano dipendenza",
+    "size1": 80,
+    "size2": 74,
+    "cols": [
+      ["flower", "Il mondo<br>digitale", "Smartphone, videogiochi e social: cosa cercano i bambini e cosa trovano dentro lo schermo."],
+      ["peak", "I campanelli<br>d'allarme", "Come capire quando l'uso diventa eccessivo e cosa sta succedendo davvero dietro."],
+      ["heart", "Regole che<br>funzionano", "Idee concrete per accompagnarli verso un uso più sereno, senza guerre in famiglia."]
+    ]
+  },
+  {
+    "slug": "corpo-che-cresce",
+    "tagline": "Parlare di corpo e intimità in famiglia,<br>con parole semplici e serene",
+    "title1": "Il Corpo che Cresce:",
+    "title2": "intimità e scoperta di sé",
+    "size1": 82,
+    "size2": 76,
+    "cols": [
+      ["flower", "La scoperta<br>del corpo", "Curiosità, domande e cambiamenti: come accoglierli con naturalezza, a ogni età."],
+      ["peak", "Il ciclo e<br>la crescita", "Come prepararsi insieme ai cambiamenti del corpo, senza imbarazzo e senza paura."],
+      ["heart", "Le parole<br>giuste", "Spunti concreti per i genitori, per rispondere alle domande dei figli con serenità."]
+    ]
+  }
+]
