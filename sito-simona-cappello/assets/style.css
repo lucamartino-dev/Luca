@@ -377,3 +377,6 @@ footer.site .legal nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 .poster.mini .mini-title { font-family: var(--display); font-weight: 400; font-size: 1.35rem; line-height: 1.15; margin-top: .4rem; }
 .poster.mini .sub { font-size: .98rem; }
 .poster.mini:hover { transform: translateY(-2px); }
+.cert { margin: 1.4rem 0 0; display: grid; grid-template-columns: 7.5rem 1fr; gap: 1rem; align-items: center; }
+.cert img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--linea); box-shadow: 0 6px 18px var(--ombra); background: #fff; }
+.cert figcaption { font-size: .9rem; color: var(--testo-2); }
