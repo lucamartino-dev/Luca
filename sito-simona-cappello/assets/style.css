@@ -367,3 +367,13 @@ footer.site .legal nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 .legal-text { max-width: 65ch; display: grid; gap: 1rem; }
 .legal-text h2 { font-size: 1.5rem; margin-top: 1.4rem; }
 .nowrap { white-space: nowrap; }
+.aside-col { display: grid; gap: 1.5rem; align-content: start; }
+.related { display: grid; gap: .8rem; }
+.related .eyebrow { margin: 0; }
+.minis { display: grid; gap: .8rem; }
+.poster.mini { min-height: 0; padding: 1rem 1.2rem 1.1rem; gap: .3rem; text-decoration: none; transition: transform .2s ease; }
+.poster.mini::before { width: 7rem; height: 7rem; right: -2.5rem; top: -2.5rem; }
+.poster.mini .badge { align-self: flex-start; }
+.poster.mini .mini-title { font-family: var(--display); font-weight: 400; font-size: 1.35rem; line-height: 1.15; margin-top: .4rem; }
+.poster.mini .sub { font-size: .98rem; }
+.poster.mini:hover { transform: translateY(-2px); }

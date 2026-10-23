@@ -161,6 +161,20 @@ def posters(limit=None):
     return "\n      ".join(out)
 
 
+def related_posters(titles):
+    by_title = {e[0]: e for e in EVENTS}
+    cards = []
+    for t in titles.split("|"):
+        title, sub, text, who, done, tone = by_title[t]
+        cards.append(
+            f'<a class="poster mini {tone}" href="incontri.html"><span class="badge">Incontro</span>'
+            f'<strong class="mini-title">{title}</strong><span class="sub">{sub}</span></a>'
+        )
+    return (f'<section class="related" aria-label="Incontri su questo tema"><p class="eyebrow">Incontri su questo tema</p>'
+            f'<div class="minis">{"".join(cards)}</div>'
+            f'<a class="link-more" href="incontri.html">Tutti gli incontri</a></section>')
+
+
 METHOD = [
     ("heart", "Ogni percorso è diverso", "Non ho un programma uguale per tutti. Partiamo da quello che porti tu, oggi, e costruiamo il percorso su di te, sulla tua storia e su ciò di cui hai bisogno."),
     ("chat", "Siamo in due", "Non parlerai nel vuoto mentre io ascolto in silenzio. È un dialogo vero: ti faccio domande, ti restituisco quello che vedo, ti propongo spunti. E tu puoi sempre dirmi cosa ti serve e cosa no."),
@@ -368,6 +382,7 @@ def render(text):
     text = text.replace("{{method}}", method_block())
     text = text.replace("{{posters}}", posters())
     text = text.replace("{{posters_teaser}}", posters(4))
+    text = re.sub(r"\{\{related:([^}]+)\}\}", lambda m: related_posters(m.group(1)), text)
     text = text.replace("{{emergency}}", emergency())
     text = text.replace("{{service_cards}}", service_cards())
     text = re.sub(r"\{\{other_services:([\w.-]+)\}\}", lambda m: service_chips(m.group(1)), text)
