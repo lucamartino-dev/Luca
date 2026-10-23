@@ -95,7 +95,7 @@ body{{width:939px;height:1331px;overflow:hidden;font-family:Montserrat,sans-seri
 .foot small{{display:block;font-size:12px;font-weight:600;color:#7a8a90}}
 .foot strong{{display:block;font-size:21px;font-weight:800;line-height:1.2}}
 </style></head><body>
-<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="blob b1"></div>
 <svg class="art" viewBox="0 0 380 380">{art}</svg>
 <div class="badge"><img src="simona-cappello.jpg" alt=""><div><b>Dott.ssa Simona Cappello</b><span>Psicologa e coach</span></div></div>
 <p class="q">{p["question"]}</p>
