@@ -1,0 +1,19 @@
+<section id="app-ciclo-2" data-transition="fade" style="background:#EEF0F3;color:#303030;font-family:'IBM Plex Serif', Georgia, serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;line-height:1.4;color:#1F5AE0">Appendice</p>
+<h2 style="font-family:Inter, Arial, sans-serif;font-size:56px;font-weight:700;line-height:1.1;color:#303030">Il ciclo per fase (2 di 2)</h2>
+</div>
+<table style="width:1664px;font-family:'IBM Plex Serif', Georgia, serif;font-size:24px;color:#303030">
+<tr style="background:#DDE2EA"><th style="width:15%;font-family:Inter, Arial, sans-serif;font-weight:700">Fase</th><th style="width:13%;font-family:Inter, Arial, sans-serif;font-weight:700">Responsabile</th><th style="width:27%;font-family:Inter, Arial, sans-serif;font-weight:700">Delegabile all’AI</th><th style="width:27%;font-family:Inter, Arial, sans-serif;font-weight:700">Output e controllo</th><th style="width:18%;font-family:Inter, Arial, sans-serif;font-weight:700">Metrica</th></tr>
+<tr><td>Test</td><td>QA</td><td>Esecuzione automatica, analisi dei fallimenti</td><td>Esito tracciato, firmato dal QA</td><td>Durata, falsi positivi</td></tr>
+<tr><td>Approvazione</td><td>Product owner</td><td>Riepilogo delle evidenze per decidere</td><td>Approvazione registrata</td><td>Attesa di approvazione</td></tr>
+<tr><td>Rilascio</td><td>Release manager</td><td>Note di rilascio, verifica dei prerequisiti</td><td>Deploy con rollback provato</td><td>Change fail rate</td></tr>
+<tr><td>Osservabilità</td><td>Operations</td><td>Lettura di log e allarmi, ipotesi sulla causa</td><td>Diagnosi; decisione umana sul fix</td><td>Ripristino, rework rate</td></tr>
+<tr><td>Miglioramento</td><td>Factory Lead</td><td>Proposte di modifica a skills e playbook</td><td>Rilascio verificato dalla regressione</td><td>Correzioni ricorrenti chiuse</td></tr>
+</table>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;height:32px;display:flex;align-items:center;justify-content:space-between">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Punto di partenza, da adattare nel Blueprint</p>
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Agentic Factory · 20</p>
+</div>
+<aside>Le ultime cinque fasi chiudono il ciclo. L’AI esegue i test e ne analizza i fallimenti, prepara il riepilogo delle evidenze per chi approva, scrive le note di rilascio e verifica i prerequisiti, legge log e allarmi per proporre un’ipotesi sulla causa di un incidente. Qui può esserci molto valore, da verificare sui vostri dati: per esempio quando serve correggere un problema in produzione in tempi stretti, la diagnosi assistita accorcia la ricerca del punto da correggere, ma la decisione sul fix resta umana. L’ultima fase, il miglioramento, riporta ciò che impariamo dentro skills e playbook, sempre passando dalla suite di regressione.</aside>
+</section>

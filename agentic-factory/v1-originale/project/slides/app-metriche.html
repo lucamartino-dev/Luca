@@ -1,0 +1,25 @@
+<section id="app-metriche" data-transition="fade" style="background:#EDEFF2;color:#303030;font-family:'IBM Plex Serif', Georgia, serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;line-height:1.4;color:#1F5AE0">Appendice</p>
+<h2 style="font-family:Inter, Arial, sans-serif;font-size:64px;font-weight:700;line-height:1.1;color:#303030">Le cinque metriche: definizione e fonte dati</h2>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+<table style="width:1664px;font-family:'IBM Plex Serif', Georgia, serif;font-size:24px;color:#303030">
+<tr style="background:#E3E7ED"><th style="width:25%;font-weight:700">Metrica</th><th style="width:45%;font-weight:700">Definizione</th><th style="width:30%;font-weight:700">Fonte dati</th></tr>
+<tr><td>Lead time per change (DORA)</td><td>Da «In Progress» al deploy in produzione; mediana e p85, interno e fornitore separati</td><td>Jira con changelog, PR API, git log dei tag</td></tr>
+<tr><td>Change failure rate e rework (DORA)</td><td>Quota di deploy seguiti da hotfix, rollback o revert entro 7 giorni</td><td>Bug con link «caused by», git log di revert e hotfix</td></tr>
+<tr><td>Quota interna</td><td>Quota di PR mergiate e ticket chiusi da autori interni; categorie passate dal fornitore al team</td><td>git log per email, gruppo assegnatario in Jira</td></tr>
+<tr><td>Accettazione fornitore</td><td>Giorni dalla consegna al merge, cicli di rework, difetti in accettazione contro difetti in produzione a 30 giorni</td><td>Review API di GitHub o Bitbucket, Bug con fase di rilevazione</td></tr>
+<tr><td>Esperienza e percezione</td><td>Cinque domande Likert da 1 a 5 più le ore risparmiate a settimana</td><td>Questionario al team</td></tr>
+</table>
+<div style="display:flex;flex-direction:column;gap:8px">
+<p style="font-size:24px;line-height:1.35;color:#303030"><b>Fuori dai KPI.</b> L’acceptance rate dei suggerimenti resta fuori: dice poco sul valore prodotto. Dimensione delle PR e tempo di prima review restano metriche di guardia.</p>
+<p style="font-size:24px;line-height:1.35;color:#5A5F66">Definizioni DORA da <a href="https://dora.dev/guides/dora-metrics/" style="color:#1F5AE0">dora.dev/guides/dora-metrics/</a>. La quota interna è una definizione Skylabs: non esiste un KPI standard pubblicato.</p>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;height:32px;display:flex;align-items:center;justify-content:space-between">
+<img src="/_blob/68080ffcc74cb6f85435dc5903d4331c" alt="Skylabs" style="width:83px;height:32px;object-fit:contain">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Agentic Factory · 20</p>
+</div>
+<aside>Qui ci sono le definizioni operative delle cinque metriche e da dove prendiamo i dati. Lavoriamo con quello che il cliente ha già: Jira, la storia git e le API di review di GitHub o Bitbucket, più un breve questionario al team. Le prime due metriche seguono le definizioni DORA; la quota interna è una nostra definizione, perché non abbiamo trovato un indicatore standard pubblicato. L’acceptance rate dei suggerimenti non entra fra i KPI, perché gli stessi autori dei framework di misura lo considerano poco affidabile.</aside>
+</section>

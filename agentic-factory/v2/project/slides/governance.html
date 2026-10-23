@@ -1,0 +1,34 @@
+<section id="governance" data-transition="fade" style="background:#F7F8FA;color:#303030;font-family:'IBM Plex Serif', Georgia, serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;line-height:1.4;color:#1F5AE0">Misura e controllo</p>
+<h2 style="font-family:Inter, Arial, sans-serif;font-size:64px;font-weight:700;line-height:1.1;color:#303030">Dalla policy alla governance effettiva</h2>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+<div style="display:flex;gap:24px">
+<div style="flex:1;background:#FCFCFD;border:1px solid #DADDE2;border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:12px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:24px;line-height:1.4;color:#5A5F66">1 · Si scrive</p>
+<h3 style="font-family:Inter, Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.15">Policy sintetica</h3>
+<p style="font-size:24px;line-height:1.4">Strumenti e piani ammessi, dati che possono entrare nel contesto, review umana prima del merge, informativa ai lavoratori.</p>
+</div>
+<div style="flex:1;background:#FCFCFD;border:1px solid #DADDE2;border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:12px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:24px;line-height:1.4;color:#5A5F66">2 · Si configura</p>
+<h3 style="font-family:Inter, Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.15">Controlli tecnici</h3>
+<p style="font-size:24px;line-height:1.4">Impostazioni gestite centralmente, login aziendale, allowlist dei server MCP, sandbox, hook, telemetria; più i controlli su repository e pipeline.</p>
+</div>
+<div style="flex:1;background:#FCFCFD;border:1px solid #DADDE2;border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:12px">
+<p style="font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:24px;line-height:1.4;color:#5A5F66">3 · Si verifica</p>
+<h3 style="font-family:Inter, Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.15">Evidenze periodiche</h3>
+<p style="font-size:24px;line-height:1.4">Report mensile che il cliente rilancia da solo: configurazione attiva, eccezioni, blocchi, uso, registro della formazione.</p>
+</div>
+</div>
+<div style="background:#303030;border-radius:16px;padding:28px 36px;display:flex;gap:40px;align-items:center">
+<p style="font-family:Inter, Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.2;color:#F7F8FA;width:520px">Difesa in profondità, non controlli assoluti.</p>
+<p style="flex:1;font-size:24px;line-height:1.4;color:#D5D9DF">Le impostazioni dello strumento sono un controllo lato client: si rafforzano con dispositivi gestiti, sandbox e controlli su repository e pipeline. Ciò che è disponibile dipende da piano, versione e modalità d’uso.</p>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;height:32px;display:flex;align-items:center;justify-content:space-between">
+<img src="/_blob/9c3ba777253f0901a9baee6a32fa8cca" alt="Skylabs" style="width:83px;height:32px;object-fit:contain">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Agentic Factory · 14</p>
+</div>
+<aside>Distinguiamo tre livelli. La policy sintetica è il documento: quali strumenti e piani sono ammessi, quali dati possono entrare nel contesto degli agenti, che nessun merge avviene senza review umana, e l’informativa ai lavoratori. Da sola però non basta. Il secondo livello sono i controlli tecnici: per Claude Code le impostazioni gestite centralmente, il login forzato all’organizzazione, la modalità di bypass dei permessi disattivata, l’allowlist dei server MCP, la sandbox, gli hook e la telemetria, a cui aggiungiamo i controlli su repository e pipeline, come branch protetti e quality gate. Il terzo livello è la verifica: un report che rilanciate ogni mese per dimostrare che i controlli sono ancora attivi. Una precisazione importante, scritta nella documentazione di Anthropic: le impostazioni gestite sono un controllo lato client e non un confine di sicurezza; un amministratore locale o un client modificato può aggirarle. Per questo parliamo di difesa in profondità e le combiniamo con dispositivi gestiti tramite MDM e con controlli lato server. Anche gli hook di default lasciano passare l’azione se falliscono: vanno configurati per bloccare. Le impostazioni gestite dal server richiedono piani Team o Enterprise; alcuni strumenti come audit log e Compliance API sono solo Enterprise. Il dettaglio, con le fonti, è in appendice.</aside>
+</section>

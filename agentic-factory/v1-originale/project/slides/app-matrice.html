@@ -1,0 +1,27 @@
+<section id="app-matrice" data-transition="fade" style="background:#EDEFF2;color:#303030;font-family:'IBM Plex Serif', Georgia, serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;line-height:1.4;color:#1F5AE0">Appendice</p>
+<h2 style="font-family:Inter, Arial, sans-serif;font-size:64px;font-weight:700;line-height:1.1;color:#303030">La matrice di governance</h2>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:24px">
+<table style="width:1664px;font-family:'IBM Plex Serif', Georgia, serif;font-size:24px;color:#303030">
+<tr style="background:#E3E7ED"><th style="width:25%;font-weight:700">Controllo</th><th style="width:15%;font-weight:700">Claude Code</th><th style="width:15%;font-weight:700">Codex</th><th style="width:15%;font-weight:700">Copilot</th><th style="width:15%;font-weight:700">Gemini CLI</th><th style="width:15%;font-weight:700">Cursor</th></tr>
+<tr><td>Policy centralizzate</td><td>sì</td><td>sì</td><td>sì</td><td>sì</td><td>sì</td></tr>
+<tr><td>Permessi e sandbox</td><td>sì</td><td>sì</td><td>sì</td><td>parziale</td><td>sì</td></tr>
+<tr><td>Allowlist MCP e plugin</td><td>sì</td><td>sì</td><td>sì, tranne cloud agent</td><td>sì</td><td>sì</td></tr>
+<tr><td>SSO, audit, telemetria</td><td>sì</td><td>parziale</td><td>sì</td><td>sì</td><td>sì</td></tr>
+<tr><td>Data handling</td><td>EU solo via Bedrock o Vertex</td><td>parziale, non verificato</td><td>parziale</td><td>parziale</td><td>parziale</td></tr>
+<tr><td>Hook deterministici</td><td>sì</td><td>sì, con casi fail-open</td><td>sì in CLI, fail-open su timeout</td><td>parziale</td><td>sì</td></tr>
+<tr><td>Istruzioni organizzative</td><td>sì</td><td>parziale</td><td>parziale</td><td>parziale</td><td>sì</td></tr>
+</table>
+<div style="display:flex;flex-direction:column;gap:8px">
+<p style="font-size:24px;line-height:1.35;color:#303030"><b>Legenda.</b> «sì»: l’IT lo impone e l’utente non lo aggira, secondo la documentazione ufficiale. «parziale»: esiste, con buchi documentati. «non verificato»: pagina ufficiale non raggiungibile.</p>
+<p style="font-size:24px;line-height:1.35;color:#5A5F66">Fonte: documentazione ufficiale dei cinque strumenti, consultata a ottobre 2026.</p>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;height:32px;display:flex;align-items:center;justify-content:space-between">
+<img src="/_blob/68080ffcc74cb6f85435dc5903d4331c" alt="Skylabs" style="width:83px;height:32px;object-fit:contain">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Agentic Factory · 18</p>
+</div>
+<aside>Questa matrice confronta sette controlli di governance sui cinque strumenti più diffusi, ricavata dalla documentazione ufficiale di ottobre 2026. Tutti offrono policy centralizzate; le differenze stanno negli hook, dove Codex e Copilot hanno casi in cui il controllo si apre invece di bloccare, e nella gestione dei dati. Per Claude Code la residenza dei dati in Europa passa da Bedrock o Vertex, ed è il punto debole che dichiariamo. Per Codex alcuni termini su dati e residenza non erano raggiungibili, quindi li indichiamo come non verificati.</aside>
+</section>

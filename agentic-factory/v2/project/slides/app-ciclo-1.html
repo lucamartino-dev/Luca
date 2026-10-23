@@ -1,0 +1,20 @@
+<section id="app-ciclo-1" data-transition="fade" style="background:#EEF0F3;color:#303030;font-family:'IBM Plex Serif', Georgia, serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;line-height:1.4;color:#1F5AE0">Appendice</p>
+<h2 style="font-family:Inter, Arial, sans-serif;font-size:56px;font-weight:700;line-height:1.1;color:#303030">Il ciclo per fase (1 di 2)</h2>
+</div>
+<table style="width:1664px;font-family:'IBM Plex Serif', Georgia, serif;font-size:24px;color:#303030">
+<tr style="background:#DDE2EA"><th style="width:15%;font-family:Inter, Arial, sans-serif;font-weight:700">Fase</th><th style="width:13%;font-family:Inter, Arial, sans-serif;font-weight:700">Responsabile</th><th style="width:27%;font-family:Inter, Arial, sans-serif;font-weight:700">Delegabile all’AI</th><th style="width:27%;font-family:Inter, Arial, sans-serif;font-weight:700">Output e controllo</th><th style="width:18%;font-family:Inter, Arial, sans-serif;font-weight:700">Metrica</th></tr>
+<tr><td>Domanda</td><td>Product owner</td><td>Sintesi, domande di chiarimento, stima d’impatto</td><td>Richiesta qualificata, approvata dal PO</td><td>Tempo di qualificazione</td></tr>
+<tr><td>Analisi</td><td>Analista</td><td>Lettura di codice e sistemi impattati, bozza dei requisiti</td><td>Analisi rivista dal lead</td><td>Rilavorazioni dell’analisi</td></tr>
+<tr><td>Criteri</td><td>PO e QA</td><td>Criteri in forma verificabile, casi limite</td><td>Criteri approvati, traducibili in test</td><td>Criteri cambiati dopo l’avvio</td></tr>
+<tr><td>Prototipo</td><td>Factory Lead</td><td>Prototipi funzionanti da validare</td><td>Prototipo validato o scartato dal business</td><td>Giorni alla prima validazione</td></tr>
+<tr><td>Sviluppo</td><td>Sviluppatore</td><td>Codice, refactoring, documentazione tecnica</td><td>PR piccole, review umana, quality gate</td><td>DORA change lead time</td></tr>
+<tr><td>Test design</td><td>QA lead</td><td>Selezione dei test sull’impatto, nuovi casi</td><td>Piano di test mirato, rivisto dal QA</td><td>Difetti sfuggiti per area</td></tr>
+</table>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;height:32px;display:flex;align-items:center;justify-content:space-between">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Punto di partenza, da adattare nel Blueprint</p>
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Agentic Factory · 19</p>
+</div>
+<aside>Questa tabella e la successiva dettagliano le undici fasi. Per ognuna c’è un responsabile umano, cioè chi risponde del risultato, poi cosa si può delegare all’AI, l’output con il suo controllo e una metrica. Nelle prime sei fasi l’AI aiuta a qualificare la domanda, legge codice e sistemi impattati, scrive criteri verificabili, produce prototipi, sviluppa e seleziona i test in base all’impatto della modifica. In ogni fase la decisione resta a una persona. È un punto di partenza: nel Blueprint lo adattiamo ai vostri ruoli, ai vostri strumenti e al livello di rischio di ciascun sistema.</aside>
+</section>

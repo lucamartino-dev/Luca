@@ -1,0 +1,22 @@
+<section id="app-controlli" data-transition="fade" style="background:#EEF0F3;color:#303030;font-family:'IBM Plex Serif', Georgia, serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;line-height:1.4;color:#1F5AE0">Appendice · verificato il 23 ottobre 2026</p>
+<h2 style="font-family:Inter, Arial, sans-serif;font-size:56px;font-weight:700;line-height:1.1;color:#303030">Controlli di Claude Code e loro limiti</h2>
+</div>
+<table style="width:1664px;font-family:'IBM Plex Serif', Georgia, serif;font-size:24px;color:#303030">
+<tr style="background:#DDE2EA"><th style="width:22%;font-family:Inter, Arial, sans-serif;font-weight:700">Controllo</th><th style="width:33%;font-family:Inter, Arial, sans-serif;font-weight:700">Cosa fa</th><th style="width:45%;font-family:Inter, Arial, sans-serif;font-weight:700">Limite documentato</th></tr>
+<tr><td>Impostazioni gestite</td><td>Prevalgono su utente e progetto</td><td>Lato client, non confine di sicurezza; un admin locale può modificarle</td></tr>
+<tr><td>Gestite dal server</td><td>Da console, piani Team o Enterprise</td><td>Ignorate con Bedrock, Vertex, Foundry o base URL personalizzata</td></tr>
+<tr><td>Login e bypass</td><td>Login all’organizzazione; bypass dei permessi disattivato</td><td>Le regole sui comandi sono fragili: serve la sandbox</td></tr>
+<tr><td>Sandbox</td><td>Isola comandi e rete in allowlist</td><td>Se non parte, di default i comandi girano fuori; non su Windows nativo</td></tr>
+<tr><td>Hook</td><td>Bloccano azioni prima dell’esecuzione</td><td>Su errore o timeout lasciano passare, salvo configurazione esplicita</td></tr>
+<tr><td>Telemetria</td><td>Metriche ed eventi verso il vostro collector</td><td>Prompt non registrati di default; audit log solo Enterprise</td></tr>
+<tr><td>Residenza dati</td><td>API: inferenza globale o USA</td><td>Nessuna regione UE indicata; via cloud dipende da regione e modello</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.4;color:#5A5F66">Fonti: code.claude.com/docs e platform.claude.com. Da riverificare per piano e versione all’installazione.</p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;height:32px;display:flex;align-items:center;justify-content:space-between">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Documentazione ufficiale Anthropic</p>
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Agentic Factory · 23</p>
+</div>
+<aside>Questa tabella sostituisce la matrice comparativa fra cinque strumenti della versione precedente, che non abbiamo potuto riverificare e che conteneva assoluti come «non aggirabile». Qui ci limitiamo a Claude Code, verificato sulla documentazione ufficiale il 23 ottobre 2026. Le impostazioni gestite prevalgono su quelle di utente e progetto, ma la documentazione dice esplicitamente che sono un controllo lato client e non un confine di sicurezza: su un dispositivo non gestito o con un amministratore locale si possono aggirare; con MDM le garanzie sono più forti. Le impostazioni gestite dal server richiedono Team o Enterprise e il ruolo di owner, e vengono ignorate se si usa Claude tramite Bedrock, Vertex, Foundry o un endpoint personalizzato. Le regole sui comandi basate sugli argomenti sono fragili, quindi per la rete serve la sandbox, che però di default lascia girare i comandi fuori se non si avvia, a meno di impostare failIfUnavailable, e non è disponibile su Windows nativo. Gli hook bloccano con exit code 2, ma in caso di errore o timeout lasciano passare l’azione, a meno di configurare onFailure block, disponibile dalla versione 2.1.295; con allowManagedHooksOnly valgono solo gli hook gestiti. La telemetria OpenTelemetry non registra i prompt di default; audit log e Compliance API sono solo Enterprise. Sulla residenza dati, la pagina della piattaforma prevede oggi inferenza globale o USA e workspace solo USA, per l’API; non abbiamo trovato indicazioni che valgano per gli abbonamenti Team ed Enterprise. Per un vincolo europeo vanno verificati i canali cloud, regione per regione e modello per modello.</aside>
+</section>

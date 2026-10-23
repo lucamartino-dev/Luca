@@ -1,0 +1,34 @@
+<section id="misura" data-transition="fade" style="background:#F7F8FA;color:#303030;font-family:'IBM Plex Serif', Georgia, serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;line-height:1.4;color:#1F5AE0">Misura e controllo</p>
+<h2 style="font-family:Inter, Arial, sans-serif;font-size:64px;font-weight:700;line-height:1.1;color:#303030">Il protocollo di misura</h2>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:32px">
+<table style="width:1664px;font-family:'IBM Plex Serif', Georgia, serif;font-size:24px;color:#303030">
+<tr style="background:#E3E7ED"><th style="width:30%;font-weight:700">Metrica</th><th style="width:70%;font-weight:700">Definizione, a livello di team</th></tr>
+<tr><td>Lead time per change</td><td>Da «In Progress» al deploy; mediana e p85, interno e fornitore separati</td></tr>
+<tr><td>Change failure rate e rework</td><td>Deploy seguiti da hotfix, rollback o revert entro 7 giorni</td></tr>
+<tr><td>Quota interna</td><td>PR mergiate e ticket chiusi da autori interni, più le categorie passate dal fornitore al team</td></tr>
+<tr><td>Accettazione fornitore</td><td>Giorni dalla consegna al merge, cicli di rework, difetti in accettazione e in produzione a 30 giorni</td></tr>
+<tr><td>Esperienza e percezione</td><td>Cinque domande Likert su ritmo, ore risparmiate, fiducia, manutenibilità, tool</td></tr>
+</table>
+<div style="display:flex;gap:32px">
+<div style="flex:1;background:#FCFCFD;border:1px solid #DADDE2;border-radius:16px;padding:28px 32px;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-family:Inter, Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.2;color:#303030">Metriche di guardia</h3>
+<p style="font-size:24px;line-height:1.3">PR più grandi o prima review più lenta oltre il 50% della baseline: velocità sospetta.</p>
+</div>
+<div style="flex:1;background:#FCFCFD;border:1px solid #DADDE2;border-radius:16px;padding:28px 32px;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-family:Inter, Arial, sans-serif;font-size:30px;font-weight:700;line-height:1.2;color:#303030">Come lo leggiamo</h3>
+<p style="font-size:24px;line-height:1.3">Mediana, p85 e n; effetti «associati»; tre esiti: estendere, ripetere, fermare.</p>
+</div>
+<div style="flex:1;background:#2868F8;border-radius:16px;padding:28px 32px;display:flex;flex-direction:column;justify-content:center">
+<p style="font-family:Inter, Arial, sans-serif;font-size:40px;font-weight:700;line-height:1.2;color:#FFFFFF">Promettiamo il protocollo, non il numero.</p>
+</div>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;height:32px;display:flex;align-items:center;justify-content:space-between">
+<img src="/_blob/68080ffcc74cb6f85435dc5903d4331c" alt="Skylabs" style="width:83px;height:32px;object-fit:contain">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Agentic Factory · 8</p>
+</div>
+<aside>Misuriamo cinque metriche a livello di team, mai sulla singola persona, con le definizioni firmate nel pre-registro. Due coprono la consegna, cioè lead time e change failure rate; due coprono i driver del CIO, cioè la quota di lavoro fatta in casa e l’accettazione delle consegne dei fornitori; l’ultima raccoglie la percezione del team. Accanto teniamo due metriche di guardia, dimensione delle PR e tempo di prima review: se salgono oltre il 50% rispetto alla baseline, il dato di velocità va letto con sospetto. Riportiamo distribuzioni con mediana, p85 e numero di casi, parliamo di effetti «associati» perché manca un gruppo di controllo randomizzato, e chiudiamo con una decisione fra tre esiti: estendere, ripetere con correzioni o fermare. Il numero lo daranno i vostri dati a settimana 12.</aside>
+</section>

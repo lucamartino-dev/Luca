@@ -1,0 +1,22 @@
+<section id="app-metriche" data-transition="fade" style="background:#EEF0F3;color:#303030;font-family:'IBM Plex Serif', Georgia, serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;line-height:1.4;color:#1F5AE0">Appendice</p>
+<h2 style="font-family:Inter, Arial, sans-serif;font-size:56px;font-weight:700;line-height:1.1;color:#303030">Le definizioni dei KPI</h2>
+</div>
+<table style="width:1664px;font-family:'IBM Plex Serif', Georgia, serif;font-size:24px;color:#303030">
+<tr style="background:#DDE2EA"><th style="width:26%;font-family:Inter, Arial, sans-serif;font-weight:700">KPI</th><th style="width:56%;font-family:Inter, Arial, sans-serif;font-weight:700">Definizione</th><th style="width:18%;font-family:Inter, Arial, sans-serif;font-weight:700">Fonte dati</th></tr>
+<tr><td>Lead time complessivo</td><td>Dalla domanda accettata al rilascio in produzione; mediana e p85</td><td>Ticketing</td></tr>
+<tr><td>Change lead time (DORA)</td><td>Dal commit nel version control al deploy in produzione</td><td>Git, CI/CD</td></tr>
+<tr><td>Change fail rate (DORA)</td><td>Quota di deploy che richiedono un intervento immediato: rollback o hotfix</td><td>CI/CD, incidenti</td></tr>
+<tr><td>Deployment rework rate (DORA)</td><td>Quota di deploy non pianificati, fatti a causa di un incidente in produzione</td><td>CI/CD, incidenti</td></tr>
+<tr><td>Difetti e rilavorazioni</td><td>Difetti per fase di rilevazione; cicli di rework in accettazione</td><td>Ticketing</td></tr>
+<tr><td>Costo per risultato accettato</td><td>Persone, licenze, consumo e infrastruttura, diviso i risultati accettati</td><td>Timesheet, billing</td></tr>
+<tr><td>Autonomia dei lead</td><td>Cicli completi condotti senza intervento operativo Skylabs</td><td>Registro dei cicli</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.4;color:#5A5F66">Ogni KPI è segmentato per complessità e rischio, a livello di team. Fuori dai KPI: acceptance rate dei suggerimenti, righe di codice. Fonte DORA: dora.dev/guides/dora-metrics, aggiornata al 5 gennaio 2026.</p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;height:32px;display:flex;align-items:center;justify-content:space-between">
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Definizioni firmate prima del Launch</p>
+<p style="font-family:Inter, Arial, sans-serif;font-size:24px;line-height:1.3;color:#5A5F66">Agentic Factory · 22</p>
+</div>
+<aside>Le definizioni operative, coerenti con la slide 13. Il lead time complessivo è nostro e parte dalla domanda accettata; il change lead time è quello di DORA, che parte dal commit. Change fail rate e deployment rework rate seguono la guida DORA aggiornata: il primo conta i deploy che richiedono un intervento immediato, come rollback o hotfix; il secondo conta i deploy non pianificati fatti per rimediare a un incidente in produzione. Li teniamo separati perché misurano cose diverse. Il costo per risultato accettato somma persone, licenze, consumo e infrastruttura e lo divide per i risultati accettati nel periodo, segmento per segmento. Restano fuori dai KPI l’acceptance rate dei suggerimenti e le righe di codice, che dicono poco sul valore. Queste definizioni vengono firmate prima del Launch, insieme alla baseline.</aside>
+</section>

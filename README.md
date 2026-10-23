@@ -17,3 +17,11 @@ recuperarne le email dei decision maker.
   outreach.
 
 Lancio: chiedi in chat "cerca investitori per SAE" (o equivalente).
+
+## agentic-factory
+Revisione della presentazione **Agentic Factory** (bozza interna, da approvare).
+
+- `agentic-factory/v1-originale/` — copia di sicurezza dei sorgenti della v1.
+- `agentic-factory/v2/project/` — sorgenti della v2 (31 slide con note del relatore).
+- `agentic-factory/v2/Agentic-Factory-v2-bozza-interna.pdf` — PDF controllato visivamente.
+- `agentic-factory/v2/NOTE-REVISIONE.md` — modifiche, dati da validare, traccia di presentazione.
