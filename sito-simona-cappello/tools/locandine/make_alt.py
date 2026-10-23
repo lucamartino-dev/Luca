@@ -74,8 +74,8 @@ body{{width:939px;height:1331px;overflow:hidden;font-family:Montserrat,sans-seri
 .note{{position:absolute;background:#fffaf2;color:{d};font-family:Caveat,cursive;font-weight:700;font-size:29px;line-height:1.1;padding:12px 20px 14px;border-radius:6px;box-shadow:0 10px 22px rgba(0,0,0,.2);white-space:nowrap}}
 .note::before{{content:"";position:absolute;top:-9px;left:50%;width:62px;height:18px;margin-left:-31px;background:{c};opacity:.75;transform:rotate(-3deg)}}
 .n1{{left:0;top:6px;transform:rotate(-4deg)}}.n2{{left:250px;top:66px;transform:rotate(3deg)}}.n3{{left:40px;top:122px;transform:rotate(-1.5deg)}}
-.info2{{position:absolute;left:60px;right:60px;top:1030px;display:grid;grid-template-columns:1.2fr 1fr 170px;gap:16px;height:168px}}
-.info2>div{{border-radius:20px;padding:18px 20px}}
+.info2{{position:absolute;left:60px;right:60px;top:1030px;display:grid;grid-template-columns:1fr 170px;gap:16px;height:168px}}
+.info2>div{{border-radius:20px;padding:20px 26px}}
 .info2 b{{display:block;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:{p["palette"].get("em", c)};line-height:1.35}}
 .past{{background:rgba(255,255,255,.13)}}
 .past ul{{list-style:none;margin-top:8px;display:grid;gap:5px}}.past ul.two{{grid-template-columns:1fr 1fr;gap:6px 10px}}
@@ -84,8 +84,8 @@ body{{width:939px;height:1331px;overflow:hidden;font-family:Montserrat,sans-seri
 .past li::before{{content:"";position:absolute;left:0;top:6px;width:10px;height:10px;border-radius:50%;background:{l}}}
 .next{{background:{b}}}
 .next b{{color:#fffaf2}}
-.next .big{{display:block;font-family:Fredoka,sans-serif;font-weight:700;font-size:28px;margin:6px 0 4px}}
-.next span{{display:block;font-size:15px;font-weight:600;line-height:1.4}}
+.next .big{{display:block;font-family:Fredoka,sans-serif;font-weight:700;font-size:38px;margin:6px 0 8px}}
+.next span{{display:block;font-size:18px;font-weight:600;line-height:1.4}}
 .info2 .qr{{background:#fffaf2;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px}}
 .info2 .qr img{{width:108px;height:108px}}.info2 .qr span{{color:{d};font-size:12px;font-weight:700;margin-top:4px;text-align:center}}
 .foot{{position:absolute;left:60px;right:60px;bottom:30px;background:#fffaf2;color:{d};border-radius:22px;padding:16px 26px;display:flex;align-items:center;justify-content:space-between;gap:20px}}
@@ -103,8 +103,7 @@ body{{width:939px;height:1331px;overflow:hidden;font-family:Montserrat,sans-seri
 <div class="notes">{"".join(f'<span class="note n{i+1}">{t}</span>' for i, t in enumerate(p.get("thoughts", [])))}</div>
 <div class="title"><small>{p["label"]}</small><h1>{p["title"]}</h1><p>{p["text"]}</p><div class="bul">{"".join(f"<span>{x}</span>" for x in p.get("bullets", []))}</div></div>
 <div class="info2">
-<div class="past"><b>Già realizzati</b><span class="count"><strong>{p.get("count", "[n]")}</strong> incontri</span><i class="place">{place.replace("<br>", " ")}</i></div>
-<div class="next"><b>Prossimo gruppo</b><span class="big">In formazione</span><span>Vuoi farne parte? Per costi, orari e luogo inquadra il QR e scrivimi.</span></div>
+<div class="next"><b>Prossimi incontri</b><span class="big">Nuovi gruppi in formazione</span><span>Posti limitati. Vuoi farne parte? Per date, costi, orari e luogo inquadra il QR e scrivimi.</span></div>
 <div class="qr"><img src="{qr_file}" alt=""><span>Iscriviti<br>su WhatsApp</span></div>
 </div>
 <div class="foot"><span class="lab">Contatti</span><span class="it">{PHONE_ICON}<span><small>Telefono e WhatsApp</small><strong>347 051 5781</strong></span></span><span class="it">{MAIL_ICON}<span><small>Email</small><strong>simonacappello@gmail.com</strong></span></span></div>
