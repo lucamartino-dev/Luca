@@ -135,7 +135,7 @@ def service_cards(exclude=None, with_help=True):
     if with_help:
         html += (
             '\n    </div>\n    <div class="help-strip"><p><strong>Non sai quale scegliere?</strong> '
-            'Non serve saperlo prima: lo capiamo insieme nel primo colloquio.</p>'
+            'Non serve saperlo prima: lo capiamo insieme al primo incontro.</p>'
             '<a class="btn secondary" href="contatti.html">Scrivimi due righe</a>'
         )
     return html
@@ -236,9 +236,9 @@ def header(current):
 def final_cta():
     return f"""<section class="final" aria-labelledby="cta-title">
   <div class="wrap">
-    <p class="eyebrow">Primo colloquio</p>
+    <p class="eyebrow">Quando te la senti</p>
     <h2 id="cta-title">Prendersi uno spazio per sé può essere il primo passo</h2>
-    <p>Se senti il bisogno di un luogo in cui fermarti, comprenderti e affrontare con maggiore chiarezza ciò che stai vivendo, puoi contattarmi per un primo colloquio.</p>
+    <p>Se senti il bisogno di un luogo in cui fermarti, comprenderti e affrontare con maggiore chiarezza ciò che stai vivendo, puoi contattarmi: troveremo insieme il momento giusto per incontrarci.</p>
     <div class="actions">
       <a class="btn" href="{CONFIG['miodottore']}" target="_blank" rel="noopener">{ICONS['calendar']}Prenota su MioDottore</a>
       <a class="btn secondary" href="{whatsapp_url()}" target="_blank" rel="noopener">{ICONS['chat']}Scrivimi su WhatsApp</a>

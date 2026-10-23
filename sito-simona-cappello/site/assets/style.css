@@ -366,3 +366,4 @@ footer.site .legal nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 /* Pagina legale */
 .legal-text { max-width: 65ch; display: grid; gap: 1rem; }
 .legal-text h2 { font-size: 1.5rem; margin-top: 1.4rem; }
+.nowrap { white-space: nowrap; }
