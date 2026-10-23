@@ -380,3 +380,5 @@ footer.site .legal nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 .cert { margin: 1.4rem 0 0; display: grid; grid-template-columns: 7.5rem 1fr; gap: 1rem; align-items: center; }
 .cert img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--linea); box-shadow: 0 6px 18px var(--ombra); background: #fff; }
 .cert figcaption { font-size: .9rem; color: var(--testo-2); }
+.repeat-note { margin-top: 2rem; background: var(--salvia-chiaro); border-radius: var(--r); padding: 1.4rem 1.6rem; display: flex; align-items: center; justify-content: space-between; gap: 1.2rem 2rem; flex-wrap: wrap; }
+.repeat-note p { max-width: 46rem; margin: 0; }
