@@ -175,6 +175,30 @@ def related_posters(titles):
             f'<a class="link-more" href="incontri.html">Tutti gli incontri</a></section>')
 
 
+GALLERY = [
+    ("ansia", "Ansia: conoscerla per gestirla"),
+    ("emozioni", "Le emozioni: riconoscerle, nominarle, viverle"),
+    ("fame-emotiva", "Fame emotiva: quando il cibo parla delle emozioni"),
+    ("stress-lavoro", "Stress e lavoro: ritrovare equilibrio"),
+    ("cambiare-strada", "Cambiare strada: affrontare le transizioni di vita"),
+    ("diventare-mamma", "Diventare mamma: il benessere dopo la nascita"),
+    ("crescere-con-loro", "Crescere con loro: adolescenti ed emozioni"),
+    ("corpo-che-cresce", "Il corpo che cresce: intimità e scoperta di sé"),
+    ("schermi-dispositivi", "Schermi e dispositivi: quando diventano dipendenza"),
+]
+
+
+def gallery():
+    items = []
+    for slug, title in GALLERY:
+        items.append(
+            f'<li><a href="assets/locandine/{slug}.jpg" target="_blank" rel="noopener">'
+            f'<img src="assets/locandine/{slug}-mini.jpg" alt="Locandina dell\'incontro {title}" width="470" height="666" loading="lazy">'
+            f'<span>{title}</span></a></li>'
+        )
+    return '<ul class="gallery">' + "".join(items) + "</ul>"
+
+
 METHOD = [
     ("heart", "Ogni percorso è diverso", "Non ho un programma uguale per tutti. Partiamo da quello che porti tu, oggi, e costruiamo il percorso su di te, sulla tua storia e su ciò di cui hai bisogno."),
     ("chat", "Siamo in due", "Non parlerai nel vuoto mentre io ascolto in silenzio. È un dialogo vero: ti faccio domande, ti restituisco quello che vedo, ti propongo spunti. E tu puoi sempre dirmi cosa ti serve e cosa no."),
@@ -380,6 +404,7 @@ def render(text):
     text = text.replace("{{trust}}", trust_strip())
     text = text.replace("{{prices}}", prices_block())
     text = text.replace("{{method}}", method_block())
+    text = text.replace("{{gallery}}", gallery())
     text = text.replace("{{posters}}", posters())
     text = text.replace("{{posters_teaser}}", posters(4))
     text = re.sub(r"\{\{related:([^}]+)\}\}", lambda m: related_posters(m.group(1)), text)

@@ -382,3 +382,11 @@ footer.site .legal nav { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 .cert figcaption { font-size: .9rem; color: var(--testo-2); }
 .repeat-note { margin-top: 2rem; background: var(--salvia-chiaro); border-radius: var(--r); padding: 1.4rem 1.6rem; display: flex; align-items: center; justify-content: space-between; gap: 1.2rem 2rem; flex-wrap: wrap; }
 .repeat-note p { max-width: 46rem; margin: 0; }
+.gallery { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+.gallery a { display: grid; gap: .6rem; text-decoration: none; color: var(--testo); }
+.gallery img { width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 26px var(--ombra); transition: transform .2s ease, box-shadow .2s ease; }
+.gallery a:hover img { transform: translateY(-3px); box-shadow: 0 16px 34px var(--ombra); }
+.gallery span { font-size: .95rem; font-weight: 700; line-height: 1.35; }
+.gallery-hint { margin-top: 1rem; font-size: .92rem; color: var(--testo-2); }
+@media (max-width: 900px) { .gallery { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .gallery { gap: 1rem .8rem; } .gallery span { font-size: .85rem; } }

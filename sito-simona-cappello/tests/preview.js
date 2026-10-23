@@ -54,7 +54,7 @@ async function visible(page) {
     const views = await page.$$eval('[data-page]', ds => ds.map(d => d.getAttribute('data-page')));
     for (const from of views) {
       await page.evaluate(n => { const a = document.createElement('a'); a.href = n; a.setAttribute('href', n); document.body.appendChild(a); a.click(); a.remove(); }, from);
-      const hrefs = await page.$$eval('[data-page]:not([hidden]) a[href]', as => as.map(a => a.getAttribute('href')).filter(h => !/^(https?:|mailto:|tel:)/.test(h)));
+      const hrefs = await page.$$eval('[data-page]:not([hidden]) a[href]', as => as.map(a => a.getAttribute('href')).filter(h => !/^(https?:|mailto:|tel:|assets\/)/.test(h)));
       for (const href of [...new Set(hrefs)]) {
         await page.evaluate(n => { const a = document.createElement('a'); a.setAttribute('href', n); document.body.appendChild(a); a.click(); a.remove(); }, from);
         await page.locator(`[data-page]:not([hidden]) a[href="${href}"]`).first().evaluate(a => a.click());
