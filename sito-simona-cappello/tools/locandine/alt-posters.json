@@ -1,5 +1,41 @@
 [
   {
+    "slug": "schermi-dispositivi",
+    "ttop": 690,
+    "nome": "Schermi e dispositivi",
+    "art": "phone",
+    "palette": {
+      "bg": "#3d5a80",
+      "blob1": "#e9806e",
+      "blob2": "#f6c85f",
+      "light": "#fffaf2",
+      "dark": "#2b4263",
+      "em": "#f6c85f"
+    },
+    "question": "Tuo figlio non riesce a staccarsi <em>dallo schermo?</em>",
+    "label": "Incontro per genitori e bambini",
+    "title": "Schermi e dispositivi: quando diventano dipendenza",
+    "tsize": 46,
+    "text": "Cosa cercano i bambini dentro lo schermo e come accompagnarli verso un uso più sereno, senza guerre in famiglia.",
+    "thoughts": [
+      "«Ancora cinque minuti!»",
+      "«Ogni sera è una lotta»",
+      "«Forse sbaglio qualcosa io»"
+    ],
+    "bullets": [
+      "Capire cosa cercano",
+      "Riconoscere i segnali",
+      "Regole che funzionano"
+    ],
+    "dates": [
+      "3 marzo 2025",
+      "12 maggio 2025",
+      "9 marzo 2026",
+      "11 maggio 2026"
+    ],
+    "place": "Milano, piazza Velasca 10"
+  },
+  {
     "slug": "ansia",
     "nome": "Ansia",
     "art": "knot",
@@ -14,7 +50,18 @@
     "question": "Ti capita di avere <em>un nodo allo stomaco</em> senza sapere perché?",
     "label": "Incontro per adulti",
     "title": "Ansia: conoscerla per gestirla",
-    "text": "Da dove nasce l'ansia, a cosa serve e come imparare ad ascoltarla senza esserne travolti, con strumenti semplici da usare ogni giorno."
+    "text": "Da dove nasce l'ansia, a cosa serve e come imparare ad ascoltarla senza esserne travolti, con strumenti semplici da usare ogni giorno.",
+    "thoughts": [
+      "«E se succede qualcosa?»",
+      "«Non riesco a respirare»",
+      "«Mi sveglio già agitata»"
+    ],
+    "bullets": [
+      "Da dove nasce l'ansia",
+      "I segnali del corpo",
+      "Strumenti per ogni giorno"
+    ],
+    "ttop": 690
   },
   {
     "slug": "emozioni",
@@ -32,7 +79,18 @@
     "label": "Per adulti, scuole e associazioni",
     "title": "Le emozioni: riconoscerle, nominarle, viverle",
     "tsize": 48,
-    "text": "Un incontro per imparare a dare un nome a ciò che proviamo e a trasformare le emozioni in una risorsa, invece che in un peso."
+    "text": "Un incontro per imparare a dare un nome a ciò che proviamo e a trasformare le emozioni in una risorsa, invece che in un peso.",
+    "thoughts": [
+      "«Non so cosa mi succede»",
+      "«Scoppio per niente»",
+      "«Dentro ho un groviglio»"
+    ],
+    "bullets": [
+      "Dare un nome a ciò che provi",
+      "Ascoltare senza giudicarti",
+      "Farne una risorsa"
+    ],
+    "ttop": 690
   },
   {
     "slug": "fame-emotiva",
@@ -51,7 +109,18 @@
     "label": "Incontro per adulti",
     "title": "Fame emotiva: quando il cibo parla delle emozioni",
     "tsize": 46,
-    "text": "Il legame tra cibo, emozioni e corpo, e come costruire passo dopo passo un rapporto più sereno con l'alimentazione."
+    "text": "Il legame tra cibo, emozioni e corpo, e come costruire passo dopo passo un rapporto più sereno con l'alimentazione.",
+    "thoughts": [
+      "«Solo un biscotto…»",
+      "«Poi mi sento in colpa»",
+      "«Il cibo mi calma»"
+    ],
+    "bullets": [
+      "Fame vera o emotiva?",
+      "Cosa ci dice il cibo",
+      "Un rapporto più sereno"
+    ],
+    "ttop": 690
   },
   {
     "slug": "stress-lavoro",
@@ -68,7 +137,18 @@
     "question": "Il lavoro <em>ti segue anche a casa?</em>",
     "label": "Per aziende e team",
     "title": "Stress e lavoro: ritrovare equilibrio",
-    "text": "Pressione, carichi, conciliazione tra lavoro e vita privata: strumenti concreti per stare meglio al lavoro, da soli e in squadra."
+    "text": "Pressione, carichi, conciliazione tra lavoro e vita privata: strumenti concreti per stare meglio al lavoro, da soli e in squadra.",
+    "thoughts": [
+      "«Non stacco mai»",
+      "«Rispondo alle mail a cena»",
+      "«Sono sempre stanco»"
+    ],
+    "bullets": [
+      "Riconoscere i carichi",
+      "Mettere confini sani",
+      "Ritrovare energia"
+    ],
+    "ttop": 690
   },
   {
     "slug": "diventare-mamma",
@@ -87,7 +167,18 @@
     "label": "Per neo-mamme con i loro bambini",
     "title": "Diventare mamma: il benessere dopo la nascita",
     "tsize": 46,
-    "text": "Emozioni, fatiche e cambiamenti dei primi mesi, in un gruppo di mamme che vivono lo stesso momento. Per non sentirsi sole."
+    "text": "Emozioni, fatiche e cambiamenti dei primi mesi, in un gruppo di mamme che vivono lo stesso momento. Per non sentirsi sole.",
+    "thoughts": [
+      "«Dovrei essere felice…»",
+      "«Non dormo da settimane»",
+      "«Chi sono adesso?»"
+    ],
+    "bullets": [
+      "Le emozioni dei primi mesi",
+      "Non sentirsi sole",
+      "Ritrovare un po' di sé"
+    ],
+    "ttop": 690
   },
   {
     "slug": "crescere-con-loro",
@@ -107,7 +198,18 @@
     "title": "Crescere con loro: adolescenti ed emozioni",
     "tsize": 48,
     "text": "Un incontro per genitori: capire cosa succede nei ragazzi durante l'adolescenza e trovare il modo di stare loro accanto.",
-    "qwidth": 470
+    "qwidth": 470,
+    "thoughts": [
+      "«Non mi parla più»",
+      "«Porta chiusa, cuffie in testa»",
+      "«Come lo raggiungo?»"
+    ],
+    "bullets": [
+      "Capire l'adolescenza",
+      "Parlare senza scontri",
+      "Stare loro accanto"
+    ],
+    "ttop": 690
   },
   {
     "slug": "corpo-che-cresce",
@@ -125,7 +227,18 @@
     "label": "Per genitori e bambini",
     "title": "Il corpo che cresce: intimità e scoperta di sé",
     "tsize": 48,
-    "text": "La scoperta del corpo, l'intimità, il ciclo: parole semplici e serene per parlarne in famiglia, senza imbarazzo e senza paura."
+    "text": "La scoperta del corpo, l'intimità, il ciclo: parole semplici e serene per parlarne in famiglia, senza imbarazzo e senza paura.",
+    "thoughts": [
+      "«Mamma, da dove nascono…?»",
+      "«Non so cosa dirle»",
+      "«Mi imbarazza parlarne»"
+    ],
+    "bullets": [
+      "La scoperta del corpo",
+      "Il ciclo e i cambiamenti",
+      "Le parole giuste"
+    ],
+    "ttop": 690
   },
   {
     "slug": "cambiare-strada",
@@ -144,6 +257,17 @@
     "label": "Per adulti e professionisti",
     "title": "Cambiare strada: affrontare le transizioni di vita",
     "tsize": 46,
-    "text": "Cambiare lavoro, città, ruolo: come attraversare il cambiamento senza perdersi, scoprendo le risorse che già abbiamo."
+    "text": "Cambiare lavoro, città, ruolo: come attraversare il cambiamento senza perdersi, scoprendo le risorse che già abbiamo.",
+    "thoughts": [
+      "«E se sbaglio tutto?»",
+      "«Ormai è troppo tardi»",
+      "«Non mi riconosco più qui»"
+    ],
+    "bullets": [
+      "Ascoltare cosa vuoi",
+      "Affrontare la paura",
+      "Scoprire le tue risorse"
+    ],
+    "ttop": 690
   }
 ]
