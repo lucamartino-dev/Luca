@@ -94,6 +94,7 @@ body{{width:939px;height:1331px;overflow:hidden;font-family:Montserrat,sans-seri
 .foot svg{{width:30px;height:30px;fill:{d};flex:none}}
 .foot small{{display:block;font-size:12px;font-weight:600;color:#7a8a90}}
 .foot strong{{display:block;font-size:21px;font-weight:800;line-height:1.2}}
+.count{{display:block;font-family:Fredoka,sans-serif;font-weight:700;font-size:26px;margin:4px 0 2px}}.count strong{{font-size:58px;line-height:1;color:{p["palette"].get("em", c)};margin-right:6px}}
 </style></head><body>
 <div class="blob b1"></div>
 <svg class="art" viewBox="0 0 380 380">{art}</svg>
@@ -102,7 +103,7 @@ body{{width:939px;height:1331px;overflow:hidden;font-family:Montserrat,sans-seri
 <div class="notes">{"".join(f'<span class="note n{i+1}">{t}</span>' for i, t in enumerate(p.get("thoughts", [])))}</div>
 <div class="title"><small>{p["label"]}</small><h1>{p["title"]}</h1><p>{p["text"]}</p><div class="bul">{"".join(f"<span>{x}</span>" for x in p.get("bullets", []))}</div></div>
 <div class="info2">
-<div class="past"><b>Già realizzato</b><i class="place">{place.replace("<br>", " ")}</i><ul class="{"two" if len(dates) > 3 else ""}">{"".join(f"<li>{x}</li>" for x in dates)}</ul></div>
+<div class="past"><b>Già realizzati</b><span class="count"><strong>{p.get("count", "[n]")}</strong> incontri</span><i class="place">{place.replace("<br>", " ")}</i></div>
 <div class="next"><b>Prossimo gruppo</b><span class="big">In formazione</span><span>Vuoi farne parte? Per costi, orari e luogo inquadra il QR e scrivimi.</span></div>
 <div class="qr"><img src="{qr_file}" alt=""><span>Iscriviti<br>su WhatsApp</span></div>
 </div>
