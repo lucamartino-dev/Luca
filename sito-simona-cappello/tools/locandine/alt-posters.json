@@ -1,0 +1,149 @@
+[
+  {
+    "slug": "ansia",
+    "nome": "Ansia",
+    "art": "knot",
+    "palette": {
+      "bg": "#2E3A59",
+      "blob1": "#8E7CC3",
+      "blob2": "#F2C6A0",
+      "light": "#D9CCF0",
+      "dark": "#2E3A59",
+      "em": "#F2C6A0"
+    },
+    "question": "Ti capita di avere <em>un nodo allo stomaco</em> senza sapere perché?",
+    "label": "Incontro per adulti",
+    "title": "Ansia: conoscerla per gestirla",
+    "text": "Da dove nasce l'ansia, a cosa serve e come imparare ad ascoltarla senza esserne travolti, con strumenti semplici da usare ogni giorno."
+  },
+  {
+    "slug": "emozioni",
+    "nome": "Le emozioni",
+    "art": "faces",
+    "palette": {
+      "bg": "#2F6F73",
+      "blob1": "#E8775C",
+      "blob2": "#F4C95D",
+      "light": "#9FD3C7",
+      "dark": "#24474A",
+      "em": "#F4C95D"
+    },
+    "question": "A volte non sai <em>dare un nome</em> a quello che provi?",
+    "label": "Per adulti, scuole e associazioni",
+    "title": "Le emozioni: riconoscerle, nominarle, viverle",
+    "tsize": 48,
+    "text": "Un incontro per imparare a dare un nome a ciò che proviamo e a trasformare le emozioni in una risorsa, invece che in un peso."
+  },
+  {
+    "slug": "fame-emotiva",
+    "nome": "Fame emotiva",
+    "art": "bowl",
+    "palette": {
+      "bg": "#8C4A32",
+      "blob1": "#E2A33E",
+      "blob2": "#F2B9A0",
+      "light": "#FFE9D6",
+      "dark": "#5A2E1F",
+      "em": "#F6CF7A",
+      "label": "#B5623F"
+    },
+    "question": "Mangi anche <em>quando non hai fame?</em>",
+    "label": "Incontro per adulti",
+    "title": "Fame emotiva: quando il cibo parla delle emozioni",
+    "tsize": 46,
+    "text": "Il legame tra cibo, emozioni e corpo, e come costruire passo dopo passo un rapporto più sereno con l'alimentazione."
+  },
+  {
+    "slug": "stress-lavoro",
+    "nome": "Stress e lavoro",
+    "art": "clock",
+    "palette": {
+      "bg": "#3F4A54",
+      "blob1": "#6FA89A",
+      "blob2": "#E8C07A",
+      "light": "#F3EFE8",
+      "dark": "#2E363D",
+      "em": "#E8C07A"
+    },
+    "question": "Il lavoro <em>ti segue anche a casa?</em>",
+    "label": "Per aziende e team",
+    "title": "Stress e lavoro: ritrovare equilibrio",
+    "text": "Pressione, carichi, conciliazione tra lavoro e vita privata: strumenti concreti per stare meglio al lavoro, da soli e in squadra."
+  },
+  {
+    "slug": "diventare-mamma",
+    "nome": "Diventare mamma",
+    "art": "onesie",
+    "palette": {
+      "bg": "#A9625C",
+      "blob1": "#E7B3A6",
+      "blob2": "#F3D9A4",
+      "light": "#FFF1EC",
+      "dark": "#6B3833",
+      "em": "#FBE0B0",
+      "label": "#C47F76"
+    },
+    "question": "Sei diventata mamma e <em>non ti riconosci più?</em>",
+    "label": "Per neo-mamme con i loro bambini",
+    "title": "Diventare mamma: il benessere dopo la nascita",
+    "tsize": 46,
+    "text": "Emozioni, fatiche e cambiamenti dei primi mesi, in un gruppo di mamme che vivono lo stesso momento. Per non sentirsi sole."
+  },
+  {
+    "slug": "crescere-con-loro",
+    "nome": "Crescere con loro",
+    "art": "bubbles",
+    "palette": {
+      "bg": "#4B3F72",
+      "blob1": "#F28C6B",
+      "blob2": "#8FD0C4",
+      "light": "#F5EFFF",
+      "dark": "#352C52",
+      "em": "#FFD27D"
+    },
+    "question": "Tuo figlio si chiude in camera e <em>non sai come raggiungerlo?</em>",
+    "qsize": 50,
+    "label": "Per genitori e scuole",
+    "title": "Crescere con loro: adolescenti ed emozioni",
+    "tsize": 48,
+    "text": "Un incontro per genitori: capire cosa succede nei ragazzi durante l'adolescenza e trovare il modo di stare loro accanto.",
+    "qwidth": 470
+  },
+  {
+    "slug": "corpo-che-cresce",
+    "nome": "Il corpo che cresce",
+    "art": "sprout",
+    "palette": {
+      "bg": "#3F7F6E",
+      "blob1": "#F29E80",
+      "blob2": "#F6D58A",
+      "light": "#E4F5EE",
+      "dark": "#2B584C",
+      "em": "#FFE3A3"
+    },
+    "question": "Come rispondere <em>alle sue domande</em> sul corpo?",
+    "label": "Per genitori e bambini",
+    "title": "Il corpo che cresce: intimità e scoperta di sé",
+    "tsize": 48,
+    "text": "La scoperta del corpo, l'intimità, il ciclo: parole semplici e serene per parlarne in famiglia, senza imbarazzo e senza paura."
+  },
+  {
+    "slug": "cambiare-strada",
+    "nome": "Cambiare strada",
+    "art": "signpost",
+    "palette": {
+      "bg": "#24566B",
+      "blob1": "#E3A857",
+      "blob2": "#9FC6C1",
+      "light": "#F4EFE6",
+      "dark": "#1B4050",
+      "em": "#F2C57C"
+    },
+    "question": "Senti che è il momento di cambiare, <em>ma hai paura?</em>",
+    "qsize": 56,
+    "label": "Per adulti e professionisti",
+    "title": "Cambiare strada: affrontare le transizioni di vita",
+    "tsize": 46,
+    "text": "Cambiare lavoro, città, ruolo: come attraversare il cambiamento senza perdersi, scoprendo le risorse che già abbiamo."
+  }
+]
