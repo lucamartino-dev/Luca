@@ -67,14 +67,10 @@ Bozza interna del 23 ottobre 2026, da approvare. Non inviata né condivisa con c
   - 50–150 k€ **per piano**, 100–300 k€ per i piani multiregionali; massimo 50 k€ **per impresa** dal Conto di Sistema. La v1 indicava "50-300 k€ per azienda", che era sbagliato.
   - Scade il 30 ottobre 2026 e la domanda la presentano solo soggetti proponenti qualificati.
   - Le grandi imprese aderenti sono ammesse, con almeno il 10% di allievi da PMI.
-- MIMIT competenze PMI Sud:
-  - contributo del 50% su costi da 10 a 60 k€, contributo massimo 30 k€. La v1 indicava "progetti 5-30 k€", che era sbagliato.
-  - Solo PMI di 7 regioni del Sud; sportello aperto fino al 21 dicembre 2026.
 - Lombardia "Competenze & Innovazione": sportello sospeso da maggio 2026 per esaurimento fondi; solo MPMI.
-- Piemonte voucher digitalizzazione:
-  - **discrepanza**: la revisione interna lo dava chiuso, ma il bando indicizzato riporta un'apertura dal 22 ottobre al 15 dicembre 2026. Da ricontrollare sul sito della Regione.
-  - Solo PMI.
-- Per i tre clienti (grandi imprese) Lombardia, Piemonte e MIMIT non si applicano, salvo che Digital Boîte risulti una PMI (da verificare). Il canale realistico è il conto formazione del fondo interprofessionale di adesione.
+- Piemonte e MIMIT (solo PMI del Sud) tolti: i clienti hanno sede a Milano e Carpi.
+- Emilia-Romagna (Carpi): strumenti regionali ancora da cercare e verificare.
+- Per i tre clienti (grandi imprese) il bando lombardo non si applica, salvo che Digital Boîte risulti una PMI (da verificare). Il canale realistico è il conto formazione del fondo interprofessionale di adesione.
 
 **Nomi**
 - "Digital Boats" è in realtà **Digital Boîte S.r.l.**, la società che gestisce l'e-commerce nel gruppo Liu Jo. Confermato da Slack interno ("DIGITAL BOÎTE SRL") e da fonti web. Da confermare con l'account.
